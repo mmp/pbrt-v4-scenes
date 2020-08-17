@@ -1,0 +1,199 @@
+# Materials File
+# area lights
+# ground plane
+MakeNamedMaterial "Material"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "Material.001"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/paper_white_spec.bsdf" ]
+MakeNamedMaterial "StopLightBK_Mat_phong_SG"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+MakeNamedMaterial "Interior_White_phong_SG"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 1 1 1 ]
+MakeNamedMaterial "Interior_Silver_phong_SG"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0 ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+MakeNamedMaterial "HeadLightBK_Mat_phong_SG"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+#"string name" ["aluminium"]
+MakeNamedMaterial "StopLightRed_Mat_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.84 0.02005001 0.01552664 ]
+    "float vroughness" [ 0.01 ]
+    "float uroughness" [ 0.01 ]
+MakeNamedMaterial "Exhaust_Silver_phong_SG"
+    "string type" [ "conductor" ]
+MakeNamedMaterial "LightReflectInner_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.1 0.1 0.1 ]
+    "float eta" [ 3 ]
+    "float roughness" [ 0.000001 ]
+MakeNamedMaterial "MirrorMat_phong_SG"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0 ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+MakeNamedMaterial "CarbonBlack_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.04696181 0.04696181 0.04696181 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.075 ]
+MakeNamedMaterial "StopLightCover_Mat_phong_SG"
+    "string type" [  "dielectric" ]
+    "float eta" [ 1.52 ]
+MakeNamedMaterial "SusArm_Silver2_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.075 ]
+MakeNamedMaterial "PedalsSilver_mat_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64000005 0.64000005 0.64000005 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.28621 ]
+MakeNamedMaterial "WindowGlassMat_phong_SG"
+    "string type" [  "dielectric" ]
+    "float eta" [ 1.3 ]
+MakeNamedMaterial "LightReflecMat_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.1 0.1 0.1 ]
+    "float eta" [ 4 ]
+    "float roughness" [ 0.000001 ]
+MakeNamedMaterial "Chassis_Black_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.0253935 0.0253935 0.0253935 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.075 ]
+MakeNamedMaterial "HeadLight_LED_phong_SG"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+MakeNamedMaterial "WheelHubColor_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/ilm_l3_37_metallic_spec.bsdf" ]
+MakeNamedMaterial "LightSilverMat_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/ilm_l3_37_metallic_spec.bsdf" ]
+MakeNamedMaterial "Suspention_Black_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.075 ]
+MakeNamedMaterial "Winker_Mat_phong_SG"
+    "string type" [  "dielectric" ]
+    "float eta" [ 1.52 ]
+MakeNamedMaterial "BoltSilver_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/ilm_l3_37_metallic_spec.bsdf" ]
+MakeNamedMaterial "EngineSilver2_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/ilm_l3_37_metallic_spec.bsdf" ]
+#"string name" ["aluminium"]
+MakeNamedMaterial "GoldMat_phong_SG"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0.075 ]
+MakeNamedMaterial "Wheel2Mat_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/ilm_l3_37_metallic_spec.bsdf" ]
+MakeNamedMaterial "initialShadingGroup"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.02005001 0.01552664 ]
+    "float vroughness" [ 0.075 ]
+    "float uroughness" [ 0.075 ]
+MakeNamedMaterial "GlassMat_phong_SG"
+    "string type" [  "dielectric" ]
+    "float eta" [ 1.3 ]
+MakeNamedMaterial "Seat_Black_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.01738779 0.01738779 0.01738779 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.8 ]
+MakeNamedMaterial "BodyMat_BK_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.0071936 0.0071936 0.0071936 ]
+    "float eta" [ 1.2 ]
+    "float roughness" [ 0.000001 ]
+#MakeNamedMaterial "BodyMat_phong_SG" "float roughness" [ 0.01 ]
+#    "string type" [ "metal" ] 
+MakeNamedMaterial "BodyMat_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/cc_blue_agat_spec.bsdf" ]
+MakeNamedMaterial "Interior_Black_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.01738776 0.01738776 0.01738776 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.075 ]
+MakeNamedMaterial "Interior_Red_phong_SG"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.64 0.00741982 0 ]
+MakeNamedMaterial "HeadlightLens_phong_SG"
+    "string type" [  "dielectric" ]
+    "float eta" [ 1.52 ]
+MakeNamedMaterial "GomBlack_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.01221697 0.01221697 0.01221697 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.7 ]
+MakeNamedMaterial "Suspention_Red_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/vch_silk_blue_spec.bsdf" ]
+MakeNamedMaterial "CamCover_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.04099033 0.02220741 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.075 ]
+# ??
+MakeNamedMaterial "Interior_GlossBlack_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float eta" [ 1.2 ]
+    "float roughness" [ 0.075 ]
+# this is the tire itself
+MakeNamedMaterial "suspension_silver_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.09462606 0.09462606 0.09462606 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.030000001 ]
+# center of tire, pillars, black in front
+MakeNamedMaterial "TireMat_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.03 0.03 0.032 ]
+    "float eta" [ 1.3 ]
+    "float roughness" [ 5.8 ]
+MakeNamedMaterial "BodyGlossBlackMat_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.0071936 0.0071936 0.0071936 ]
+    "float eta" [ 1.2 ]
+    "float roughness" [ 0.1 ]
+MakeNamedMaterial "Interior_Monitor_phong_SG"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0 ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+MakeNamedMaterial "BrakeRotarSilver_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/laika_ceiling_paint_18_gray_spec.bsdf" ]
+MakeNamedMaterial "SeatColor_phong_SG"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/acrylic_felt_white_spec.bsdf" ]
+MakeNamedMaterial "WinkerCover_Mat_phong_SG"
+    "string type" [  "dielectric" ]
+    "float eta" [ 1.52 ]
+MakeNamedMaterial "Interior_LineColor_phong_SG"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+MakeNamedMaterial "Interior_GomBlackq_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.2 0.2 0.2 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.8 ]
+MakeNamedMaterial "MeshBlack_phong_SG"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.03967975 0.03967975 0.03967975 ]
+    "float eta" [ 1 ]
+    "float roughness" [ 0.8 ]

@@ -1,0 +1,99 @@
+Film "rgb" "float scale" 2
+    "integer xresolution" [ 1920 ]
+    "integer yresolution" [ 1080 ]
+    "string filename" "sportscar-sky.exr"
+
+LookAt 5.733494 -2.960355 0.910164
+    4.846804 -2.506242 0.823198
+    -0.077418 0.039618 0.996211
+
+Camera "perspective"
+    "float fov" [ 26 ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 512 ]
+
+
+WorldBegin
+
+Include "materials.pbrt"
+# IBL
+
+AttributeBegin
+    Scale -1 1 1
+    Rotate 90 0 0 1
+    LightSource "infinite"
+        "string filename" [ "textures/sky.exr" ]
+AttributeEnd
+
+AttributeBegin
+    #  "Plane.005"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 -5.2136307 -0.22083592 2.5782707 1  ]
+    NamedMaterial "Material"
+    #"bool generatetangents" ["false"]
+    # ["Plane.005"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    #Shape "plymesh"
+    #    "string filename" [ "geometry/Plane_005_0000_m000.ply" ]
+    #    "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane.004"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 4.399416 -0.47967497 2.8145123 1  ]
+    NamedMaterial "Material"
+    #"bool generatetangents" ["false"]
+    # ["Plane.004"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    #Shape "plymesh"
+    #    "string filename" [ "geometry/Plane_004_0000_m000.ply" ]
+    #    "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane.002"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 2.2832558 0.097757846 2.7668362 1  ]
+    NamedMaterial "Material"
+    #"bool generatetangents" ["false"]
+    # ["Plane.002"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    #Shape "plymesh"
+    #    "string filename" [ "geometry/Plane_002_0000_m000.ply" ]
+    #    "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane.001"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 -2.2272038 0.060931124 2.8959062 1  ]
+    NamedMaterial "Material"
+    #"bool generatetangents" ["false"]
+    # ["Plane.001"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    #Shape "plymesh"
+    #    "string filename" [ "geometry/Plane_001_0000_m000.ply" ]
+    #    "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 0.068977356 -0.14026897 2.83562 1  ]
+    NamedMaterial "Material"
+    #"bool generatetangents" ["false"]
+    # ["Plane"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    #Shape "plymesh"
+    #    "string filename" [ "geometry/Plane_0000_m000.ply" ]
+    #    "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+Include "geometry/geometry.pbrt"

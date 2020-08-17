@@ -1,0 +1,446 @@
+# Geometry File
+
+AttributeBegin
+    #  "Plane.003"
+    Transform [ 4.98112822 0 0 0 0 15.005867 0 0 0 0 4.98112822 0 0.068977356 -0.0555419922 -0.00681811571 1  ]
+    NamedMaterial "Material.001"
+    #"bool generatetangents" ["false"]
+    # ["Plane.003"]
+    Shape "plymesh" "string filename" [ "geometry/Plane_003_0000_m000.ply" ] 
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "OSD_CarPoly"
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 0 0 0 1  ]
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "StopLightBK_Mat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m000.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_White_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m001.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_Silver_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m002.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "HeadLightBK_Mat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m003.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "StopLightRed_Mat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m004.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Exhaust_Silver_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m005.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "LightReflectInner_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m006.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "MirrorMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m007.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "CarbonBlack_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m008.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "StopLightCover_Mat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m009.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "SusArm_Silver2_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m010.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "PedalsSilver_mat_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m011.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "WindowGlassMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m012.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "LightReflecMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m013.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Chassis_Black_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m014.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "HeadLight_LED_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m015.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "WheelHubColor_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m016.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "LightSilverMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m017.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Suspention_Black_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m018.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Winker_Mat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m019.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "BoltSilver_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m020.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "EngineSilver2_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m021.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "GoldMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m022.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Wheel2Mat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m023.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "initialShadingGroup"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m024.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "GlassMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m025.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Seat_Black_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m026.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "BodyMat_BK_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m027.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "BodyMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m028.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_Black_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m029.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_Red_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m030.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "HeadlightLens_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m031.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "GomBlack_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m032.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Suspention_Red_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m033.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "CamCover_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m034.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_GlossBlack_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m035.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "suspension_silver_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m036.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "TireMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m037.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "BodyGlossBlackMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m038.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_Monitor_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m039.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "BrakeRotarSilver_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m040.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "SeatColor_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m041.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "WinkerCover_Mat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m042.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_LineColor_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m043.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "Interior_GomBlackq_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m044.ply" ] 
+    AttributeEnd
+    # ""
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "MeshBlack_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m045.ply" ] 
+    AttributeEnd
+    # ""
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "CarHeadLightCover"
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+
+    AttributeBegin
+        #  ""
+        NamedMaterial "GlassMat_phong_SG"
+        #"bool generatetangents" ["false"]
+        # ["OSD_CarPoly"]
+        Shape "plymesh" "string filename" [ "geometry/OSD_CarPoly_0000_m046.ply" ] 
+    AttributeEnd
+    # ""
+AttributeEnd
+# ""
