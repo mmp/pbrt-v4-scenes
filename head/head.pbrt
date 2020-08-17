@@ -1,0 +1,40 @@
+Film "rgb"
+    "string filename" "head.exr"
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
+    "float scale" [ 4 ]
+    "float cropwindow" [.3 .8 .15 .7] 
+LookAt 0.322839 0.0534825 0.504299
+    -0.140808 -0.162727 -0.354936
+    0.0355799 0.964444 -0.261882
+
+Camera "perspective"
+    "float fov" [ 30 ]
+Integrator "volpath"
+    "integer maxdepth" [ 2 ]
+Sampler "halton"
+    "integer pixelsamples" [ 512 ]
+
+
+WorldBegin
+
+
+AttributeBegin
+    Scale -1 1 1
+    Rotate 90 -1 0 0
+    Rotate 90 0 0 1
+    LightSource "infinite"
+        "string filename" [ "textures/doge2_equiarea.exr" ]
+AttributeEnd
+# mfp = inverse sigma_t value of Jensen's skin1 parameters (in meters)
+Texture "albedomap" "spectrum" "imagemap"
+    "string filename" [ "textures/head_albedomap.png" ]
+Material "subsurface"
+    "bool remaproughness" [ false ]
+    "float vroughness" [ 0.1 ]
+    "float uroughness" [ 0.1 ]
+    "float eta" [ 1.33 ]
+    "texture reflectance" [ "albedomap" ]
+    "rgb mfp" [ 0.0012953 0.00095238 0.00067114 ]
+Shape "plymesh"
+    "string filename" [ "geometry/head.ply" ]
