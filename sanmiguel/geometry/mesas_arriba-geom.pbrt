@@ -1,0 +1,1231 @@
+#############################################
+
+AttributeBegin
+    ObjectBegin "Mesa Patas"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00001.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556622 0.663357 0 0 0 0 0.865951 0 0.663357 -0.556622 0 0 10.0955 2.32975 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.556622 -0.663357 0 0 0 0 0.865951 0 0.663357 -0.556622 0 0 9.72963 1.89377 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.663357 -0.556622 1.212e-7 0 0 0 0.865951 0 0.556622 0.663357 0 0 10.1372 1.85251 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663357 0.556622 0 0 0 0 0.865951 0 0.556622 0.663357 0 0 9.70124 2.21834 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.224124 -0.836444 0 0 0 0 0.865951 0 -0.836444 0.224124 0 0 21.3629 1.80405 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.224124 0.836444 0 0 0 0 0.865951 0 -0.836444 0.224124 0 0 21.5102 2.35378 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.836444 -0.224125 0 0 0 0 0.865951 0 0.224125 0.836444 0 0 21.6451 1.96695 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.836444 0.224125 0 0 0 0 0.865951 0 0.224125 0.836444 0 0 21.0954 2.11425 5.54801 1  ]
+    ObjectInstance "Mesa Patas"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Mesa Poste"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00002.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0754727 0.862655 0 0 0 0 0.865951 0 0.862655 0.0754727 0 0 9.94697 2.16361 5.8931 1  ]
+    ObjectInstance "Mesa Poste"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0 0 0.865951 0 -0.432976 0.749935 0 0 21.3087 2.04989 5.8931 1  ]
+    ObjectInstance "Mesa Poste"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Mesa Soporte"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00003.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556622 0.663357 0 0 0 0 0.865951 0 0.663357 -0.556622 0 0 10.1302 2.37503 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.556622 -0.663357 0 0 0 0 0.865951 0 0.663357 -0.556622 0 0 9.69108 1.85168 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.663357 -0.556622 1.212e-7 0 0 0 0.865951 0 0.556622 0.663357 0 0 10.1793 1.81396 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663357 0.556622 0 0 0 0 0.865951 0 0.556622 0.663357 0 0 9.65596 2.2531 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.224124 -0.836444 0 0 0 0 0.865951 0 -0.836444 0.224124 0 0 21.3506 1.74832 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.224124 0.836444 0 0 0 0 0.865951 0 -0.836444 0.224124 0 0 21.5274 2.40822 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.836444 -0.224125 0 0 0 0 0.865951 0 0.224125 0.836444 0 0 21.6995 1.9498 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.836444 0.224125 0 0 0 0 0.865951 0 0.224125 0.836444 0 0 21.0396 2.12662 6.24078 1  ]
+    ObjectInstance "Mesa Soporte"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Pata01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00004.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 0.365967 -0.784818 0 0 10.6056 2.85759 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 -0.365967 0.784818 0 0 10.8617 2.30829 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 9.45679 1.18889 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 9.10915 1.68537 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 0.749935 0.432976 0 0 9.00635 2.58288 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 -0.749935 -0.432976 0 0 9.53124 2.88592 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 -0.365967 -0.784818 0 0 10.7046 1.73134 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 0.365967 0.784818 0 0 10.4484 1.18204 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 0.61232 -0.61232 0 0 21.821 2.9929 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 -0.61232 0.61232 0 0 22.2495 2.56434 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 20.9288 1.22071 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 20.5812 1.71718 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 0.663356 0.556623 0 0 20.5091 2.56938 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 -0.663356 -0.556623 0 0 20.9734 2.95897 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 -0.61232 -0.61232 0 0 22.265 1.69924 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 0.61232 0.61232 0 0 21.8364 1.27067 5.94429 1  ]
+    ObjectInstance "Silla Pata01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Respaldo Sujetador01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla Tela"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00005.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 0.365967 -0.784818 0 0 10.9233 2.86005 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 -0.365967 0.784818 0 0 11.0627 2.56118 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 9.1443 1.1313 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 8.95516 1.40142 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 0.749935 0.432976 0 0 8.97621 2.8992 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 -0.749935 -0.432976 0 0 9.2618 3.06408 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 -0.365967 -0.784818 0 0 10.9107 1.48952 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 0.365967 0.784818 0 0 10.7713 1.19065 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 0.61232 -0.61232 0 0 22.1187 3.10389 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 -0.61232 0.61232 0 0 22.3519 2.87071 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 20.6164 1.16311 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 20.4272 1.43324 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 0.663356 0.556623 0 0 20.4245 2.87566 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 -0.663356 -0.556623 0 0 20.6771 3.08763 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 -0.61232 -0.61232 0 0 22.376 1.4015 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 0.61232 0.61232 0 0 22.1428 1.16832 6.37343 1  ]
+    ObjectInstance "Silla Respaldo Sujetador01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Asiento"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00006.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 -0.784818 -0.365967 0 0 0 0 0.865951 0 10.6005 2.52357 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.865951 0 9.40374 1.51871 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0.432976 -0.749935 0 0 0 0 0.865951 0 9.33954 2.60698 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 -0.784818 0.365967 0 0 0 0 0.865951 0 10.4454 1.52049 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 -0.61232 -0.61232 0 0 0 0 0.865951 0 21.9305 2.67731 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.865951 0 20.8758 1.55052 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 0.556623 -0.663356 0 0 0 0 0.865951 0 20.833 2.65097 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 -0.61232 0.61232 0 0 0 0 0.865951 0 21.9494 1.58973 5.89752 1  ]
+    ObjectInstance "Silla Asiento"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Pata B01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00007.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 0.365967 -0.784818 0 0 10.6162 2.86017 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 -0.365967 0.784818 0 0 10.8702 2.31528 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 9.4468 1.18451 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 9.10196 1.677 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 0.749935 0.432976 0 0 9.00286 2.59321 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 -0.749935 -0.432976 0 0 9.52352 2.89382 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 -0.365967 -0.784818 0 0 10.7133 1.72488 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 0.365967 0.784818 0 0 10.4593 1.17999 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 0.61232 -0.61232 0 0 21.83 2.99896 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 -0.61232 0.61232 0 0 22.2552 2.57383 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 20.9189 1.21632 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 20.574 1.70881 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 0.663356 0.556623 0 0 20.5039 2.57895 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 -0.663356 -0.556623 0 0 20.9644 2.96541 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 -0.61232 -0.61232 0 0 22.271 1.69016 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 0.61232 0.61232 0 0 21.8459 1.26504 5.68024 1  ]
+    ObjectInstance "Silla Pata B01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Pata C01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00008.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 0.365967 -0.784818 0 0 10.3454 2.74029 6.02923 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 -0.365967 0.784818 0 0 10.6044 2.18479 6.02923 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 9.69267 1.34959 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 9.34111 1.85167 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 0.749935 0.432976 0 0 9.14588 2.33389 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 -0.749935 -0.432976 0 0 9.67669 2.64036 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 -0.365967 -0.784818 0 0 10.4474 1.85527 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 0.365967 0.784818 0 0 10.1884 1.29977 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 0.61232 -0.61232 0 0 21.6166 2.79369 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 -0.61232 0.61232 0 0 22.05 2.36028 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 -0.496689 0.709345 0 0 21.1647 1.3814 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 20.8132 1.88348 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 0.663356 0.556623 0 0 20.6898 2.34841 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 -0.663356 -0.556623 0 0 21.1593 2.74239 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 -0.61232 -0.61232 0 0 22.0658 1.90363 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 0.61232 0.61232 0 0 21.6324 1.47023 6.02922 1  ]
+    ObjectInstance "Silla Pata C01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Descansa Brazos01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00009.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 -0.784818 0 0 -0.784818 -0.365967 -9.015e-7 0 -8.171e-7 -3.81e-7 0.865951 0 10.8572 2.31993 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 -0.784818 -0.365967 0 0 0 0 0.865951 0 10.6117 2.84639 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.496689 0.709345 0 0 0.709345 0.496689 0 0 0 0 0.865951 0 9.11564 1.67469 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.865951 0 9.44883 1.19886 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.749935 0.432976 0 0 0.432976 -0.749935 0 0 0 0 0.865951 0 9.52004 2.88039 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0.432976 -0.749935 0 0 0 0 0.865951 0 9.01697 2.58994 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 -0.784818 0 0 -0.784818 0.365967 0 0 0 0 0.865951 0 10.4544 1.193 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 -0.784818 0.365967 0 0 0 0 0.865951 0 10.6999 1.71946 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 -0.61232 0 0 -0.61232 -0.61232 0 0 0 0 0.865951 0 22.2413 2.57372 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 -0.61232 -0.61232 0 0 0 0 0.865951 0 21.8305 2.98447 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.496689 0.709345 0 0 0.709345 0.496689 0 0 0 0 0.865951 0 20.5877 1.70651 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.865951 0 20.9209 1.23067 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.663356 0.556623 0 0 0.556623 -0.663356 0 0 0 0 0.865951 0 20.9633 2.95157 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 0.556623 -0.663356 0 0 0 0 0.865951 0 20.5183 2.57818 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 -0.61232 0.61232 0 0 0 0 0.865951 0 21.8458 1.27892 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 -0.61232 0.61232 0 0 0 0 0.865951 0 22.2565 1.68967 6.1109 1  ]
+    ObjectInstance "Silla Descansa Brazos01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Soporte A01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00010.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 -0.504471 -0.235239 0.663357 0 0.601205 0.280347 0.556622 0 10.4543 2.45046 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 0.450153 0.20991 0.709345 0 0.642885 0.299782 -0.496689 0 10.8181 2.62012 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.455958 0.319266 0.663357 0 -0.54339 -0.380486 0.556622 0 9.53506 1.6161 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 -0.406864 -0.284889 0.709345 0 -0.581061 -0.406864 -0.496689 0 9.20619 1.38583 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0.278312 -0.482049 0.663357 0 -0.331679 0.574483 0.556622 0 9.42512 2.46768 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 -0.248345 0.430145 0.709345 0 -0.354673 0.61431 -0.496689 0 9.22438 2.81536 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 -0.504471 0.235239 0.663357 0 0.601205 -0.280347 0.556622 0 10.2954 1.58551 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 0.450153 -0.20991 0.709345 0 0.642885 -0.299782 -0.496689 0 10.6593 1.41585 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 -0.393591 -0.393591 0.663357 0 0.469064 0.469064 0.556622 0 21.8181 2.55859 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0.351212 0.351212 0.709345 0 0.501583 0.501583 -0.496689 0 22.102 2.84247 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.455958 0.319265 0.663357 0 -0.54339 -0.380486 0.556622 0 21.0071 1.64792 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 -0.406864 -0.284889 0.709345 0 -0.581062 -0.406864 -0.496689 0 20.6782 1.41764 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 0.35779 -0.426397 0.663357 0 -0.426398 0.50816 0.556622 0 20.9415 2.52865 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 -0.319266 0.380486 0.709345 0 -0.455959 0.54339 -0.496689 0 20.6835 2.83619 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 -0.393591 0.393591 0.663357 0 0.469064 -0.469064 0.556622 0 21.8307 1.70213 5.85017 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 0.351212 -0.351212 0.709345 0 0.501583 -0.501583 -0.496689 0 22.1145 1.41825 5.86704 1  ]
+    ObjectInstance "Silla Soporte A01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Soporte B"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00011.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 1.279e-7 0 -0.865951 0 -0.784818 -0.365967 -1.411e-7 0 10.9699 2.69189 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0 0 -0.865951 0 0.709345 0.496689 -1.411e-7 0 9.06918 1.2888 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0 1.222e-7 -0.865951 0 0.432976 -0.749935 -1.411e-7 0 9.13966 2.9603 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 1.279e-7 0 -0.865951 0 -0.784818 0.365967 -1.411e-7 0 10.8118 1.34571 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 -0.865951 0 -0.61232 -0.61232 -1.411e-7 0 22.22 2.96182 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0 0 -0.865951 0 0.709345 0.496689 -1.411e-7 0 20.5412 1.32062 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 0 0 -0.865951 0 0.556623 -0.663356 -1.411e-7 0 20.5749 2.96422 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 0 0 -0.865951 0 -0.61232 0.61232 -1.411e-7 0 22.2339 1.30017 6.11724 1  ]
+    ObjectInstance "Silla Soporte B"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Soporte C"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00012.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.129241 0.277158 0 0 0.0235079 0.0109619 0.296474 0 0.239535 0.111697 -0.0231231 0 10.8944 2.90463 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.175406 -0.250505 0 0 -0.0212473 -0.0148775 0.296474 0 -0.2165 -0.151595 -0.0231231 0 9.18054 1.09241 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.264839 -0.152905 0 0 -0.0129691 0.022463 0.296474 0 -0.132149 0.228889 -0.0231231 0 8.93431 2.86649 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.129241 0.277158 0 0 0.0235079 -0.0109619 0.296474 0 0.239535 -0.111697 -0.0231231 0 10.9262 1.54034 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.21624 0.21624 0 0 0.018341 0.018341 0.296474 0 0.186887 0.186887 -0.0231231 0 22.0763 3.13589 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.175405 -0.250505 0 0 -0.0212473 -0.0148775 0.296474 0 -0.2165 -0.151595 -0.0231231 0 20.6526 1.12422 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.234264 -0.196571 0 0 -0.0166727 0.0198697 0.296474 0 -0.169888 0.202464 -0.0231231 0 20.3889 2.83617 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.21624 0.21624 0 0 0.018341 -0.018341 0.296474 0 0.186887 -0.186887 -0.0231231 0 22.408 1.44394 6.39445 1  ]
+    ObjectInstance "Silla Soporte C"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Soporte D01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Silla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00013.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 -0.365967 0.784818 0 0 11.0426 2.44106 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 -0.365967 0 0 0 0 0.865951 0 -0.365967 0.784818 0 0 10.6161 2.24222 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 8.95409 1.5232 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 9.3395 1.79307 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 -0.749935 -0.432976 0 0 9.3832 3.05453 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.432976 -0.749935 0 0 0 0 0.865951 0 -0.749935 -0.432976 0 0 9.61845 2.64706 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 0.365967 0.784818 0 0 10.6664 1.12884 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.784818 0.365967 0 0 0 0 0.865951 0 0.365967 0.784818 0 0 10.24 1.32768 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 -0.61232 0.61232 0 0 22.3741 2.75097 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 -0.61232 0 0 0 0 0.865951 0 -0.61232 0.61232 0 0 22.0414 2.41828 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 20.4261 1.55501 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709345 0.496689 0 0 0 0 0.865951 0 0.496689 -0.709345 0 0 20.8116 1.82488 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 -0.663356 -0.556623 0 0 20.7983 3.0993 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.556623 -0.663356 0 0 0 0 0.865951 0 -0.663356 -0.556623 0 0 21.1008 2.73888 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 0.61232 0.61232 0 0 22.023 1.14613 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0 0 0.865951 0 0.61232 0.61232 0 0 21.6903 1.47882 5.58757 1  ]
+    ObjectInstance "Silla Soporte D01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Asiento-2"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla Tela"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00014.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 -0.784818 -0.365967 0 0 0 0 0.754665 0 10.6417 2.54208 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.754665 0 9.36639 1.49332 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0.432976 -0.749935 0 0 0 0 0.754665 0 9.31751 2.64641 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 -0.784818 0.365967 0 0 0 0 0.754665 0 10.4861 1.50083 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 -0.61232 -0.61232 0 0 0 0 0.754665 0 21.9629 2.7088 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.754665 0 20.8384 1.52514 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 0.556623 -0.663356 0 0 0 0 0.754665 0 20.8045 2.68597 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 -0.61232 0.61232 0 0 0 0 0.754665 0 21.9809 1.55735 5.93736 1  ]
+    ObjectInstance "Silla Asiento-2"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Asiento Orilla 2"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla Tela"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00015.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 -0.784818 -0.365967 0 0 0 0 0.754665 0 10.6417 2.54208 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.754665 0 9.36639 1.49332 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0.432976 -0.749935 0 0 0 0 0.754665 0 9.31751 2.64641 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 -0.784818 0.365967 0 0 0 0 0.754665 0 10.4861 1.50083 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 -0.61232 -0.61232 0 0 0 0 0.754665 0 21.9629 2.7088 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.754665 0 20.8384 1.52514 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 0.556623 -0.663356 0 0 0 0 0.754665 0 20.8045 2.68597 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 -0.61232 0.61232 0 0 0 0 0.754665 0 21.9809 1.55735 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 2"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Asiento Orilla 1"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla Tela"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00016.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 -0.784818 -0.365967 0 0 0 0 0.754665 0 10.6417 2.54208 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.754665 0 9.36639 1.49332 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 0.432976 -0.749935 0 0 0 0 0.754665 0 9.31751 2.64641 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 -0.784818 0.365967 0 0 0 0 0.754665 0 10.4861 1.50083 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 -0.61232 -0.61232 0 0 0 0 0.754665 0 21.9629 2.7088 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 0.709345 0.496689 0 0 0 0 0.754665 0 20.8384 1.52514 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 0.556623 -0.663356 0 0 0 0 0.754665 0 20.8045 2.68597 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 -0.61232 0.61232 0 0 0 0 0.754665 0 21.9809 1.55735 5.93736 1  ]
+    ObjectInstance "Silla Asiento Orilla 1"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Respaldo"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla Tela"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00017.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 0.203126 0.0947193 0.836444 0 0.758076 0.353497 -0.224125 0 10.8939 2.65872 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 -0.183592 -0.128553 0.836444 0 -0.685175 -0.479765 -0.224125 0 9.1383 1.33467 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 -0.112063 0.194097 0.836444 0 -0.418223 0.724381 -0.224125 0 9.17933 2.88745 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 0.203126 -0.0947192 0.836444 0 0.758076 -0.353497 -0.224125 0 10.7376 1.38263 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0.15848 0.15848 0.836444 0 0.591455 0.591455 -0.224125 0 22.1599 2.90465 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 -0.183592 -0.128553 0.836444 0 -0.685175 -0.479765 -0.224125 0 20.6104 1.36648 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 -0.144065 0.171689 0.836444 0 -0.537657 0.640753 -0.224125 0 20.6266 2.89936 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 0.15848 -0.15848 0.836444 0 0.591455 -0.591455 -0.224125 0 22.1767 1.36028 6.2137 1  ]
+    ObjectInstance "Silla Respaldo"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla Asiento Orilla 3"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla Tela"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00018.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.365967 0.784818 0 0 0.203126 0.0947193 0.836444 0 0.758076 0.353497 -0.224125 0 10.8939 2.65872 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 -0.183592 -0.128553 0.836444 0 -0.685175 -0.479765 -0.224125 0 9.1383 1.33467 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.749935 -0.432976 0 0 -0.112063 0.194097 0.836444 0 -0.418223 0.724381 -0.224125 0 9.17933 2.88745 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.365967 0.784818 0 0 0.203126 -0.0947192 0.836444 0 0.758076 -0.353497 -0.224125 0 10.7376 1.38263 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.61232 0.61232 0 0 0.15848 0.15848 0.836444 0 0.591455 0.591455 -0.224125 0 22.1599 2.90465 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496689 -0.709345 0 0 -0.183592 -0.128553 0.836444 0 -0.685175 -0.479765 -0.224125 0 20.6104 1.36648 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.663356 -0.556623 0 0 -0.144065 0.171689 0.836444 0 -0.537657 0.640753 -0.224125 0 20.6266 2.89936 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.61232 0.61232 0 0 0.15848 -0.15848 0.836444 0 0.591455 -0.591455 -0.224125 0 22.1767 1.36028 6.2137 1  ]
+    ObjectInstance "Silla Asiento Orilla 3"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Tabla Mesa01"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Mesa Arriba"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00019.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.557533 -0.467825 0 0 0.467825 0.557533 0 0 0 0 0.719161 0 9.96489 2.09266 6.2825 1  ]
+    ObjectInstance "Tabla Mesa01"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.18837 0.703008 0 0 -0.703008 0.18837 0 0 0 0 0.719161 0 21.3654 2.09611 6.2825 1  ]
+    ObjectInstance "Tabla Mesa01"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Tabla Mesa"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Madera Mesa Arriba"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_arriba_00020.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.557533 -0.467825 0 0 0.467825 0.557533 0 0 0 0 0.719161 0 9.96489 2.09266 6.2825 1  ]
+    ObjectInstance "Tabla Mesa"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.18837 0.703008 0 0 -0.703008 0.18837 0 0 0 0 0.719161 0 21.3654 2.09611 6.2825 1  ]
+    ObjectInstance "Tabla Mesa"
+AttributeEnd

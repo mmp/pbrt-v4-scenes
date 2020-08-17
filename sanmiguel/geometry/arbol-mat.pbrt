@@ -1,0 +1,135 @@
+### Object: Tronco ### 
+### End Object: Tronco### 
+### Object: Hoja_A01 ### 
+Texture "ArbolTroncoDiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_tronco.png" ]
+### End Object: Hoja_A01 ### 
+### Object: Hojas A2 ### 
+Texture "ArbolTroncoBumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_tronco_bump.png" ]
+Texture "ArbolTroncoBumpMap_bump" "float" "scale"
+    "float scale" [ 0.02 ]
+    "texture tex" [ "ArbolTroncoBumpMap" ]
+MakeNamedMaterial "Tronco"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "ArbolTroncoBumpMap_bump" ]
+    "texture reflectance" [ "ArbolTroncoDiffuseMap" ]
+Texture "Leave A_a_Diffuse" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02a.png" ]
+Texture "Leave A_a_BumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02_bump.png" ]
+### End Object: Hojas A2 ### 
+### Object: Hojas A3 ### 
+Texture "Leave A_a_BumpMap_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Leave A_a_BumpMap" ]
+Texture "Leave A_a_Alpha" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02_alpah.png" ]
+MakeNamedMaterial "Leave A_a"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Leave A_a_BumpMap_bump" ]
+    "texture reflectance" [ "Leave A_a_Diffuse" ]
+Texture "Leave A_b_Diffuse" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02b.png" ]
+Texture "Leave A_b_BumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02_bump.png" ]
+### End Object: Hojas A3 ### 
+Texture "Leave A_b_BumpMap_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Leave A_b_BumpMap" ]
+Texture "Leave A_b_Alpha" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02_alpah.png" ]
+MakeNamedMaterial "Leave A_b"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Leave A_b_BumpMap_bump" ]
+    "texture reflectance" [ "Leave A_b_Diffuse" ]
+Texture "Leave A_c_Diffuse" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_03a.png" ]
+Texture "Leave A_c_BumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02_bump.png" ]
+Texture "Leave A_c_BumpMap_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Leave A_c_BumpMap" ]
+Texture "Leave A_c_Alpha" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_02_alpah.png" ]
+MakeNamedMaterial "Leave A_c"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Leave A_c_BumpMap_bump" ]
+    "texture reflectance" [ "Leave A_c_Diffuse" ]

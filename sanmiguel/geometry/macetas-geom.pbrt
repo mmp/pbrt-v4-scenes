@@ -1,0 +1,1919 @@
+#############################################
+
+AttributeBegin
+    ObjectBegin "Porta Macetas Gancho45"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Forja_Macetas"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00001.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 1 0 0 7.27099 -9.34409 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.27099 -9.44157 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 1 0 0 7.27099 -5.7293 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.27099 -5.82678 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 1 0 0 7.27099 -5.26795 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.27099 -5.36543 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 1 0 0 7.27099 -4.36991 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.27099 -4.46739 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.901e-7 0 0 0 0 1 0 -8.901e-7 -1 0 0 23.4883 -2.65295 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.027e-7 0 0 0 0 1 0 8.027e-7 1 0 0 23.4883 -2.55547 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.901e-7 0 0 0 0 1 0 -8.901e-7 -1 0 0 23.4883 -2.20855 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.027e-7 0 0 0 0 1 0 8.027e-7 1 0 0 23.4883 -2.11107 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.901e-7 0 0 0 0 1 0 -8.901e-7 -1 0 0 23.4883 -1.92013 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.027e-7 0 0 0 0 1 0 8.027e-7 1 0 0 23.4883 -1.82265 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 22.3535 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 22.2561 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 21.4583 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 21.3608 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 20.8335 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 20.736 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 19.1561 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 19.0587 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 18.405 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 18.3076 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 15.5008 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 15.4033 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 14.758 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 14.6605 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 14.3027 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 14.2052 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 12.0126 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 11.9151 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 11.4136 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 11.3161 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -2.503e-7 -1 0 0 0 0 1 0 1 -2.503e-7 0 0 10.4927 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 10.3953 0.0749369 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 1 0 0 7.47326 -0.630224 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.47326 -0.727704 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 1 0 0 7.47326 -0.192701 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.47326 -0.290182 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 1 0 0 7.47326 -2.19612 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.47326 -2.2936 6.44921 1  ]
+    ObjectInstance "Porta Macetas Gancho45"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Porta Macetas44"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Forja_Macetas"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00002.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0 -0.173648 0 0 1 0 0 0.173648 0 0.984808 0 7.42864 -9.3919 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0 -0.173648 0 0 1 0 0 0.173648 0 0.984808 0 7.42864 -5.77711 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0 -0.173648 0 0 1 0 0 0.173648 0 0.984808 0 7.42864 -5.31576 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0 -0.173648 0 0 1 0 0 0.173648 0 0.984808 0 7.42864 -4.41772 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.984808 7.905e-7 -0.173648 0 -8.027e-7 -1 0 0 -0.173648 1.394e-7 0.984808 0 23.3307 -2.60514 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.984808 7.905e-7 -0.173648 0 -8.027e-7 -1 0 0 -0.173648 1.394e-7 0.984808 0 23.3307 -2.16074 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.984808 7.905e-7 -0.173648 0 -8.027e-7 -1 0 0 -0.173648 1.394e-7 0.984808 0 23.3307 -1.87232 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 22.3057 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 21.4105 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 20.7857 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 19.1083 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 18.3572 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 15.453 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 14.7102 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 14.2549 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 11.9648 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 11.3658 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.604e-7 -0.984808 -0.173648 0 1 -1.629e-7 0 0 0 -0.173648 0.984808 0 10.4449 -0.0827055 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0 -0.173648 0 0 1 0 0 0.173648 0 0.984808 0 7.6309 -0.67803 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0 -0.173648 0 0 1 0 0 0.173648 0 0.984808 0 7.6309 -0.240508 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0 -0.173648 0 0 1 0 0 0.173648 0 0.984808 0 7.6309 -2.24393 6.39449 1  ]
+    ObjectInstance "Porta Macetas44"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Maceta A"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Maceta_A"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00003.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.433458 -0.901174 0 0 0.901174 0.433458 0 0 0 0 1 0 23.1336 -0.540616 5.58015 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.644139 -0.49531 0.109852 0 0.488261 0.653439 0.0832688 0 -0.237073 0 1.39012 0 23.3316 -2.15982 6.37378 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.362644 0.733198 0 0 -0.733198 0.362644 0 0 0 0 1.42751 0 23.9591 -2.86511 6.27289 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.188171 0.721536 0.136122 0 -0.734264 -0.18491 -0.0348843 0 -2.73e-7 -0.26128 1.38496 0 22.3047 -0.0769233 6.34853 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.359357 -0.734814 0 0 0.734814 0.359357 0 0 0 0 1.43905 0 22.9225 0.0789688 0.773399 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.809975 -0.154103 0 0 0.154103 0.809975 0 0 0 0 1.4492 0 22.9817 0.513002 6.27161 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.967496 -1.11701 0 0 1.11701 0.967496 0 0 0 0 2.55572 0 20.1019 2.72361 0.250103 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.392036 -0.724269 0 0 0.724269 -0.392036 0 0 0 0 1.42981 0 16.5231 2.88187 0.774275 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.776676 0.123926 0.0232472 0 -0.126088 0.763361 0.143198 0 0 -0.260291 1.38756 0 14.7104 -0.0707982 6.35038 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.360205 -0.932873 0 0 0.932873 0.360205 0 0 0 0 1.7736 0 13.5553 -0.0858285 5.65767 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.378476 -0.7179 0 0 0.7179 -0.378476 0 0 0 0 1.44461 0 12.4549 0.506957 6.27261 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.683776 0.334493 0.0603057 0 -0.339886 0.672927 0.121322 0 2.046e-7 -0.243587 1.35109 0 10.4417 -0.0749941 6.35538 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.463337 -0.682001 0 0 0.682001 -0.463337 0 0 0 0 1.44822 0 10.1041 0.0131338 0.773109 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.444709 -0.761287 -0.0837258 0 0.748143 0.452521 -0.140854 0 0.275142 -1.219e-7 1.46142 0 7.43475 -4.41724 6.39786 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.588644 0.608499 -0.125436 0 -0.595137 0.60186 0.12682 0 0.288933 -2.169e-7 1.3559 0 7.42524 -5.7681 6.37458 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.750749 0.324754 0 0 -0.324754 0.750749 0 0 0 0 1.42282 0 24.2305 -12.5808 3.28205 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.12076 0.350021 0 0 -0.350021 1.12076 0 0 0 0 2.09574 0 7.02494 -11.4447 5.6971 1  ]
+    ObjectInstance "Maceta A"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Maceta A04"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Maceta_A2"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00004.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.14227 -0.81292 0 0 0 0 0.825276 0 -0.81292 0.14227 0 0 15.7091 -0.238929 5.6281 1  ]
+    ObjectInstance "Maceta A04"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.713799 0.126902 0 0 0 0 0.724992 0 0.126902 -0.713799 0 0 20.499 -0.114162 5.61389 1  ]
+    ObjectInstance "Maceta A04"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Maceta B"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Maceta_B"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00005.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.843948 -0.536425 0 0 0.536425 0.843948 0 0 0 0 1 0 21.8301 -0.300804 5.58729 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.431062 0.751037 0 0 -0.751037 0.431062 0 0 0 0 1.42859 0 24.0562 0.0380025 0.796106 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.219815 -0.822824 0 0 0.822824 -0.219815 0 0 0 0 1.41779 0 23.9879 -0.44245 6.29267 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.565364 -0.531794 0.0858029 0 0.525773 0.571838 0.0797943 0 -0.193056 0 1.27207 0 23.3345 -1.87028 6.36918 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.750564 0.248055 0.116357 0 -0.245127 0.759529 -0.0380008 0 -0.207645 -2.121e-7 1.33942 0 23.3314 -2.60277 6.38035 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.418612 -0.792174 0 0 0.792174 0.418612 0 0 0 0 1.41825 0 23.3403 -2.89336 0.690845 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.592049 0.398276 0.0590726 0 -0.402633 0.585643 0.086863 0 0 -0.176983 1.19325 0 20.7847 -0.0775782 6.34872 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.247899 -0.704582 -0.0912488 0 0.710467 0.245846 0.0318389 0 0 -0.163674 1.26382 0 19.1068 -0.0802344 6.36302 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.16774 0.842215 0 0 -0.842215 -0.16774 0 0 0 0 1.44285 0 16.4022 2.95457 6.29212 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.49461 0.702013 0 0 -0.702013 -0.49461 0 0 0 0 1.4406 0 13.7594 0.547366 6.29215 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0502006 0.784126 0.128412 0 -0.79457 0.0495407 0.008113 0 0 -0.220388 1.34576 0 11.9679 -0.0859952 6.37215 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.26787 0.652024 0 0 -0.652024 1.26787 0 0 0 0 2.34686 0 9.49282 2.68712 0.247024 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0147225 0.792732 -0.00422567 0 -0.761967 0.0153169 0.218701 0 0.378283 0 1.31796 0 7.62374 -0.680272 6.38872 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0406695 -0.8105 0.00768261 0 0.796415 -0.0413888 -0.150445 0 0.246959 0 1.30734 0 7.62969 -2.24345 6.38091 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.648975 0.573326 0 0 -0.573326 -0.648975 0 0 0 0 1.43904 0 7.17315 -2.63322 6.29243 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.990253 0.139281 0 0 -0.139281 -0.990253 0 0 0 0 1.64846 0 7.75243 -3.0609 5.6586 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.720439 0.324465 -0.118767 0 -0.320144 0.730163 0.0527769 0 0.216842 0 1.31536 0 7.42663 -5.31739 6.38323 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.608586 -0.793488 0 0 0.793488 -0.608586 0 0 0 0 1.66252 0 7.01417 -6.41897 5.66819 1  ]
+    ObjectInstance "Maceta B"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Maceta B2"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Maceta_B2"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00006.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.896768 0.442502 0 0 0 0 1 0 0.442502 0.896768 0 0 19.7938 2.76016 5.65957 1  ]
+    ObjectInstance "Maceta B2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.107991 -0.67428 0 0 0 0 0.519007 0 -0.67428 -0.107991 0 0 10.0059 -0.314814 5.56908 1  ]
+    ObjectInstance "Maceta B2"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Maceta C03"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Maceta_C"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00007.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.09108 -0.681644 0 0 0 0 0.5762 0 -0.681644 -1.09108 0 0 12.2544 -0.18911 5.59037 1  ]
+    ObjectInstance "Maceta C03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 1.23957 0 0 0 0 0.651691 0 1.23957 0 0 0 23.129 -2.7668 5.61358 1  ]
+    ObjectInstance "Maceta C03"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Maceta C2"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Maceta_C2"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00008.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 22.7911 2.99548 5.73735 1  ]
+    ObjectInstance "Maceta C2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.21285 0 0 0 0 1.21285 0 0 0 0 1.21285 0 16.3531 -0.975427 0.178324 1  ]
+    ObjectInstance "Maceta C2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.79288 0 0 0 0 0.79288 0 0 0 0 0.79288 0 7.77902 -2.64077 5.6719 1  ]
+    ObjectInstance "Maceta C2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.20317 0 0 0 0 1.20317 0 0 0 0 1.20317 0 6.47673 0.190053 0.28047 1  ]
+    ObjectInstance "Maceta C2"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Maceta D2"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Maceta_D2"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00009.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.26837 -0.963316 0 0 0.963316 -0.26837 0 0 0 0 1 0 17.2766 -0.226635 5.67373 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.167851 0.675837 0.0839397 0 -0.68103 -0.166571 -0.0206883 0 0 -0.0864516 0.696062 0 18.3566 -0.0832791 6.37982 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.6513 -0.194191 -0.0341012 0 0.197163 0.641484 0.112649 0 0 -0.117697 0.670233 0 21.4091 -0.077688 6.37043 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.566006 0.992294 0 0 -0.992294 -0.566006 0 0 0 0 1.14237 0 26.0283 2.56284 0.213768 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.800043 -0.859395 0 0 0.859395 -0.800043 0 0 0 0 1.17415 0 24.6294 -4.16483 5.71567 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.264976 0.595626 -0.0319407 0 -0.591345 0.266894 0.071282 0 0.078111 0 0.647997 0 7.42253 -9.39093 6.35008 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.9536 -0.301077 0 0 0.301077 -0.9536 0 0 0 0 1 0 6.76827 2.68136 5.68702 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.332988 -0.623286 0.0299944 0 0.620772 -0.334336 -0.0559171 0 0.0634538 0 0.704442 0 7.63528 -0.240616 6.37801 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.828227 0.198492 0 0 -0.198492 0.828227 0 0 0 0 0.85168 0 11.1628 -0.204744 5.63593 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.468932 0.439304 0.0882419 0 -0.448079 0.459749 0.0923485 0 0 -0.12773 0.635891 0 11.3627 -0.0762468 6.3529 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.97474 0.705345 0 0 -0.705345 0.97474 0 0 0 0 1.20317 0 12.9409 2.8918 0.229566 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.670574 0.186231 0.0318496 0 -0.188935 0.660977 0.113042 0 0 -0.117443 0.686712 0 14.253 -0.0811215 6.37438 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.431261 -0.505656 -0.0818063 0 0.512231 -0.425725 -0.0688749 0 0 -0.106939 0.661007 0 15.4507 -0.0762278 6.36352 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.812404 0.0144635 0 0 -0.0144635 -0.812404 0 0 0 0 0.812532 0 23.1291 -0.932081 5.64049 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.197996 -0.716027 0 0 0.716027 -0.197996 0 0 0 0 0.742898 0 26.3665 -12.7679 3.29234 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.637893 0.512085 0 0 -0.512085 0.637893 0 0 0 0 0.686504 0 8.90023 -0.350493 5.61023 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.471094 0.574428 0 0 -0.574428 0.471094 0 0 0 0 0.742898 0 7.85849 0.522146 6.28917 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.700604 -0.298504 0 0 0.298504 0.700604 0 0 0 0 0.761545 0 6.99494 -4.76281 6.28621 1  ]
+    ObjectInstance "Maceta D2"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Porta Macetas Pata67"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Forja_Macetas"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00010.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.866026 0.5 0 0 0 0 1 0 0.5 0.866026 0 0 22.8199 0.11769 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 0.866025 0 0 0 0 1 0 0.866025 -0.5 0 0 22.9664 0.176069 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 -0.5 0 0 0 0 1 0 -0.5 -0.866025 0 0 23.0281 0.0353268 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.5 -0.866025 0 0 0 0 1 0 -0.866025 0.5 0 0 22.8844 -0.0315308 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 1 0 0 0 0 1 0 1 1.629e-7 0 0 10.0907 0.123727 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.192e-7 0 0 0 0 1 0 -1.192e-7 -1 0 0 10.2145 0.0260247 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 10.1235 -0.0977888 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 1.51e-7 0 0 0 0 1 0 1.51e-7 1 0 0 9.99374 -0.00676238 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 1 0 0 0 0 1 0 1 1.629e-7 0 0 16.4868 2.99395 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.192e-7 0 0 0 0 1 0 -1.192e-7 -1 0 0 16.6107 2.89625 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 16.5196 2.77243 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 1.51e-7 0 0 0 0 1 0 1.51e-7 1 0 0 16.3899 2.86346 0.233789 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 24.2937 -12.4909 2.74194 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 24.3258 -12.6453 2.74194 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 24.1765 -12.6817 2.74194 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 0.642788 0 0 0 0 1 0 0.642788 0.766044 0 0 24.1356 -12.5285 2.74194 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 12.515 0.597032 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 12.547 0.442599 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 12.3977 0.406266 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 0.642788 0 0 0 0 1 0 0.642788 0.766044 0 0 12.3568 0.559401 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 23.0439 0.603723 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 23.0759 0.44929 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 22.9266 0.412957 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 0.642788 0 0 0 0 1 0 0.642788 0.766044 0 0 22.8857 0.566092 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 7.07528 -4.83786 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642788 0 0 0 0 1 0 -0.642788 0.766045 0 0 6.91762 -4.84261 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766045 0 0 0 0 1 0 0.766045 0.642788 0 0 6.90777 -4.68924 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766045 0.642788 0 0 0 0 1 0 0.642788 -0.766045 0 0 7.06568 -4.67557 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 0.5 0 0 0 0 1 0 0.5 -0.866025 0 0 7.94578 0.588558 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 7.92308 0.432477 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.866025 -0.5 0 0 0 0 1 0 -0.5 0.866025 0 0 7.77033 0.449405 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.5 0.866025 0 0 0 0 1 0 0.866025 0.5 0 0 7.78429 0.607289 5.73303 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 0 0 1 0 -0.906308 -0.422618 0 0 23.4102 -2.98557 0.130552 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 23.251 -2.95283 0.130552 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 23.2872 -2.79933 0.130552 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.906308 0.422618 0 0 0 0 1 0 0.422618 -0.906308 0 0 23.4379 -2.8295 0.130552 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 0 0 1 0 0.573576 0.819152 0 0 23.9534 0.0840982 0.236441 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 24.1077 0.13537 0.236441 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 -0.573576 0 0 0 0 1 0 -0.573576 -0.819152 0 0 24.1531 -0.0156817 0.236441 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 -0.819152 0 0 0 0 1 0 -0.819152 0.573576 0 0 24.0075 -0.0648905 0.236441 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 0 0 1 0 0.573576 0.819152 0 0 7.06884 -2.59093 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 7.22312 -2.53966 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 -0.573576 0 0 0 0 1 0 -0.573576 -0.819152 0 0 7.26851 -2.69071 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 -0.819152 0 0 0 0 1 0 -0.819152 0.573576 0 0 7.12292 -2.73992 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 13.6667 0.481109 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422619 0.906308 0 0 0 0 1 0 0.906308 0.422619 0 0 13.6994 0.640353 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.906308 0.422619 0 0 0 0 1 0 0.422619 -0.906308 0 0 13.8529 0.604132 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 0 0 1 0 -0.906308 -0.422618 0 0 13.8228 0.453448 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 16.4929 2.88899 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 16.3321 2.86529 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 16.3136 3.02193 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 16.4655 3.04511 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 -4.451e-7 0 0 0 0 1 0 -4.451e-7 1 0 0 26.2574 -12.7826 2.73659 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 1 0 0 0 0 1 0 1 1.629e-7 0 0 26.3551 -12.6588 2.73659 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 1.192e-7 0 0 0 0 1 0 1.192e-7 -1 0 0 26.479 -12.7498 2.73659 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.311e-7 -1 0 0 0 0 1 0 -1 -1.311e-7 0 0 26.3879 -12.8796 2.73659 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 24.0794 -0.509785 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 23.9185 -0.533488 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 23.9001 -0.37685 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 24.052 -0.353669 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 0.642787 0 0 0 0 1 0 0.642787 0.766045 0 0 23.8661 -2.8071 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 24.0205 -2.77505 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766045 -0.642788 0 0 0 0 1 0 -0.642788 -0.766045 0 0 24.0569 -2.92437 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766045 0 0 0 0 1 0 -0.766045 0.642788 0 0 23.9037 -2.96526 5.7328 1  ]
+    ObjectInstance "Porta Macetas Pata67"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Porta Macetas Aro Grande67"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Forja_Macetas"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00011.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.5 -0.866026 0 0 0 0 1 0 -0.866026 0.5 0 0 22.8137 0.14016 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.866025 0.5 0 0 0 0 1 0 0.5 0.866025 0 0 22.9889 0.1822 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 0.866025 0 0 0 0 1 0 0.866025 -0.5 0 0 23.0342 0.0128574 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 -0.5 0 0 0 0 1 0 -0.5 -0.866025 0 0 22.8619 -0.0376619 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 -2.066e-7 0 0 0 0 1 0 -2.066e-7 1 0 0 10.1071 0.140271 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 1 0 0 0 0 1 0 1 0 0 0 10.2311 0.00963114 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.192e-7 0 0 0 0 1 0 -1.192e-7 -1 0 0 10.1071 -0.114333 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 -1 0 0 0 0 1 0 -1 0 0 0 9.9772 0.00963118 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 -2.066e-7 0 0 0 0 1 0 -2.066e-7 1 0 0 16.5032 3.01049 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 1 0 0 0 0 1 0 1 0 0 0 16.6272 2.87985 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.192e-7 0 0 0 0 1 0 -1.192e-7 -1 0 0 16.5032 2.75589 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 -1 0 0 0 0 1 0 -1 0 0 0 16.3733 2.87985 0.696355 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 0.642787 0 0 0 0 1 0 0.642787 0.766045 0 0 24.3169 -12.4888 3.20451 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 0.766044 0 0 0 0 1 0 0.766044 -0.642788 0 0 24.3279 -12.6685 3.20451 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 24.1533 -12.6838 3.20451 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 24.1334 -12.5053 3.20451 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 0.642787 0 0 0 0 1 0 0.642787 0.766045 0 0 12.5382 0.599168 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 0.766044 0 0 0 0 1 0 0.766044 -0.642788 0 0 12.5492 0.419407 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 12.3745 0.40413 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 12.3547 0.582594 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 0.642787 0 0 0 0 1 0 0.642787 0.766045 0 0 23.0671 0.605859 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 0.766044 0 0 0 0 1 0 0.766044 -0.642788 0 0 23.0781 0.426098 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 22.9034 0.410821 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 22.8836 0.589285 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 0 0 1 0 0.642788 -0.766044 0 0 7.07335 -4.86107 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766045 0 0 0 0 1 0 -0.766045 -0.642788 0 0 6.89441 -4.84068 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642788 0 0 0 0 1 0 -0.642788 0.766045 0 0 6.9097 -4.66603 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766045 0 0 0 0 1 0 0.766045 0.642788 0 0 7.08889 -4.67749 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.5 0.866025 0 0 0 0 1 0 0.866025 0.5 0 0 7.9683 0.582633 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 0.5 0 0 0 0 1 0 0.5 -0.866025 0 0 7.91715 0.409952 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 7.74781 0.45533 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.866025 -0.5 0 0 0 0 1 0 -0.5 0.866025 0 0 7.79021 0.629814 6.1956 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.906308 0.422618 0 0 0 0 1 0 0.422618 -0.906308 0 0 23.4024 -3.00749 0.593118 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 0 0 1 0 -0.906308 -0.422618 0 0 23.229 -2.94497 0.593118 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 23.2951 -2.7774 0.593118 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 23.4598 -2.83737 0.593118 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 -0.819152 0 0 0 0 1 0 -0.819152 0.573576 0 0 23.9493 0.107016 0.699007 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 0 0 1 0 0.573576 0.819152 0 0 24.1306 0.13952 0.699007 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 24.1572 -0.0385999 0.699007 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 -0.573576 0 0 0 0 1 0 -0.573576 -0.819152 0 0 23.9846 -0.0690399 0.699007 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 -0.819152 0 0 0 0 1 0 -0.819152 0.573576 0 0 7.06469 -2.56801 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 0 0 1 0 0.573576 0.819152 0 0 7.24604 -2.53551 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 7.27266 -2.71363 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 -0.573576 0 0 0 0 1 0 -0.573576 -0.819152 0 0 7.1 -2.74407 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422619 -0.906308 0 0 0 0 1 0 -0.906308 -0.422619 0 0 13.6448 0.488975 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422619 0 0 0 0 1 0 -0.422619 0.906308 0 0 13.7073 0.662275 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422619 0.906308 0 0 0 0 1 0 0.906308 0.422619 0 0 13.8749 0.596267 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.906308 0.422619 0 0 0 0 1 0 0.422619 -0.906308 0 0 13.8149 0.431525 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 16.493 2.8657 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 16.3088 2.86518 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 16.3135 3.04522 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 16.4888 3.04522 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 4.888e-7 -1 0 0 0 0 1 0 -1 -4.888e-7 0 0 26.2409 -12.7662 3.19916 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 -2.066e-7 0 0 0 0 1 0 -2.066e-7 1 0 0 26.3715 -12.6422 3.19916 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 1 0 0 0 0 1 0 1 1.629e-7 0 0 26.4955 -12.7662 3.19916 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 1.748e-7 0 0 0 0 1 0 1.748e-7 -1 0 0 26.3715 -12.8961 3.19916 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 24.0795 -0.533075 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 23.8952 -0.533595 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 23.9 -0.353559 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 24.0753 -0.353562 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642787 -0.766045 0 0 0 0 1 0 -0.766045 0.642787 0 0 23.864 -2.78391 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 0.642787 0 0 0 0 1 0 0.642787 0.766045 0 0 24.0437 -2.77292 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 24.059 -2.94757 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766045 -0.642787 0 0 0 0 1 0 -0.642787 -0.766045 0 0 23.8806 -2.9674 6.19537 1  ]
+    ObjectInstance "Porta Macetas Aro Grande67"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Porta Macetas Aro Chico67"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Forja_Macetas"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00012.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.866026 0.5 0 0 0 0 1 0 0.5 0.866026 0 0 22.8141 0.13994 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 0.866025 0 0 0 0 1 0 0.866025 -0.5 0 0 22.9886 0.18182 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 -0.5 0 0 0 0 1 0 -0.5 -0.866025 0 0 23.0339 0.0130768 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.5 -0.866025 0 0 0 0 1 0 -0.866025 0.5 0 0 22.8621 -0.037282 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 1 0 0 0 0 1 0 1 1.629e-7 0 0 10.1071 0.139832 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.192e-7 0 0 0 0 1 0 -1.192e-7 -1 0 0 10.2306 0.00963114 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 10.1071 -0.113894 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 1.51e-7 0 0 0 0 1 0 1.51e-7 1 0 0 9.97764 0.00963118 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 1 0 0 0 0 1 0 1 1.629e-7 0 0 16.5032 3.01005 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.192e-7 0 0 0 0 1 0 -1.192e-7 -1 0 0 16.6268 2.87985 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 -1 0 0 0 0 1 0 -1 1.629e-7 0 0 16.5032 2.75633 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 1.51e-7 0 0 0 0 1 0 1.51e-7 1 0 0 16.3738 2.87985 0.739447 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 24.3166 -12.4891 3.2476 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 24.3276 -12.6682 3.2476 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 24.1535 -12.6835 3.2476 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 0.642788 0 0 0 0 1 0 0.642788 0.766044 0 0 24.1338 -12.5056 3.2476 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 12.5379 0.598832 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 12.5488 0.419689 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 12.3748 0.404466 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 0.642788 0 0 0 0 1 0 0.642788 0.766044 0 0 12.355 0.582312 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 23.0668 0.605523 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 23.0777 0.42638 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 22.9037 0.411157 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 0.642788 0 0 0 0 1 0 0.642788 0.766044 0 0 22.8839 0.589003 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 7.07307 -4.86074 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642788 0 0 0 0 1 0 -0.642788 0.766045 0 0 6.89475 -4.8404 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766045 0 0 0 0 1 0 0.766045 0.642788 0 0 6.90998 -4.66637 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766045 0.642788 0 0 0 0 1 0 0.642788 -0.766045 0 0 7.08856 -4.67778 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 0.5 0 0 0 0 1 0 0.5 -0.866025 0 0 7.96792 0.582413 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 7.91693 0.410332 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.866025 -0.5 0 0 0 0 1 0 -0.5 0.866025 0 0 7.74819 0.45555 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.5 0.866025 0 0 0 0 1 0 0.866025 0.5 0 0 7.79043 0.629434 6.23869 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 0 0 1 0 -0.906308 -0.422618 0 0 23.4022 -3.00709 0.63621 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 23.2294 -2.94478 0.63621 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 23.2952 -2.7778 0.63621 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.906308 0.422618 0 0 0 0 1 0 0.422618 -0.906308 0 0 23.4594 -2.83755 0.63621 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 0 0 1 0 0.573576 0.819152 0 0 23.9496 0.106765 0.742099 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 24.1304 0.13916 0.742099 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 -0.573576 0 0 0 0 1 0 -0.573576 -0.819152 0 0 24.1569 -0.0383483 0.742099 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 -0.819152 0 0 0 0 1 0 -0.819152 0.573576 0 0 23.9848 -0.0686805 0.742099 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 0 0 1 0 0.573576 0.819152 0 0 7.06505 -2.56827 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 7.24579 -2.53587 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 -0.573576 0 0 0 0 1 0 -0.573576 -0.819152 0 0 7.2723 -2.71338 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 -0.819152 0 0 0 0 1 0 -0.819152 0.573576 0 0 7.10026 -2.74371 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 13.6452 0.48916 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422619 0.906308 0 0 0 0 1 0 0.906308 0.422619 0 0 13.7075 0.661877 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.906308 0.422619 0 0 0 0 1 0 0.422619 -0.906308 0 0 13.8745 0.596081 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 0 0 1 0 -0.906308 -0.422618 0 0 13.8147 0.431923 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 16.4927 2.86601 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 16.3091 2.86549 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 16.3138 3.04491 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 16.4885 3.04491 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 -4.451e-7 0 0 0 0 1 0 -4.451e-7 1 0 0 26.2413 -12.7662 3.24225 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1.629e-7 1 0 0 0 0 1 0 1 1.629e-7 0 0 26.3715 -12.6427 3.24225 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 1.192e-7 0 0 0 0 1 0 1.192e-7 -1 0 0 26.4951 -12.7662 3.24225 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.311e-7 -1 0 0 0 0 1 0 -1 -1.311e-7 0 0 26.3715 -12.8957 3.24225 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 24.0792 -0.532765 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 23.8956 -0.533284 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 23.9003 -0.353869 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 24.075 -0.353872 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 0.642787 0 0 0 0 1 0 0.642787 0.766045 0 0 23.8643 -2.78419 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 0.766045 0 0 0 0 1 0 0.766045 -0.642787 0 0 24.0435 -2.77325 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766045 -0.642788 0 0 0 0 1 0 -0.642788 -0.766045 0 0 24.0587 -2.94728 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766045 0 0 0 0 1 0 -0.766045 0.642788 0 0 23.8808 -2.96706 6.23846 1  ]
+    ObjectInstance "Porta Macetas Aro Chico67"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Porta Macetas Base16"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Forja_Macetas"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00013.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.554736 -0.320277 0 0 0.320277 0.554736 0 0 0 0 0.640553 0 22.9228 0.0738095 0.722655 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 -0.640553 0 0 0.640553 0 0 0 0 0 0.640553 0 10.1042 0.0126333 0.722655 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 -0.640553 0 0 0.640553 0 0 0 0 0 0.640553 0 16.5003 2.88285 0.722655 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 -0.490692 0 0 0.490692 -0.41174 0 0 0 0 0.640553 0 24.2326 -12.5847 3.23081 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 -0.490692 0 0 0.490692 -0.41174 0 0 0 0 0.640553 0 12.4539 0.503271 6.22167 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 -0.490692 0 0 0.490692 -0.41174 0 0 0 0 0.640553 0 22.9828 0.509962 6.22167 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 0.490692 0 0 -0.490692 -0.41174 0 0 0 0 0.640553 0 6.99355 -4.76142 6.2219 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.554736 -0.320277 0 0 0.320277 -0.554736 0 0 0 0 0.640553 0 7.85631 0.521345 6.2219 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.580539 0.270709 0 0 -0.270709 0.580539 0 0 0 0 0.640553 0 23.346 -2.89368 0.619418 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.367406 -0.524711 0 0 0.524711 -0.367406 0 0 0 0 0.640553 0 24.055 0.0366413 0.725307 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.367406 -0.524711 0 0 0.524711 -0.367406 0 0 0 0 0.640553 0 7.17043 -2.63839 6.22167 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.27071 -0.580539 0 0 0.580539 0.27071 0 0 0 0 0.640553 0 13.7586 0.545361 6.22167 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.45294 0.45294 0 0 -0.45294 0.45294 0 0 0 0 0.640553 0 16.4011 2.95337 6.22167 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.640553 0 0 0 0 0.640553 0 0 0 0 0.640553 0 26.3685 -12.7691 3.22546 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.45294 0.45294 0 0 -0.45294 0.45294 0 0 0 0 0.640553 0 23.9876 -0.445408 6.22167 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.490692 -0.41174 0 0 0.41174 0.490692 0 0 0 0 0.640553 0 23.9599 -2.86819 6.22167 1  ]
+    ObjectInstance "Porta Macetas Base16"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Porta Macetas Soporte16"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Forja_Macetas"
+        Shape "plymesh"
+            "string filename" [ "geometry/macetas_00014.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.554736 -0.320277 0 0 0.320277 0.554736 0 0 0 0 0.640553 0 22.9228 0.0738096 0.182817 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 -0.640553 0 0 0.640553 0 0 0 0 0 0.640553 0 10.1042 0.0126333 0.182817 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 -0.640553 0 0 0.640553 0 0 0 0 0 0.640553 0 16.5003 2.88285 0.182817 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 -0.490692 0 0 0.490692 -0.41174 0 0 0 0 0.640553 0 24.2326 -12.5847 2.69097 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 -0.490692 0 0 0.490692 -0.41174 0 0 0 0 0.640553 0 12.4539 0.503271 5.68183 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 -0.490692 0 0 0.490692 -0.41174 0 0 0 0 0.640553 0 22.9828 0.509962 5.68183 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41174 0.490692 0 0 -0.490692 -0.41174 0 0 0 0 0.640553 0 6.99355 -4.76142 5.68206 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.554736 -0.320277 0 0 0.320277 -0.554736 0 0 0 0 0.640553 0 7.85631 0.521345 5.68206 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.580539 0.270709 0 0 -0.270709 0.580539 0 0 0 0 0.640553 0 23.346 -2.89368 0.0795798 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.367406 -0.524711 0 0 0.524711 -0.367406 0 0 0 0 0.640553 0 24.055 0.0366413 0.185469 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.367406 -0.524711 0 0 0.524711 -0.367406 0 0 0 0 0.640553 0 7.17043 -2.63839 5.68183 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.27071 -0.580539 0 0 0.580539 0.27071 0 0 0 0 0.640553 0 13.7586 0.545361 5.68183 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.45294 0.45294 0 0 -0.45294 0.45294 0 0 0 0 0.640553 0 16.4011 2.95337 5.68183 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.640553 0 0 0 0 0.640553 0 0 0 0 0.640553 0 26.3685 -12.7691 2.68562 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.45294 0.45294 0 0 -0.45294 0.45294 0 0 0 0 0.640553 0 23.9876 -0.445408 5.68183 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.490692 -0.41174 0 0 0.41174 0.490692 0 0 0 0 0.640553 0 23.9599 -2.86819 5.68183 1  ]
+    ObjectInstance "Porta Macetas Soporte16"
+AttributeEnd

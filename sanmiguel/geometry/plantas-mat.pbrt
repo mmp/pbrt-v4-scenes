@@ -1,0 +1,2781 @@
+### Object: fragrans_Leaf ### 
+### End Object: fragrans_Leaf ### 
+### Object: Cercis_siliquastrum_Judas_Trunk ### 
+### End Object: Cercis_siliquastrum_Judas_Trunk ### 
+### Object: Cercis_siliquastrum_Judas_Leaves1 ### 
+### End Object: Cercis_siliquastrum_Judas_Leaves1 ### 
+### Object: Cercis_siliquastrum_Judas_Leaves2 ### 
+Texture "fragrans_Leaf1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/dracaena_fragrans_leaf.png" ]
+Texture "fragrans_Leaf1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/dracaena_fragrans_leaf_Mask.png" ]
+MakeNamedMaterial "fragrans_Leaf1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "fragrans_Leaf1_DiffuseMap" ]
+### End Object: Cercis_siliquastrum_Judas_Leaves2 ### 
+### Object: Cercis_siliquastrum_Judas_Leaves3 ### 
+Texture "Cercis_trunk_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS01brk.png" ]
+MakeNamedMaterial "Cercis_trunk"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cercis_trunk_DiffuseMap" ]
+Texture "Cercis_leaves01_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS01lef.png" ]
+### End Object: Cercis_siliquastrum_Judas_Leaves3 ### 
+### Object: aglaonemaLeaf ### 
+Texture "Cercis_leaves01_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS01lef_Mask.png" ]
+MakeNamedMaterial "Cercis_leaves01"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cercis_leaves01_DiffuseMap" ]
+Texture "Cercis_CE1c01_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS01flo1.png" ]
+### End Object: aglaonemaLeaf ### 
+### Object: aglaonemaTree ### 
+Texture "Cercis_CE1c01_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS01flo1_Mask.png" ]
+MakeNamedMaterial "Cercis_CE1c01"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cercis_CE1c01_DiffuseMap" ]
+### End Object: aglaonemaTree ### 
+### Object: Azalea 1_blattg1_co04 ### 
+Texture "Cercis_CE01_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS01flo2.png" ]
+Texture "Cercis_CE01_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS01flo2_Mask.png" ]
+MakeNamedMaterial "Cercis_CE01"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cercis_CE01_DiffuseMap" ]
+### End Object: Azalea 1_blattg1_co04 ### 
+### Object: Azalea 1_Blutenbl38 ### 
+Texture "Map #0-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/aglaonema_leaf.png" ]
+Texture "Map #3-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/aglaonema_leaf_alpha.png" ]
+MakeNamedMaterial "aglaonema_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #0-plantas" ]
+### End Object: Azalea 1_Blutenbl38 ### 
+### Object: Azalea 1_kelchblatt04 ### 
+Texture "aglaonema_Tree_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/aglaonema_bark.png" ]
+#	 "float gamma" [1.2]
+MakeNamedMaterial "aglaonema_Tree"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "aglaonema_Tree_DiffuseMap" ]
+Texture "Map #32-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1.7 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ -0.15 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef2.png" ]
+### End Object: Azalea 1_kelchblatt04 ### 
+### Object: Azalea 1_Stengel04 ### 
+Texture "Map #33-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1.7 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ -1.5 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef2_Mask.png" ]
+MakeNamedMaterial "Azalea 1_blattg1"
+    "string type" [ "diffusetransmission" ]
+    "texture transmittance" [ "Map #32-plantas" ]
+### End Object: Azalea 1_Stengel04 ### 
+### Object: Azalea 2_blattg02 ### 
+Texture "Map #36-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1.8 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ -0.12 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16pet1.png" ]
+Texture "Map #37-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1.8 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ -0.12 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/fl16pet1_alpha.png" ]
+MakeNamedMaterial "Azalea 1_Blutenb"
+    "string type" [ "diffusetransmission" ]
+    "texture transmittance" [ "Map #36-plantas" ]
+### End Object: Azalea 2_blattg02 ### 
+### Object: Azalea 2_Blutenbl07 ### 
+Texture "Azalea 1_leafcal_Diffuse" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16lef3.png" ]
+Texture "Azalea 1_leafcal_Mask" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16lef3_Mask.png" ]
+MakeNamedMaterial "Azalea 1_leafcal"
+    "string type" [ "diffusetransmission" ]
+    "texture transmittance" [ "Azalea 1_leafcal_Diffuse" ]
+### End Object: Azalea 2_Blutenbl07 ### 
+### Object: Azalea 2_kelchblatt ### 
+Texture "Azalea 1_Stengel_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16stm.png" ]
+MakeNamedMaterial "Azalea 1_Stengel"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Azalea 1_Stengel_DiffuseMap" ]
+Texture "Azalea 2_blattg1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16lef1.png" ]
+### End Object: Azalea 2_kelchblatt ### 
+### Object: brevipedunculata_Leaf04 ### 
+Texture "Azalea 2_blattg1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16lef1_Mask.png" ]
+MakeNamedMaterial "Azalea 2_blattg1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Azalea 2_blattg1_DiffuseMap" ]
+Texture "Azalea 2_Blutenb_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16pet1.png" ]
+### End Object: brevipedunculata_Leaf04 ### 
+### Object: brevipedunculata_stem ### 
+Texture "Azalea 2_Blutenb_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16pet1_Mask.png" ]
+MakeNamedMaterial "Azalea 2_Blutenb"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Azalea 2_Blutenb_DiffuseMap" ]
+### End Object: brevipedunculata_stem ### 
+### Object: Chusan_Palm 1_Branch ### 
+Texture "Azalea 2_leafcal_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16lef3.png" ]
+Texture "Azalea 2_leafcal_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL16lef3_Mask.png" ]
+### End Object: Chusan_Palm 1_Branch ### 
+### Object: Chusan_Palm 1_Base ### 
+MakeNamedMaterial "Azalea 2_leafcal"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Azalea 2_leafcal_DiffuseMap" ]
+Texture "brevipedunculata_Leaf1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/TR14lef1.png" ]
+### End Object: Chusan_Palm 1_Base ### 
+### Object: Chusan_Palm 1_Leaf ### 
+Texture "brevipedunculata_Leaf1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/TR14lef1_Mask.png" ]
+MakeNamedMaterial "brevipedunculata_Leaf1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "brevipedunculata_Leaf1_DiffuseMap" ]
+Texture "brevipedunculata_stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/ampelopsis_brevipedunculata_bark.png" ]
+### End Object: Chusan_Palm 1_Leaf ### 
+### Object: Chusan_Palm 2_Leaf ### 
+MakeNamedMaterial "brevipedunculata_stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "brevipedunculata_stem_DiffuseMap" ]
+Texture "Chusan_Palm 1_Speer_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19stm1.png" ]
+MakeNamedMaterial "Chusan_Palm 1_Speer"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Chusan_Palm 1_Speer_DiffuseMap" ]
+### End Object: Chusan_Palm 2_Leaf ### 
+### Object: Chusan_Palm3_Leaf2 ### 
+Texture "Chusan_Palm 1_Base_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19stm2.png" ]
+MakeNamedMaterial "Chusan_Palm 1_Base"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Chusan_Palm 1_Base_DiffuseMap" ]
+Texture "Chusan_Palm 1_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19lef2.png" ]
+### End Object: Chusan_Palm3_Leaf2 ### 
+### Object: Cinquefoil 1_Blatt1 ### 
+Texture "Chusan_Palm 1_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19lef2_Mask.png" ]
+MakeNamedMaterial "Chusan_Palm 1_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Chusan_Palm 1_Leaf_DiffuseMap" ]
+Texture "Chusan_Palm 2_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19lef3.png" ]
+### End Object: Cinquefoil 1_Blatt1 ### 
+### Object: Cinquefoil 1_kelchgrund ### 
+Texture "Chusan_Palm 2_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19lef3_Mask.png" ]
+MakeNamedMaterial "Chusan_Palm 2_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Chusan_Palm 2_Leaf_DiffuseMap" ]
+### End Object: Cinquefoil 1_kelchgrund ### 
+### Object: Cinquefoil 1_Leaf ### 
+Texture "Chusan_Palm3_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19lef2.png" ]
+Texture "Chusan_Palm3_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP19lef2_Mask.png" ]
+### End Object: Cinquefoil 1_Leaf ### 
+### Object: Cinquefoil 1_Leafg1_c01 ### 
+MakeNamedMaterial "Chusan_Palm3_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Chusan_Palm3_Leaf_DiffuseMap" ]
+Texture "Cinquefoil 1_Blatt1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef1.png" ]
+Texture "Cinquefoil 1_Blatt1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef1_Mask.png" ]
+### End Object: Cinquefoil 1_Leafg1_c01 ### 
+### Object: Cinquefoil 1_Leafg1_c02 ### 
+MakeNamedMaterial "Cinquefoil 1_Blatt1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 1_Blatt1_DiffuseMap" ]
+Texture "Cinquefoil 1_kelchgr_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15cnt2.png" ]
+MakeNamedMaterial "Cinquefoil 1_kelchgr"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 1_kelchgr_DiffuseMap" ]
+### End Object: Cinquefoil 1_Leafg1_c02 ### 
+### Object: Cinquefoil 1_Revo ### 
+Texture "Cinquefoil 1_S1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15stm.png" ]
+MakeNamedMaterial "Cinquefoil 1_S1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 1_S1_DiffuseMap" ]
+### End Object: Cinquefoil 1_Revo ### 
+### Object: Cinquefoil 2_Blatt1co02 ### 
+Texture "Cinquefoil 1_Leafg1__DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15pet2.png" ]
+Texture "Cinquefoil 1_Leafg1__Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15pet2_Mask.png" ]
+MakeNamedMaterial "Cinquefoil 1_Leafg1_"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 1_Leafg1__DiffuseMap" ]
+### End Object: Cinquefoil 2_Blatt1co02 ### 
+### Object: Cinquefoil 2_Leafg1copy ### 
+Texture "Cinquefoil 1_Leafg1c_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef2.png" ]
+Texture "Cinquefoil 1_Leafg1c_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef2_Mask.png" ]
+MakeNamedMaterial "Cinquefoil 1_Leafg1c"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 1_Leafg1c_DiffuseMap" ]
+### End Object: Cinquefoil 2_Leafg1copy ### 
+### Object: Cinquefoil 2_Leafg1_c02 ### 
+Texture "Cinquefoil 1_Revo_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15cnt1.png" ]
+MakeNamedMaterial "Cinquefoil 1_Revo"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 1_Revo_DiffuseMap" ]
+Texture "Cinquefoil 2_Blatt1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef1.png" ]
+### End Object: Cinquefoil 2_Leafg1_c02 ### 
+### Object: Dracaena 2_Leaf6 ### 
+Texture "Cinquefoil 2_Blatt1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef1_Mask.png" ]
+MakeNamedMaterial "Cinquefoil 2_Blatt1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 2_Blatt1_DiffuseMap" ]
+Texture "Cinquefoil 2_Leafg1c_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef2.png" ]
+### End Object: Dracaena 2_Leaf6 ### 
+### Object: Dracaena 2_Segmenttop ### 
+Texture "Cinquefoil 2_Leafg1c_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15lef2_Mask.png" ]
+MakeNamedMaterial "Cinquefoil 2_Leafg1c"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 2_Leafg1c_DiffuseMap" ]
+### End Object: Dracaena 2_Segmenttop ### 
+### Object: Dracaena 2_Leaf3 ### 
+Texture "Cinquefoil 2_Leafg1__DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15pet2.png" ]
+Texture "Cinquefoil 2_Leafg1__Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL15pet2_Mask.png" ]
+MakeNamedMaterial "Cinquefoil 2_Leafg1_"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Cinquefoil 2_Leafg1__DiffuseMap" ]
+### End Object: Dracaena 2_Leaf3 ### 
+### Object: Dracaena 2_Top ### 
+Texture "Dracaena 2_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP07lef1.png" ]
+Texture "Dracaena 2_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP07lef1_Mask.png" ]
+### End Object: Dracaena 2_Top ### 
+### Object: Dutch_Iris_fl1 ### 
+MakeNamedMaterial "Dracaena 2_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dracaena 2_Leaf_DiffuseMap" ]
+Texture "Dracaena 2_Segme01_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP07stm1.png" ]
+MakeNamedMaterial "Dracaena 2_Segme01"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dracaena 2_Segme01_DiffuseMap" ]
+### End Object: Dutch_Iris_fl1 ### 
+### Object: Dutch_Iris_fl1inner ### 
+Texture "Dracaena 2_Leaf2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP07lef2.png" ]
+Texture "Dracaena 2_Leaf2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP07lef2_Mask.png" ]
+MakeNamedMaterial "Dracaena 2_Leaf2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dracaena 2_Leaf2_DiffuseMap" ]
+### End Object: Dutch_Iris_fl1inner ### 
+### Object: Dutch_Iris_fl1stem ### 
+Texture "Dracaena 2_Top_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP07stm2.png" ]
+MakeNamedMaterial "Dracaena 2_Top"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dracaena 2_Top_DiffuseMap" ]
+Texture "Dutch_Iris_fl1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet1.png" ]
+### End Object: Dutch_Iris_fl1stem ### 
+### Object: Dutch_Iris_fl2 ### 
+Texture "Dutch_Iris_fl1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet1_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl1_DiffuseMap" ]
+Texture "Dutch_Iris_fl1inne_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet2.png" ]
+### End Object: Dutch_Iris_fl2 ### 
+### Object: Dutch_Iris_fl2inner ### 
+Texture "Dutch_Iris_fl1inne_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet2_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl1inne"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl1inne_DiffuseMap" ]
+Texture "Dutch_Iris_fl2stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11sta.png" ]
+### End Object: Dutch_Iris_fl2inner ### 
+### Object: Dutch_Iris_Leaf ### 
+Texture "Dutch_Iris_fl2stem_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11sta_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl2stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl2stem_DiffuseMap" ]
+Texture "Dutch_Iris_fl2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet3.png" ]
+### End Object: Dutch_Iris_Leaf ### 
+### Object: Dutch_Iris_Leaf1 ### 
+Texture "Dutch_Iris_fl2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet3_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl2_DiffuseMap" ]
+Texture "Dutch_Iris_fl2inne_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet4.png" ]
+### End Object: Dutch_Iris_Leaf1 ### 
+### Object: Dutch_Iris_Stem ### 
+Texture "Dutch_Iris_fl2inne_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet4_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl2inne"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl2inne_DiffuseMap" ]
+### End Object: Dutch_Iris_Stem ### 
+### Object: Dutch_Iris_2fl1 ### 
+Texture "Dutch_Iris_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11lef1.png" ]
+Texture "Dutch_Iris_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11lef1_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_Leaf_DiffuseMap" ]
+### End Object: Dutch_Iris_2fl1 ### 
+### Object: Dutch_Iris_2fl1inner ### 
+Texture "Dutch_Iris_Leaf1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11lef2.png" ]
+Texture "Dutch_Iris_Leaf1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11lef2_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_Leaf1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_Leaf1_DiffuseMap" ]
+### End Object: Dutch_Iris_2fl1inner ### 
+### Object: Dutch_Iris_2fl2 ### 
+Texture "Dutch_Iris_Stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11stm.png" ]
+MakeNamedMaterial "Dutch_Iris_Stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_Stem_DiffuseMap" ]
+Texture "Dutch_Iris_flB_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet1.png" ]
+### End Object: Dutch_Iris_2fl2 ### 
+### Object: Dutch_Iris_2fl2inner ### 
+Texture "Dutch_Iris_flB_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet1_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_flB"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_flB_DiffuseMap" ]
+Texture "Dutch_Iris_fl1inne B_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet2.png" ]
+### End Object: Dutch_Iris_2fl2inner ### 
+### Object: Dutch_Iris_2Leaf ### 
+Texture "Dutch_Iris_fl1inne B_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet2_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl1inne B"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl1inne B_DiffuseMap" ]
+Texture "Dutch_Iris_fl2 B_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet3.png" ]
+### End Object: Dutch_Iris_2Leaf ### 
+### Object: Fern 1_Fan01 ### 
+Texture "Dutch_Iris_fl2 B_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet3_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl2 B"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl2 B_DiffuseMap" ]
+Texture "Dutch_Iris_fl2inne B_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet4.png" ]
+### End Object: Fern 1_Fan01 ### 
+### Object: Fern 3_Leaf01 ### 
+Texture "Dutch_Iris_fl2inne B_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11pet4_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_fl2inne B"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_fl2inne B_DiffuseMap" ]
+Texture "Dutch_Iris_Leaf B_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11lef1.png" ]
+### End Object: Fern 3_Leaf01 ### 
+### Object: Fern 3_Stem ### 
+Texture "Dutch_Iris_Leaf B_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL11lef1_Mask.png" ]
+MakeNamedMaterial "Dutch_Iris_Leaf B"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Dutch_Iris_Leaf B_DiffuseMap" ]
+### End Object: Fern 3_Stem ### 
+### Object: Ficus 1_Branch1a ### 
+Texture "Fern 1_Fan_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP17lef1.png" ]
+Texture "Fern 1_Fan_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP17lef1_Mask.png" ]
+MakeNamedMaterial "Fern 1_Fan"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Fern 1_Fan_DiffuseMap" ]
+Texture "Fern 3_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP17lef2.png" ]
+### End Object: Ficus 1_Branch1a ### 
+### Object: Ficus 1_Leaf2 ### 
+Texture "Fern 3_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP17lef2_Mask.png" ]
+#	 "float gamma" [1.2]
+MakeNamedMaterial "Fern 3_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Fern 3_Leaf_DiffuseMap" ]
+#	 "float gamma" [1.2]
+Texture "Fern 3_Stem_DiffuseMap1" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP17stm.png" ]
+MakeNamedMaterial "Fern 3_Stem1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Fern 3_Stem_DiffuseMap1" ]
+#	 "float gamma" [1.2]
+Texture "Ficus 1_Stem1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP11stm.png" ]
+### End Object: Ficus 1_Leaf2 ### 
+### Object: Geranium 1blbl1 ### 
+Texture "Ficus 1_Stem1_BumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP11stm.png" ]
+Texture "Ficus 1_Stem1_BumpMap_bump" "float" "scale"
+    "float scale" [ 40 ]
+    "texture tex" [ "Ficus 1_Stem1_BumpMap" ]
+MakeNamedMaterial "Ficus 1_Stem1"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Ficus 1_Stem1_BumpMap_bump" ]
+    "texture reflectance" [ "Ficus 1_Stem1_DiffuseMap" ]
+### End Object: Geranium 1blbl1 ### 
+### Object: Geranium 1blbl2 ### 
+Texture "Map #25-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP11lef2.png" ]
+Texture "Map #27-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/hp13lef1_bump.png" ]
+Texture "Map #27-plantas_bump" "float" "scale"
+    "float scale" [ 0.02 ]
+    "texture tex" [ "Map #27-plantas" ]
+### End Object: Geranium 1blbl2 ### 
+### Object: Geranium 1blbl3 ### 
+Texture "Map #26-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP11lef2_Mask.png" ]
+MakeNamedMaterial "Ficus 1_Leaf1"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.01 ]
+    "texture displacement" [ "Map #27-plantas_bump" ]
+    "texture reflectance" [ "Map #25-plantas" ]
+Texture "Geranium 1_blbl1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13pet1.png" ]
+### End Object: Geranium 1blbl3 ### 
+### Object: Geranium 1Branch11 ### 
+Texture "Geranium 1_blbl1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13pet1_Mask.png" ]
+MakeNamedMaterial "Geranium 1_blbl1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Geranium 1_blbl1_DiffuseMap" ]
+### End Object: Geranium 1Branch11 ### 
+### Object: Geranium 1Flowerclos ### 
+Texture "Geranium 1_blbl2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13pet2.png" ]
+Texture "Geranium 1_blbl2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13pet2_Mask.png" ]
+MakeNamedMaterial "Geranium 1_blbl2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Geranium 1_blbl2_DiffuseMap" ]
+### End Object: Geranium 1Flowerclos ### 
+### Object: Geranium 1Kelchbla01 ### 
+Texture "Geranium 1_blbl3_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13pet3.png" ]
+Texture "Geranium 1_blbl3_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13pet3_Mask.png" ]
+MakeNamedMaterial "Geranium 1_blbl3"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Geranium 1_blbl3_DiffuseMap" ]
+### End Object: Geranium 1Kelchbla01 ### 
+### Object: Geranium 1Leaf ### 
+Texture "Geranium 1_Stem1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13stm.png" ]
+MakeNamedMaterial "Geranium 1_Stem1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Geranium 1_Stem1_DiffuseMap" ]
+Texture "Geranium 1_Flowerc_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13lef5.png" ]
+### End Object: Geranium 1Leaf ### 
+### Object: hybrids_level08 ### 
+Texture "Geranium 1_Flowerc_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13lef5_Mask.png" ]
+MakeNamedMaterial "Geranium 1_Flowerc"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Geranium 1_Flowerc_DiffuseMap" ]
+### End Object: hybrids_level08 ### 
+### Object: hybrids_blossom07 ### 
+Texture "Geranium 1_Kelchbl_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13lef4.png" ]
+Texture "Geranium 1_Kelchbl_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13lef4_Mask.png" ]
+MakeNamedMaterial "Geranium 1_Kelchbl"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Geranium 1_Kelchbl_DiffuseMap" ]
+### End Object: hybrids_blossom07 ### 
+### Object: hybrids_Leaf07 ### 
+Texture "Geranium 1_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13lef1.png" ]
+Texture "Geranium 1_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL13lef1_Mask.png" ]
+MakeNamedMaterial "Geranium 1_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Geranium 1_Leaf_DiffuseMap" ]
+### End Object: hybrids_Leaf07 ### 
+### Object: Ivy 1_Tree ### 
+Texture "hybrids_stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/elaeagnus_umbellate_bark.png" ]
+MakeNamedMaterial "hybrids_stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "hybrids_stem_DiffuseMap" ]
+### End Object: Ivy 1_Tree ### 
+### Object: Ivy 1_Leaf06 ### 
+Texture "hybrids_blossom_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/impatiens_newguinea_hybrids_petal.png" ]
+Texture "hybrids_blossom_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/impatiens_newguinea_hybrids_petal_Mask.png" ]
+MakeNamedMaterial "hybrids_blossom"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "hybrids_blossom_DiffuseMap" ]
+Texture "hybrids_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/citrus_limon_leaf.png" ]
+Texture "hybrids_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/citrus_limon_leaf_Mask.png" ]
+### End Object: Ivy 1_Leaf06 ### 
+### Object: Ivy 2_Leaf2 ### 
+MakeNamedMaterial "hybrids_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "hybrids_Leaf_DiffuseMap" ]
+Texture "Ivy 1_Tree_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13stm2.png" ]
+MakeNamedMaterial "Ivy 1_Tree"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Ivy 1_Tree_DiffuseMap" ]
+### End Object: Ivy 2_Leaf2 ### 
+### Object: Ivy 2_Tree ### 
+Texture "Map #39-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13lef1.png" ]
+Texture "Map #41-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/hp13lef1_bump.png" ]
+### End Object: Ivy 2_Tree ### 
+### Object: Ivy 3_Leaf ### 
+Texture "Map #41-plantas_bump" "float" "scale"
+    "float scale" [ 0.002 ]
+    "texture tex" [ "Map #41-plantas" ]
+Texture "Map #40-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13lef1_Mask.png" ]
+MakeNamedMaterial "Ivy 1_Leaf"
+    "string type" [ "diffusetransmission" ]
+    "texture displacement" [ "Map #41-plantas_bump" ]
+    "texture transmittance" [ "Map #39-plantas" ]
+### End Object: Ivy 3_Leaf ### 
+### Object: Lagerstroemia_leaves ### 
+Texture "Ivy 2_Leaf2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13lef2.png" ]
+Texture "Ivy 2_Leaf2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13lef2_Mask.png" ]
+MakeNamedMaterial "Ivy 2_Leaf2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Ivy 2_Leaf2_DiffuseMap" ]
+### End Object: Lagerstroemia_leaves ### 
+### Object: Lagerstroemia_petals ### 
+Texture "Ivy 2_Tree_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13stm2.png" ]
+MakeNamedMaterial "Ivy 2_Tree"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Ivy 2_Tree_DiffuseMap" ]
+Texture "Ivy 3_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13lef3.png" ]
+### End Object: Lagerstroemia_petals ### 
+### Object: Lagerstroemia_trunks ### 
+Texture "Ivy 3_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP13lef3_Mask.png" ]
+MakeNamedMaterial "Ivy 3_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Ivy 3_Leaf_DiffuseMap" ]
+### End Object: Lagerstroemia_trunks ### 
+### Object: Lilium_Blatt1 ### 
+Texture "Lagerstroemia_leaves_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS04lef.png" ]
+Texture "Lagerstroemia_leaves_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS04lef_Mask.png" ]
+MakeNamedMaterial "Lagerstroemia_leaves"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lagerstroemia_leaves_DiffuseMap" ]
+### End Object: Lilium_Blatt1 ### 
+### Object: Lilium_BluBlatt02 ### 
+Texture "Lagerstroemia_petals_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS04flo.png" ]
+Texture "Lagerstroemia_petals_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS04flo_Mask.png" ]
+MakeNamedMaterial "Lagerstroemia_petals"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lagerstroemia_petals_DiffuseMap" ]
+### End Object: Lilium_BluBlatt02 ### 
+### Object: Lilium_Mittelst01 ### 
+Texture "Lagerstroemia_base_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BS04brk.png" ]
+MakeNamedMaterial "Lagerstroemia_base"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lagerstroemia_base_DiffuseMap" ]
+### End Object: Lilium_Mittelst01 ### 
+### Object: Lilium_Kopf_HP_02 ### 
+Texture "Lilium_head_Blatt2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12lef1.png" ]
+Texture "Lilium_head_Blatt2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12lef1_Mask.png" ]
+### End Object: Lilium_Kopf_HP_02 ### 
+### Object: Lilium_Stil2a_cop ### 
+MakeNamedMaterial "Lilium_head_Blatt2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_head_Blatt2_DiffuseMap" ]
+Texture "Lilium_head_BluBlatt1__DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12pet2.png" ]
+### End Object: Lilium_Stil2a_cop ### 
+### Object: Lilium_Stengel1 ### 
+Texture "Lilium_head_BluBlatt1__Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12pet2_Mask.png" ]
+MakeNamedMaterial "Lilium_head_BluBlatt1_"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_head_BluBlatt1__DiffuseMap" ]
+### End Object: Lilium_Stengel1 ### 
+### Object: Lilium_BluBlatt1 ### 
+Texture "Lilium_head_Stengel1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12pis1.png" ]
+MakeNamedMaterial "Lilium_head_Stengel1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_head_Stengel1_DiffuseMap" ]
+Texture "Lilium_head_Kopf_HP_co_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12sta1.png" ]
+### End Object: Lilium_BluBlatt1 ### 
+### Object: Lilium_Stil2a ### 
+MakeNamedMaterial "Lilium_head_Kopf_HP_co"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_head_Kopf_HP_co_DiffuseMap" ]
+Texture "Lilium_head_Size_Mitte_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12stm.png" ]
+### End Object: Lilium_Stil2a ### 
+### Object: Mona_Lisa 1_Branch1 ### 
+MakeNamedMaterial "Lilium_head_Size_Mitte"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_head_Size_Mitte_DiffuseMap" ]
+Texture "Lilium_Stengel_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12pis1.png" ]
+### End Object: Mona_Lisa 1_Branch1 ### 
+### Object: Mona_Lisa 1_Branch3 ### 
+MakeNamedMaterial "Lilium_Stengel"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_Stengel_DiffuseMap" ]
+Texture "Lilium_BluBlat_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12pet1.png" ]
+### End Object: Mona_Lisa 1_Branch3 ### 
+### Object: Mona_Lisa 1_Flowerba01 ### 
+Texture "Lilium_BluBlat_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12pet1_Mask.png" ]
+MakeNamedMaterial "Lilium_BluBlat"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_BluBlat_DiffuseMap" ]
+### End Object: Mona_Lisa 1_Flowerba01 ### 
+### Object: Mona_Lisa 1_petal41 ### 
+Texture "Lilium_Stil_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL12stm.png" ]
+#	 "float gamma" [1.2]
+MakeNamedMaterial "Lilium_Stil"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Lilium_Stil_DiffuseMap" ]
+#	 "float gamma" [1.2]
+Texture "Mona_Lisa 1_Branch1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01stm1.png" ]
+### End Object: Mona_Lisa 1_petal41 ### 
+### Object: Mona_Lisa 1_Flowerst01 ### 
+MakeNamedMaterial "Mona_Lisa 1_Branch1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_Branch1_DiffuseMap" ]
+Texture "Mona_Lisa 1_Branch3_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01stm2.png" ]
+### End Object: Mona_Lisa 1_Flowerst01 ### 
+### Object: Mona_Lisa 1_Horn1 ### 
+MakeNamedMaterial "Mona_Lisa 1_Branch3"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_Branch3_DiffuseMap" ]
+Texture "Mona_Lisa 1_Flowerb_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01stm1.png" ]
+### End Object: Mona_Lisa 1_Horn1 ### 
+### Object: Mona_Lisa 1_petal22 ### 
+MakeNamedMaterial "Mona_Lisa 1_Flowerb"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_Flowerb_DiffuseMap" ]
+#	 "float gamma" [1.2]
+Texture "Map #15-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01pet1.png" ]
+#	 "float gamma" [1.2]
+Texture "Map #16-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01pet1_Mask.png" ]
+### End Object: Mona_Lisa 1_petal22 ### 
+### Object: Mona_Lisa 1_Leaf3 ### 
+MakeNamedMaterial "Mona_Lisa 1_petal11"
+    "string type" [ "diffusetransmission" ]
+    "texture transmittance" [ "Map #15-plantas" ]
+Texture "Mona_Lisa 1_Flowers_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01stm1.png" ]
+MakeNamedMaterial "Mona_Lisa 1_Flowers"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_Flowers_DiffuseMap" ]
+### End Object: Mona_Lisa 1_Leaf3 ### 
+### Object: Mona_Lisa 1_Leaf2 ### 
+Texture "Mona_Lisa 1_Horn1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01stm2.png" ]
+MakeNamedMaterial "Mona_Lisa 1_Horn1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_Horn1_DiffuseMap" ]
+Texture "Map #13-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01pet1.png" ]
+### End Object: Mona_Lisa 1_Leaf2 ### 
+### Object: Mona_Lisa 1_flowercent ### 
+Texture "Map #14-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01pet1_Mask.png" ]
+MakeNamedMaterial "Mona_Lisa 1_petal12"
+    "string type" [ "diffusetransmission" ]
+    "texture transmittance" [ "Map #13-plantas" ]
+### End Object: Mona_Lisa 1_flowercent ### 
+### Object: Mona_Lisa 3_Leaf33 ### 
+Texture "Mona_Lisa 1_Leaf1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01lef2.png" ]
+Texture "Mona_Lisa 1_Leaf1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01lef2_Mask.png" ]
+#	 "float gamma" [1.2]
+MakeNamedMaterial "Mona_Lisa 1_Leaf1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_Leaf1_DiffuseMap" ]
+Texture "Mona_Lisa 1_Leaf2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01lef1.png" ]
+Texture "Mona_Lisa 1_Leaf2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01lef1_Mask.png" ]
+### End Object: Mona_Lisa 3_Leaf33 ### 
+### Object: Oxeye_Daisy_blattg1 ### 
+MakeNamedMaterial "Mona_Lisa 1_Leaf2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_Leaf2_DiffuseMap" ]
+Texture "Mona_Lisa 1_flowerc_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP01pet3.png" ]
+MakeNamedMaterial "Mona_Lisa 1_flowerc"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Mona_Lisa 1_flowerc_DiffuseMap" ]
+### End Object: Oxeye_Daisy_blattg1 ### 
+### Object: Oxeye_Daisy_blattk1aco ### 
+Texture "Map #5-plantas" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/citrus_limon_leaf.png" ]
+Texture "Map #21-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/citrus_limon_leaf_Bump.png" ]
+Texture "Map #21-plantas_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #21-plantas" ]
+### End Object: Oxeye_Daisy_blattk1aco ### 
+### Object: Oxeye_Daisy_Blutenbl01 ### 
+Texture "Map #6-plantas" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/citrus_limon_leaf_Mask.png" ]
+MakeNamedMaterial "Mona_Lisa 2_Leaf1"
+    "string type" [ "diffusetransmission" ]
+    "texture displacement" [ "Map #21-plantas_bump" ]
+    "texture transmittance" [ "Map #5-plantas" ]
+Texture "Oxeye_Daisy_blattg1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04lef1.png" ]
+### End Object: Oxeye_Daisy_Blutenbl01 ### 
+### Object: Oxeye_Daisy_Blutenkelc ### 
+Texture "Oxeye_Daisy_blattg1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04lef1_Mask.png" ]
+MakeNamedMaterial "Oxeye_Daisy_blattg1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Oxeye_Daisy_blattg1_DiffuseMap" ]
+### End Object: Oxeye_Daisy_Blutenkelc ### 
+### Object: Oxeye_Daisy_Simple ### 
+Texture "Oxeye_Daisy_blattk1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04lef2.png" ]
+Texture "Oxeye_Daisy_blattk1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04lef2_Mask.png" ]
+MakeNamedMaterial "Oxeye_Daisy_blattk1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Oxeye_Daisy_blattk1_DiffuseMap" ]
+### End Object: Oxeye_Daisy_Simple ### 
+### Object: Oxeye_Daisy_Stengel ### 
+Texture "Oxeye_Daisy_Blutenb_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04pet1.png" ]
+Texture "Oxeye_Daisy_Blutenb_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04pet1_Mask.png" ]
+### End Object: Oxeye_Daisy_Stengel ### 
+### Object: paniceum_Leaf ### 
+MakeNamedMaterial "Oxeye_Daisy_Blutenb"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Oxeye_Daisy_Blutenb_DiffuseMap" ]
+Texture "Oxeye_Daisy_Blutenk_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04cnt2.png" ]
+MakeNamedMaterial "Oxeye_Daisy_Blutenk"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Oxeye_Daisy_Blutenk_DiffuseMap" ]
+### End Object: paniceum_Leaf ### 
+### Object: paniceum_stem ### 
+Texture "Oxeye_Daisy_Simple_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04cnt1.png" ]
+Texture "Oxeye_Daisy_Simple_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04cnt1_Mask.png" ]
+### End Object: paniceum_stem ### 
+### Object: Pansy 1_blblback01 ### 
+MakeNamedMaterial "Oxeye_Daisy_Simple"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Oxeye_Daisy_Simple_DiffuseMap" ]
+Texture "Default_Stengel_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL04stm.png" ]
+MakeNamedMaterial "Default_Stengel"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Default_Stengel_DiffuseMap" ]
+### End Object: Pansy 1_blblback01 ### 
+### Object: Pansy 1_blbll_copy ### 
+Texture "paniceum_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/TR02lef5.png" ]
+Texture "paniceum_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/TR02lef5_Mask.png" ]
+MakeNamedMaterial "paniceum_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "paniceum_Leaf_DiffuseMap" ]
+### End Object: Pansy 1_blbll_copy ### 
+### Object: Pansy 1_blblr ### 
+Texture "paniceum_stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/quercus_rubra_bark.png" ]
+MakeNamedMaterial "paniceum_stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "paniceum_stem_DiffuseMap" ]
+Texture "Pansy 1_blblbac_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe13.png" ]
+### End Object: Pansy 1_blblr ### 
+### Object: Pansy 1_blblu_copy ### 
+Texture "Pansy 1_blblbac_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe13_Mask.png" ]
+MakeNamedMaterial "Pansy 1_blblbac"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_blblbac_DiffuseMap" ]
+Texture "Pansy 1_blbll_c_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe16.png" ]
+### End Object: Pansy 1_blblu_copy ### 
+### Object: Pansy 1_Kelchblatt ### 
+Texture "Pansy 1_blbll_c_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe16_Mask.png" ]
+MakeNamedMaterial "Pansy 1_blbll_c"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_blbll_c_DiffuseMap" ]
+Texture "Pansy 1_blblr_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe14.png" ]
+### End Object: Pansy 1_Kelchblatt ### 
+### Object: Pansy 1_Leaf02 ### 
+Texture "Pansy 1_blblr_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe14_Mask.png" ]
+MakeNamedMaterial "Pansy 1_blblr"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_blblr_DiffuseMap" ]
+Texture "Pansy 1_blblu_c_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe15.png" ]
+### End Object: Pansy 1_Leaf02 ### 
+### Object: Pansy 1_Leaf_copy1 ### 
+Texture "Pansy 1_blblu_c_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19pe15_Mask.png" ]
+MakeNamedMaterial "Pansy 1_blblu_c"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_blblu_c_DiffuseMap" ]
+Texture "Pansy 1_Leafsma_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19lef4.png" ]
+### End Object: Pansy 1_Leaf_copy1 ### 
+### Object: Pansy 1_Revo ### 
+Texture "Pansy 1_Leafsma_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19lef4_Mask.png" ]
+MakeNamedMaterial "Pansy 1_Leafsma"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_Leafsma_DiffuseMap" ]
+### End Object: Pansy 1_Revo ### 
+### Object: pendula_Leaf ### 
+Texture "Pansy 1_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19lef2.png" ]
+Texture "Pansy 1_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19lef2_Mask.png" ]
+MakeNamedMaterial "Pansy 1_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_Leaf_DiffuseMap" ]
+### End Object: pendula_Leaf ### 
+### Object: pendula_stem ### 
+Texture "Pansy 1_Leafcop_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19lef3.png" ]
+Texture "Pansy 1_Leafcop_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19lef3_Mask.png" ]
+### End Object: pendula_stem ### 
+### Object: phyllostachya_Leaf ### 
+MakeNamedMaterial "Pansy 1_Leafcop"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_Leafcop_DiffuseMap" ]
+Texture "Pansy 1_Stengel_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL19stm.png" ]
+MakeNamedMaterial "Pansy 1_Stengel"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pansy 1_Stengel_DiffuseMap" ]
+### End Object: phyllostachya_Leaf ### 
+### Object: phyllostachya_stem ### 
+Texture "pendula_Leaf1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP04lef2.png" ]
+Texture "pendula_Leaf1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/HP04lef2_Mask.png" ]
+### End Object: phyllostachya_stem ### 
+### Object: Poinsettia 1_blossom ### 
+MakeNamedMaterial "pendula_Leaf1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "pendula_Leaf1_DiffuseMap" ]
+Texture "pendula_stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/zebrina_pendula_bark.png" ]
+### End Object: Poinsettia 1_blossom ### 
+### Object: Poinsettia 1_blossomthi ### 
+MakeNamedMaterial "pendula_stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "pendula_stem_DiffuseMap" ]
+Texture "phyllostachya_Leaf1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BL05lef2.png" ]
+### End Object: Poinsettia 1_blossomthi ### 
+### Object: Poinsettia 1_Leaf ### 
+Texture "phyllostachya_Leaf1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BL05lef2_Mask.png" ]
+MakeNamedMaterial "phyllostachya_Leaf1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "phyllostachya_Leaf1_DiffuseMap" ]
+Texture "phyllostachya_stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/hypoestes_phyllostachya_bark.png" ]
+### End Object: Poinsettia 1_Leaf ### 
+### Object: Poinsettia 1_leaftrunk ### 
+MakeNamedMaterial "phyllostachya_stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "phyllostachya_stem_DiffuseMap" ]
+Texture "Poinsettia 1_blossom_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29cnt1.png" ]
+### End Object: Poinsettia 1_leaftrunk ### 
+### Object: Poinsettia 1_redleaf ### 
+MakeNamedMaterial "Poinsettia 1_blossom"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 1_blossom_DiffuseMap" ]
+Texture "Poinsettia 1_bloss01_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29cnt2.png" ]
+MakeNamedMaterial "Poinsettia 1_bloss01"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 1_bloss01_DiffuseMap" ]
+### End Object: Poinsettia 1_redleaf ### 
+### Object: Poinsettia 1_smallred ### 
+Texture "Poinsettia 1_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29lef.png" ]
+Texture "Poinsettia 1_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29lef_Mask.png" ]
+MakeNamedMaterial "Poinsettia 1_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 1_Leaf_DiffuseMap" ]
+### End Object: Poinsettia 1_smallred ### 
+### Object: Poinsettia 1_Tree ### 
+Texture "Poinsettia 1_Tree2_c_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29twg.png" ]
+MakeNamedMaterial "Poinsettia 1_Tree2_c"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 1_Tree2_c_DiffuseMap" ]
+### End Object: Poinsettia 1_Tree ### 
+### Object: Poinsettia 2_leaftrunk ### 
+Texture "Poinsettia 1_redleaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29pet1.png" ]
+Texture "Poinsettia 1_redleaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29pet1_Mask.png" ]
+### End Object: Poinsettia 2_leaftrunk ### 
+### Object: Poinsettia 2_wchrypetal ### 
+MakeNamedMaterial "Poinsettia 1_redleaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 1_redleaf_DiffuseMap" ]
+Texture "Poinsettia 1_smallre_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29pet2.png" ]
+### End Object: Poinsettia 2_wchrypetal ### 
+### Object: Poinsettia 2_wchrleaf ### 
+Texture "Poinsettia 1_smallre_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29pet2_Mask.png" ]
+MakeNamedMaterial "Poinsettia 1_smallre"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 1_smallre_DiffuseMap" ]
+Texture "Poinsettia 1_Tree_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29stm1.png" ]
+### End Object: Poinsettia 2_wchrleaf ### 
+### Object: Poinsettia 2_smallredle ### 
+MakeNamedMaterial "Poinsettia 1_Tree"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 1_Tree_DiffuseMap" ]
+Texture "Poinsettia 2_leaftru_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29twg.png" ]
+MakeNamedMaterial "Poinsettia 2_leaftru"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 2_leaftru_DiffuseMap" ]
+### End Object: Poinsettia 2_smallredle ### 
+### Object: Rose 1_Blatt1_ ### 
+Texture "Default_wchrype_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29stm2.png" ]
+MakeNamedMaterial "Default_wchrype"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Default_wchrype_DiffuseMap" ]
+Texture "Poinsettia 2_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29lef.png" ]
+### End Object: Rose 1_Blatt1_ ### 
+### Object: Rose 1_Blatt2 ### 
+Texture "Poinsettia 2_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29lef_Mask.png" ]
+MakeNamedMaterial "Poinsettia 2_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 2_Leaf_DiffuseMap" ]
+Texture "Poinsettia 2_smallre_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29pet2.png" ]
+### End Object: Rose 1_Blatt2 ### 
+### Object: Rose 1_Blutenbl01 ### 
+Texture "Poinsettia 2_smallre_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL29pet2_Mask.png" ]
+MakeNamedMaterial "Poinsettia 2_smallre"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Poinsettia 2_smallre_DiffuseMap" ]
+Texture "Rose 1_Blatt1__DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef1.png" ]
+### End Object: Rose 1_Blutenbl01 ### 
+### Object: Rose 1_Dorne ### 
+Texture "Rose 1_Blatt1__Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef1_Mask.png" ]
+MakeNamedMaterial "Rose 1_Blatt1_"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 1_Blatt1__DiffuseMap" ]
+### End Object: Rose 1_Dorne ### 
+### Object: Rose 1_elchblatt ### 
+Texture "Rose 1_Blatt2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef2.png" ]
+Texture "Rose 1_Blatt2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef2_Mask.png" ]
+MakeNamedMaterial "Rose 1_Blatt2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 1_Blatt2_DiffuseMap" ]
+### End Object: Rose 1_elchblatt ### 
+### Object: Rose 1_Kelchcopy ### 
+Texture "Rose 1_Blutenb_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17pet5.png" ]
+Texture "Rose 1_Blutenb_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17pet5_Mask.png" ]
+### End Object: Rose 1_Kelchcopy ### 
+### Object: Rose 2_Blatt1_ ### 
+MakeNamedMaterial "Rose 1_Blutenb"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 1_Blutenb_DiffuseMap" ]
+Texture "Rose 1_Stil_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17stm.png" ]
+MakeNamedMaterial "Rose 1_Stil"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 1_Stil_DiffuseMap" ]
+### End Object: Rose 2_Blatt1_ ### 
+### Object: Rose 2_Blutenbl01 ### 
+Texture "Rose 1_Kelchbl_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef6.png" ]
+Texture "Rose 1_Kelchbl_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef6_Mask.png" ]
+MakeNamedMaterial "Rose 1_Kelchbl"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 1_Kelchbl_DiffuseMap" ]
+### End Object: Rose 2_Blutenbl01 ### 
+### Object: Rose 2_Dorne ### 
+Texture "Rose 1_Kelchco_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17cnt.png" ]
+MakeNamedMaterial "Rose 1_Kelchco"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 1_Kelchco_DiffuseMap" ]
+### End Object: Rose 2_Dorne ### 
+### Object: Rose 2_Kelch_copy ### 
+Texture "Rose 2_Blatt1__DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef3.png" ]
+Texture "Rose 2_Blatt1__Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef3_Mask.png" ]
+### End Object: Rose 2_Kelch_copy ### 
+### Object: Rose 2_Kelchblatt ### 
+MakeNamedMaterial "Rose 2_Blatt1_"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 2_Blatt1__DiffuseMap" ]
+Texture "Rose 2__Blutenb_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17pet1.png" ]
+Texture "Rose 2__Blutenb_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17pet1_Mask.png" ]
+### End Object: Rose 2_Kelchblatt ### 
+### Object: Rose 3_Blatt2 ### 
+MakeNamedMaterial "Rose 2__Blutenb"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 2__Blutenb_DiffuseMap" ]
+Texture "Rose 2__Stil_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17stm.png" ]
+MakeNamedMaterial "Rose 2__Stil"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 2__Stil_DiffuseMap" ]
+### End Object: Rose 3_Blatt2 ### 
+### Object: Rose 3_Blutenbl01 ### 
+Texture "Rose 2__Kelch_c_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17cnt.png" ]
+MakeNamedMaterial "Rose 2__Kelch_c"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 2__Kelch_c_DiffuseMap" ]
+Texture "Rose 2__Kelchbl_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef5.png" ]
+### End Object: Rose 3_Blutenbl01 ### 
+### Object: verschaffeltii_Leaf ### 
+Texture "Rose 2__Kelchbl_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef5_Mask.png" ]
+MakeNamedMaterial "Rose 2__Kelchbl"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 2__Kelchbl_DiffuseMap" ]
+Texture "Rose 3_Blatt2_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef2.png" ]
+### End Object: verschaffeltii_Leaf ### 
+### Object: verschaffeltii_level1 ### 
+Texture "Rose 3_Blatt2_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17lef2_Mask.png" ]
+MakeNamedMaterial "Rose 3_Blatt2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 3_Blatt2_DiffuseMap" ]
+### End Object: verschaffeltii_level1 ### 
+### Object: zebrina_Leaf ### 
+Texture "Rose 3_Blutenb_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17pet2.png" ]
+Texture "Rose 3_Blutenb_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL17pet2_Mask.png" ]
+MakeNamedMaterial "Rose 3_Blutenb"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Rose 3_Blutenb_DiffuseMap" ]
+### End Object: zebrina_Leaf ### 
+### Object: zebrina_stem ### 
+Texture "verschaffeltii_Leaf1_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL03lef1.png" ]
+Texture "verschaffeltii_Leaf1_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL03lef1_Mask.png" ]
+### End Object: zebrina_stem ### 
+MakeNamedMaterial "verschaffeltii_Leaf1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "verschaffeltii_Leaf1_DiffuseMap" ]
+Texture "verschaffeltii_stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/fittonia_verschaffeltii_bark.png" ]
+MakeNamedMaterial "verschaffeltii_stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "verschaffeltii_stem_DiffuseMap" ]
+Texture "zebrina_Leaf_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/EU15lef.png" ]
+Texture "zebrina_Leaf_Mash" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/EU15lef_Mask.png" ]
+MakeNamedMaterial "zebrina_Leaf"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "zebrina_Leaf_DiffuseMap" ]
+Texture "zebrina_stem_DiffuseMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/FL24stm.png" ]
+MakeNamedMaterial "zebrina_stem"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "zebrina_stem_DiffuseMap" ]

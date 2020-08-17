@@ -1,0 +1,4526 @@
+#############################################
+
+AttributeBegin
+    ObjectBegin "Silla D Tachuela335"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Tachuelas"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00001.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.841771 -0.539834 0 0 0 0 1 0 -0.211113 0.329192 0 0 25.3478 2.56405 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.464415 0.885618 0 0 0 0 1 0 0.34634 0.181619 0 0 25.5035 1.13935 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.841771 0.539834 0 0 0 0 1 0 0.211113 -0.329192 0 0 24.185 1.005 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.611145 -0.791518 0 0 0 0 1 0 -0.30954 -0.239001 0 0 23.9416 2.3188 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.219375 0.97564 0 0 0 0 1 0 0.381545 0.0857913 0 0 8.51528 0.902189 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.739306 0.673369 0 0 0 0 1 0 0.263335 0.289121 0 0 22.5569 1.1508 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.539834 -0.841771 0 0 0 0 1 0 -0.329193 -0.211113 0 0 20.813 2.35595 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.791518 -0.611145 0 0 0 0 1 0 -0.239001 0.30954 0 0 22.1793 2.52841 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.791518 0.611145 0 0 0 0 1 0 0.239001 -0.30954 0 0 20.9488 0.813377 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.998912 -0.0466242 0 0 0 0 1 0 -0.0182334 0.390646 0 0 9.10966 2.05951 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.998912 0.0466243 0 0 0 0 1 0 0.0182334 -0.390646 0 0 7.09547 1.32772 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0406143 -0.999175 0 0 0 0 1 0 -0.390748 0.0158831 0 0 7.84072 2.77741 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.464415 0.885618 0 0 0 0 1 0 0.34634 0.181619 0 0 12.2182 1.13935 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.841771 0.539834 0 0 0 0 1 0 0.211113 -0.329192 0 0 10.8997 1.005 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.611145 -0.791518 0 0 0 0 1 0 -0.30954 -0.239001 0 0 10.6563 2.3188 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.841771 -0.539834 0 0 0 0 1 0 -0.211113 0.329192 0 0 12.0624 2.56405 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.885618 -0.464415 0 0 0 0 1 0 -0.181619 0.34634 0 0 15.3709 2.35351 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.611145 0.791518 0 0 0 0 1 0 0.30954 0.239001 0 0 15.6468 1.05136 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.791518 0.611145 0 0 0 0 1 0 0.239001 -0.30954 0 0 14.1705 0.749205 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.677804 -0.735242 0 0 0 0 1 0 -0.287532 -0.26507 0 0 13.9299 2.07514 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.303573 -0.952808 0 0 0 0 1 0 -0.372616 -0.118719 0 0 17.522 2.592 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.952808 -0.303573 0 0 0 0 1 0 -0.118719 0.372616 0 0 18.9183 2.52385 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.464414 0.885618 0 0 0 0 1 0 0.34634 0.181619 0 0 18.8633 1.21128 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.922724 0.385461 0 0 0 0 1 0 0.150743 -0.360851 0 0 17.4555 1.1528 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.726763 0.686885 -0.00203895 0 0.0311423 0.0359153 0.998869 0 0.268346 0.28387 -0.0185732 0 25.5372 2.48527 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.747613 0.664131 -0.00203895 0 0.0330644 -0.034154 0.998869 0 0.259402 -0.292066 -0.0185732 0 25.4085 0.95754 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.726763 -0.686885 -0.00203895 0 -0.0311423 -0.0359153 0.998869 0 -0.268346 -0.28387 -0.0185732 0 23.9957 1.08378 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.62093 -0.783863 -0.00203895 0 -0.0384929 0.0278936 0.998869 0 -0.306178 0.242584 -0.0185732 0 24.0036 2.51434 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.894029 0.448005 -0.00203895 0 0.0230981 -0.041548 0.998869 0 0.174971 -0.349252 -0.0185732 0 8.37648 0.75116 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.47538 0.879778 -0.00203895 0 0.0427518 -0.0207856 0.998869 0 0.34365 -0.185731 -0.0185732 0 22.5298 0.947474 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.686886 -0.726763 -0.00203895 0 -0.0359153 0.0311423 0.998869 0 -0.28387 0.268346 -0.0185732 0 20.8918 2.54534 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.783863 0.62093 -0.00203895 0 0.0278936 0.0384929 0.998869 0 0.242584 0.306178 -0.0185732 0 22.3749 2.46644 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.783863 -0.62093 -0.00203895 0 -0.0278936 -0.0384929 0.998869 0 -0.242584 -0.306178 -0.0185732 0 20.7533 0.875345 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.285952 0.958242 -0.00203895 0 0.0449277 0.0155324 0.998869 0 0.374329 0.111665 -0.0185732 0 9.23429 1.89659 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.285952 -0.958242 -0.00203895 0 -0.0449277 -0.0155324 0.998869 0 -0.374329 -0.111666 -0.0185732 0 6.97084 1.49064 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.979518 -0.201348 -0.00203895 0 -0.0115576 0.0461105 0.998869 0 -0.0786155 0.382637 -0.0185732 0 8.01388 2.88737 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.747613 0.664131 -0.00203895 0 0.0330644 -0.034154 0.998869 0 0.259402 -0.292066 -0.0185732 0 12.1232 0.95754 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.726763 -0.686885 -0.00203895 0 -0.0311423 -0.0359153 0.998869 0 -0.268346 -0.28387 -0.0185732 0 10.7103 1.08378 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.62093 -0.783863 -0.00203895 0 -0.0384929 0.0278936 0.998869 0 -0.306178 0.242584 -0.0185732 0 10.7183 2.51434 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.726763 0.686885 -0.00203895 0 0.0311423 0.0359153 0.998869 0 0.268346 0.28387 -0.0185732 0 12.2518 2.48527 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.664131 0.747613 -0.00203895 0 0.034154 0.0330644 0.998869 0 0.292066 0.259402 -0.0185732 0 15.5527 2.25853 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.62093 0.783863 -0.00203895 0 0.0384929 -0.0278936 0.998869 0 0.306178 -0.242584 -0.0185732 0 15.5848 0.85582 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.783863 -0.62093 -0.00203895 0 -0.0278936 -0.0384929 0.998869 0 -0.242584 -0.306178 -0.0185732 0 13.975 0.811173 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.550249 -0.834998 -0.00203895 0 -0.0407775 0.0244326 0.998869 0 -0.326155 0.214976 -0.0185732 0 13.9745 2.27533 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.85158 -0.52422 -0.00203895 0 -0.0266313 0.0393767 0.998869 0 -0.204744 0.332673 -0.0185732 0 17.6471 2.75455 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.52422 0.851581 -0.00203895 0 0.0393767 0.0266313 0.998869 0 0.332673 0.204744 -0.0185732 0 19.0809 2.39874 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.747613 0.664131 -0.00203895 0 0.0330644 -0.034154 0.998869 0 0.259402 -0.292066 -0.0185732 0 18.7683 1.02947 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.596445 -0.802651 -0.00203895 0 -0.0369058 -0.0299619 0.998869 0 -0.313563 -0.232959 -0.0185732 0 17.2827 1.26326 0.499258 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.841771 -0.539834 0 0 0 0 1 0 -0.211113 0.329192 0 0 25.258 2.49453 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.464415 0.885618 0 0 0 0 1 0 0.34634 0.181619 0 0 25.4421 1.23484 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.841771 0.539834 0 0 0 0 1 0 0.211113 -0.329192 0 0 24.2748 1.07452 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.611145 -0.791518 0 0 0 0 1 0 -0.30954 -0.239001 0 0 24.0187 2.23542 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.219375 0.97564 0 0 0 0 1 0 0.381545 0.0857913 0 0 8.48066 1.01033 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.739306 0.673369 0 0 0 0 1 0 0.263335 0.289121 0 0 22.4665 1.21953 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.539834 -0.841771 0 0 0 0 1 0 -0.329193 -0.211113 0 0 20.8825 2.26617 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.791518 -0.611145 0 0 0 0 1 0 -0.239001 0.30954 0 0 22.096 2.45133 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.791518 0.611145 0 0 0 0 1 0 0.239001 -0.30954 0 0 21.0322 0.890454 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.998912 -0.0466242 0 0 0 0 1 0 -0.0182334 0.390646 0 0 8.99715 2.04419 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.998912 0.0466243 0 0 0 0 1 0 0.0182334 -0.390646 0 0 7.20798 1.34304 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0406143 -0.999175 0 0 0 0 1 0 -0.390748 0.0158831 0 0 7.84617 2.66399 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.464415 0.885618 0 0 0 0 1 0 0.34634 0.181619 0 0 12.1567 1.23484 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.841771 0.539834 0 0 0 0 1 0 0.211113 -0.329192 0 0 10.9895 1.07452 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.611145 -0.791518 0 0 0 0 1 0 -0.30954 -0.239001 0 0 10.7334 2.23542 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.841771 -0.539834 0 0 0 0 1 0 -0.211113 0.329192 0 0 11.9727 2.49453 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.885618 -0.464415 0 0 0 0 1 0 -0.181619 0.34634 0 0 15.2754 2.29208 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.611145 0.791518 0 0 0 0 1 0 0.30954 0.239001 0 0 15.5697 1.13474 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.791518 0.611145 0 0 0 0 1 0 0.239001 -0.30954 0 0 14.2539 0.826282 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.677804 -0.735242 0 0 0 0 1 0 -0.287532 -0.26507 0 0 14.0139 1.99879 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.303573 -0.952808 0 0 0 0 1 0 -0.372616 -0.118719 0 0 17.5659 2.48729 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.952808 -0.303573 0 0 0 0 1 0 -0.118719 0.372616 0 0 18.8136 2.47994 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.464414 0.885618 0 0 0 0 1 0 0.34634 0.181619 0 0 18.8019 1.30677 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.922724 0.385461 0 0 0 0 1 0 0.150743 -0.360851 0 0 17.556 1.20567 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.822477 -0.56876 0.00667138 0 0.0460013 -0.0548224 0.997436 0 -0.221712 0.320942 0.0278653 0 25.1591 2.42115 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.494912 0.868918 0.00667138 0 -0.058623 -0.0410482 0.997436 0 0.339044 0.192896 0.0278653 0 25.3776 1.33979 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.822477 0.56876 0.00667138 0 -0.0460013 0.0548224 0.997436 0 0.221712 -0.320942 0.0278653 0 24.3738 1.1479 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.638279 -0.769776 0.00667138 0 0.0506045 0.0506044 0.997436 0 -0.300397 -0.24884 0.0278653 0 24.1004 2.14327 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.253155 0.967403 0.00667138 0 -0.0672496 -0.0244767 0.997436 0 0.377417 0.0985724 0.0278653 0 8.44554 1.12839 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.762252 0.647246 0.00667138 0 -0.0410483 -0.0586229 0.997436 0 0.252623 0.297223 0.0278653 0 22.37 1.29609 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.568759 -0.822477 0.00667138 0 0.0548224 0.0460013 0.997436 0 -0.320942 -0.221712 0.0278653 0 20.9559 2.16724 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.769776 -0.638279 0.00667138 0 0.0506044 -0.0506045 0.997436 0 -0.24884 0.300397 0.0278653 0 22.0038 2.36961 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.769776 0.638279 0.00667138 0 -0.0506044 0.0506045 0.997436 0 0.24884 -0.300397 0.0278653 0 21.1243 0.972178 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996666 -0.0813216 0.00667138 0 0.0124271 -0.0704782 0.997436 0 -0.0315371 0.3888 0.0278653 0 8.87479 2.0301 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.996666 0.0813218 0.00667138 0 -0.0124271 0.0704782 0.997436 0 0.0315372 -0.3888 0.0278653 0 7.33034 1.35713 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.005853 -0.999961 0.00667138 0 0.0712931 0.00623724 0.997436 0 -0.390069 0.00246908 0.0278653 0 7.84954 2.54087 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.494912 0.868918 0.00667138 0 -0.058623 -0.0410482 0.997436 0 0.339044 0.192896 0.0278653 0 12.0923 1.33979 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.822477 0.56876 0.00667138 0 -0.0460013 0.0548224 0.997436 0 0.221712 -0.320942 0.0278653 0 11.0884 1.1479 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.638279 -0.769776 0.00667138 0 0.0506045 0.0506044 0.997436 0 -0.300397 -0.24884 0.0278653 0 10.8151 2.14327 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.822477 -0.56876 0.00667138 0 0.0460013 -0.0548224 0.997436 0 -0.221712 0.320942 0.0278653 0 11.8737 2.42115 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.868918 -0.494912 0.00667138 0 0.0410482 -0.058623 0.997436 0 -0.192896 0.339044 0.0278653 0 15.1705 2.2276 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.638279 0.769776 0.00667138 0 -0.0506045 -0.0506044 0.997436 0 0.300397 0.24884 0.0278653 0 15.488 1.22689 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.769776 0.638279 0.00667138 0 -0.0506044 0.0506045 0.997436 0 0.24884 -0.300397 0.0278653 0 14.3461 0.908006 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.70294 -0.711218 0.00667138 0 0.0460015 0.0548223 0.997436 0 -0.277567 -0.274075 0.0278653 0 14.1034 1.91412 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.336507 -0.941657 0.00667138 0 0.0648604 0.0302448 0.997436 0 -0.36739 -0.131091 0.0278653 0 17.6111 2.37275 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.941658 -0.336507 0.00667138 0 0.0302448 -0.0648604 0.997436 0 -0.131091 0.36739 0.0278653 0 18.6991 2.43466 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.494912 0.868918 0.00667138 0 -0.058623 -0.0410482 0.997436 0 0.339044 0.192896 0.0278653 0 18.7374 1.41172 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.908746 0.417297 0.00667138 0 -0.0357826 0.0619776 0.997436 0 0.162613 -0.354566 0.0278653 0 17.6661 1.26076 0.502356 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.817509 -0.575907 -0.00306605 0 0.0225398 -0.0373144 0.999049 0 -0.225051 0.319373 0.017006 0 25.0662 2.34776 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.502465 0.864592 -0.00306605 0 -0.0391369 -0.0192019 0.999049 0 0.337773 0.19636 0.017006 0 25.3126 1.43871 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.817509 0.575907 -0.00306605 0 -0.0225398 0.0373144 0.999049 0 0.225051 -0.319373 0.017006 0 24.4666 1.22129 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.644966 -0.764205 -0.00306605 0 0.035208 0.0257062 0.999049 0 -0.298544 -0.25203 0.017006 0 24.1816 2.05714 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.261571 0.965179 -0.003066 0 -0.0427731 -0.00841825 0.999049 0 0.377085 0.102247 0.017006 0 8.40834 1.24077 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.76787 0.640598 -0.00306605 0 -0.0302092 -0.0314295 0.999049 0 0.250243 0.300043 0.017006 0 22.2751 1.36681 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.575907 -0.81751 -0.00306605 0 0.0373144 0.0225398 0.999049 0 -0.319373 -0.225051 0.017006 0 21.0293 2.07436 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.764205 -0.644966 -0.00306605 0 0.0257062 -0.035208 0.999049 0 -0.25203 0.298544 0.017006 0 21.9177 2.28841 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.764205 0.644966 -0.00306605 0 -0.0257062 0.035208 0.999049 0 0.25203 -0.298544 0.017006 0 21.2105 1.05338 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.995937 -0.0899952 -0.00306605 0 0.000862827 -0.0435852 0.999049 0 -0.0352133 0.389111 0.017006 0 8.75765 2.01299 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.995937 0.0899953 -0.00306605 0 -0.000862834 0.0435852 0.999049 0 0.0352134 -0.389111 0.017006 0 7.44747 1.37424 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.002851 -0.999991 -0.00306605 0 0.0434945 -0.00293916 0.999049 0 -0.390699 -0.00116604 0.017006 0 7.85638 2.42269 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.502465 0.864592 -0.00306605 0 -0.0391369 -0.0192019 0.999049 0 0.337773 0.19636 0.017006 0 12.0272 1.43871 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.817509 0.575907 -0.00306605 0 -0.0225398 0.0373144 0.999049 0 0.225051 -0.319373 0.017006 0 11.1813 1.22129 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.644966 -0.764205 -0.00306605 0 0.035208 0.0257062 0.999049 0 -0.298544 -0.25203 0.017006 0 10.8963 2.05714 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.817509 -0.575907 -0.00306605 0 0.0225398 -0.0373144 0.999049 0 -0.225051 0.319373 0.017006 0 11.7808 2.34776 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.864592 -0.502465 -0.00306605 0 0.0192019 -0.0391369 0.999049 0 -0.19636 0.337773 0.017006 0 15.0715 2.16259 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.644966 0.764205 -0.00306605 0 -0.035208 -0.0257062 0.999049 0 0.298544 0.25203 0.017006 0 15.4067 1.31302 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.764205 0.644966 -0.00306605 0 -0.0257062 0.035208 0.999049 0 0.25203 -0.298544 0.017006 0 14.4322 0.989208 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709116 -0.705085 -0.00306605 0 0.0328336 0.028677 0.999049 0 -0.275442 -0.277091 0.017006 0 14.1918 1.83539 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.344696 -0.938709 -0.00306605 0 0.0418767 0.0121141 0.999049 0 -0.366738 -0.134723 0.017006 0 17.658 2.26403 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.938709 -0.344696 -0.00306605 0 0.0121141 -0.0418767 0.999049 0 -0.134723 0.366738 0.017006 0 18.5904 2.38782 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.502465 0.864592 -0.00306605 0 -0.0391369 -0.0192019 0.999049 0 0.337773 0.19636 0.017006 0 18.6724 1.51064 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.905095 0.425199 -0.00306605 0 -0.0157178 0.0406615 0.999049 0 0.166174 -0.353601 0.017006 0 17.7704 1.3169 0.503055 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.645734 -0.763458 0.0126314 0 -0.0476925 0.0568378 0.997244 0 0.298024 -0.251596 0.0285925 0 25.5861 2.10343 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.704273 0.709816 0.0126314 0 0.0607782 0.0425573 0.997244 0 -0.276613 -0.274962 0.0285925 0 25.0238 0.942041 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.645734 0.763458 0.0126314 0 0.0476925 -0.0568378 0.997244 0 -0.298024 0.251596 0.0285925 0 23.9467 1.46562 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.816832 -0.576737 0.0126314 0 -0.0524648 -0.0524648 0.997244 0 0.224664 0.318818 0.0285925 0 24.3797 2.5964 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.496562 0.867909 0.0126314 0 0.0697214 0.0253764 0.997244 0 -0.338353 -0.194 0.0285923 0 8.00092 0.835745 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.904572 0.426134 0.0126314 0 0.0425573 0.0607781 0.997244 0 -0.165889 -0.352987 0.0285925 0 22.1737 0.80135 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.763458 -0.645734 0.0126314 0 -0.0568378 -0.0476925 0.997244 0 0.251596 0.298024 0.0285925 0 21.2736 2.5943 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.576737 -0.816832 0.0126314 0 -0.0524648 0.0524648 0.997244 0 0.318818 -0.224664 0.0285925 0 22.4569 2.09032 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.576737 0.816832 0.0126314 0 0.0524648 -0.0524648 0.997244 0 -0.318818 0.224664 0.0285925 0 20.6712 1.25146 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.940951 -0.338307 0.0126314 0 -0.012884 0.0730692 0.997244 0 0.132298 -0.366901 0.0285925 0 9.08577 1.54142 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.940951 0.338307 0.0126314 0 0.0128841 -0.0730692 0.997244 0 -0.132298 0.366901 0.0285925 0 7.11935 1.84581 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.25501 -0.966856 0.0126314 0 -0.0739141 -0.00646661 0.997244 0 0.377035 0.0998174 0.0285925 0 8.35475 2.70846 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.704273 0.709816 0.0126314 0 0.0607782 0.0425573 0.997244 0 -0.276613 -0.274962 0.0285925 0 11.7385 0.942041 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.645734 0.763458 0.0126314 0 0.0476925 -0.0568378 0.997244 0 -0.298024 0.251596 0.0285925 0 10.6614 1.46562 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.816832 -0.576737 0.0126314 0 -0.0524648 -0.0524648 0.997244 0 0.224664 0.318818 0.0285925 0 11.0944 2.5964 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.645734 -0.763458 0.0126314 0 -0.0476925 0.0568378 0.997244 0 0.298024 -0.251596 0.0285925 0 12.3008 2.10343 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.709816 -0.704273 0.0126314 0 -0.0425573 0.0607782 0.997244 0 0.274962 -0.276613 0.0285925 0 15.5682 1.87387 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.816832 0.576737 0.0126314 0 0.0524648 0.0524648 0.997244 0 -0.224664 -0.318818 0.0285925 0 15.2087 0.773762 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.576737 0.816832 0.0126314 0 0.0524648 -0.0524648 0.997244 0 -0.318818 0.224664 0.0285925 0 13.8929 1.18729 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.86399 -0.503351 0.0126314 0 -0.0476926 -0.0568377 0.997244 0 0.196023 0.337186 0.0285925 0 14.3421 2.38986 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.570316 -0.821328 0.0126314 0 -0.0672448 -0.0313568 0.997244 0 0.320158 0.222751 0.0285925 0 18.0286 2.70302 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.821329 -0.570315 0.0126314 0 -0.0313567 0.0672448 0.997244 0 0.222751 -0.320158 0.0285925 0 19.0294 2.01724 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.704273 0.709816 0.0126314 0 0.0607782 0.0425573 0.997244 0 -0.276613 -0.274962 0.0285925 0 18.3837 1.01397 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.768497 0.639729 0.0126314 0 0.0370982 -0.064256 0.997244 0 -0.249807 0.299525 0.0285925 0 17.3007 1.6478 0.500305 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.702804 -0.71138 -0.0022645 0 0.0156117 -0.0186058 0.999705 0 0.278134 -0.274752 -0.00945693 0 25.4963 2.01923 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.647419 0.762131 -0.0022645 0 -0.0198957 -0.0139307 0.999705 0 -0.297947 -0.25313 -0.00945693 0 24.9478 1.03889 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.702804 0.71138 -0.0022645 0 -0.0156117 0.0186058 0.999705 0 -0.278134 0.274752 -0.00945693 0 24.0365 1.54982 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.769926 -0.638129 -0.0022645 0 0.0171744 0.0171739 0.999705 0 0.249465 0.301022 -0.00945693 0 24.4714 2.51422 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.428105 0.903726 -0.0022645 0 -0.0228233 -0.00830664 0.999705 0 -0.35331 -0.16739 -0.00945693 0 7.95252 0.948979 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.869039 0.494738 -0.0022645 0 -0.0139312 -0.0198953 0.999705 0 -0.193403 -0.339768 -0.00945693 0 22.0691 0.866348 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.711379 -0.702804 -0.0022645 0 0.0186058 0.0156117 0.999705 0 0.274752 0.278134 -0.00945693 0 21.3578 2.50445 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.638129 -0.769926 -0.0022645 0 0.0171739 -0.0171744 0.999705 0 0.301022 -0.249465 -0.00945693 0 22.3748 1.99861 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.638129 0.769926 -0.0022645 0 -0.0171739 0.0171744 0.999705 0 -0.301022 0.249465 -0.00945693 0 20.7534 1.34318 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.964336 -0.264671 -0.0022645 0 0.00421722 -0.023919 0.999705 0 0.103496 -0.377009 -0.00945693 0 8.96586 1.51343 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.964336 0.264671 -0.0022645 0 -0.00421723 0.023919 0.999705 0 -0.103496 0.377009 -0.00945693 0 7.23927 1.8738 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.179616 -0.983734 -0.0022645 0 0.0241955 0.0021165 0.999705 0 0.384595 0.0702433 -0.00945693 0 8.37219 2.58656 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.647419 0.762131 -0.0022645 0 -0.0198957 -0.0139307 0.999705 0 -0.297947 -0.25313 -0.00945693 0 11.6625 1.03889 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.702804 0.71138 -0.0022645 0 -0.0156117 0.0186058 0.999705 0 -0.278134 0.274752 -0.00945693 0 10.7512 1.54982 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.769926 -0.638129 -0.0022645 0 0.0171744 0.0171739 0.999705 0 0.249465 0.301022 -0.00945693 0 11.1861 2.51422 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.702804 -0.71138 -0.0022645 0 0.0156117 -0.0186058 0.999705 0 0.278134 -0.274752 -0.00945693 0 12.2109 2.01923 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.762131 -0.647419 -0.0022645 0 0.0139307 -0.0198957 0.999705 0 0.25313 -0.297947 -0.00945693 0 15.4713 1.79782 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.769926 0.638129 -0.0022645 0 -0.0171744 -0.0171739 0.999705 0 -0.249465 -0.301022 -0.00945693 0 15.1169 0.855934 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.638129 0.769926 -0.0022645 0 -0.0171739 0.0171744 0.999705 0 -0.301022 0.249465 -0.00945693 0 13.9751 1.27901 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.822613 -0.568597 -0.0022645 0 0.0156122 0.0186054 0.999705 0 0.22228 0.321619 -0.00945693 0 14.4406 2.31599 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.505241 -0.862975 -0.0022645 0 0.0220125 0.0102642 0.999705 0 0.337376 0.197546 -0.00945693 0 18.0867 2.59444 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.862975 -0.505241 -0.0022645 0 0.0102642 -0.0220125 0.999705 0 0.197546 -0.337376 -0.00945693 0 18.9208 1.95916 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.647419 0.762131 -0.0022645 0 -0.0198957 -0.0139307 0.999705 0 -0.297947 -0.25313 -0.00945693 0 18.3076 1.11082 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.815657 0.578531 -0.0022645 0 -0.0121437 0.0210341 0.999705 0 -0.226199 0.318875 -0.00945693 0 17.4038 1.71513 0.501454 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.709623 -0.704481 -0.0118997 0 0.0347304 -0.0518424 0.998051 0 0.275207 -0.276811 -0.0239553 0 25.4058 1.93693 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.639953 0.768322 -0.0118997 0 -0.0546721 -0.0300799 0.998051 0 -0.299743 -0.250034 -0.0239553 0 24.8737 1.13614 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709623 0.704481 -0.0118997 0 -0.0347304 0.0518424 0.998051 0 -0.275207 0.276811 -0.0239553 0 24.127 1.63212 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.763648 -0.645523 -0.0118997 0 0.0486182 0.0391166 0.998051 0 0.251771 0.298285 -0.0239553 0 24.5613 2.43132 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.41929 0.907774 -0.0118997 0 -0.0605944 -0.0149048 0.998051 0 -0.354243 -0.163935 -0.0239553 0 7.90611 1.0621 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.86414 0.50311 -0.0118997 0 -0.041087 -0.0469648 0.998051 0 -0.19615 -0.337473 -0.0239553 0 21.9662 0.932388 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.704481 -0.709623 -0.0118997 0 0.0518424 0.0347304 0.998051 0 0.276811 0.275206 -0.0239553 0 21.4401 2.41403 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.645523 -0.763648 -0.0118997 0 0.0391166 -0.0486182 0.998051 0 0.298285 -0.251771 -0.0239553 0 22.2919 1.90874 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.645523 0.763648 -0.0118997 0 -0.0391166 0.0486182 0.998051 0 -0.298285 0.251771 -0.0239553 0 20.8363 1.43305 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.966792 -0.255287 -0.0118997 0 0.00415623 -0.062262 0.998051 0 0.0999306 -0.377328 -0.0239553 0 8.84639 1.48736 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.966792 0.255287 -0.0118997 0 -0.00415624 0.062262 0.998051 0 -0.0999306 0.377328 -0.0239553 0 7.35873 1.89987 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.170054 -0.985363 -0.0118997 0 0.0623874 -0.00128608 0.998051 0 0.384602 0.0666639 -0.0239553 0 8.38775 2.46528 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.639953 0.768322 -0.0118997 0 -0.0546721 -0.0300799 0.998051 0 -0.299743 -0.250034 -0.0239553 0 11.5884 1.13614 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.709623 0.704481 -0.0118997 0 -0.0347304 0.0518424 0.998051 0 -0.275207 0.276811 -0.0239553 0 10.8416 1.63212 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.763648 -0.645523 -0.0118997 0 0.0486182 0.0391166 0.998051 0 0.251771 0.298285 -0.0239553 0 11.276 2.43132 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.709623 -0.704481 -0.0118997 0 0.0347304 -0.0518424 0.998051 0 0.275207 -0.276811 -0.0239553 0 12.1205 1.93693 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.768322 -0.639953 -0.0118997 0 0.0300799 -0.0546721 0.998051 0 0.250034 -0.299743 -0.0239553 0 15.3741 1.72371 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.763648 0.645523 -0.0118997 0 -0.0486182 -0.0391166 0.998051 0 -0.251771 -0.298285 -0.0239553 0 15.0271 0.93884 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.645523 0.763648 -0.0118997 0 -0.0391166 0.0486182 0.998051 0 -0.298285 0.251771 -0.0239553 0 14.058 1.36888 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.817003 -0.57651 -0.0118997 0 0.0450239 0.0432051 0.998051 0 0.224816 0.319093 -0.0239553 0 14.5374 2.24124 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.496813 -0.867776 -0.0118997 0 0.0590648 0.0201292 0.998051 0 0.338607 0.194185 -0.0239553 0 18.1427 2.48579 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.867776 -0.496812 -0.0118997 0 0.0201292 -0.0590648 0.998051 0 0.194185 -0.338607 -0.0239553 0 18.8121 1.90307 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.639953 0.768322 -0.0118997 0 -0.0546721 -0.0300799 0.998051 0 -0.299743 -0.250034 -0.0239553 0 18.2335 1.20808 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.821174 0.570554 -0.0118997 0 -0.0252005 0.0570857 0.998051 0 -0.222958 0.320394 -0.0239553 0 17.5072 1.78048 0.500925 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.677805 -0.735242 0 0 0 0 1 0 0.287532 -0.26507 0 0 25.6691 2.1801 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.673369 0.739306 0 0 0 0 1 0 -0.289121 -0.263335 0 0 25.093 0.852656 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.677805 0.735242 0 0 0 0 1 0 -0.287532 0.26507 0 0 23.8637 1.38895 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.791518 -0.611145 0 0 0 0 1 0 0.239001 0.30954 0 0 24.2961 2.67242 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.459078 0.888396 0 0 0 0 1 0 -0.347426 -0.179532 0 0 8.04457 0.731511 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.885618 0.464415 0 0 0 0 1 0 -0.181619 -0.34634 0 0 22.2692 0.741003 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.735241 -0.677805 0 0 0 0 1 0 0.26507 0.287532 0 0 21.1969 2.67732 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.611145 -0.791518 0 0 0 0 1 0 0.30954 -0.239001 0 0 22.533 2.17393 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.611145 0.791518 0 0 0 0 1 0 -0.30954 0.239001 0 0 20.5952 1.16785 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.954617 -0.297835 0 0 0 0 1 0 0.116475 -0.373323 0 0 9.196 1.56631 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.954617 0.297835 0 0 0 0 1 0 -0.116475 0.373323 0 0 7.00912 1.82092 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.213501 -0.976943 0 0 0 0 1 0 0.382054 0.0834943 0 0 8.33957 2.82044 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.673369 0.739306 0 0 0 0 1 0 -0.289121 -0.263335 0 0 11.8077 0.852656 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.677805 0.735242 0 0 0 0 1 0 -0.287532 0.26507 0 0 10.5783 1.38895 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.791518 -0.611145 0 0 0 0 1 0 0.239001 0.30954 0 0 11.0108 2.67242 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.677805 -0.735242 0 0 0 0 1 0 0.287532 -0.26507 0 0 12.3838 2.1801 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.739306 -0.673369 0 0 0 0 1 0 0.263335 -0.289121 0 0 15.6576 1.94301 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.791518 0.611145 0 0 0 0 1 0 -0.239001 -0.30954 0 0 15.2923 0.697741 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.611145 0.791518 0 0 0 0 1 0 -0.30954 0.239001 0 0 13.8169 1.10368 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.841771 -0.539835 0 0 0 0 1 0 0.211114 0.329192 0 0 14.2522 2.4583 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.53476 -0.845004 0 0 0 0 1 0 0.330457 0.209129 0 0 17.976 2.80306 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.845004 -0.53476 0 0 0 0 1 0 0.209129 -0.330457 0 0 19.1294 2.06981 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.673369 0.739306 0 0 0 0 1 0 -0.289121 -0.263335 0 0 18.4528 0.924588 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.795181 0.606372 0 0 0 0 1 0 -0.237135 0.310972 0 0 17.2057 1.58672 0.502286 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.586753 0.809739 -0.00659699 0 0.0257107 0.0267719 0.999311 0 -0.316516 -0.229238 0.0142848 0 25.0919 2.11219 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.857797 0.513947 -0.00659699 0 0.0244292 -0.0279462 0.999311 0 -0.200779 0.335291 0.0142848 0 25.0756 1.43362 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.586753 -0.809739 -0.00659699 0 -0.0257107 -0.0267719 0.999311 0 0.316516 0.229238 0.0142848 0 24.4409 1.45686 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.755519 -0.655093 -0.00659699 0 -0.0289109 0.0232795 0.999311 0 0.255951 -0.295333 0.0142848 0 24.4141 2.10329 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.961587 0.27442 -0.00659699 0 0.0163638 -0.0333167 0.999311 0 -0.107158 0.375832 0.0142848 0 8.17818 1.29717 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.630285 0.776336 -0.00659699 0 0.0325141 -0.0179055 0.999311 0 -0.303347 0.2464 0.0142848 0 22.0542 1.281 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.809739 -0.586753 -0.00659699 0 -0.0267719 0.0257107 0.999311 0 0.229238 -0.316516 0.0142848 0 21.2649 2.10008 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.655093 0.755519 -0.00659699 0 0.0232795 0.0289109 0.999311 0 -0.295333 -0.255951 0.0142848 0 21.9638 2.05597 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.655093 -0.755519 -0.00659699 0 -0.0232795 -0.0289109 0.999311 0 0.295333 0.255952 0.0142848 0 21.1643 1.28581 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.103273 0.994631 -0.00659699 0 0.0356521 0.0103298 0.999311 0 -0.38873 -0.0402673 0.0142848 0 8.66214 1.79612 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.103273 -0.994631 -0.00659699 0 -0.0356521 -0.0103298 0.999311 0 0.38873 0.0402674 0.0142848 0 7.54298 1.59111 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.999847 -0.0161923 -0.00659699 0 -0.00718322 0.0364167 0.999311 0 0.00623403 -0.39076 0.0142848 0 8.0641 2.30864 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.857797 0.513947 -0.00659699 0 0.0244292 -0.0279462 0.999311 0 -0.200779 0.335291 0.0142848 0 11.7903 1.43362 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.586753 -0.809739 -0.00659699 0 -0.0257107 -0.0267719 0.999311 0 0.316516 0.229238 0.0142848 0 11.1556 1.45686 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.755519 -0.655093 -0.00659699 0 -0.0289109 0.0232795 0.999311 0 0.255951 -0.295333 0.0142848 0 11.1287 2.10329 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.586753 0.809739 -0.00659699 0 0.0257107 0.0267719 0.999311 0 -0.316516 -0.229238 0.0142848 0 11.8066 2.11219 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.513947 0.857797 -0.00659699 0 0.0279462 0.0244292 0.999311 0 -0.335291 -0.200779 0.0142848 0 15.0766 1.92567 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.755519 0.655093 -0.00659699 0 0.0289109 -0.0232795 0.999311 0 -0.255951 0.295333 0.0142848 0 15.1743 1.26687 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.655093 -0.755519 -0.00659699 0 -0.0232795 -0.0289109 0.999311 0 0.295333 0.255952 0.0142848 0 14.386 1.22164 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.695549 -0.718448 -0.00659699 0 -0.0308298 0.0206712 0.999311 0 0.280717 -0.271901 0.0142848 0 14.4193 1.90162 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.934011 -0.357184 -0.00659699 0 -0.0192053 0.0317637 0.999311 0 0.139506 -0.365062 0.0142848 0 17.8922 2.22791 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.357184 0.934011 -0.00659699 0 0.0317637 0.0192053 0.999311 0 -0.365062 -0.139506 0.0142848 0 18.5542 2.15362 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.857797 0.513947 -0.00659699 0 0.0244292 -0.0279462 0.999311 0 -0.200779 0.335291 0.0142848 0 18.4355 1.50555 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.437229 -0.899326 -0.00659699 0 -0.029969 -0.0219006 0.999311 0 0.351515 0.170792 0.0142848 0 17.7859 1.55336 0.503098 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.673401 0.739182 -0.0118997 0 -0.0532841 -0.0324752 0.998051 0 -0.288358 -0.263082 -0.0239552 0 25.0106 2.21081 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.79506 0.606414 -0.0118997 0 -0.0277076 0.0559117 0.998051 0 -0.236949 0.31019 -0.0239552 0 25.181 1.506 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.673401 -0.739182 -0.0118997 0 0.0532841 0.0324752 0.998051 0 0.288358 0.263082 -0.0239552 0 24.5222 1.35824 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.677678 -0.735262 -0.0118997 0 0.0369956 -0.0502509 0.998051 0 0.287213 -0.264332 -0.0239552 0 24.3229 2.01372 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.92492 0.379974 -0.0118997 0 -0.0122925 0.0611779 0.998051 0 -0.148592 0.360947 -0.0239552 0 8.29865 1.33982 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.539706 0.841769 -0.0118997 0 -0.0451596 0.0430633 0.998051 0 -0.32875 0.210442 -0.0239552 0 22.1284 1.38504 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.739182 -0.6734 -0.0118997 0 0.0324752 -0.0532841 0.998051 0 0.263082 -0.288358 -0.0239552 0 21.1662 2.0188 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.735262 0.677678 -0.0118997 0 -0.0502509 -0.0369956 0.998051 0 -0.264332 -0.287213 -0.0239552 0 21.8743 2.14713 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.735262 -0.677678 -0.0118997 0 0.0502509 0.0369956 0.998051 0 0.264332 0.287213 -0.0239552 0 21.2539 1.19466 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.213591 0.97685 -0.0118997 0 -0.062383 -0.00148229 0.998051 0 -0.381267 -0.0836568 -0.0239552 0 8.64106 1.92217 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.213591 -0.97685 -0.0118997 0 0.062383 0.0014823 0.998051 0 0.381267 0.0836569 -0.0239552 0 7.56407 1.46506 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.991749 -0.12764 -0.0118997 0 -0.00396039 -0.0622748 0.998051 0 0.0501089 -0.387107 -0.0239552 0 7.9367 2.29862 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.79506 0.606414 -0.0118997 0 -0.0277076 0.0559117 0.998051 0 -0.236949 0.31019 -0.0239552 0 11.8956 1.506 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.673401 -0.739182 -0.0118997 0 0.0532841 0.0324752 0.998051 0 0.288358 0.263082 -0.0239552 0 11.2369 1.35824 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.677678 -0.735262 -0.0118997 0 0.0369956 -0.0502509 0.998051 0 0.287213 -0.264332 -0.0239552 0 11.0376 2.01372 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.673401 0.739182 -0.0118997 0 -0.0532841 -0.0324752 0.998051 0 -0.288358 -0.263082 -0.0239552 0 11.7253 2.21081 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.606414 0.79506 -0.0118997 0 -0.0559117 -0.0277076 0.998051 0 -0.31019 -0.236949 -0.0239552 0 15.0042 2.031 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.677678 0.735262 -0.0118997 0 -0.0369956 0.050251 0.998051 0 -0.287213 0.264332 -0.0239552 0 15.2655 1.35644 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.735262 -0.677678 -0.0118997 0 0.0502509 0.0369956 0.998051 0 0.264332 0.287213 -0.0239552 0 14.4756 1.13048 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.611017 -0.791527 -0.0118997 0 0.0412345 -0.0468354 0.998051 0 0.309158 -0.238294 -0.0239552 0 14.3363 1.80445 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.888283 -0.459141 -0.0118997 0 0.0175777 -0.0598737 0.998051 0 0.179485 -0.346623 -0.0239552 0 17.7759 2.17492 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.459141 0.888284 -0.0118997 0 -0.0598737 -0.0175777 0.998051 0 -0.346623 -0.179485 -0.0239552 0 18.5012 2.26991 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.79506 0.606414 -0.0118997 0 -0.0277076 0.0559117 0.998051 0 -0.236949 0.31019 -0.0239552 0 18.5408 1.57793 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.534813 -0.844887 -0.0118997 0 0.0581139 0.0227291 0.998051 0 0.329661 0.209013 -0.0239552 0 17.8489 1.44212 0.500528 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.647448 0.762005 0.0126315 0 0.0258703 0.00541018 0.999651 0 -0.297867 -0.253237 0.00907915 0 25.1728 2.01495 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.815534 0.578571 0.0126315 0 0.00313485 -0.0262434 0.999651 0 -0.226313 0.318805 0.00907915 0 24.9717 1.36147 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.647448 -0.762005 0.0126315 0 -0.0258703 -0.00541018 0.999651 0 0.297867 0.253237 0.00907915 0 24.36 1.5541 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.702677 -0.711397 0.0126315 0 -0.00764434 0.0253003 0.999651 0 0.278235 -0.274663 0.00907915 0 24.5039 2.19239 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.937491 0.34778 0.0126315 0 -0.00376423 -0.0261605 0.999651 0 -0.136089 0.366516 0.00907915 0 8.05913 1.25437 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.568469 0.822608 0.0126315 0 0.0119216 -0.0235885 0.999651 0 -0.321702 0.222175 0.00907915 0 21.9812 1.17766 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.762006 -0.647447 0.0126315 0 -0.00541017 0.0258703 0.999651 0 0.253237 -0.297867 0.00907915 0 21.3621 2.18101 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.711397 0.702677 0.0126315 0 0.0253003 0.00764434 0.999651 0 -0.274663 -0.278235 0.00907915 0 22.0529 1.96616 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.711397 -0.702677 0.0126315 0 -0.0253003 -0.00764434 0.999651 0 0.274663 0.278235 0.00907915 0 21.0752 1.37563 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.179703 0.98364 0.0126315 0 0.0251094 -0.0082498 0.999651 0 -0.384579 -0.0703762 0.00907915 0 8.68361 1.67144 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.179703 -0.98364 0.0126315 0 -0.0251094 0.00824979 0.999651 0 0.384579 0.0703763 0.00907915 0 7.52151 1.71579 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.995559 -0.0932896 0.0126315 0 0.0104068 0.0242949 0.999651 0 0.0365901 -0.38925 0.00907915 0 8.19018 2.31916 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.815534 0.578571 0.0126315 0 0.00313485 -0.0262434 0.999651 0 -0.226313 0.318805 0.00907915 0 11.6864 1.36147 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.647448 -0.762005 0.0126315 0 -0.0258703 -0.00541018 0.999651 0 0.297867 0.253237 0.00907915 0 11.0747 1.5541 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.702677 -0.711397 0.0126315 0 -0.00764434 0.0253003 0.999651 0 0.278235 -0.274663 0.00907915 0 11.2185 2.19239 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.647448 0.762005 0.0126315 0 0.0258703 0.00541018 0.999651 0 -0.297867 -0.253237 0.00907915 0 11.8875 2.01495 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.578571 0.815534 0.0126315 0 0.0262434 0.00313485 0.999651 0 -0.318805 -0.226313 0.00907915 0 15.1488 1.82175 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.702677 0.711397 0.0126315 0 0.00764434 -0.0253003 0.999651 0 -0.278235 0.274663 0.00907915 0 15.0845 1.17777 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.711397 -0.702677 0.0126315 0 -0.0253003 -0.00764434 0.999651 0 0.274663 0.278235 0.00907915 0 14.297 1.31146 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.638001 -0.769932 0.0126315 0 -0.00982031 0.0245378 0.999651 0 0.301114 -0.249368 0.00907915 0 14.501 1.99821 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.903612 -0.428165 0.0126315 0 0.00146989 0.026389 0.999651 0 0.167515 -0.35326 0.00907915 0 18.0071 2.28091 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.428165 0.903612 0.0126315 0 0.026389 -0.0014699 0.999651 0 -0.35326 -0.167515 0.00907915 0 18.6072 2.03875 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.815535 0.578571 0.0126315 0 0.00313484 -0.0262434 0.999651 0 -0.226313 0.318805 0.00907915 0 18.3316 1.4334 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.505291 -0.862857 0.0126315 0 -0.0264167 -0.000835656 0.999651 0 0.337316 0.197666 0.00907915 0 17.7231 1.66317 0.503175 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.617692 0.786419 -0.000815868 0 0.0193305 0.0162203 0.999681 0 -0.307453 -0.241479 0.00986322 0 25.25 1.9244 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.837262 0.546801 -0.000815868 0 0.0144738 -0.0206707 0.999681 0 -0.213763 0.32733 0.00986322 0 24.8748 1.29246 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.617692 -0.786419 -0.000815868 0 -0.0193305 -0.0162203 0.999681 0 0.307453 0.241479 0.00986322 0 24.2828 1.64465 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.729591 -0.683883 -0.000815868 0 -0.0178433 0.0178433 0.999681 0 0.267356 -0.285237 0.00986322 0 24.5874 2.27718 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.950255 0.311469 -0.000815868 0 0.00863063 -0.0237124 0.999681 0 -0.12176 0.371502 0.00986322 0 7.94763 1.21281 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.599752 0.800185 -0.000815868 0 0.0206707 -0.0144737 0.999681 0 -0.312825 0.234478 0.00986322 0 21.9137 1.07966 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.78642 -0.617692 -0.000815868 0 -0.0162203 0.0193305 0.999681 0 0.241478 -0.307453 0.00986322 0 21.4526 2.25821 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.683883 0.729591 -0.000815868 0 0.0178433 0.0178433 0.999681 0 -0.285237 -0.267356 0.00986322 0 22.1377 1.88267 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.683883 -0.729591 -0.000815868 0 -0.0178433 -0.0178433 0.999681 0 0.285237 0.267356 0.00986322 0 20.9904 1.45911 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.141727 0.989905 -0.000815868 0 0.0248509 0.00438189 0.999681 0 -0.387002 -0.0553999 0.00986322 0 8.70519 1.55442 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.141728 -0.989905 -0.000815868 0 -0.0248509 -0.00438189 0.999681 0 0.387002 0.0554 0.00986322 0 7.49994 1.83281 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.998491 -0.0549121 -0.000815868 0 -0.00219932 0.0251382 0.999681 0 0.0214597 -0.390357 0.00986322 0 8.30864 2.33045 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.837262 0.546801 -0.000815868 0 0.0144738 -0.0206707 0.999681 0 -0.213763 0.32733 0.00986322 0 11.5895 1.29246 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.617692 -0.786419 -0.000815868 0 -0.0193305 -0.0162203 0.999681 0 0.307453 0.241479 0.00986322 0 10.9975 1.64465 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.729591 -0.683883 -0.000815868 0 -0.0178433 0.0178433 0.999681 0 0.267356 -0.285237 0.00986322 0 11.302 2.27718 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.617692 0.786419 -0.000815868 0 0.0193305 0.0162203 0.999681 0 -0.307453 -0.241479 0.00986322 0 11.9647 1.9244 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.546801 0.837262 -0.000815868 0 0.0206707 0.0144738 0.999681 0 -0.32733 -0.213763 0.00986322 0 15.2178 1.72481 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.729591 0.683883 -0.000815868 0 0.0178433 -0.0178433 0.999681 0 -0.267356 0.285237 0.00986322 0 15.001 1.09298 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.683883 -0.729591 -0.000815868 0 -0.0178433 -0.0178433 0.999681 0 0.285237 0.267356 0.00986322 0 14.2122 1.39494 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.667211 -0.744868 -0.000815868 0 -0.0193305 0.0162202 0.999681 0 0.291199 -0.26085 0.00986322 0 14.5768 2.08996 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.919493 -0.393105 -0.000815868 0 -0.0106645 0.02287 0.999681 0 0.153676 -0.359476 0.00986322 0 18.1145 2.33204 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.393104 0.919493 -0.000815868 0 0.02287 0.0106645 0.999681 0 -0.359476 -0.153676 0.00986322 0 18.6584 1.93129 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.837262 0.546801 -0.000815868 0 0.0144738 -0.0206707 0.999681 0 -0.213763 0.32733 0.00986322 0 18.2346 1.36439 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.471748 -0.881733 -0.000815868 0 -0.0218535 -0.0126171 0.999681 0 0.344715 0.184421 0.00986322 0 17.6628 1.76576 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.698903 0.715211 -0.00275216 0 -0.0381903 -0.0334765 0.998709 0 0.279301 0.273009 0.0198316 0 25.6944 2.29725 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.773402 0.633909 -0.00275216 0 -0.0300206 0.0409627 0.998709 0 0.247628 -0.302033 0.0198316 0 25.2075 0.817304 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.698903 -0.71521 -0.00275216 0 0.0381903 0.0334765 0.998709 0 -0.279301 -0.273009 0.0198316 0 23.8384 1.2718 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.651576 -0.758578 -0.00275216 0 0.0366776 -0.0351273 0.998709 0 -0.296313 0.254444 0.0198316 0 24.1772 2.68735 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.911117 0.412137 -0.00275217 0 -0.0183957 0.0473368 0.998709 0 0.161018 -0.355832 0.0198316 0 8.14602 0.667727 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.509951 0.860199 -0.00275216 0 -0.0422202 0.0282247 0.998709 0 0.335995 -0.199124 0.0198316 0 22.3889 0.746946 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.715211 -0.698903 -0.00275216 0 0.0334765 -0.0381903 0.998709 0 -0.273009 0.279301 0.0198316 0 21.0798 2.70256 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.758578 0.651576 -0.00275216 0 -0.0351273 -0.0366776 0.998709 0 0.254444 0.296313 0.0198316 0 22.5479 2.29284 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.758578 -0.651576 -0.00275216 0 0.0351273 0.0366776 0.998709 0 -0.254444 -0.296313 0.0198316 0 20.5803 1.04895 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.247662 0.968842 -0.00275216 0 -0.049812 -0.00989631 0.998709 0 0.378387 0.0967823 0.0198316 0 9.27643 1.65515 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.247662 -0.968842 -0.00275216 0 0.049812 0.00989631 0.998709 0 -0.378387 -0.0967823 0.0198316 0 6.92869 1.73208 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.986741 -0.16228 -0.00275216 0 0.00551724 -0.050485 0.998709 0 -0.0634354 0.385382 0.0198316 0 8.25808 2.90831 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.773402 0.633909 -0.00275216 0 -0.0300206 0.0409627 0.998709 0 0.247628 -0.302033 0.0198316 0 11.9222 0.817304 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.698903 -0.71521 -0.00275216 0 0.0381903 0.0334765 0.998709 0 -0.279301 -0.273009 0.0198316 0 10.5531 1.2718 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.651576 -0.758578 -0.00275216 0 0.0366776 -0.0351273 0.998709 0 -0.296313 0.254444 0.0198316 0 10.8919 2.68735 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.698903 0.715211 -0.00275216 0 -0.0381903 -0.0334765 0.998709 0 0.279301 0.273009 0.0198316 0 12.409 2.29725 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.633909 0.773402 -0.00275216 0 -0.0409627 -0.0300206 0.998709 0 0.302033 0.247628 0.0198316 0 15.6929 2.05752 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.651576 0.758578 -0.00275216 0 -0.0366776 0.0351273 0.998709 0 0.296313 -0.254444 0.0198316 0 15.4112 0.68281 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.758578 -0.651576 -0.00275216 0 0.0351273 0.0366776 0.998709 0 -0.254444 -0.296313 0.0198316 0 13.802 0.984776 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.582982 -0.81248 -0.00275216 0 0.0395996 -0.031797 0.998709 0 -0.317362 0.227651 0.0198316 0 14.1324 2.46282 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.87173 -0.489978 -0.00275216 0 0.0224514 -0.0455534 0.998709 0 -0.191418 0.340444 0.0198316 0 17.8694 2.85776 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.489978 0.87173 -0.00275216 0 -0.0455534 -0.0224514 0.998709 0 0.340444 0.191418 0.0198316 0 19.1841 2.17644 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.773403 0.633909 -0.00275216 0 -0.0300206 0.0409627 0.998709 0 0.247628 -0.302033 0.0198316 0 18.5673 0.889235 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.56409 -0.825708 -0.00275216 0 0.0434233 0.0263362 0.998709 0 -0.322466 -0.220362 0.0198316 0 17.1605 1.47573 0.500662 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.637423 0.770456 -0.00941485 0 -0.00537075 0.0077759 0.999955 0 0.301318 0.249286 -0.000320138 0 25.4701 2.56733 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.823079 0.567848 -0.00941485 0 0.0082144 0.00467259 0.999955 0 0.222076 -0.321898 -0.000320138 0 25.4961 1.01716 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.637423 -0.770456 -0.00941485 0 0.00537075 -0.0077759 0.999955 0 -0.301318 -0.249286 -0.000320138 0 24.0627 1.00172 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.711969 -0.702147 -0.00941485 0 -0.00727822 -0.00602802 0.999955 0 -0.274599 0.278445 -0.000320138 0 23.9277 2.44041 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.942003 0.33547 -0.00941486 0 0.00914386 0.00238733 0.999955 0 0.131196 -0.368408 -0.000320137 0 8.47651 0.786082 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.579226 0.815112 -0.00941485 0 0.00612089 0.00720029 0.999955 0 0.318779 -0.226531 -0.000320138 0 22.5917 1.03346 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.770456 -0.637423 -0.00941485 0 -0.0077759 -0.00537074 0.999955 0 -0.249286 0.301318 -0.000320138 0 20.8097 2.47831 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.702147 0.711969 -0.00941485 0 -0.00602802 0.00727822 0.999955 0 0.278445 0.274599 -0.000320138 0 22.301 2.54234 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.702147 -0.711969 -0.00941485 0 0.00602802 -0.00727822 0.999955 0 -0.278445 -0.274599 -0.000320138 0 20.8272 0.799442 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.166796 0.985946 -0.00941485 0 -0.000763249 0.0094195 0.999955 0 0.385593 0.0652292 -0.000320138 0 9.21727 2.00117 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.166797 -0.985946 -0.00941485 0 0.00076325 -0.0094195 0.999955 0 -0.385593 -0.0652292 -0.000320138 0 6.98786 1.38606 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996732 -0.0802308 -0.00941485 0 -0.00945018 0.0000606199 0.999955 0 -0.0313743 0.38981 -0.000320138 0 7.90822 2.87952 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.823079 0.567848 -0.00941485 0 0.0082144 0.00467259 0.999955 0 0.222076 -0.321898 -0.000320138 0 12.2108 1.01716 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.637423 -0.770456 -0.00941485 0 0.00537075 -0.0077759 0.999955 0 -0.301318 -0.249286 -0.000320138 0 10.7774 1.00172 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.711969 -0.702147 -0.00941485 0 -0.00727822 -0.00602802 0.999955 0 -0.274599 0.278445 -0.000320138 0 10.6424 2.44041 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.637423 0.770456 -0.00941485 0 -0.00537075 0.0077759 0.999955 0 0.301318 0.249286 -0.000320138 0 12.1848 2.56733 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.567848 0.823079 -0.00941485 0 -0.00467259 0.0082144 0.999955 0 0.321898 0.222076 -0.000320138 0 15.4931 2.34612 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.711969 0.702147 -0.00941485 0 0.00727822 0.00602802 0.999955 0 0.274599 -0.278445 -0.000320138 0 15.6607 0.929746 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.702147 -0.711969 -0.00941485 0 0.00602802 -0.00727822 0.999955 0 -0.278445 -0.274599 -0.000320138 0 14.0489 0.73527 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.648064 -0.761527 -0.00941485 0 -0.00672515 -0.00663942 0.999955 0 -0.297823 0.253453 -0.000320138 0 13.9054 2.19507 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.909181 -0.416295 -0.00941485 0 -0.008901 -0.00317519 0.999955 0 -0.162805 0.355571 -0.000320138 0 17.5505 2.71105 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.416295 0.909181 -0.00941485 0 -0.00317519 0.008901 0.999955 0 0.355571 0.162805 -0.000320138 0 19.0374 2.49535 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.823079 0.567848 -0.00941485 0 0.0082144 0.00467259 0.999955 0 0.222076 -0.321898 -0.000320138 0 18.8559 1.08909 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.493951 -0.869439 -0.00941485 0 0.00393888 -0.00859039 0.999955 0 -0.340029 -0.193176 -0.000320138 0 17.3344 1.17081 0.502262 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.68823 0.725322 0.015742 0 0.0306948 0.00743251 0.999501 0 0.283465 0.269201 -0.0107071 0 25.6181 2.38955 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.782545 0.622395 0.015742 0 0.004729 -0.0312258 0.999501 0 0.243471 -0.305849 -0.0107071 0 25.3061 0.885205 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.68823 -0.725322 0.015742 0 -0.0306948 -0.00743252 0.999501 0 -0.283465 -0.269201 -0.0107071 0 23.9147 1.1795 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.662579 -0.748827 0.015742 0 -0.0100795 0.0299302 0.999501 0 -0.292883 0.258924 -0.0107071 0 24.0919 2.60336 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.916968 0.39865 0.015742 0 -0.00351397 -0.0313858 0.999501 0 0.156016 -0.358443 -0.0107071 0 8.25882 0.707799 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.52248 0.852506 0.015742 0 0.0151237 -0.0277252 0.999501 0 0.333395 -0.204132 -0.0107071 0 22.4583 0.844472 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.725322 -0.68823 0.015742 0 -0.0074325 0.0306948 0.999501 0 -0.269201 0.283465 -0.0107071 0 20.9875 2.62633 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.748827 0.662579 0.015742 0 0.0299302 0.0100795 0.999501 0 0.258924 0.292883 -0.0107071 0 22.4639 2.37814 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.748827 -0.662579 0.015742 0 -0.0299302 -0.0100795 0.999501 0 -0.258924 -0.292883 -0.0107071 0 20.6642 0.963649 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.233363 0.972262 0.015742 0 0.0302988 -0.00891067 0.999501 0 0.380089 0.0914026 -0.0107071 0 9.25656 1.77319 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.233363 -0.972262 0.015742 0 -0.0302988 0.00891067 0.999501 0 -0.380089 -0.0914027 -0.0107071 0 6.94857 1.61404 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.988901 -0.147737 0.015742 0 0.0115175 0.0294068 0.999501 0 -0.0579279 0.386609 -0.0107071 0 8.13875 2.8988 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.782545 0.622395 0.015742 0 0.004729 -0.0312258 0.999501 0 0.243471 -0.305849 -0.0107071 0 12.0208 0.885205 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.68823 -0.725322 0.015742 0 -0.0306948 -0.00743252 0.999501 0 -0.283465 -0.269201 -0.0107071 0 10.6293 1.1795 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.662579 -0.748827 0.015742 0 -0.0100795 0.0299302 0.999501 0 -0.292883 0.258924 -0.0107071 0 10.8066 2.60336 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.68823 0.725322 0.015742 0 0.0306948 0.00743251 0.999501 0 0.283465 0.269201 -0.0107071 0 12.3328 2.38955 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.622395 0.782545 0.015742 0 0.0312258 0.004729 0.999501 0 0.305849 0.243471 -0.0107071 0 15.625 2.15611 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.662579 0.748827 0.015742 0 0.0100795 -0.0299302 0.999501 0 0.292883 -0.258924 -0.0107071 0 15.4965 0.766799 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.748827 -0.662579 0.015742 0 -0.0299302 -0.0100795 0.999501 0 -0.258924 -0.292883 -0.0107071 0 13.886 0.899477 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.594793 -0.803725 0.015742 0 -0.0126497 0.0289379 0.999501 0 -0.314335 0.232413 -0.0107071 0 14.0548 2.37171 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.878734 -0.477052 0.015742 0 0.000765146 0.0315726 0.999501 0 -0.186662 0.343481 -0.0107071 0 17.7605 2.80801 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.477052 0.878734 0.015742 0 0.0315726 -0.000765154 0.999501 0 0.343481 0.186662 -0.0107071 0 19.1343 2.28532 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.782545 0.622395 0.015742 0 0.004729 -0.0312258 0.999501 0 0.243471 -0.305849 -0.0107071 0 18.6659 0.957137 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.551823 -0.833813 0.015742 0 -0.0315191 -0.0019895 0.999501 0 -0.325905 -0.215888 -0.0107071 0 17.2195 1.3716 0.500983 1  ]
+    ObjectInstance "Silla D Tachuela335"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Cuero23"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Piel"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00002.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 -0.766044 -0.642788 0 0 0 0 1 0 25.1695 2.08347 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 -0.573576 0.819152 0 0 0 0 1 0 25.0403 1.35878 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0.766044 0.642788 0 0 0 0 1 0 24.3633 1.48558 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0.707107 -0.707107 0 0 0 0 1 0 24.4359 2.18314 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 -0.34202 0.939693 0 0 0 0 1 0 8.12464 1.23403 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 -0.819152 0.573576 0 0 0 0 1 0 22.0466 1.19857 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0.642787 -0.766045 0 0 0 0 1 0 21.2936 2.17772 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 -0.707107 -0.707107 0 0 0 0 1 0 22.0437 2.03413 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0.707107 0.707107 0 0 0 0 1 0 21.0845 1.30766 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 -0.984808 -0.173648 0 0 0 0 1 0 8.71502 1.73242 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0.984808 0.173648 0 0 0 0 1 0 7.4901 1.65481 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0.0871556 -0.996195 0 0 0 0 1 0 8.13217 2.35577 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 -0.573576 0.819152 0 0 0 0 1 0 11.7549 1.35878 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0.766044 0.642788 0 0 0 0 1 0 11.0779 1.48558 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0.707107 -0.707107 0 0 0 0 1 0 11.1506 2.18314 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 -0.766044 -0.642788 0 0 0 0 1 0 11.8842 2.08347 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 -0.819152 -0.573576 0 0 0 0 1 0 15.1515 1.89029 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 -0.707107 0.707107 0 0 0 0 1 0 15.1525 1.18702 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0.707107 0.707107 0 0 0 0 1 0 14.3062 1.24349 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0.766044 -0.642788 0 0 0 0 1 0 14.4341 1.98308 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0.422618 -0.906308 0 0 0 0 1 0 17.94 2.29547 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 -0.906308 -0.422618 0 0 0 0 1 0 18.6218 2.10578 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 -0.573576 0.819152 0 0 0 0 1 0 18.4001 1.43071 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0.866025 0.5 0 0 0 0 1 0 17.7145 1.59513 0.521487 1  ]
+    ObjectInstance "Silla D Cuero23"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Respaldo Madera 03"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00003.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.33 1.23648 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.33 1.23648 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 18.7909 1.07897 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 18.7909 1.07897 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 19.0361 2.42956 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 19.0361 2.42956 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 17.6163 2.70973 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 17.6163 2.70973 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 13.9656 2.22169 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 13.9656 2.22169 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 14.0277 0.797552 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 14.0277 0.797552 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 15.5984 0.908481 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 15.5984 0.908481 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 15.5032 2.28109 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 15.5032 2.28109 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 12.2006 2.50343 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 12.2006 2.50343 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 10.7046 2.46168 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 10.7046 2.46168 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 10.7616 1.06562 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 10.7616 1.06562 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 12.1457 1.00704 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 12.1457 1.00704 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0 0 1 0 -0.0871556 0.996195 0 0 7.9696 2.85578 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0 0 1 0 -0.0871556 0.996195 0 0 7.9696 2.85578 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0 0 1 0 -0.984808 -0.173648 0 0 7.00616 1.44928 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0 0 1 0 -0.984808 -0.173648 0 0 7.00616 1.44928 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 0 0 1 0 0.984808 0.173648 0 0 9.19896 1.93795 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 0 0 1 0 0.984808 0.173648 0 0 9.19896 1.93795 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 20.8059 0.861723 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 20.8059 0.861723 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 22.3222 2.48006 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 22.3222 2.48006 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0 0 1 0 -0.642787 0.766045 0 0 20.8736 2.49407 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0 0 1 0 -0.642787 0.766045 0 0 20.8736 2.49407 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 22.5341 1.0017 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 22.5341 1.0017 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 0 0 1 0 0.34202 -0.939693 0 0 8.41108 0.793131 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 0 0 1 0 0.34202 -0.939693 0 0 8.41108 0.793131 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 23.99 2.46168 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 23.99 2.46168 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.0469 1.06562 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.0469 1.06562 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 25.4311 1.00704 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 25.4311 1.00704 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 25.4859 2.50343 0.651953 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 25.4859 2.50343 0.853798 1  ]
+    ObjectInstance "Silla D Respaldo Madera 03"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Respaldo Madera 1"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00004.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.33 1.23648 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 18.7909 1.07897 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 19.0361 2.42956 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 17.6163 2.70973 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 13.9656 2.22169 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 14.0277 0.797552 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 15.5984 0.908481 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 15.5032 2.28109 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 12.2006 2.50343 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 10.7046 2.46168 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 10.7616 1.06562 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 12.1457 1.00704 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0 0 1 0 -0.0871556 0.996195 0 0 7.9696 2.85578 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0 0 1 0 -0.984808 -0.173648 0 0 7.00616 1.44928 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 0 0 1 0 0.984808 0.173648 0 0 9.19896 1.93795 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 20.8059 0.861723 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 22.3222 2.48006 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0 0 1 0 -0.642787 0.766045 0 0 20.8736 2.49407 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 22.5341 1.0017 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 0 0 1 0 0.34202 -0.939693 0 0 8.41108 0.793131 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 23.99 2.46168 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.0469 1.06562 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 25.4311 1.00704 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 25.4859 2.50343 1.04936 1  ]
+    ObjectInstance "Silla D Respaldo Madera 1"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Spoprte Asiento202"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00005.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 -0.642788 0 0 0 0 1 0 -0.642788 0.766044 0 0 25.7157 2.24864 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573577 0.819152 0 0 0 0 1 0 0.819152 0.573577 0 0 25.1572 0.800327 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 0 0 1 0 0.642788 -0.766044 0 0 23.8171 1.32041 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 24.2238 2.7128 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.34202 0.939693 0 0 0 0 1 0 0.939693 0.34202 0 0 8.09305 0.664343 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 0 0 1 0 0.573576 0.819152 0 0 22.3475 0.713795 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 -0.766045 0 0 0 0 1 0 -0.766045 -0.642787 0 0 21.1284 2.72386 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 22.5733 2.24627 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 20.5548 1.09552 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.984808 -0.173648 0 0 0 0 1 0 -0.173648 0.984808 0 0 9.27057 1.6024 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0.173648 0 0 0 0 1 0 0.173648 -0.984808 0 0 6.93456 1.78483 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0871556 -0.996195 0 0 0 0 1 0 -0.996195 -0.0871556 0 0 8.31012 2.89787 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573577 0.819152 0 0 0 0 1 0 0.819152 0.573577 0 0 11.8719 0.800327 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 0 0 1 0 0.642788 -0.766044 0 0 10.5318 1.32041 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 10.9384 2.7128 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 -0.642788 0 0 0 0 1 0 -0.642788 0.766044 0 0 12.4303 2.24864 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 -0.573577 0 0 0 0 1 0 -0.573577 0.819152 0 0 15.7099 2.00724 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 15.3646 0.657358 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 13.7765 1.03135 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 0 0 1 0 -0.642788 -0.766044 0 0 14.1766 2.49223 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 0 0 1 0 -0.906308 -0.422618 0 0 17.9218 2.86574 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 19.1921 2.12397 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 18.517 0.872258 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 0.5 0 0 0 0 1 0 0.5 -0.866025 0 0 17.1479 1.5273 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento202"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Spoprte Asiento203"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00006.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.766044 -0.642788 0 0 -0.642788 0.766044 0 0 25.3118 1.87457 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.573576 0.819152 0 0 0.819152 0.573576 0 0 24.8198 1.23524 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.766044 0.642788 0 0 0.642788 -0.766044 0 0 24.221 1.69448 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.707107 -0.707107 0 0 -0.707107 -0.707107 0 0 24.6316 2.34309 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.34202 0.939693 0 0 0.939693 0.34202 0 0 7.87967 1.17177 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.819152 0.573576 0 0 0.573576 0.819152 0 0 21.8816 1.00706 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.642787 -0.766045 0 0 -0.766045 -0.642787 0 0 21.5025 2.32001 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.707107 -0.707107 0 0 -0.707107 0.707107 0 0 22.2036 1.83842 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.707107 0.707107 0 0 0.707107 -0.707107 0 0 20.9245 1.50336 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.984808 -0.173648 0 0 -0.173648 0.984808 0 0 8.7338 1.48037 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.984808 0.173648 0 0 0.173648 -0.984808 0 0 7.47133 1.90686 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.0871556 -0.996195 0 0 -0.996195 -0.0871556 0 0 8.3849 2.3525 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.573576 0.819152 0 0 0.819152 0.573576 0 0 11.5344 1.23524 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.766044 0.642788 0 0 0.642788 -0.766044 0 0 10.9357 1.69448 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.707107 -0.707107 0 0 -0.707107 -0.707107 0 0 11.3463 2.34309 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.766044 -0.642788 0 0 -0.642788 0.766044 0 0 12.0265 1.87457 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.819152 -0.573576 0 0 -0.573576 0.819152 0 0 15.275 1.66979 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.707107 0.707107 0 0 0.707107 0.707107 0 0 14.9568 1.02706 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.707107 0.707107 0 0 0.707107 -0.707107 0 0 14.1462 1.43919 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.766044 -0.642788 0 0 -0.642788 -0.766044 0 0 14.6151 2.15948 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.422618 -0.906308 0 0 -0.906308 -0.422618 0 0 18.1786 2.37884 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.906308 -0.422618 0 0 -0.422618 0.906308 0 0 18.7052 1.86717 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 -0.573576 0.819152 0 0 0.819152 0.573576 0 0 18.1796 1.30717 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0 0 -1 0 0.866025 0.5 0 0 0.5 -0.866025 0 0 17.6106 1.82556 0.208495 1  ]
+    ObjectInstance "Silla D Spoprte Asiento203"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Spoprte Asiento210"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00007.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.588019 -0.76632 -0.258819 0 -0.157559 0.205335 -0.965926 0 0.793353 0.608762 0 0 24.9861 2.2634 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0588814 -0.0642579 0.996195 0 -0.673019 0.734472 0.0871556 0 0.737278 0.67559 0 0 25.3121 1.87486 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.608761 0.793353 0 0 0 0 1 0 0.793353 0.608761 0 0 24.9861 2.2634 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.231066 -0.252164 0.939693 0 -0.634847 0.692814 0.34202 0 0.737277 0.67559 0 0 25.3121 1.87486 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.814653 -0.518992 -0.258819 0 0.218286 0.139064 -0.965926 0 0.5373 -0.843391 0 0 25.2355 1.52586 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0691452 -0.0530569 0.996195 0 0.790335 0.606445 0.0871556 0 0.608761 -0.793353 0 0 24.82 1.23494 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.843392 0.537299 0 0 0 0 1 0 0.537299 -0.843392 0 0 25.2355 1.52586 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.271343 -0.208209 0.939693 0 0.745508 0.572048 0.34202 0 0.608761 -0.793353 0 0 24.82 1.23494 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.588019 0.76632 -0.258819 0 0.157559 -0.205335 -0.965926 0 -0.793353 -0.608762 0 0 24.5467 1.30565 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0588814 0.0642579 0.996195 0 0.673019 -0.734472 0.0871556 0 -0.737277 -0.67559 0 0 24.2207 1.69419 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608761 -0.793353 0 0 0 0 1 0 -0.793353 -0.608761 0 0 24.5467 1.30565 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.231066 0.252164 0.939693 0 0.634847 -0.692814 0.34202 0 -0.737277 -0.67559 0 0 24.2207 1.69419 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.712155 0.65257 -0.258819 0 -0.190821 -0.174856 -0.965926 0 -0.67559 0.737277 0 0 24.2726 1.98469 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0588815 0.0642578 0.996195 0 -0.67302 -0.734472 0.0871556 0 -0.737277 0.67559 0 0 24.6313 2.34334 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.737278 -0.67559 0 0 0 0 1 0 -0.67559 0.737278 0 0 24.2726 1.98469 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.231065 0.252164 0.939693 0 -0.634847 -0.692814 0.34202 0 -0.737277 0.67559 0 0 24.6313 2.34334 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.92122 -0.29046 -0.258819 0 0.24684 0.0778286 -0.965926 0 0.300706 -0.953717 0 0 8.35647 1.34489 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0805213 -0.0333529 0.996195 0 0.920364 0.381227 0.0871556 0 0.382683 -0.92388 0 0 7.87985 1.17142 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.953717 0.300706 0 0 0 0 1 0 0.300706 -0.953717 0 0 8.35647 1.34489 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.315985 -0.130885 0.939693 0 0.868163 0.359605 0.34202 0 0.382683 -0.92388 0 0 7.87985 1.17142 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.183767 -0.288457 0.939693 0 0.504897 0.792529 0.34202 0 0.843391 -0.5373 0 0 21.882 1.00688 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0468287 -0.0735062 0.996195 0 0.535255 0.840182 0.0871556 0 0.843391 -0.5373 0 0 21.882 1.00688 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.588018 -0.766321 -0.258819 0 0.157559 0.205335 -0.965926 0 0.793354 -0.608761 0 0 22.1729 1.42236 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608762 0.793353 0 0 0 0 1 0 0.793353 -0.608762 0 0 22.1729 1.42236 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.76632 0.588018 -0.258819 0 -0.205335 -0.157559 -0.965926 0 -0.608761 0.793353 0 0 21.1136 1.99426 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0642579 0.0588814 0.996195 0 -0.734472 -0.673019 0.0871556 0 -0.67559 0.737278 0 0 21.5022 2.32028 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.793354 -0.608761 0 0 0 0 1 0 -0.608761 0.793354 0 0 21.1136 1.99426 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.252164 0.231065 0.939693 0 -0.692814 -0.634847 0.34202 0 -0.67559 0.737278 0 0 21.5022 2.32028 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.252164 -0.231065 0.939693 0 -0.692814 0.634847 0.34202 0 0.67559 0.737277 0 0 22.2039 1.83874 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.67559 0.737278 0 0 0 0 1 0 0.737278 0.67559 0 0 21.8452 2.19738 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0642578 -0.0588815 0.996195 0 -0.734472 0.67302 0.0871556 0 0.67559 0.737277 0 0 22.2039 1.83874 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.65257 -0.712155 -0.258819 0 -0.174856 0.190821 -0.965926 0 0.737277 0.67559 0 0 21.8452 2.19738 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.65257 0.712155 -0.258819 0 0.174856 -0.190821 -0.965926 0 -0.737277 -0.67559 0 0 21.2829 1.1444 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0642578 0.0588815 0.996195 0 0.734472 -0.67302 0.0871556 0 -0.67559 -0.737277 0 0 20.9243 1.50305 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 -0.737278 0 0 0 0 1 0 -0.737278 -0.67559 0 0 21.2829 1.1444 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.252164 0.231065 0.939693 0 0.692814 -0.634847 0.34202 0 -0.67559 -0.737277 0 0 20.9243 1.50305 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.126079 -0.957662 -0.258819 0 -0.0337828 0.256605 -0.965926 0 0.991445 0.130526 0 0 8.6461 1.97998 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0188639 -0.0850897 0.996195 0 -0.215616 0.972581 0.0871556 0 0.976296 0.216439 0 0 8.73418 1.48048 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.130526 0.991445 0 0 0 0 1 0 0.991445 0.130526 0 0 8.6461 1.97998 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0740267 -0.333913 0.939693 0 -0.203386 0.917418 0.34202 0 0.976296 0.216439 0 0 8.73418 1.48049 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.126079 0.957662 -0.258819 0 0.0337828 -0.256605 -0.965926 0 -0.991445 -0.130527 0 0 7.55903 1.40724 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0188639 0.0850897 0.996195 0 0.215616 -0.972581 0.0871556 0 -0.976296 -0.216439 0 0 7.47095 1.90675 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.130526 -0.991445 0 0 0 0 1 0 -0.991445 -0.130526 0 0 7.55903 1.40724 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0740268 0.333913 0.939693 0 0.203387 -0.917418 0.34202 0 -0.976296 -0.21644 0 0 7.47095 1.90674 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.965006 0.0421332 -0.258819 0 -0.258573 -0.0112896 -0.965926 0 -0.0436195 0.999048 0 0 7.87954 2.30868 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0864099 0.011376 0.996195 0 -0.987672 -0.130029 0.0871556 0 -0.130526 0.991445 0 0 8.38482 2.35289 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.999048 -0.043619 0 0 0 0 1 0 -0.043619 0.999048 0 0 7.87954 2.30868 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.339094 0.0446426 0.939693 0 -0.931653 -0.122654 0.34202 0 -0.130526 0.991445 0 0 8.38482 2.35289 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.814653 -0.518992 -0.258819 0 0.218286 0.139064 -0.965926 0 0.5373 -0.843391 0 0 11.9502 1.52586 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0691452 -0.0530569 0.996195 0 0.790335 0.606445 0.0871556 0 0.608761 -0.793353 0 0 11.5347 1.23494 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.843392 0.537299 0 0 0 0 1 0 0.537299 -0.843392 0 0 11.9502 1.52586 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.271343 -0.208209 0.939693 0 0.745508 0.572048 0.34202 0 0.608761 -0.793353 0 0 11.5347 1.23494 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.588019 0.76632 -0.258819 0 0.157559 -0.205335 -0.965926 0 -0.793353 -0.608762 0 0 11.2614 1.30565 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0588814 0.0642579 0.996195 0 0.673019 -0.734472 0.0871556 0 -0.737277 -0.67559 0 0 10.9354 1.69419 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608761 -0.793353 0 0 0 0 1 0 -0.793353 -0.608761 0 0 11.2614 1.30565 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.231066 0.252164 0.939693 0 0.634847 -0.692814 0.34202 0 -0.737277 -0.67559 0 0 10.9354 1.69419 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.712155 0.65257 -0.258819 0 -0.190821 -0.174856 -0.965926 0 -0.67559 0.737277 0 0 10.9873 1.98469 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0588815 0.0642578 0.996195 0 -0.67302 -0.734472 0.0871556 0 -0.737277 0.67559 0 0 11.346 2.34334 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.737278 -0.67559 0 0 0 0 1 0 -0.67559 0.737278 0 0 10.9873 1.98469 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.231065 0.252164 0.939693 0 -0.634847 -0.692814 0.34202 0 -0.737277 0.67559 0 0 11.346 2.34334 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.588019 -0.76632 -0.258819 0 -0.157559 0.205335 -0.965926 0 0.793353 0.608762 0 0 11.7007 2.2634 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0588814 -0.0642579 0.996195 0 -0.673019 0.734472 0.0871556 0 0.737278 0.67559 0 0 12.0268 1.87486 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.608761 0.793353 0 0 0 0 1 0 0.793353 0.608761 0 0 11.7007 2.2634 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.231066 -0.252164 0.939693 0 -0.634847 0.692814 0.34202 0 0.737277 0.67559 0 0 12.0268 1.87486 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.518992 -0.814653 -0.258819 0 -0.139064 0.218286 -0.965926 0 0.843391 0.5373 0 0 14.9844 2.08553 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0530569 -0.0691452 0.996195 0 -0.606445 0.790335 0.0871556 0 0.793353 0.608761 0 0 15.2753 1.67005 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.537299 0.843392 0 0 0 0 1 0 0.843392 0.537299 0 0 14.9844 2.08553 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.208209 -0.271343 0.939693 0 -0.572048 0.745508 0.34202 0 0.793353 0.608761 0 0 15.2753 1.67005 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.712155 -0.65257 -0.258819 0 0.190821 0.174856 -0.965926 0 0.67559 -0.737277 0 0 15.3157 1.38547 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0588815 -0.0642578 0.996195 0 0.67302 0.734472 0.0871556 0 0.737277 -0.675591 0 0 14.9571 1.02682 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.737278 0.67559 0 0 0 0 1 0 0.67559 -0.737278 0 0 15.3157 1.38547 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.231065 -0.252164 0.939693 0 0.634847 0.692814 0.34202 0 0.737277 -0.67559 0 0 14.9571 1.02682 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.65257 0.712155 -0.258819 0 0.174856 -0.190821 -0.965926 0 -0.737277 -0.67559 0 0 14.5047 1.08023 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0642578 0.0588815 0.996195 0 0.734472 -0.67302 0.0871556 0 -0.67559 -0.737277 0 0 14.146 1.43888 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 -0.737278 0 0 0 0 1 0 -0.737278 -0.67559 0 0 14.5047 1.08023 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.252164 0.231065 0.939693 0 0.692814 -0.634847 0.34202 0 -0.67559 -0.737277 0 0 14.146 1.43888 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.65257 0.712155 -0.258819 0 -0.174856 -0.190822 -0.965926 0 -0.737277 0.67559 0 0 14.2887 1.77115 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.053057 0.0691451 0.996195 0 -0.606446 -0.790334 0.0871556 0 -0.793353 0.608762 0 0 14.6148 2.15969 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.675591 -0.737277 0 0 0 0 1 0 -0.737277 0.675591 0 0 14.2887 1.77115 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.208209 0.271343 0.939693 0 -0.572049 -0.745508 0.34202 0 -0.793353 0.608762 0 0 14.6148 2.15969 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.892399 0.369644 -0.258819 0 -0.239118 -0.0990459 -0.965926 0 -0.382684 0.923879 0 0 17.7187 2.16482 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0773079 0.0402439 0.996195 0 -0.883636 -0.459991 0.0871556 0 -0.461748 0.887011 0 0 18.1784 2.37918 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.92388 -0.382683 0 0 0 0 1 0 -0.382683 0.92388 0 0 17.7187 2.16482 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.303376 0.157927 0.939693 0 -0.833518 -0.433902 0.34202 0 -0.461749 0.887011 0 0 18.1784 2.37918 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.369644 -0.892399 -0.258819 0 -0.0990459 0.239118 -0.965926 0 0.92388 0.382684 0 0 18.4912 2.32706 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0402439 -0.077308 0.996195 0 -0.459991 0.883636 0.0871556 0 0.887011 0.461748 0 0 18.7055 1.86738 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.382683 0.92388 0 0 0 0 1 0 0.92388 0.382683 0 0 18.4912 2.32706 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.157927 -0.303376 0.939693 0 -0.433901 0.833518 0.34202 0 0.887011 0.461748 0 0 18.7055 1.86738 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.814654 -0.518992 -0.258819 0 0.218286 0.139063 -0.965926 0 0.5373 -0.843391 0 0 18.5953 1.59779 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0691452 -0.0530569 0.996195 0 0.790335 0.606445 0.0871556 0 0.608761 -0.793354 0 0 18.1799 1.30687 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.843392 0.537299 0 0 0 0 1 0 0.537299 -0.843392 0 0 18.5953 1.59779 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.271343 -0.208209 0.939693 0 0.745508 0.572048 0.34202 0 0.608761 -0.793354 0 0 18.1799 1.30687 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.446015 0.856787 -0.258819 0 0.119509 -0.229575 -0.965926 0 -0.887011 -0.461749 0 0 17.8639 1.38607 0.160719 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0468286 0.0735063 0.996195 0 0.535255 -0.840183 0.0871556 0 -0.843391 -0.537299 0 0 17.6103 1.82532 0.269452 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.461748 -0.887011 0 0 0 0 1 0 -0.887011 -0.461748 0 0 17.8639 1.38607 0.269451 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.183767 0.288457 0.939693 0 0.504896 -0.792529 0.34202 0 -0.843392 -0.537299 0 0 17.6103 1.82532 0.16072 1  ]
+    ObjectInstance "Silla D Spoprte Asiento210"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Spoprte Asiento209"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00008.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.608761 0.793353 0 0 0 0 1.83552 0 0.793353 0.608761 0 0 24.9861 2.2634 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 -0.737278 0 0 0 0 1.83552 0 0.737278 0.67559 0 0 25.3121 1.87486 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.843392 0.537299 0 0 0 0 1.83552 0 0.537299 -0.843392 0 0 25.2355 1.52586 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.793353 -0.608761 0 0 0 0 1.83552 0 0.608761 -0.793353 0 0 24.82 1.23494 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608761 -0.793353 0 0 0 0 1.83552 0 -0.793353 -0.608761 0 0 24.5467 1.30565 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.67559 0.737277 0 0 0 0 1.83552 0 -0.737277 -0.67559 0 0 24.2207 1.69419 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.737278 -0.67559 0 0 0 0 1.83552 0 -0.67559 0.737278 0 0 24.2726 1.98469 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 0.737277 0 0 0 0 1.83552 0 -0.737277 0.67559 0 0 24.6313 2.34334 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.953717 0.300706 0 0 0 0 1.83552 0 0.300706 -0.953717 0 0 8.35647 1.34489 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.92388 -0.382683 0 0 0 0 1.83552 0 0.382683 -0.92388 0 0 7.87985 1.17142 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.5373 -0.843391 0 0 0 0 1.83552 0 0.843391 -0.5373 0 0 21.882 1.00688 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608762 0.793353 0 0 0 0 1.83552 0 0.793353 -0.608762 0 0 22.1729 1.42236 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.793354 -0.608761 0 0 0 0 1.83552 0 -0.608761 0.793354 0 0 21.1136 1.99426 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.737278 0.67559 0 0 0 0 1.83552 0 -0.67559 0.737278 0 0 21.5022 2.32028 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.737277 -0.67559 0 0 0 0 1.83552 0 0.67559 0.737277 0 0 22.2039 1.83874 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.67559 0.737278 0 0 0 0 1.83552 0 0.737278 0.67559 0 0 21.8452 2.19738 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 -0.737278 0 0 0 0 1.83552 0 -0.737278 -0.67559 0 0 21.2829 1.1444 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.737277 0.67559 0 0 0 0 1.83552 0 -0.67559 -0.737277 0 0 20.9243 1.50305 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.130526 0.991445 0 0 0 0 1.83552 0 0.991445 0.130526 0 0 8.6461 1.97998 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.216439 -0.976296 0 0 0 0 1.83552 0 0.976296 0.216439 0 0 8.73418 1.48049 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.130526 -0.991445 0 0 0 0 1.83552 0 -0.991445 -0.130526 0 0 7.55903 1.40724 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.216439 0.976296 0 0 0 0 1.83552 0 -0.976296 -0.216439 0 0 7.47095 1.90674 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.999048 -0.043619 0 0 0 0 1.83552 0 -0.043619 0.999048 0 0 7.87954 2.30868 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.991445 0.130526 0 0 0 0 1.83552 0 -0.130526 0.991445 0 0 8.38482 2.35289 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.843392 0.537299 0 0 0 0 1.83552 0 0.537299 -0.843392 0 0 11.9502 1.52586 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.793353 -0.608761 0 0 0 0 1.83552 0 0.608761 -0.793353 0 0 11.5347 1.23494 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608761 -0.793353 0 0 0 0 1.83552 0 -0.793353 -0.608761 0 0 11.2614 1.30565 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.67559 0.737277 0 0 0 0 1.83552 0 -0.737277 -0.67559 0 0 10.9354 1.69419 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.737278 -0.67559 0 0 0 0 1.83552 0 -0.67559 0.737278 0 0 10.9873 1.98469 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 0.737277 0 0 0 0 1.83552 0 -0.737277 0.67559 0 0 11.346 2.34334 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.608761 0.793353 0 0 0 0 1.83552 0 0.793353 0.608761 0 0 11.7007 2.2634 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 -0.737278 0 0 0 0 1.83552 0 0.737278 0.67559 0 0 12.0268 1.87486 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.537299 0.843392 0 0 0 0 1.83552 0 0.843392 0.537299 0 0 14.9844 2.08553 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608761 -0.793353 0 0 0 0 1.83552 0 0.793353 0.608761 0 0 15.2753 1.67005 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.737278 0.67559 0 0 0 0 1.83552 0 0.67559 -0.737278 0 0 15.3157 1.38547 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.67559 -0.737277 0 0 0 0 1.83552 0 0.737277 -0.67559 0 0 14.9571 1.02682 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.67559 -0.737278 0 0 0 0 1.83552 0 -0.737278 -0.67559 0 0 14.5047 1.08023 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.737277 0.67559 0 0 0 0 1.83552 0 -0.67559 -0.737277 0 0 14.146 1.43888 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.675591 -0.737277 0 0 0 0 1.83552 0 -0.737277 0.675591 0 0 14.2887 1.77115 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.608762 0.793353 0 0 0 0 1.83552 0 -0.793353 0.608762 0 0 14.6148 2.15969 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.92388 -0.382683 0 0 0 0 1.83552 0 -0.382683 0.92388 0 0 17.7187 2.16482 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.887011 0.461748 0 0 0 0 1.83552 0 -0.461748 0.887011 0 0 18.1784 2.37918 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.382683 0.92388 0 0 0 0 1.83552 0 0.92388 0.382683 0 0 18.4912 2.32706 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.461748 -0.887011 0 0 0 0 1.83552 0 0.887011 0.461748 0 0 18.7055 1.86738 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.843392 0.537299 0 0 0 0 1.83552 0 0.537299 -0.843392 0 0 18.5953 1.59779 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.793354 -0.608761 0 0 0 0 1.83552 0 0.608761 -0.793354 0 0 18.1799 1.30687 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.461748 -0.887011 0 0 0 0 1.83552 0 -0.887011 -0.461748 0 0 17.8639 1.38607 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.537299 0.843392 0 0 0 0 1.83552 0 -0.843392 -0.537299 0 0 17.6103 1.82532 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento209"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Spoprte Asiento03"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00009.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 0.5 0 0 1.732e-7 -2.453e-7 1.83552 0 0.5 -0.866025 -1.629e-7 0 17.6106 1.82556 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 2.293e-7 1.939e-7 1.83552 0 0.819152 0.573576 -1.629e-7 0 18.1796 1.30717 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 -1.512e-7 2.595e-7 1.83552 0 -0.422618 0.906308 -1.629e-7 0 18.7052 1.86717 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 -2.595e-7 -1.512e-7 1.83552 0 -0.906308 -0.422618 -1.629e-7 0 18.1786 2.37884 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 -1.713e-7 -2.467e-7 1.83552 0 -0.642788 -0.766044 -1.629e-7 0 14.6151 2.15948 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 2.308e-7 -1.921e-7 1.83552 0 0.707107 -0.707107 -1.629e-7 0 14.1462 1.43919 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 1.921e-7 2.308e-7 1.83552 0 0.707107 0.707107 -1.629e-7 0 14.9568 1.02706 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 -0.573577 0 0 -1.939e-7 2.293e-7 1.83552 0 -0.573577 0.819152 -1.629e-7 0 15.275 1.66979 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 -0.642788 0 0 -2.132e-7 2.115e-7 1.83552 0 -0.642788 0.766044 -1.629e-7 0 12.0265 1.87457 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 -1.921e-7 -2.308e-7 1.83552 0 -0.707107 -0.707107 -1.629e-7 0 11.3463 2.34309 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 2.132e-7 -2.115e-7 1.83552 0 0.642788 -0.766044 -1.629e-7 0 10.9357 1.69448 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573577 0.819152 0 0 2.293e-7 1.939e-7 1.83552 0 0.819152 0.573577 -1.629e-7 0 11.5344 1.23524 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0871556 -0.996195 0 0 -2.955e-7 0 1.83552 0 -0.996195 -0.0871556 -1.629e-7 0 8.3849 2.3525 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0.173648 0 0 0 -2.898e-7 1.83552 0 0.173648 -0.984808 -1.629e-7 0 7.47133 1.90686 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.984808 -0.173648 0 0 0 2.898e-7 1.83552 0 -0.173648 0.984808 -1.629e-7 0 8.7338 1.48037 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 2.308e-7 -1.921e-7 1.83552 0 0.707107 -0.707107 -1.629e-7 0 20.9245 1.50336 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 -2.308e-7 1.921e-7 1.83552 0 -0.707107 0.707107 -1.629e-7 0 22.2036 1.83842 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 -0.766045 0 0 -2.115e-7 -2.132e-7 1.83552 0 -0.766045 -0.642787 -1.629e-7 0 21.5025 2.32001 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 1.491e-7 2.607e-7 1.83552 0 0.573576 0.819152 -1.629e-7 0 21.8816 1.00706 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.34202 0.939693 0 0 2.81e-7 0 1.83552 0 0.939693 0.34202 -1.629e-7 0 7.87967 1.17177 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 -1.921e-7 -2.308e-7 1.83552 0 -0.707107 -0.707107 -1.629e-7 0 24.6316 2.34309 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 2.132e-7 -2.115e-7 1.83552 0 0.642788 -0.766044 -1.629e-7 0 24.221 1.69448 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573577 0.819152 0 0 2.293e-7 1.939e-7 1.83552 0 0.819152 0.573577 -1.629e-7 0 24.8198 1.23524 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 -0.642788 0 0 -2.132e-7 2.115e-7 1.83552 0 -0.642788 0.766044 -1.629e-7 0 25.3118 1.87457 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento03"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Spoprte Asiento02"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00010.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.866025 0.5 0 0 1.732e-7 -2.453e-7 1.83552 0 0.5 -0.866025 -1.629e-7 0 17.1479 1.5273 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 2.293e-7 1.939e-7 1.83552 0 0.819152 0.573576 -1.629e-7 0 18.517 0.872258 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 -1.512e-7 2.595e-7 1.83552 0 -0.422618 0.906308 -1.629e-7 0 19.1921 2.12397 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.422618 -0.906308 0 0 -2.595e-7 -1.512e-7 1.83552 0 -0.906308 -0.422618 -1.629e-7 0 17.9218 2.86574 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 -0.642788 0 0 -1.713e-7 -2.467e-7 1.83552 0 -0.642788 -0.766044 -1.629e-7 0 14.1766 2.49223 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 2.308e-7 -1.921e-7 1.83552 0 0.707107 -0.707107 -1.629e-7 0 13.7765 1.03135 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 1.921e-7 2.308e-7 1.83552 0 0.707107 0.707107 -1.629e-7 0 15.3646 0.657358 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 -0.573577 0 0 -1.939e-7 2.293e-7 1.83552 0 -0.573577 0.819152 -1.629e-7 0 15.7099 2.00724 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 -0.642788 0 0 -2.132e-7 2.115e-7 1.83552 0 -0.642788 0.766044 -1.629e-7 0 12.4303 2.24864 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 -1.921e-7 -2.308e-7 1.83552 0 -0.707107 -0.707107 -1.629e-7 0 10.9384 2.7128 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 2.132e-7 -2.115e-7 1.83552 0 0.642788 -0.766044 -1.629e-7 0 10.5318 1.32041 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573577 0.819152 0 0 2.293e-7 1.939e-7 1.83552 0 0.819152 0.573577 -1.629e-7 0 11.8719 0.800327 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0871556 -0.996195 0 0 -2.955e-7 0 1.83552 0 -0.996195 -0.0871556 -1.629e-7 0 8.31012 2.89787 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.984808 0.173648 0 0 0 -2.898e-7 1.83552 0 0.173648 -0.984808 -1.629e-7 0 6.93456 1.78483 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.984808 -0.173648 0 0 0 2.898e-7 1.83552 0 -0.173648 0.984808 -1.629e-7 0 9.27057 1.6024 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 2.308e-7 -1.921e-7 1.83552 0 0.707107 -0.707107 -1.629e-7 0 20.5548 1.09552 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 -2.308e-7 1.921e-7 1.83552 0 -0.707107 0.707107 -1.629e-7 0 22.5733 2.24627 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642787 -0.766045 0 0 -2.115e-7 -2.132e-7 1.83552 0 -0.766045 -0.642787 -1.629e-7 0 21.1284 2.72386 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.819152 0.573576 0 0 1.491e-7 2.607e-7 1.83552 0 0.573576 0.819152 -1.629e-7 0 22.3475 0.713795 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.34202 0.939693 0 0 2.81e-7 0 1.83552 0 0.939693 0.34202 -1.629e-7 0 8.09305 0.664343 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 -1.921e-7 -2.308e-7 1.83552 0 -0.707107 -0.707107 -1.629e-7 0 24.2238 2.7128 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 2.132e-7 -2.115e-7 1.83552 0 0.642788 -0.766044 -1.629e-7 0 23.8171 1.32041 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573577 0.819152 0 0 2.293e-7 1.939e-7 1.83552 0 0.819152 0.573577 -1.629e-7 0 25.1572 0.800327 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766044 -0.642788 0 0 -2.132e-7 2.115e-7 1.83552 0 -0.642788 0.766044 -1.629e-7 0 25.7157 2.24864 0.499415 1  ]
+    ObjectInstance "Silla D Spoprte Asiento02"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Poste83"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00011.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 24.9641 2.2897 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 25.2897 1.90166 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 24.8487 1.25487 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 25.2636 1.54542 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.5687 1.27935 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.2431 1.66739 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 24.2484 1.96055 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 24.6065 2.31874 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 0 0 1 0 0.34202 -0.939693 0 0 8.38868 1.35651 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 0 0 1 0 0.34202 -0.939693 0 0 7.91268 1.18325 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 22.1926 1.45034 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 21.9021 1.0354 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0 0 1 0 -0.642787 0.766045 0 0 21.0873 1.97233 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0 0 1 0 -0.642787 0.766045 0 0 21.4754 2.29793 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 21.8211 2.22167 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 22.1793 1.86348 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 21.307 1.12011 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 20.9489 1.4783 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 0 0 1 0 0.984808 0.173648 0 0 8.64026 2.01373 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 0 0 1 0 0.984808 0.173648 0 0 8.72822 1.51487 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0 0 1 0 -0.984808 -0.173648 0 0 7.56487 1.3735 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0 0 1 0 -0.984808 -0.173648 0 0 7.47691 1.87236 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0 0 1 0 -0.0871556 0.996195 0 0 7.84542 2.30581 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0 0 1 0 -0.0871556 0.996195 0 0 8.35005 2.34995 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 11.9783 1.54542 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 11.5633 1.25487 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 11.2833 1.27935 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 10.9577 1.66739 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 10.963 1.96055 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 11.3212 2.31874 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 11.6788 2.2897 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 12.0044 1.90166 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 14.9648 2.11364 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 15.2554 1.6987 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 15.34 1.40961 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 14.9818 1.05142 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 14.5288 1.05594 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 14.1706 1.41413 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 14.2667 1.74499 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 14.5923 2.13303 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 17.6877 2.15045 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 18.1468 2.36453 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 18.4768 2.35814 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 18.6909 1.89905 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 18.6235 1.61735 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 18.2085 1.3268 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.8809 1.35636 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.6276 1.79505 0.579027 1  ]
+    ObjectInstance "Silla D Poste83"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Silla D Poste95"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Silla D Madera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00012.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 25.6933 2.27525 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 25.4002 2.62459 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 25.5592 1.08183 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 25.1857 0.820263 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.1326 0.94446 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 23.8395 1.2938 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 23.8767 2.36576 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 24.1992 2.68823 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 0 0 1 0 0.34202 -0.939693 0 0 8.55423 0.832209 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.939693 0.34202 0 0 0 0 1 0 0.34202 -0.939693 0 0 8.1257 0.676236 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 22.3674 0.74226 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.573576 0.819152 0 0 0 0 1 0 0.819152 -0.573576 0 0 22.629 1.11582 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0 0 1 0 -0.642787 0.766045 0 0 21.1018 2.70152 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.766045 -0.642787 0 0 0 0 1 0 -0.642787 0.766045 0 0 20.7525 2.40838 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 22.5488 2.27082 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 0.707107 0 0 0 0 1 0 0.707107 0.707107 0 0 22.2263 2.59329 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 20.9018 0.748496 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 20.5794 1.07096 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 0 0 1 0 0.984808 0.173648 0 0 9.18534 2.08572 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.173648 0.984808 0 0 0 0 1 0 0.984808 0.173648 0 0 9.26453 1.63661 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0 0 1 0 -0.984808 -0.173648 0 0 7.01979 1.30151 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.173648 -0.984808 0 0 0 0 1 0 -0.984808 -0.173648 0 0 6.9406 1.75062 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0 0 1 0 -0.0871556 0.996195 0 0 7.82121 2.85508 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996195 -0.0871556 0 0 0 0 1 0 -0.0871556 0.996195 0 0 8.27551 2.89483 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 12.2739 1.08183 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 11.9003 0.820263 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 10.8473 0.94446 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 10.5542 1.2938 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 10.5914 2.36576 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.707107 -0.707107 0 0 0 0 1 0 -0.707107 0.707107 0 0 10.9139 2.68823 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 12.1149 2.62459 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 0.766044 0 0 0 0 1 0 0.766044 0.642788 0 0 12.408 2.27525 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 15.4284 2.40925 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.573576 0.819152 0 0 0 0 1 0 0.819152 0.573576 0 0 15.69 2.03569 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 15.7116 1.0044 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 0.707107 0 0 0 0 1 0 0.707107 -0.707107 0 0 15.3892 0.681933 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 14.1236 0.684324 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.707107 -0.707107 0 0 0 0 1 0 -0.707107 -0.707107 0 0 13.8011 1.00679 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 13.8611 2.11626 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.642788 -0.766044 0 0 0 0 1 0 -0.766044 0.642788 0 0 14.1543 2.46561 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 17.4771 2.65832 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.906308 -0.422618 0 0 0 0 1 0 -0.422618 0.906308 0 0 17.8904 2.85105 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 18.9846 2.56876 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.422618 0.906308 0 0 0 0 1 0 0.906308 0.422618 0 0 19.1774 2.15545 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 18.9191 1.15377 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 18.5455 0.892195 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.3933 1.10228 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.1653 1.49722 0.579027 1  ]
+    ObjectInstance "Silla D Poste95"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Mesa D Poste23"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Mesa D Madera Patas"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00013.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 25.3677 1.72843 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.7836 2.42451 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.0874 1.84031 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 24.6715 1.14423 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 8.61455 1.19217 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 8.61455 2.10102 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.70588 2.10102 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 7.70588 1.19217 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 21.8359 2.35726 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 21.0916 1.83607 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 21.6129 1.09158 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 0 0 1 0 0.573576 -0.819152 0 0 22.3572 1.61277 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 12.0824 1.72843 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 11.4983 2.42451 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 10.8021 1.84031 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0 0 1 0 -0.766044 -0.642788 0 0 11.3861 1.14423 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 0 0 1 0 0.642788 -0.766044 0 0 14.8724 2.20673 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 0 0 1 0 0.642788 -0.766044 0 0 14.1763 1.62265 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 0 0 1 0 0.642788 -0.766044 0 0 14.7605 0.926426 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 0 0 1 0 0.642788 -0.766044 0 0 15.4566 1.51051 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 18.8463 1.69502 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 18.3919 2.48195 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 17.6048 2.02752 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0 0 1 0 -0.866025 -0.5 0 0 18.0592 1.24059 0.579027 1  ]
+    ObjectInstance "Mesa D Poste23"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Mesa D Azulejo05"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Mesa D Talabera"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00014.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0.766044 0.642788 0 0 0 0 1 0 24.7535 1.98424 0.809211 1  ]
+    ObjectInstance "Mesa D Azulejo05"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 8.02378 1.79496 0.809211 1  ]
+    ObjectInstance "Mesa D Azulejo05"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 -0.573576 0.819152 0 0 0 0 1 0 21.5275 1.7677 0.809211 1  ]
+    ObjectInstance "Mesa D Azulejo05"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0.766044 0.642788 0 0 0 0 1 0 11.4682 1.98424 0.809211 1  ]
+    ObjectInstance "Mesa D Azulejo05"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 -0.642788 0.766044 0 0 0 0 1 0 14.6165 1.59254 0.809211 1  ]
+    ObjectInstance "Mesa D Azulejo05"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0.866025 0.5 0 0 0 0 1 0 18.2858 2.0536 0.809211 1  ]
+    ObjectInstance "Mesa D Azulejo05"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Mesa Set D Orilla"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Mesa D Madera Orilla"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00015.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.5 -0.866025 0 0 0.866025 0.5 0 0 0 0 1 0 18.2078 1.89148 0.786744 1  ]
+    ObjectInstance "Mesa Set D Orilla"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.766044 0.642788 0 0 -0.642788 0.766044 0 0 0 0 1 0 14.7897 1.54388 0.786744 1  ]
+    ObjectInstance "Mesa Set D Orilla"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0.766044 0.642788 0 0 0 0 1 0 11.4195 1.81104 0.786744 1  ]
+    ObjectInstance "Mesa Set D Orilla"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.819152 0.573576 0 0 -0.573576 0.819152 0 0 0 0 1 0 21.6958 1.70413 0.786744 1  ]
+    ObjectInstance "Mesa Set D Orilla"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 8.12519 1.64635 0.786744 1  ]
+    ObjectInstance "Mesa Set D Orilla"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.642788 -0.766044 0 0 0.766044 0.642788 0 0 0 0 1 0 24.7048 1.81104 0.786744 1  ]
+    ObjectInstance "Mesa Set D Orilla"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Tela Mesa Cuadrada Amarilla 08"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Tela Mesa D 2"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00016.ply" ]
+            "texture alpha" [ "Map #491" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00278094 -0.00234416 0 0 0.00234416 -0.00278094 0 0 0 0 0.00363713 0 24.6989 1.80144 0.869893 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Amarilla 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00363712 -0.0000077425 0 0 0.0000077425 -0.00363712 0 0 0 0 0.00363713 0 8.11634 1.64425 0.869893 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Amarilla 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00278094 -0.00234416 0 0 0.00234416 -0.00278094 0 0 0 0 0.00363713 0 11.4135 1.80144 0.869893 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Amarilla 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00297808 0.00208801 0 0 -0.00208801 0.00297808 0 0 0 0 0.00363713 0 21.7023 1.71551 0.869893 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Amarilla 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00180244 -0.0031591 0 0 0.0031591 0.00180244 0 0 0 0 0.00363713 0 18.2161 1.88495 0.869893 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Amarilla 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0027862 0.0023379 0 0 -0.0023379 0.0027862 0 0 0 0 0.00363713 0 14.7941 1.55425 0.869893 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Amarilla 08"
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Tela Mesa Cuadrada Roja 08"
+
+    AttributeBegin
+        Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+        NamedMaterial "Tela Mesa D"
+        Shape "plymesh"
+            "string filename" [ "geometry/mesas_abajo_00017.ply" ]
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.000302988 -0.0035552 0 0 0.0035552 -0.000302988 0 0 0 0 0.00356809 0 24.6989 1.80144 0.986418 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Roja 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00251764 -0.00252839 0 0 0.00252839 -0.00251764 0 0 0 0 0.00356809 0 8.11634 1.64425 0.986418 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Roja 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.000302988 -0.0035552 0 0 0.0035552 -0.000302988 0 0 0 0 0.00356809 0 11.4135 1.80144 0.986418 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Roja 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.000617428 0.00351426 0 0 -0.00351426 0.000617428 0 0 0 0 0.00356809 0 21.7023 1.71551 0.986418 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Roja 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00344174 -0.000941096 0 0 0.000941096 0.00344174 0 0 0 0 0.00356809 0 18.2161 1.88495 0.986418 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Roja 08"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00031098 0.00355451 0 0 -0.00355451 0.00031098 0 0 0 0 0.00356809 0 14.7941 1.55425 0.986418 1  ]
+    ObjectInstance "Tela Mesa Cuadrada Roja 08"
+AttributeEnd

@@ -1,0 +1,142 @@
+### Object: Tela Mesa 1 ### 
+### End Object: Tela Mesa 1 ### 
+### Object: Sila Forja A Metal Bola195 ### 
+Texture "Tela Mesa A Diffuse" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tela_blanca.png" ]
+Texture "Tela Mesa A_Bump" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tela_blanca.png" ]
+### End Object: Sila Forja A Metal Bola195 ### 
+### Object: Silla Forja Base Madera26 ### 
+Texture "Tela Mesa A_Bump_bump" "float" "scale"
+    "float scale" [ 0.002 ]
+    "texture tex" [ "Tela Mesa A_Bump" ]
+MakeNamedMaterial "Tela Mesa A"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Tela Mesa A_Bump_bump" ]
+    "texture reflectance" [ "Tela Mesa A Diffuse" ]
+### End Object: Silla Forja Base Madera26 ### 
+### Object: Silla Forja Asiento26 ### 
+Texture "Map #31" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Fierro_A.png" ]
+Texture "FierroBumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Fierro_A_Bump.png" ]
+### End Object: Silla Forja Asiento26 ### 
+### Object: Sila Forja A Metal Bola180 ### 
+Texture "FierroBumpMap_bump" "float" "scale"
+    "float scale" [ 0.005 ]
+    "texture tex" [ "FierroBumpMap" ]
+### End Object: Sila Forja A Metal Bola180 ### 
+### Object: Mesa Madera23 ### 
+Texture "FIerroSpecMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Fierro_A_Bump.png" ]
+Texture "FIerroSpecMap_RoughMap" "float" "scale"
+    "float scale" [ 0 ]
+    "texture tex" [ "FIerroSpecMap" ]
+### End Object: Mesa Madera23 ### 
+### Object: Silla C Base Madera20 ### 
+MakeNamedMaterial "Sila Forja A Metal"
+    "string type" [ "coateddiffuse" ]
+    "texture displacement" [ "FierroBumpMap_bump" ]
+    "texture reflectance" [ "Map #31" ]
+    "texture roughness" [ "FIerroSpecMap_RoughMap" ]
+Texture "Map #30" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/wood.3.Bubinga.png" ]
+### End Object: Silla C Base Madera20 ### 
+### Object: Silla C Asiento Orilla 42 ### 
+MakeNamedMaterial "Sila Forja A Madera"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #30" ]
+Texture "Map #33" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tela_silla_b.png" ]
+### End Object: Silla C Asiento Orilla 42 ### 
+MakeNamedMaterial "Sila Forja A Tela"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #33" ]
+MakeNamedMaterial "Standard_7"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.54902 0.54902 0.54902 ]
+Texture "Map #29c" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Vigas_B.png" ]
+MakeNamedMaterial "Mesa Madera"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #29c" ]
+Texture "Map #34" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BWK_1024.png" ]
+MakeNamedMaterial "Silla C Madera"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #34" ]
+Texture "Map #35" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tela_silla_b.png" ]
+MakeNamedMaterial "Silla C Tela"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #35" ]

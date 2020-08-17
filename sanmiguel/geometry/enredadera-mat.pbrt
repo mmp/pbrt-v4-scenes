@@ -1,0 +1,135 @@
+### Object: Enredadera ### 
+### End Object: Enredadera ### 
+### Object: Hoja_Verde_A01 ### 
+Texture "Tronco_Diffuse-enredadera" "spectrum" "imagemap"
+    "float uscale" [ 1.5 ]
+    "float vscale" [ 30 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/bark06mi.png" ]
+### End Object: Hoja_Verde_A01 ### 
+### Object: Hoja_Verde_A21384 ### 
+Texture "Tronco_Bump-enredadera" "float" "imagemap"
+    "float uscale" [ 1.5 ]
+    "float vscale" [ 30 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/bark06mi.png" ]
+Texture "Tronco_Bump_bump-enredadera" "float" "scale"
+    "float scale" [ 0.5 ]
+    "texture tex" [ "Tronco_Bump-enredadera" ]
+MakeNamedMaterial "Tronco-enredadera"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Tronco_Bump_bump-enredadera" ]
+    "texture reflectance" [ "Tronco_Diffuse-enredadera" ]
+Texture "Map #25-enredadera" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l33-upper.png" ]
+Texture "Hojas VerdesBump-enredadera" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l33-upper.png" ]
+### End Object: Hoja_Verde_A21384 ### 
+### Object: Hoja_Roja01 ### 
+Texture "Hojas VerdesBump_bump-enredadera" "float" "scale"
+    "float scale" [ 0.1 ]
+    "texture tex" [ "Hojas VerdesBump-enredadera" ]
+Texture "Map #26-enredadera" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l33-clip.png" ]
+MakeNamedMaterial "Hoja_Verde_B-enredadera"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Hojas VerdesBump_bump-enredadera" ]
+    "texture reflectance" [ "Map #25-enredadera" ]
+Texture "Map #27-enredadera" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l37-upper.png" ]
+Texture "Hojas Verdes 1 topBump-enredadera" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l37-upper.png" ]
+### End Object: Hoja_Roja01 ### 
+Texture "Hojas Verdes 1 topBump_bump-enredadera" "float" "scale"
+    "float scale" [ 0.1 ]
+    "texture tex" [ "Hojas Verdes 1 topBump-enredadera" ]
+Texture "Map #28-enredadera" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l37-clip.png" ]
+MakeNamedMaterial "Hoja_Verde_A-enredadera"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Hojas Verdes 1 topBump_bump-enredadera" ]
+    "texture reflectance" [ "Map #27-enredadera" ]
+Texture "Map #29-enredadera" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l04-upper.png" ]
+Texture "Hojas Rojas top_Bump-enredadera" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l04-upper.png" ]
+Texture "Hojas Rojas top_Bump_bump-enredadera" "float" "scale"
+    "float scale" [ 0.1 ]
+    "texture tex" [ "Hojas Rojas top_Bump-enredadera" ]
+Texture "Map #30-enredadera" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/l04-clip.png" ]
+MakeNamedMaterial "Hojas Rojas top-enredadera"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Hojas Rojas top_Bump_bump-enredadera" ]
+    "texture reflectance" [ "Map #29-enredadera" ]

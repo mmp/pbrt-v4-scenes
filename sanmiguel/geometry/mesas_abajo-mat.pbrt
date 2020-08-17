@@ -1,0 +1,161 @@
+### Object: Silla D Tachuela335 ### 
+### End Object: Silla D Tachuela335 ### 
+### Object: Silla D Cuero23 ### 
+Texture "Map #482" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Fierro_A.png" ]
+Texture "Map #489" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Fierro_A_Bump.png" ]
+### End Object: Silla D Cuero23 ### 
+### Object: Silla D Respaldo Madera 03 ### 
+Texture "Map #489_KsMap" "spectrum" "scale"
+    "texture tex" [ "Map #489" ]
+    "float scale" [ 1 ]
+Texture "Map #483" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Fierro_A_Bump.png" ]
+Texture "Map #483_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #483" ]
+MakeNamedMaterial "Silla D Tachuelas"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.6 ]
+    "texture displacement" [ "Map #483_bump" ]
+    "texture reflectance" [ "Map #482" ]
+### End Object: Silla D Respaldo Madera 03 ### 
+### Object: Mesa D Poste23 ### 
+Texture "Map #480" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/silla_d_piel.png" ]
+### End Object: Mesa D Poste23 ### 
+### Object: Mesa D Azulejo05 ### 
+Texture "Map #481" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/silla_d_piel_bump.png" ]
+Texture "Map #481_bump" "float" "scale"
+    "float scale" [ 0.005 ]
+    "texture tex" [ "Map #481" ]
+### End Object: Mesa D Azulejo05 ### 
+### Object: Mesa Set D Orilla ### 
+MakeNamedMaterial "Silla D Piel"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.2 ]
+    "texture displacement" [ "Map #481_bump" ]
+    "texture reflectance" [ "Map #480" ]
+### End Object: Mesa Set D Orilla ### 
+### Object: Tela Mesa Cuadrada Amarilla 08 ### 
+Texture "MaderaMesasMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/WOOD08.png" ]
+Texture "MaderaMEsaBump" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/WOOD08_Bump.png" ]
+Texture "MaderaMEsaBump_bump" "float" "scale"
+    "float scale" [ 0.015 ]
+    "texture tex" [ "MaderaMEsaBump" ]
+### End Object: Tela Mesa Cuadrada Amarilla 08 ### 
+### Object: Tela Mesa Cuadrada Roja 08 ### 
+MakeNamedMaterial "Silla D Madera"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.15 ]
+    "texture displacement" [ "MaderaMEsaBump_bump" ]
+    "texture reflectance" [ "MaderaMesasMap" ]
+MakeNamedMaterial "Mesa D Madera Patas"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "MaderaMEsaBump_bump" ]
+    "texture reflectance" [ "MaderaMesasMap" ]
+### End Object: Tela Mesa Cuadrada Roja 08 ### 
+Texture "Map #478" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tapa_talabera.png" ]
+MakeNamedMaterial "Mesa D Talabera"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #478" ]
+MakeNamedMaterial "Mesa D Madera Orilla"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "MaderaMEsaBump_bump" ]
+    "texture reflectance" [ "MaderaMesasMap" ]
+Texture "Map #485" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tela_mesa_d.png" ]
+Texture "Map #491" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tela_mesa_cuadrada_alpah.png" ]
+MakeNamedMaterial "Tela Mesa D 2"
+    "string type" [ "diffuse" ]
+    "float sigma" [ 10 ]
+    "texture reflectance" [ "Map #485" ]
+Texture "Map #484" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/tela_mesa_b.png" ]
+MakeNamedMaterial "Tela Mesa D"
+    "string type" [ "diffuse" ]
+    "float sigma" [ 5 ]
+    "texture reflectance" [ "Map #484" ]

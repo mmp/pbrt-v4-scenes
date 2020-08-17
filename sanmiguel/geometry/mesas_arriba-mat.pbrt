@@ -1,0 +1,107 @@
+### Object: Mesa Patas ### 
+### End Object: Mesa Patas ### 
+### Object: Silla Respaldo Sujetador01 ### 
+### End Object: Silla Respaldo Sujetador01 ### 
+### Object: Tabla Mesa01 ### 
+Texture "Map #480b" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/WOOD08.png" ]
+Texture "Map #481b" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/WOOD08_Bump.png" ]
+Texture "Map #481b_bump" "float" "scale"
+    "float scale" [ 0.002 ]
+    "texture tex" [ "Map #481b" ]
+MakeNamedMaterial "Madera Silla"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.1 ]
+    "texture displacement" [ "Map #481b_bump" ]
+    "texture reflectance" [ "Map #480b" ]
+Texture "Map #483" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Finishes.Flooring.Carpet.Loop.5.png" ]
+Texture "Map #484" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Finishes.Flooring.Carpet.Loop.5.png" ]
+Texture "Map #484_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #484" ]
+MakeNamedMaterial "Silla Tela"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #484_bump" ]
+    "texture reflectance" [ "Map #483" ]
+### End Object: Tabla Mesa01 ### 
+Texture "Map #476" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/BWK_1024.png" ]
+Texture "Madera Mesa Arriba_Spec" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/bwk_1024_Spec2.png" ]
+Texture "Madera Mesa Arriba_Spec_KsMap" "spectrum" "scale"
+    "texture tex" [ "Madera Mesa Arriba_Spec" ]
+    "float scale" [ 1 ]
+Texture "Madera Mesa Arriba Bump" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/bwk_1024_Bump.png" ]
+Texture "Madera Mesa Arriba Bump_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Madera Mesa Arriba Bump" ]
+Texture "Madera Mesa Arriba_Rough" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/bwk_1024_Spec.png" ]
+Texture "Madera Mesa Arriba_Rough_RoughMap" "float" "scale"
+    "float scale" [ 0 ]
+    "texture tex" [ "Madera Mesa Arriba_Rough" ]
+MakeNamedMaterial "Madera Mesa Arriba"
+    "string type" [ "coateddiffuse" ]
+    "texture displacement" [ "Madera Mesa Arriba Bump_bump" ]
+    "texture reflectance" [ "Map #476" ]
+    "texture roughness" [ "Madera Mesa Arriba_Rough_RoughMap" ]

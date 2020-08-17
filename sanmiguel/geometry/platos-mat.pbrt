@@ -1,0 +1,135 @@
+### Object: Plato A87 ### 
+### End Object: Plato A87 ### 
+### Object: Individual63 ### 
+### End Object: Individual63 ### 
+### Object: Cenisero21 ### 
+### End Object: Cenisero21 ### 
+### Object: Base Lampara Vela21 ### 
+### End Object: Base Lampara Vela21 ### 
+### Object: Vela21 ### 
+Texture "PlatoAMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/plato_a.png" ]
+### End Object: Vela21 ### 
+### Object: Vela Mecha21 ### 
+MakeNamedMaterial "Plato A"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.005 ]
+    "texture reflectance" [ "PlatoAMap" ]
+### End Object: Vela Mecha21 ### 
+### Object: Pimienta21 ### 
+Texture "Individual Verde_Map" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/individual_b.png" ]
+MakeNamedMaterial "Individual Verde"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Individual Verde_Map" ]
+Texture "Map #98" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/cenicero.png" ]
+MakeNamedMaterial "Cenicero"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.002 ]
+    "texture reflectance" [ "Map #98" ]
+### End Object: Pimienta21 ### 
+### Object: Salero Cromo42 ### 
+Texture "Map #97" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/ceramic_tile.png" ]
+### End Object: Salero Cromo42 ### 
+### Object: Sal21 ### 
+MakeNamedMaterial "Base Vela Color"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #97" ]
+MakeNamedMaterial "Vela"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.8 ]
+    "rgb reflectance" [ 0.776471 0.756863 0.721569 ]
+MakeNamedMaterial "Vela Mecha"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.121569 0.113726 0.101961 ]
+### End Object: Sal21 ### 
+### Object: Tenedor_Plastico87 ### 
+Texture "PimientaMap" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/PITTED.png" ]
+### End Object: Tenedor_Plastico87 ### 
+### Object: Copa_Chica87 ### 
+Texture "PimientaBumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/PITTED.png" ]
+### End Object: Copa_Chica87 ### 
+### Object: Pimientero_Vidrio21 ### 
+Texture "PimientaBumpMap_bump" "float" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "PimientaBumpMap" ]
+### End Object: Pimientero_Vidrio21 ### 
+MakeNamedMaterial "Pimienta"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "PimientaBumpMap_bump" ]
+    "texture reflectance" [ "PimientaMap" ]
+MakeNamedMaterial "Cromo"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.002 ]
+    "rgb reflectance" [ 0.0862745 0.0823529 0.0745098 ]
+Texture "SalBumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/PITTED.png" ]
+Texture "SalBumpMap_bump" "float" "scale"
+    "float scale" [ 0.2 ]
+    "texture tex" [ "SalBumpMap" ]
+MakeNamedMaterial "Sal"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "SalBumpMap_bump" ]
+    "rgb reflectance" [ 0.776471 0.74902 0.709804 ]
+MakeNamedMaterial "Plastico Cubiertos"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+MakeNamedMaterial "Copas"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+MakeNamedMaterial "VidrioSalero"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]

@@ -1,0 +1,78 @@
+# Gtool Exporter Ver. 1.00 for pbrt v2.0 Render, www.pbrt.org 
+# Created by Guillermo M. Leal LLaguno,  g.llaguno@evvisual.com,  www.evvisual.com 
+# Exported on: 12/22/2009 12:28:23 AM 
+Scale -1 1 1
+# account for fixed lookat bug... 
+# Camera Camera14
+LookAt 22.8676 -12.9289 1.94784
+    22.2116 -12.1807 2.04755
+    0.065738 -0.0749807 0.995016
+Camera "perspective"
+    "float focaldistance" [ 1000000 ]
+    "float lensradius" [ 0 ]
+    "float shutterclose" [ 1 ]
+    "float shutteropen" [ 0 ]
+    "float fov" [ 83.9744 ]
+#	 "float cropwindow"  [0.01125  0.99875  0.0109091  0.907273]
+# End Camera Camera14
+Film "rgb"
+    "string filename" [ "sanmiguel_cam14.exr" ]
+    "float cropwindow" [ 0.1 0.8 0.0109091 0.907273 ]
+    "integer yresolution" [ 1100 ]
+    "integer xresolution" [ 1600 ]
+Sampler "halton"
+    "integer pixelsamples" [ 2048 ]
+Integrator "volpath"
+
+
+WorldBegin
+
+# Enviorment 
+
+AttributeBegin
+    Rotate 198 0 0 1
+    LightSource "infinite"
+        "float scale" [15]
+        "string filename" "textures/sky.exr"
+AttributeEnd
+# ***** Lights ***** 
+# ***** End  Lights *****
+#Main File
+Include "geometry/sanmiguel-mat.pbrt"
+Include "geometry/sanmiguel-geom.pbrt"
+#Trees
+Include "geometry/arbol-mat.pbrt"
+Include "geometry/troncoA-geom.pbrt"
+Include "geometry/troncoB-geom.pbrt"
+#Trees Leaves
+#Include "geometry/hojas_a1-geom.pbrt"   	# tapa ventanas
+#Include "geometry/hojas_a2-geom.pbrt" 
+Include "geometry/hojas_a3-geom.pbrt"
+#Include "geometry/hojas_a4-geom.pbrt" 
+#Include "geometry/hojas_a5-geom.pbrt"  		# es arriba no se ve en cam9
+#Include "geometry/hojas_a6-geom.pbrt" 
+#Include "geometry/hojas_a7-geom.pbrt" 
+#Include "geometry/hojas_b2-geom.pbrt"  		# rama abajo atravezada
+Include "geometry/hojas_b3-geom.pbrt"
+#Include "geometry/hojas_b4-geom.pbrt" 		# rama abajo atravezada
+#Wall Ivy
+Include "geometry/enredadera-mat.pbrt"
+Include "geometry/enredadera-geom.pbrt"
+#Pots
+Include "geometry/macetas-mat.pbrt"
+Include "geometry/macetas-geom.pbrt"
+#Plants
+Include "geometry/plantas-mat.pbrt"
+Include "geometry/plantas-geom.pbrt"
+#Tables Downstairs
+Include "geometry/mesas_abajo-mat.pbrt"
+Include "geometry/mesas_abajo-geom.pbrt"
+#Tables Upstairs
+Include "geometry/mesas_arriba-mat.pbrt"
+Include "geometry/mesas_arriba-geom.pbrt"
+#Table Downstairs open space
+Include "geometry/mesas_patio-mat.pbrt"
+Include "geometry/mesas_patio-geom.pbrt"
+#Silverware
+Include "geometry/platos-mat.pbrt"
+Include "geometry/platos-geom.pbrt"

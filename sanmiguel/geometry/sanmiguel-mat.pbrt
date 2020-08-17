@@ -1,0 +1,1862 @@
+### Object: Puerta Arco Grande Vidrio ### 
+### End Object: Puerta Arco Grande Vidrio ### 
+### Object: Jardinera 1 ### 
+### End Object: Jardinera 1 ### 
+### Object: Moldura Detalle Escalera ### 
+### End Object: Moldura Detalle Escalera ### 
+### Object: Moldura Techo 1 ### 
+MakeNamedMaterial "Sun_Light"
+   "string type" "diffuse" "rgb reflectance" [0 0 0 ]
+MakeNamedMaterial "Fill_Light_Patio"
+   "string type" "diffuse" "rgb reflectance" [0 0 0 ]
+MakeNamedMaterial "Vidrio"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+### End Object: Moldura Techo 1 ### 
+### Object: Moldura Techo 2 ### 
+Texture "Map #594" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/jardinera_1_color.png" ]
+Texture "Map #595" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/jardinera_1_displacement_2.png" ]
+Texture "Map #595_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #595" ]
+MakeNamedMaterial "Jardinera 1"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #595_bump" ]
+    "texture reflectance" [ "Map #594" ]
+### End Object: Moldura Techo 2 ### 
+### Object: Escaleras ### 
+Texture "Map #606" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/cantera_naranja_liso.png" ]
+MakeNamedMaterial "Moldura Detalle Escalera"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #606" ]
+Texture "Map #609" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/moldura_volado.png" ]
+MakeNamedMaterial "Moldura Techo arcos"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #609" ]
+### End Object: Escaleras ### 
+### Object: Muros ### 
+Texture "Map #607" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/moldura_techo.png" ]
+Texture "Map #608" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/moldura_techo_bump.png" ]
+### End Object: Muros ### 
+### Object: Techos ### 
+Texture "Map #608_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #608" ]
+MakeNamedMaterial "Moldura Techo"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #608_bump" ]
+    "texture reflectance" [ "Map #607" ]
+### End Object: Techos ### 
+### Object: Vigas Volados Concreto ### 
+Texture "Map #590" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/escalera_color.png" ]
+Texture "Map #591" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/escalera_bump.png" ]
+### End Object: Vigas Volados Concreto ### 
+### Object: Moldura Volado ### 
+Texture "Map #591_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #591" ]
+MakeNamedMaterial "Escalera"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #591_bump" ]
+    "texture reflectance" [ "Map #590" ]
+### End Object: Moldura Volado ### 
+### Object: Losa Volado ### 
+Texture "Map #547" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/pared_barro_afinado.png" ]
+MakeNamedMaterial "Muros"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #547" ]
+### End Object: Losa Volado ### 
+### Object: Mold Segundo Piso ### 
+Texture "Map #619" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/techo.png" ]
+MakeNamedMaterial "techos"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #619" ]
+Texture "Map #623" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/concreto_02.png" ]
+MakeNamedMaterial "Vigas Concreto"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #623" ]
+### End Object: Mold Segundo Piso ### 
+### Object: Piso Arriba interior ### 
+Texture "Map #610" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/moldura_volado.png" ]
+### End Object: Piso Arriba interior ### 
+### Object: Azotea ### 
+MakeNamedMaterial "Moldura Volado"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #610" ]
+### End Object: Azotea ### 
+### Object: Piso Arriba terraza 1 ### 
+Texture "Map #597" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/losa.png" ]
+MakeNamedMaterial "Losa Volados"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #597" ]
+Texture "Map #611" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/moldura2piso_color.png" ]
+Texture "Map #612" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/moldura2piso_bump.png" ]
+Texture "Map #612_bump" "float" "scale"
+    "float scale" [ 0.003 ]
+    "texture tex" [ "Map #612" ]
+MakeNamedMaterial "Moldura2piso"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #612_bump" ]
+    "texture reflectance" [ "Map #611" ]
+### End Object: Piso Arriba terraza 1 ### 
+### Object: Puerta Arco Grande Filos ### 
+MakeNamedMaterial "Piso Interior"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.75 0.75 0.75 ]
+MakeNamedMaterial "Azotea"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.54902 0.54902 0.54902 ]
+### End Object: Puerta Arco Grande Filos ### 
+### Object: Puerta Arco Grande Detalle ### 
+Texture "Map #613" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/piso_rustico.png" ]
+Texture "PisoSpec" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/piso_rustico_Spec.png" ]
+### End Object: Puerta Arco Grande Detalle ### 
+### Object: Muros A ### 
+Texture "PisoSpec_KsMap" "spectrum" "scale"
+    "texture tex" [ "PisoSpec" ]
+    "float scale" [ 1 ]
+Texture "Map #614" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/piso_rustico_displace2.png" ]
+### End Object: Muros A ### 
+### Object: Muros B1 ### 
+Texture "Map #614_bump" "float" "scale"
+    "float scale" [ 0.012 ]
+    "texture tex" [ "Map #614" ]
+MakeNamedMaterial "Piso Pasillos Arriba"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.005 ]
+    "texture displacement" [ "Map #614_bump" ]
+    "texture reflectance" [ "Map #613" ]
+Texture "Map #617" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/madera_triplay_01.png" ]
+MakeNamedMaterial "Puerta Arco"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.01 ]
+    "texture reflectance" [ "Map #617" ]
+### End Object: Muros B1 ### 
+### Object: Muros C2 ### 
+Texture "Map #588" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/rust_a1.png" ]
+MakeNamedMaterial "Barandal Postes"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #588" ]
+### End Object: Muros C2 ### 
+### Object: Muros F ### 
+Texture "Map #549" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_a.png" ]
+MakeNamedMaterial "Pared SanMiguel B"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #549" ]
+### End Object: Muros F ### 
+### Object: Muros E ### 
+Texture "Map #550" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_b1.png" ]
+Texture "Map #644" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_b1.png" ]
+### End Object: Muros E ### 
+### Object: Muros D ### 
+Texture "Map #644_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #644" ]
+MakeNamedMaterial "Pared SanMiguel B1"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #644_bump" ]
+    "texture reflectance" [ "Map #550" ]
+### End Object: Muros D ### 
+### Object: Muros G ### 
+Texture "Map #552" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_c2.png" ]
+MakeNamedMaterial "Pared SanMiguel C2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #552" ]
+### End Object: Muros G ### 
+### Object: Muros H ### 
+Texture "Map #555" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_f.png" ]
+MakeNamedMaterial "Pared SanMiguel F"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #555" ]
+### End Object: Muros H ### 
+### Object: Muros I ### 
+Texture "Map #554" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_e.png" ]
+MakeNamedMaterial "Pared SanMiguel E"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #554" ]
+### End Object: Muros I ### 
+### Object: Muros J ### 
+Texture "Map #553" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_d.png" ]
+MakeNamedMaterial "Pared SanMiguel D"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #553" ]
+### End Object: Muros J ### 
+### Object: Muros L ### 
+Texture "Map #556" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_g.png" ]
+MakeNamedMaterial "Pared SanMiguel G"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #556" ]
+### End Object: Muros L ### 
+### Object: Muros M ### 
+Texture "Map #557" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_h.png" ]
+MakeNamedMaterial "Pared SanMiguel H"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #557" ]
+### End Object: Muros M ### 
+### Object: Muros N ### 
+Texture "Map #558" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_l.png" ]
+MakeNamedMaterial "Pared SanMiguel I"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #558" ]
+### End Object: Muros N ### 
+### Object: Muros O ### 
+Texture "Map #559" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_j.png" ]
+MakeNamedMaterial "Pared SanMiguel J"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #559" ]
+### End Object: Muros O ### 
+### Object: Muros P ### 
+Texture "Map #546" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_l.png" ]
+MakeNamedMaterial "Muro Naranja Escalera"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #546" ]
+### End Object: Muros P ### 
+### Object: Muros Q3 ### 
+Texture "Map #561" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_m.png" ]
+MakeNamedMaterial "Pared SanMiguel M"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #561" ]
+### End Object: Muros Q3 ### 
+### Object: Muros Q2 ### 
+Texture "Map #562" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_n.png" ]
+MakeNamedMaterial "Pared SanMiguel N"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #562" ]
+### End Object: Muros Q2 ### 
+### Object: Muros Q4 ### 
+Texture "Map #548" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_b.png" ]
+MakeNamedMaterial "Pared SanMiguel A"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #548" ]
+### End Object: Muros Q4 ### 
+### Object: Vigas Techo Fondo ### 
+Texture "Map #563" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_p_.png" ]
+MakeNamedMaterial "Pared SanMiguel P2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #563" ]
+### End Object: Vigas Techo Fondo ### 
+### Object: Tierra 04 ### 
+Texture "Map #543" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_q3.png" ]
+MakeNamedMaterial "Pared SanMiguel Q"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #543" ]
+### End Object: Tierra 04 ### 
+### Object: Muros Patio Trasero ### 
+Texture "Map #544" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_q.png" ]
+MakeNamedMaterial "Pared SanMiguel Q2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #544" ]
+### End Object: Muros Patio Trasero ### 
+### Object: Banqueta ### 
+Texture "Map #545" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_q4.png" ]
+### End Object: Banqueta ### 
+### Object: Arcos Lisos 1 ### 
+MakeNamedMaterial "Pared SanMiguel Q4"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #545" ]
+Texture "Map #618" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/techo.png" ]
+MakeNamedMaterial "Techo Vigas"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #618" ]
+Texture "Map #622" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/052terresable.png" ]
+### End Object: Arcos Lisos 1 ### 
+### Object: Arcos Lisos 3 ### 
+MakeNamedMaterial "Tierra"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #622" ]
+Texture "Pared SanMiguel QpatioDiffuse" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_q_patio2.png" ]
+MakeNamedMaterial "Pared SanMiguel Qpatio"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Pared SanMiguel QpatioDiffuse" ]
+MakeNamedMaterial "Banqueta"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.54902 0.54902 0.54902 ]
+### End Object: Arcos Lisos 3 ### 
+### Object: Muros B2 ### 
+Texture "Map #511" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/arcos_lisos_2_color.png" ]
+Texture "Map #512" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/arcos_lisos_2_bump.png" ]
+### End Object: Muros B2 ### 
+### Object: Vigas Techo B ### 
+Texture "Map #512_bump" "float" "scale"
+    "float scale" [ 0.015 ]
+    "texture tex" [ "Map #512" ]
+MakeNamedMaterial "Arcos Lisos 2"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #512_bump" ]
+    "texture reflectance" [ "Map #511" ]
+### End Object: Vigas Techo B ### 
+### Object: Vigas Techo A ### 
+Texture "Map #508" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/arcos_lisos_3_color_1.png" ]
+Texture "Map #509" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/arcos_lisos_3_bump_1.png" ]
+### End Object: Vigas Techo A ### 
+### Object: Muros K ### 
+Texture "Map #509_bump" "float" "scale"
+    "float scale" [ 0.015 ]
+    "texture tex" [ "Map #509" ]
+MakeNamedMaterial "Arcos Lisos 3"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #509_bump" ]
+    "texture reflectance" [ "Map #508" ]
+### End Object: Muros K ### 
+### Object: Piso Abajo Exterior Concreto ### 
+Texture "Map #551" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_b2.png" ]
+MakeNamedMaterial "Pared SanMiguel B2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #551" ]
+### End Object: Piso Abajo Exterior Concreto ### 
+### Object: Vigas Volados Madera ### 
+Texture "Map #625" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/madera_rustica_2.png" ]
+MakeNamedMaterial "Vigas Techo B"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.01 ]
+    "texture reflectance" [ "Map #625" ]
+Texture "Map #624" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/madera_rustica_2.png" ]
+MakeNamedMaterial "Vigas Techo A"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #624" ]
+### End Object: Vigas Volados Madera ### 
+### Object: Techos 2 ### 
+Texture "Map #560" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/muros_k.png" ]
+MakeNamedMaterial "Pared SanMiguel K"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #560" ]
+### End Object: Techos 2 ### 
+### Object: Piso Abajo Exterior Rustico ### 
+Texture "Map #615" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/concreto_01.png" ]
+MakeNamedMaterial "Piso Patio Exterior Concreto"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #615" ]
+Texture "Map #626" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Vigas_A2.png" ]
+Texture "Map #627" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/vigas_a2_bump.png" ]
+### End Object: Piso Abajo Exterior Rustico ### 
+### Object: Jardinera Redonda03 ### 
+Texture "Map #627_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #627" ]
+MakeNamedMaterial "Vigas Volados"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #627_bump" ]
+    "texture reflectance" [ "Map #626" ]
+### End Object: Jardinera Redonda03 ### 
+### Object: Calle ### 
+Texture "Map #620" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/techo_01.png" ]
+### End Object: Calle ### 
+### Object: Molduras Arcos01 ### 
+MakeNamedMaterial "Techos 2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #620" ]
+Texture "Piso Patio ExteriorDiffuse" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/piso_patio_exterior.png" ]
+Texture "Piso Patio Exterior_Disp" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/piso_patio_exterior_displace_inv.png" ]
+Texture "Piso Patio Exterior_Disp_bump" "float" "scale"
+    "float scale" [ 0.02 ]
+    "texture tex" [ "Piso Patio Exterior_Disp" ]
+### End Object: Molduras Arcos01 ### 
+### Object: Puertas Agarraderas ### 
+MakeNamedMaterial "Piso Patio Exterior"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Piso Patio Exterior_Disp_bump" ]
+    "texture reflectance" [ "Piso Patio ExteriorDiffuse" ]
+### End Object: Puertas Agarraderas ### 
+### Object: Pintura 01 ### 
+Texture "Map #596" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/fuente_piedra_01.png" ]
+MakeNamedMaterial "Jardinera 2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #596" ]
+### End Object: Pintura 01 ### 
+### Object: Pintura 02 ### 
+MakeNamedMaterial "Calle"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.54902 0.54902 0.54902 ]
+Texture "Map #586" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/arco_frente.png" ]
+### End Object: Pintura 02 ### 
+### Object: Pintura 03 ### 
+Texture "Map #587" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/arco_frente_displace_inv.png" ]
+Texture "Map #587_bump" "float" "scale"
+    "float scale" [ 0.002 ]
+    "texture tex" [ "Map #587" ]
+### End Object: Pintura 03 ### 
+### Object: Pintura 04 ### 
+MakeNamedMaterial "Arco Frente"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #587_bump" ]
+    "texture reflectance" [ "Map #586" ]
+MakeNamedMaterial "Puerta Agarradera01"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.1 ]
+    "rgb reflectance" [ 0.337255 0.286275 0.223529 ]
+### End Object: Pintura 04 ### 
+### Object: Pintura 05 ### 
+Texture "Map #584" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7785.png" ]
+MakeNamedMaterial "Pintura 15"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #584" ]
+### End Object: Pintura 05 ### 
+### Object: Pintura 06 ### 
+Texture "Map #569" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/0001_carros.png" ]
+MakeNamedMaterial "Pintura 1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #569" ]
+### End Object: Pintura 06 ### 
+### Object: Pintura 07 ### 
+Texture "Map #570" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7815.png" ]
+MakeNamedMaterial "Pintura 2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #570" ]
+### End Object: Pintura 07 ### 
+### Object: Pintura 08 ### 
+Texture "Map #571" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7812.png" ]
+MakeNamedMaterial "Pintura 3"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #571" ]
+### End Object: Pintura 08 ### 
+### Object: Pintura 09 ### 
+Texture "Map #580" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/027_Cola Caballo 06-30-1997.png" ]
+MakeNamedMaterial "Pintura 12"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #580" ]
+### End Object: Pintura 09 ### 
+### Object: Pintura 10 ### 
+Texture "Map #573" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7812.png" ]
+MakeNamedMaterial "Pintura 5"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #573" ]
+### End Object: Pintura 10 ### 
+### Object: Pintura 11 ### 
+Texture "Map #574" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7843.png" ]
+MakeNamedMaterial "Pintura 6"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #574" ]
+### End Object: Pintura 11 ### 
+### Object: Pintura 12 ### 
+Texture "Map #575" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7785.png" ]
+MakeNamedMaterial "Pintura 7"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #575" ]
+### End Object: Pintura 12 ### 
+### Object: Pintura 13 ### 
+Texture "Map #576" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7758.png" ]
+MakeNamedMaterial "Pintura 8"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #576" ]
+### End Object: Pintura 13 ### 
+### Object: Pintura 14 ### 
+Texture "Map #577" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7843.png" ]
+MakeNamedMaterial "Pintura 9"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #577" ]
+### End Object: Pintura 14 ### 
+### Object: Pintura 15 ### 
+Texture "Map #578" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7833.png" ]
+MakeNamedMaterial "Pintura 10"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #578" ]
+### End Object: Pintura 15 ### 
+### Object: Pintura Marco ### 
+Texture "Map #579" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7768.png" ]
+MakeNamedMaterial "Pintura 11"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #579" ]
+### End Object: Pintura Marco ### 
+### Object: Poste Barandal Escalera ### 
+Texture "Map #572" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7833.png" ]
+MakeNamedMaterial "Pintura 4"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #572" ]
+Texture "Map #582" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7833.png" ]
+MakeNamedMaterial "Pintura 13"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #582" ]
+### End Object: Poste Barandal Escalera ### 
+### Object: Piso Patio Atras ### 
+Texture "Map #583" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/D30_Smiguel_2003_7833.png" ]
+MakeNamedMaterial "Pintura 14"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #583" ]
+### End Object: Piso Patio Atras ### 
+### Object: Barandal Arriba Guia 02 ### 
+Texture "Map #585" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/madera_marcos.png" ]
+MakeNamedMaterial "Pintura Marcos"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.001 ]
+    "texture reflectance" [ "Map #585" ]
+### End Object: Barandal Arriba Guia 02 ### 
+### Object: Barandal Detalle B291 ### 
+Texture "Map #517" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/postes_barandal_color.png" ]
+Texture "Map #518" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/postes_barandal_bump.png" ]
+Texture "Map #518_bump" "float" "scale"
+    "float scale" [ 0.015 ]
+    "texture tex" [ "Map #518" ]
+MakeNamedMaterial "Postes Barandal"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #518_bump" ]
+    "texture reflectance" [ "Map #517" ]
+### End Object: Barandal Detalle B291 ### 
+### Object: Barandal Escalera Lados ### 
+Texture "Map #616" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/piso_patio_exterior2.png" ]
+MakeNamedMaterial "Piso Patio Exterior2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #616" ]
+### End Object: Barandal Escalera Lados ### 
+### Object: Barde Enfrente ### 
+Texture "Map #513" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/rust_a1.png" ]
+MakeNamedMaterial "Barandal Detalle Extremos"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #513" ]
+### End Object: Barde Enfrente ### 
+### Object: Cadena Eslabon64 ### 
+Texture "Map #514" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/rust_detalle.png" ]
+Texture "Map #515" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/rust_detalle_bump.png" ]
+### End Object: Cadena Eslabon64 ### 
+### Object: Candil Brazo Chioco05 ### 
+Texture "Map #515_bump" "float" "scale"
+    "float scale" [ 0.015 ]
+    "texture tex" [ "Map #515" ]
+MakeNamedMaterial "Barandal Detalle Centro"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #515_bump" ]
+    "texture reflectance" [ "Map #514" ]
+### End Object: Candil Brazo Chioco05 ### 
+### Object: Candil Fake Foco09 ### 
+Texture "Map #516" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/madera_barandal_esc_2.png" ]
+### End Object: Candil Fake Foco09 ### 
+### Object: Candil Foco19 ### 
+MakeNamedMaterial "Madera Barandal"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #516" ]
+### End Object: Candil Foco19 ### 
+### Object: Candil Madera03 ### 
+Texture "Map #519" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/pared_calle.png" ]
+MakeNamedMaterial "Pared Calle"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #519" ]
+### End Object: Candil Madera03 ### 
+### Object: Candil 2 ### 
+Texture "Map #540" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/fierro_b.png" ]
+MakeNamedMaterial "Candil Cadena"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.05 ]
+    "texture reflectance" [ "Map #540" ]
+Texture "Map #542" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/fierro_b.png" ]
+MakeNamedMaterial "Candil Metal"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #542" ]
+MakeNamedMaterial "Fake Foco"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+MakeNamedMaterial "Candil Foco"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+### End Object: Candil 2 ### 
+### Object: Candil 2 Foco Negro07 ### 
+Texture "Map #541" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/candil_madera.png" ]
+### End Object: Candil 2 Foco Negro07 ### 
+### Object: Candil 2 Foco Vidrio06 ### 
+MakeNamedMaterial "Candil Madera"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.1 ]
+    "texture reflectance" [ "Map #541" ]
+### End Object: Candil 2 Foco Vidrio06 ### 
+### Object: Detalle Mold 06 ### 
+Texture "Map #643" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/metal_viejo_2.png" ]
+Texture "Map #642" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/metal_viejo_2.png" ]
+Texture "Map #642_bump" "float" "scale"
+    "float scale" [ 0.002 ]
+    "texture tex" [ "Map #642" ]
+Texture "Map #641" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/metal_viejo_2.png" ]
+### End Object: Detalle Mold 06 ### 
+### Object: Detalle Mold 05 ### 
+Texture "Map #641_RoughMap" "float" "scale"
+    "float scale" [ 0.1 ]
+    "texture tex" [ "Map #641" ]
+MakeNamedMaterial "Candil 2"
+    "string type" [ "coateddiffuse" ]
+    "texture displacement" [ "Map #642_bump" ]
+    "texture reflectance" [ "Map #643" ]
+    "texture roughness" [ "Map #641_RoughMap" ]
+MakeNamedMaterial "Candil 2  Negro"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.1 ]
+    "rgb reflectance" [ 0.0588235 0.0588235 0.0588235 ]
+MakeNamedMaterial "Candil 2 Foco"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+### End Object: Detalle Mold 05 ### 
+### Object: Detalle Mold 04 ### 
+Texture "Map #538" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_06_color.png" ]
+Texture "Map #539" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_06_bump.png" ]
+Texture "Map #539_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #539" ]
+MakeNamedMaterial "DetMoldura_06"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #539_bump" ]
+    "texture reflectance" [ "Map #538" ]
+### End Object: Detalle Mold 04 ### 
+### Object: Detalle Mold 03 ### 
+Texture "Map #536" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_05_color.png" ]
+Texture "Map #537" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_05_bump.png" ]
+Texture "Map #537_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #537" ]
+MakeNamedMaterial "DetMoldura_05"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #537_bump" ]
+    "texture reflectance" [ "Map #536" ]
+### End Object: Detalle Mold 03 ### 
+### Object: Detalle Mold 02 ### 
+Texture "Map #534" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_04_color.png" ]
+Texture "Map #535" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_04_bump.png" ]
+Texture "Map #535_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #535" ]
+MakeNamedMaterial "DetMoldura_04"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #535_bump" ]
+    "texture reflectance" [ "Map #534" ]
+### End Object: Detalle Mold 02 ### 
+### Object: Detalle Mold 01 ### 
+Texture "Map #532" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_03_color.png" ]
+Texture "Map #533" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_03_bump.png" ]
+Texture "Map #533_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #533" ]
+MakeNamedMaterial "DetMoldura_03"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #533_bump" ]
+    "texture reflectance" [ "Map #532" ]
+### End Object: Detalle Mold 01 ### 
+### Object: Escuridera07 ### 
+Texture "Map #530" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_02_color.png" ]
+Texture "Map #531" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_02_bump.png" ]
+Texture "Map #531_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #531" ]
+MakeNamedMaterial "Det Moldura 02"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #531_bump" ]
+    "texture reflectance" [ "Map #530" ]
+### End Object: Escuridera07 ### 
+### Object: Forja Detalle Escalera ### 
+Texture "Map #528" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_01_color.png" ]
+Texture "Map #529" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/detmoldura_01_bump.png" ]
+### End Object: Forja Detalle Escalera ### 
+### Object: Hoja Seca 1Ax375 ### 
+Texture "Map #529_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #529" ]
+MakeNamedMaterial "Det Moldura 01"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #529_bump" ]
+    "texture reflectance" [ "Map #528" ]
+Texture "Map #592" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/escurridera_color.png" ]
+### End Object: Hoja Seca 1Ax375 ### 
+### Object: Hoja Seca 2Ax397 ### 
+Texture "Map #593" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/escurridera_bump.png" ]
+Texture "Map #593_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #593" ]
+### End Object: Hoja Seca 2Ax397 ### 
+### Object: Hoja Seca 2Bx382 ### 
+MakeNamedMaterial "Escurridera"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #593_bump" ]
+    "texture reflectance" [ "Map #592" ]
+Texture "Map #589" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/rust_a1.png" ]
+### End Object: Hoja Seca 2Bx382 ### 
+### Object: Marco Puerta 01 ### 
+MakeNamedMaterial "Detalle Escalera"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #589" ]
+Texture "Map #637" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_seca_03b.png" ]
+Texture "HojaSecaMask" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_hoja_c_seca_Mask.png" ]
+MakeNamedMaterial "Hoja Seca 2C"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #637" ]
+### End Object: Marco Puerta 01 ### 
+### Object: Puerta Marco ### 
+Texture "Map #635" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_leaf_seca_02b.png" ]
+MakeNamedMaterial "Hoja Seca 2B"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #635" ]
+Texture "Map #640" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/sm_hoja_c_seca.png" ]
+MakeNamedMaterial "Hoja Seca 2A"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #640" ]
+### End Object: Puerta Marco ### 
+### Object: Mold Arco 02 ### 
+Texture "Map #600" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/marco_puerta_1.png" ]
+Texture "Map #601" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/marco_puerta_1_bump.png" ]
+Texture "Map #601_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #601" ]
+MakeNamedMaterial "Marco Puerta 1"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #601_bump" ]
+    "texture reflectance" [ "Map #600" ]
+### End Object: Mold Arco 02 ### 
+### Object: Mold terraza 01 ### 
+Texture "Map #598" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/madera_barandal_esc_2.png" ]
+Texture "Map #599" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/madera_barandal_esc_2_bump.png" ]
+Texture "Map #599_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #599" ]
+MakeNamedMaterial "Marco Puerta"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #599_bump" ]
+    "texture reflectance" [ "Map #598" ]
+### End Object: Mold terraza 01 ### 
+### Object: Agarradera ### 
+Texture "Map #602" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/mold_arco_01_color.png" ]
+### End Object: Agarradera ### 
+### Object: Puertas ### 
+Texture "Map #603" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/mold_arco_01_bump.png" ]
+Texture "Map #603_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #603" ]
+MakeNamedMaterial "Mold Arco 01"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #603_bump" ]
+    "texture reflectance" [ "Map #602" ]
+Texture "Map #604" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/molduraterraza__color.png" ]
+### End Object: Puertas ### 
+### Object: Teja129 ### 
+Texture "Map #605" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/molduraterraza_bump.png" ]
+Texture "Map #605_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Map #605" ]
+### End Object: Teja129 ### 
+### Object: Columna A01 ### 
+MakeNamedMaterial "Mold Terraza"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Map #605_bump" ]
+    "texture reflectance" [ "Map #604" ]
+MakeNamedMaterial "Puerta Agarradera"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.392157 0.368627 0.341176 ]
+Texture "Map #628" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/puerta.png" ]
+Texture "Map #629" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/puerta_bump.png" ]
+### End Object: Columna A01 ### 
+### Object: Columna A02 ### 
+Texture "Map #629_bump" "float" "scale"
+    "float scale" [ 0.01 ]
+    "texture tex" [ "Map #629" ]
+MakeNamedMaterial "Puerta 01"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.1 ]
+    "texture displacement" [ "Map #629_bump" ]
+    "texture reflectance" [ "Map #628" ]
+### End Object: Columna A02 ### 
+### Object: Columna A03 ### 
+Texture "Map #621" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/Barro_2.png" ]
+MakeNamedMaterial "Teja"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #621" ]
+### End Object: Columna A03 ### 
+### Object: Columnas B ### 
+Texture "Map #520" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_a_color.png" ]
+Texture "Col_A_BumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_a_displacement_3_inv.png" ]
+Texture "Col_A_BumpMap_bump" "float" "scale"
+    "float scale" [ 0.001 ]
+    "texture tex" [ "Col_A_BumpMap" ]
+MakeNamedMaterial "Columna A1"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Col_A_BumpMap_bump" ]
+    "texture reflectance" [ "Map #520" ]
+### End Object: Columnas B ### 
+### Object: Columnas B01 ### 
+Texture "Map #522" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_a_color_2.png" ]
+MakeNamedMaterial "Columna A2"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Col_A_BumpMap_bump" ]
+    "texture reflectance" [ "Map #522" ]
+### End Object: Columnas B01 ### 
+### Object: Columnas B02 ### 
+Texture "Map #523" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_a_color_3.png" ]
+MakeNamedMaterial "Columna A3"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Col_A_BumpMap_bump" ]
+    "texture reflectance" [ "Map #523" ]
+### End Object: Columnas B02 ### 
+### Object: Plane01 ### 
+Texture "Map #524" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_b_color.png" ]
+### End Object: Plane01 ### 
+### Object: Candil 2 Glass ### 
+Texture "Col_B_BumpMap" "float" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_b_displacement_3_inv.png" ]
+### End Object: Candil 2 Glass ### 
+### Object: Fuente_Agua ### 
+Texture "Col_B_BumpMap_bump" "float" "scale"
+    "float scale" [ 0.015 ]
+    "texture tex" [ "Col_B_BumpMap" ]
+### End Object: Fuente_Agua ### 
+### Object: Fuente_Base ### 
+MakeNamedMaterial "Columna B1"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Col_B_BumpMap_bump" ]
+    "texture reflectance" [ "Map #524" ]
+Texture "Map #527" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_b_color_3.png" ]
+### End Object: Fuente_Base ### 
+### Object: Fuente_Fondo ### 
+MakeNamedMaterial "Columna B3"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Col_B_BumpMap_bump" ]
+    "texture reflectance" [ "Map #527" ]
+Texture "Map #526" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/columna_b_color_2.png" ]
+### End Object: Fuente_Fondo ### 
+### Object: Fuente_Tubo ### 
+MakeNamedMaterial "Columna B2"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "Col_B_BumpMap_bump" ]
+    "texture reflectance" [ "Map #526" ]
+### End Object: Fuente_Tubo ### 
+MakeNamedMaterial "Negro"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "Candil 2 Glass"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+MakeNamedMaterial "Agua"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.33 ]
+Texture "Map #13" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/fuente_piedra_02.png" ]
+MakeNamedMaterial "Fuente Centro"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #13" ]
+Texture "Map #14" "spectrum" "imagemap"
+    "float uscale" [ 1 ]
+    "float vscale" [ 1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+    "float maxanisotropy" [ 8 ]
+    "string mapping" [ "uv" ]
+    "string wrap" [ "repeat" ]
+    "string filename" [ "textures/fuente_azulejo.png" ]
+MakeNamedMaterial "Fuente Fondo"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "Map #14" ]
+MakeNamedMaterial "Fuente"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.75 0.75 0.75 ]

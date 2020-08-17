@@ -1,0 +1,7 @@
+#############################################
+
+AttributeBegin
+    NamedMaterial "Tronco"
+    Shape "plymesh"
+        "string filename" [ "geometry/troncoB_00001.ply" ]
+AttributeEnd
