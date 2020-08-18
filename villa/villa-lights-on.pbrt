@@ -1,0 +1,50 @@
+# pbrt v2.0 Scene File
+# Exported by pbrtBlend Blender Exporter
+Scale -1 1 1
+# account for fixed lookat bug...
+LookAt 12.9502439 7.38090897 3.8515029
+        13.9207726 7.1467042 3.79472995
+        0.0551870018 -0.013328 0.998386979
+Camera "perspective" "float fov" [ 47 ] 
+Film "rgb" "integer xresolution" [ 1000 ] 
+    "integer yresolution" [ 444 ] 
+    "float scale" [ 1.60000002 ] 
+    "string filename" [ "villa-lights-on.exr" ] 
+Sampler "sobol" "integer pixelsamples" [ 1024 ] 
+
+
+WorldBegin
+
+# metal lamp
+# kitchen counter
+LightSource "spot"
+    "float coneangle" [ 50 ] 
+    "float conedeltaangle" [ 20 ] 
+    "point3 from" [ 16.8015881 8.15809155 4.18727207 ] 
+    "point3 to" [ 16.7868576 8.15949154 3.0999999 ] 
+    "blackbody I" [4000 30]
+
+LightSource "spot" "float coneangle" [ 60 ] 
+    "point3 from" [ 21.2768555 7.20041895 3.96000004 ] 
+    "point3 to" [ 21.2768555 7.20041895 2.96000004 ] 
+    "blackbody I" [4000 1]
+
+# table
+LightSource "spot" "float coneangle" [ 60 ] 
+    "point3 from" [ 22.1166172 7.18542719 3.96000004 ] 
+    "point3 to" [ 22.1166172 7.18542719 2.96000004 ] 
+    "blackbody I" [4000 1]
+ 
+LightSource "spot" "float coneangle" [ 60 ] 
+    "point3 from" [ 23.0585995 7.18669796 3.96000004 ] 
+    "point3 to" [ 23.0585995 7.18669796 2.96000004 ] 
+    "blackbody I" [4000 1]
+ 
+Include "materials.pbrt"
+Include "geometry.pbrt"
+LightSource "point"
+    "point3 from" [ 23.5658073 2.462955 4.3499999 ] 
+    "blackbody I" [4000 10]
+LightSource "point"
+    "point3 from" [ 21.3179016 2.46144104 4.3499999 ] 
+    "blackbody I" [4000 10]

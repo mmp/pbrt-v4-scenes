@@ -1,0 +1,766 @@
+# Material 'Menuiseries'
+# joinery / wood -- around glass windows
+# Material 'Verre'
+MakeNamedMaterial "Menuiseries"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.043298 0.043298 0.043298 ]
+# laque blanche...
+#   "string type" ["uber"]
+#   "color Kd" [0.374624 0.374624 0.374624]
+#   "color Ks" [0.2 .2 .2] "float roughness" [.05]
+#   "color Kr" [0.2 .2 .2]
+# Material 'INOX'
+MakeNamedMaterial "Verre"
+    "string type" [ "thindielectric" ] "float eta" 1.0001
+# steel
+# Material 'Beton'
+MakeNamedMaterial "livroom-table"
+    "string type" [ "dielectric" ]
+#frame  more frame around glass
+# Material 'grass_patch'
+MakeNamedMaterial "INOX"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+    "float roughness" [ 0.01 ]
+MakeNamedMaterial "Beton"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.081532 0.081532 0.081532 ]
+Texture "grass_patch::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/grass.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'Ossature' # frame
+Texture "grass_patch::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "grass_patch::Kd" ]
+# Material 'BornesLumTables' # concrete lum tables
+MakeNamedMaterial "grass_patch"
+    "string type" [ "coateddiffuse" ] "float roughness" .25
+    "texture reflectance" [ "grass_patch::Kd.scale" ]
+# Material 'LameTerrsse' # patio rubber
+MakeNamedMaterial "Ossature"
+    "string type" [ "coateddiffuse" ] "float roughness" .25
+    "rgb reflectance" [ 0.081532 0.081532 0.081532 ]
+# Material 'CAOUTCHOUC'
+MakeNamedMaterial "BornesLumTables"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+#terminals
+# Material 'METAL_BLANC'
+MakeNamedMaterial "LameTerrasse"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.13914 0.136157 0.13914 ]
+# Material 'MATELAS'
+MakeNamedMaterial "CAOUTCHOUC"
+    "string type" [ "coateddiffuse" ] "float roughness" .1
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# mattressas (cushions?), outdoor chairs
+# Material 'BornesLum' #concrete
+MakeNamedMaterial "METAL_BLANC"
+    "string type" [ "coateddiffuse" ] "float roughness" .02
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# Material 'PlastiqueLampe.001'
+MakeNamedMaterial "MATELAS"
+    "string type" [ "coateddiffuse" ] "float roughness" .1
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# Material 'Verre.001'
+MakeNamedMaterial "BornesLum"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+MakeNamedMaterial "PlastiqueLampe.001"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+Texture "Verre.001::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/LampMask.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'CaoutchoucLampe'
+Texture "Verre.001::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "Verre.001::Kd" ]
+# rubber lamp
+# Material 'PlastiqueLampe'
+MakeNamedMaterial "Verre.001"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "Verre.001::Kd.scale" ]
+# Material 'Inox'
+MakeNamedMaterial "CaoutchoucLampe"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# stainless
+# Material 'LaqueBlanche'
+MakeNamedMaterial "PlastiqueLampe"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# white laquer
+# Material 'Inox.003' steel
+MakeNamedMaterial "Inox"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ 304.994 0.38 309.95 0.34 312.292 0.287 334.178 0.089 364.647 
+                     0.052 405.163 0.041 420.271 0.041 439.64502 0.043 469.621 0.043 
+                     506.04102 0.046 546.167 0.049 598.937 0.053 662.99506 0.05 751.394 
+                     0.044 860.972 0.04 ]
+    "spectrum k" [ 304.994 0.07 309.95 0.08 312.292 0.091 334.178 0.288 364.647 0.549 
+                   405.163 0.799 420.271 0.898 439.64502 1.02 469.621 1.14 506.04102 
+                   1.28 546.167 1.43 598.937 1.62 662.99506 1.84 751.394 2.19 860.972 
+                   2.56 ]
+    "float roughness" [ 0.01 ]
+# Material 'Clay'
+MakeNamedMaterial "LaqueBlanche"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.874624 0.874624 0.874624 ]
+    "float roughness" [ 0.02 ]
+# "artichoke" light sources
+# Material 'Inox.002'
+MakeNamedMaterial "Inox.003"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ 304.994 0.38 309.95 0.34 312.292 0.287 334.178 0.089 364.647 
+                     0.052 405.163 0.041 420.271 0.041 439.64502 0.043 469.621 0.043 
+                     506.04102 0.046 546.167 0.049 598.937 0.053 662.99506 0.05 751.394 
+                     0.044 860.972 0.04 ]
+    "spectrum k" [ 304.994 0.07 309.95 0.08 312.292 0.091 334.178 0.288 364.647 0.549 
+                   405.163 0.799 420.271 0.898 439.64502 1.02 469.621 1.14 506.04102 
+                   1.28 546.167 1.43 598.937 1.62 662.99506 1.84 751.394 2.19 860.972 
+                   2.56 ]
+    "float roughness" [ 0.01 ]
+# Material 'Cuir' leather -- couches
+MakeNamedMaterial "Clay"
+    "string type" [ "diffusetransmission" ]
+    "rgb transmittance" [ 0.612066 0.612066 0.612066 ]
+MakeNamedMaterial "Inox.002"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ 304.994 0.38 309.95 0.34 312.292 0.287 334.178 0.089 364.647 
+                     0.052 405.163 0.041 420.271 0.041 439.64502 0.043 469.621 0.043 
+                     506.04102 0.046 546.167 0.049 598.937 0.053 662.99506 0.05 751.394 
+                     0.044 860.972 0.04 ]
+    "spectrum k" [ 304.994 0.07 309.95 0.08 312.292 0.091 334.178 0.288 364.647 0.549 
+                   405.163 0.799 420.271 0.898 439.64502 1.02 469.621 1.14 506.04102 
+                   1.28 546.167 1.43 598.937 1.62 662.99506 1.84 751.394 2.19 860.972 
+                   2.56 ]
+    "float roughness" [ 0.01 ]
+TransformBegin
+    Scale 3 3 3
+    Texture "couch-disp" "float" "wrinkled"
+    Texture "scaled-couch-disp" "float" "scale"
+        "texture tex" [ "couch-disp" ]
+        "float scale" [ 0.005 ]
+TransformEnd
+# Material 'AssiseLem'  seat lem
+# Material 'MetalRough'
+MakeNamedMaterial "Cuir"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.8 0.8 0.8 ]
+    "texture displacement" [ "scaled-couch-disp" ]
+    "float roughness" [ 0.02 ]
+# Material 'Inox.001' stainless
+MakeNamedMaterial "AssiseLem"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# Material 'Aluminium'
+MakeNamedMaterial "MetalRough"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ 304.994 0.38 309.95 0.34 312.292 0.287 334.178 0.089 364.647 
+                     0.052 405.163 0.041 420.271 0.041 439.64502 0.043 469.621 0.043 
+                     506.04102 0.046 546.167 0.049 598.937 0.053 662.99506 0.05 751.394 
+                     0.044 860.972 0.04 ]
+    "spectrum k" [ 304.994 0.07 309.95 0.08 312.292 0.091 334.178 0.288 364.647 0.549 
+                   405.163 0.799 420.271 0.898 439.64502 1.02 469.621 1.14 506.04102 
+                   1.28 546.167 1.43 598.937 1.62 662.99506 1.84 751.394 2.19 860.972 
+                   2.56 ]
+    "float roughness" [ 0.01 ]
+# Material 'CaoutchoucNoir'
+MakeNamedMaterial "Inox.001"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ 304.994 0.38 309.95 0.34 312.292 0.287 334.178 0.089 364.647 
+                     0.052 405.163 0.041 420.271 0.041 439.64502 0.043 469.621 0.043 
+                     506.04102 0.046 546.167 0.049 598.937 0.053 662.99506 0.05 751.394 
+                     0.044 860.972 0.04 ]
+    "spectrum k" [ 304.994 0.07 309.95 0.08 312.292 0.091 334.178 0.288 364.647 0.549 
+                   405.163 0.799 420.271 0.898 439.64502 1.02 469.621 1.14 506.04102 
+                   1.28 546.167 1.43 598.937 1.62 662.99506 1.84 751.394 2.19 860.972 
+                   2.56 ]
+    "float roughness" [ 0.01 ]
+# black rubber
+# Material 'leave1.001'
+MakeNamedMaterial "Aluminium"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Al-eta" ]
+    "spectrum k" [ "metal-Al-k" ]
+    "float roughness" [ 0.005 ]
+MakeNamedMaterial "CaoutchoucNoir"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.02 0.02 0.02 ]
+    "float roughness" [ 0.01 ]
+Texture "leave1.001::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/oak.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'leave2'
+Texture "leave1.001::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "leave1.001::Kd" ]
+MakeNamedMaterial "leave1.001"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "leave1.001::Kd.scale" ]
+Texture "leave2::Kd:tex2" "spectrum" "imagemap"
+    "string filename" [ "textures/oak.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+Texture "leave2::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.251452 0.408371 0.020931 ]
+    "texture tex2" [ "leave2::Kd:tex2" ]
+    "float amount" [ 0.66656804 ]
+# Material 'leave1'
+Texture "leave2::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "leave2::Kd" ]
+MakeNamedMaterial "leave2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "leave2::Kd.scale" ]
+Texture "leave1::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/oak.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'bark.005'
+Texture "leave1::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "leave1::Kd" ]
+MakeNamedMaterial "leave1"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "leave1::Kd.scale" ]
+Texture "bark.005::Kd:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+Texture "bark.005::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.010484 0.009284 0.006066 ]
+    "rgb tex2" [ 0.035982 0.027265 0.019035 ]
+    "texture amount" [ "bark.005::Kd:amount" ]
+Texture "bark.005::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "bark.005::Kd" ]
+Texture "bark.005::bumpmap:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+# Material 'bark.004'
+Texture "bark.005::bumpmap" "float" "mix"
+    "texture amount" [ "bark.005::bumpmap:amount" ]
+    "float tex1" [ 0 ]
+    "float tex2" [ 0.01 ]
+MakeNamedMaterial "bark.005"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "bark.005::Kd.scale" ]
+    "texture displacement" [ "bark.005::bumpmap" ]
+Texture "bark.004::Kd:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+Texture "bark.004::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.010484 0.009284 0.006066 ]
+    "rgb tex2" [ 0.035982 0.027265 0.019035 ]
+    "texture amount" [ "bark.004::Kd:amount" ]
+Texture "bark.004::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "bark.004::Kd" ]
+Texture "bark.004::bumpmap:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+# Material 'bark.002'
+Texture "bark.004::bumpmap" "float" "mix"
+    "texture amount" [ "bark.004::bumpmap:amount" ]
+    "float tex1" [ 0 ]
+    "float tex2" [ 0.01 ]
+MakeNamedMaterial "bark.004"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "bark.004::Kd.scale" ]
+    "texture displacement" [ "bark.004::bumpmap" ]
+Texture "bark.002::Kd:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+Texture "bark.002::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.010484 0.009284 0.006066 ]
+    "rgb tex2" [ 0.035982 0.027265 0.019035 ]
+    "texture amount" [ "bark.002::Kd:amount" ]
+Texture "bark.002::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "bark.002::Kd" ]
+Texture "bark.002::bumpmap:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+# Material 'bark.006'
+Texture "bark.002::bumpmap" "float" "mix"
+    "texture amount" [ "bark.002::bumpmap:amount" ]
+    "float tex1" [ 0 ]
+    "float tex2" [ 0.01 ]
+MakeNamedMaterial "bark.002"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "bark.002::Kd.scale" ]
+    "texture displacement" [ "bark.002::bumpmap" ]
+Texture "bark.006::Kd:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+Texture "bark.006::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.010484 0.009284 0.006066 ]
+    "rgb tex2" [ 0.035982 0.027265 0.019035 ]
+    "texture amount" [ "bark.006::Kd:amount" ]
+Texture "bark.006::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "bark.006::Kd" ]
+Texture "bark.006::bumpmap:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+# Material 'bark.001'
+Texture "bark.006::bumpmap" "float" "mix"
+    "texture amount" [ "bark.006::bumpmap:amount" ]
+    "float tex1" [ 0 ]
+    "float tex2" [ 0.01 ]
+MakeNamedMaterial "bark.006"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "bark.006::Kd.scale" ]
+    "texture displacement" [ "bark.006::bumpmap" ]
+Texture "bark.001::Kd:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+Texture "bark.001::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.010484 0.009284 0.006066 ]
+    "rgb tex2" [ 0.035982 0.027265 0.019035 ]
+    "texture amount" [ "bark.001::Kd:amount" ]
+Texture "bark.001::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "bark.001::Kd" ]
+Texture "bark.001::bumpmap:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+# Material 'bark.003'
+Texture "bark.001::bumpmap" "float" "mix"
+    "texture amount" [ "bark.001::bumpmap:amount" ]
+    "float tex1" [ 0 ]
+    "float tex2" [ 0.01 ]
+MakeNamedMaterial "bark.001"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "bark.001::Kd.scale" ]
+    "texture displacement" [ "bark.001::bumpmap" ]
+Texture "bark.003::Kd:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+Texture "bark.003::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.010484 0.009284 0.006066 ]
+    "rgb tex2" [ 0.035982 0.027265 0.019035 ]
+    "texture amount" [ "bark.003::Kd:amount" ]
+Texture "bark.003::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "bark.003::Kd" ]
+Texture "bark.003::bumpmap:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+# Material 'bark'
+Texture "bark.003::bumpmap" "float" "mix"
+    "texture amount" [ "bark.003::bumpmap:amount" ]
+    "float tex1" [ 0 ]
+    "float tex2" [ 0.01 ]
+MakeNamedMaterial "bark.003"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "bark.003::Kd.scale" ]
+    "texture displacement" [ "bark.003::bumpmap" ]
+Texture "bark::Kd:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+Texture "bark::Kd" "spectrum" "mix"
+    "rgb tex1" [ 0.010484 0.009284 0.006066 ]
+    "rgb tex2" [ 0.035982 0.027265 0.019035 ]
+    "texture amount" [ "bark::Kd:amount" ]
+Texture "bark::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "bark::Kd" ]
+Texture "bark::bumpmap:amount" "float" "imagemap"
+    "string filename" [ "textures/bark02.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 2 ]
+    "float vscale" [ -2 ]
+    "float udelta" [ -0.5 ]
+    "float vdelta" [ 0.5 ]
+# Material 'SStoit'
+Texture "bark::bumpmap" "float" "mix"
+    "texture amount" [ "bark::bumpmap:amount" ]
+    "float tex1" [ 0 ]
+    "float tex2" [ 0.01 ]
+# ss roof
+# Material 'StoreFicelle'
+MakeNamedMaterial "bark"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "bark::Kd.scale" ]
+    "texture displacement" [ "bark::bumpmap" ]
+# store string
+# Material 'LameStore' #patio  (kitchen counter!) also blinds...
+MakeNamedMaterial "SStoit"
+    "string type" [ "coateddiffuse" ] "float roughness" .15
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# Material 'Zinc'
+MakeNamedMaterial "StoreFicelle"
+    "string type" [ "coateddiffuse" ] "float roughness" .15
+    "rgb reflectance" [ 0.198944 0.133209 0.081532 ]
+# Material 'Eau' water
+MakeNamedMaterial "LameStore"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.198944 0.133209 0.081532 ]
+MakeNamedMaterial "Zinc"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+    "float roughness" [ 0.01 ]
+TransformBegin
+    Scale 6 6 6
+    Texture "water" "float" "windy"
+    Texture "sc" "float" "constant"
+        "float value" [ 0.75 ]
+    Texture "swater" "float" "scale"
+        "texture tex" [ "water" ]
+        "texture scale" [ "sc" ]
+TransformEnd
+# Material 'Plafond' ceiling
+# Material 'FrontCol'
+MakeNamedMaterial "Eau"
+    "string type" [ "dielectric" ]
+    "texture displacement" [ "swater" ]
+# Material 'Bardage' siding
+MakeNamedMaterial "Plafond"
+    "string type" [ "coateddiffuse" ] "float roughness" .2
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+# Material 'MurBlanc' white wall
+MakeNamedMaterial "FrontCol"
+    "string type" [ "coateddiffuse" ] "float roughness" 2
+    "rgb reflectance" [ 0.612066 0.612066 0.612066 ]
+# kd was .15
+# Material 'Parquet' floor
+MakeNamedMaterial "Bardage"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.237251 0.237251 0.229295 ]
+MakeNamedMaterial "MurBlanc"
+    "string type" [ "coateddiffuse" ] "float roughness" .25
+    "rgb reflectance" [ 0.374624 0.374624 0.374624 ]
+Texture "floor-kd" "spectrum" "imagemap"
+    "string filename" [ "textures/boards+02_d100.png" ]
+    "float scale" [ 0.15 ]
+    "float uscale" [ 4 ]
+    "float vscale" [ 4 ]
+Texture "floor-ks" "spectrum" "imagemap"
+    "string filename" [ "textures/boards+02_s2.png" ]
+    "float uscale" [ 4 ]
+    "float vscale" [ 4 ]
+    "float scale" [ 100 ]
+#   "texture Ks" "floor-ks" "float roughness" [.02]
+# was .07
+#   "color Kr" [.03 .03 .03]
+Texture "floor-disp" "float" "imagemap"
+    "string filename" [ "textures/boards+02_b030.png" ]
+    "float scale" [ 0.1 ]
+    "float uscale" [ 4 ]
+    "float vscale" [ 4 ]
+MakeNamedMaterial "Parquet"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "floor-kd" ]
+    "texture displacement" [ "floor-disp" ]
+    "float roughness" [ 0.02 ]
+# Material 'MurGris' wall  gray
+Texture "blinds-kd" "spectrum" "imagemap"
+    "string filename" [ "textures/boards+02_d100.png" ]
+    "float scale" [ 0.2 ]
+# Material 'LaqueNoire' black lacquer
+MakeNamedMaterial "blinds"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "blinds-kd" ]
+# Material 'Toit' roof
+MakeNamedMaterial "MurGris"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.081532 0.081532 0.081532 ]
+# Material 'Liner' pool liner
+MakeNamedMaterial "LaqueNoire"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.003862 0.003862 0.003862 ]
+    "float roughness" [ 0.01 ]
+#   "color Kd" [0.081532 0.279263 0.133209]
+#   "color Kd" [0.3 .3 .3]
+#   "color Ks" [0.047366 0.047366 0.047366]
+# Material 'TapisCuisine' kitchen rugs
+MakeNamedMaterial "Toit"
+    "string type" [ "coateddiffuse" ] "float roughness" .15
+    "rgb reflectance" [ 0.034505 0.034505 0.034505 ]
+MakeNamedMaterial "Liner"
+    "string type" [ "coateddiffuse" ] "float roughness" .05
+    "rgb reflectance" [ 0.04 0.04 0.05 ]
+Texture "TapisCuisine::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/carpet002.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'LaqueBlanche.001' white lacquer
+Texture "TapisCuisine::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "TapisCuisine::Kd" ]
+#   "string type" ["measured"] "string filename" "brdfs/white-acrylic.binary"
+# Material 'LaqueBlanche.004'
+MakeNamedMaterial "TapisCuisine"
+    "string type" [ "coateddiffuse" ] "float roughness" .01
+    "texture reflectance" [ "TapisCuisine::Kd.scale" ]
+#   "string type" ["measured"] "string filename" "brdfs/white-acrylic.binary"
+# Material 'LaqueBlanche.005'
+MakeNamedMaterial "LaqueBlanche.001"
+    "string type" [ "coateddiffuse" ] "float roughness" .01
+    "rgb reflectance" [ 0.612066 0.612066 0.612066 ]
+    "float roughness" [ 0.01 ]
+#   "string type" ["measured"] "string filename" "brdfs/white-acrylic.binary"
+# Material 'Livres.001' books...
+# Material 'Livres.001'
+MakeNamedMaterial "LaqueBlanche.004"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.612066 0.612066 0.612066 ]
+    "float roughness" [ 0.01 ]
+MakeNamedMaterial "LaqueBlanche.005"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.612066 0.612066 0.612066 ]
+    "float roughness" [ 0.01 ]
+Texture "Livres.001::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/biblio.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'Livres.002'
+Texture "Livres.001::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "Livres.001::Kd" ]
+MakeNamedMaterial "Livres.001"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "Livres.001::Kd.scale" ]
+    "float roughness" [ 0.004 ]
+Texture "Livres.002::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/biblio.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'Livres2.001'
+Texture "Livres.002::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "Livres.002::Kd" ]
+MakeNamedMaterial "Livres.002"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "Livres.002::Kd.scale" ]
+    "float roughness" [ 0.004 ]
+Texture "Livres2.001::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/biblio2.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'Livres2.002'
+Texture "Livres2.001::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "Livres2.001::Kd" ]
+MakeNamedMaterial "Livres2.001"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "Livres2.001::Kd.scale" ]
+    "float roughness" [ 0.004 ]
+Texture "Livres2.002::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/biblio2.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'Livres2.003'
+Texture "Livres2.002::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "Livres2.002::Kd" ]
+MakeNamedMaterial "Livres2.002"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "Livres2.002::Kd.scale" ]
+    "float roughness" [ 0.004 ]
+Texture "Livres2.003::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/biblio2.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "uv" ]
+    "float scale" [ 1 ]
+    "float uscale" [ 1 ]
+    "float vscale" [ -1 ]
+    "float udelta" [ 0 ]
+    "float vdelta" [ 0 ]
+# Material 'PhoneBase'
+Texture "Livres2.003::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "Livres2.003::Kd" ]
+# Material 'PhoneBase.001'
+MakeNamedMaterial "Livres2.003"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "Livres2.003::Kd.scale" ]
+    "float roughness" [ 0.004 ]
+# Material 'PhoneKeys'
+MakeNamedMaterial "PhoneBase"
+    "string type" [ "coateddiffuse" ]  "float roughness" .05
+    "rgb reflectance" [ 0.043298 0.043298 0.043298 ]
+MakeNamedMaterial "PhoneBase.001"
+    "string type" [ "coateddiffuse" ]  "float roughness" .05
+    "rgb reflectance" [ 0.043298 0.043298 0.043298 ]
+Texture "PhoneKeys::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/BeoCom.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "planar" ]
+    "vector3 v1" [ 0.5 0 0 ]
+    "vector3 v2" [ 0 -0.5 -0 ]
+    "float scale" [ 1 ]
+    "float udelta" [ 0.5 ]
+    "float vdelta" [ -0.5 ]
+# Material 'PhoneScreen'
+Texture "PhoneKeys::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "PhoneKeys::Kd" ]
+MakeNamedMaterial "PhoneKeys"
+    "string type" [ "coateddiffuse" ]  "float roughness" .025
+    "texture reflectance" [ "PhoneKeys::Kd.scale" ]
+Texture "PhoneScreen::Kd" "spectrum" "imagemap"
+    "string filename" [ "textures/BeoCom.png" ]
+    "string wrap" [ "repeat" ]
+    "string mapping" [ "planar" ]
+    "vector3 v1" [ 0.5 0 0 ]
+    "vector3 v2" [ 0 -0.5 -0 ]
+    "float scale" [ 1 ]
+    "float udelta" [ 0.5 ]
+    "float vdelta" [ -0.5 ]
+# Material 'PhoneShell'
+Texture "PhoneScreen::Kd.scale" "spectrum" "scale"
+    "float scale" [ 0.8 ]
+    "texture tex" [ "PhoneScreen::Kd" ]
+#Texture "tv-kd" "color" "imagemap" "string filename" "golden/tt.pbrt.exr"
+#Texture "tv-kd" "color" "imagemap" "string filename" "golden/city-env.pbrt.exr"
+#Texture "tv-scale" "color" "constant" "rgb value" [30 30 30]
+#Texture "scaled-tv-kd" "color" "scale" "texture tex1" "tv-kd" "texture tex2" "tv-scale"
+# Material 'TV'
+MakeNamedMaterial "PhoneScreen"
+    "string type" [ "coateddiffuse" ]  "float roughness" .025
+    "texture reflectance" [ "PhoneScreen::Kd.scale" ]
+#   "texture Kd" "tv-kd"
+MakeNamedMaterial "PhoneShell"
+    "string type" [ "coateddiffuse" ]  "float roughness" .025
+    "rgb reflectance" [ 0.374624 0.198944 0 ]
+MakeNamedMaterial "TV"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.04 0.04 0.04 ]

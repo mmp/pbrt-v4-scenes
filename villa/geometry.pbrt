@@ -1,0 +1,2690 @@
+
+AttributeBegin
+    ObjectBegin "ASSISE (2).001"
+    NamedMaterial "AssiseLem"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00001.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "unnamed_obj_0"
+    NamedMaterial "grass_patch"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00002.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "plan_definitif.001"
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00003.ply" ] 
+    NamedMaterial "CAOUTCHOUC"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00004.ply" ] 
+    NamedMaterial "METAL_BLANC"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00005.ply" ] 
+    NamedMaterial "MATELAS"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00006.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Plane.023"
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00007.ply" ] 
+    NamedMaterial "BornesLum"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00008.ply" ] 
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00009.ply" ] 
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00010.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Plane.027"
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00011.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Plane.028"
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00012.ply" ] 
+    NamedMaterial "BornesLumTables"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00013.ply" ] 
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00014.ply" ] 
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00015.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "plan_definitif.017"
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00016.ply" ] 
+    NamedMaterial "CAOUTCHOUC"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00017.ply" ] 
+    NamedMaterial "METAL_BLANC"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00018.ply" ] 
+    NamedMaterial "MATELAS"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00019.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Cylinder.004"
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00020.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Cylinder.005"
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00021.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Cylinder.006"
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00022.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Cylinder.007"
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00023.ply" ] 
+    Shape "plymesh" "string filename" [ "geometry/mesh_00024.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "Cylinder.003"
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00025.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "plan_definitif"
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00026.ply" ] 
+    NamedMaterial "CAOUTCHOUC"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00027.ply" ] 
+    NamedMaterial "METAL_BLANC"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00028.ply" ] 
+    NamedMaterial "MATELAS"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00029.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "unnamed_obj_0.001"
+    NamedMaterial "grass_patch"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00030.ply" ] 
+ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 10.3253136 3.79926968 6.5470705 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00031.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00032.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 1.23081279 3.79926968 3.74645853 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00033.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00034.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 5.90419769 3.77310181 4.50011826 1  ]
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00035.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 5.89992142 3.7750001 4.49609375 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00036.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 2.50419712 3.77310181 5.70011806 1  ]
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00037.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 2.49992085 3.7750001 5.69609356 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00038.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 5.89992142 3.7750001 5.69609356 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00039.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 5.90419769 3.77310181 5.70011806 1  ]
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00040.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 13.044879 2.07979965 5.7887001 1  ]
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00041.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 1 0 0 -7.54999974e-08 -0 1 0 0.699999988 3.0599999e-08 5.28000008e-08 0 8.1182375 1.45709515 2.04985523 1  ]
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00042.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 18.4562016 -1.48729563 2.04985523 1  ]
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00043.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 19.7706318 9.59049988 0.003054142 1  ]
+    NamedMaterial "Beton"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00044.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 19.7706318 9.59049988 0.003054142 1  ]
+    NamedMaterial "Beton"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00045.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.99825269 -0.0585599802 -0.00789609551 0 0.0586542115 -0.998202801 -0.0122829173 0 -0.00716261705 -0.0127245942 0.999893367 0 28.4413242 -2.31816387 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999900043 0.0120970421 0.00731651532 0 -0.0121888509 0.999845862 0.0126366094 0 -0.00716252206 -0.0127245262 0.999893367 0 28.4413242 -0.999836743 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999900043 0.0120970421 0.00731651532 0 -0.0121888509 0.999845862 0.0126366094 0 -0.00716252206 -0.0127245262 0.999893367 0 27.0987263 -0.999836743 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.99825269 -0.0585599802 -0.00789609551 0 0.0586542115 -0.998202801 -0.0122829173 0 -0.00716261705 -0.0127245942 0.999893367 0 27.0987263 -2.31816387 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.99825269 -0.0585599802 -0.00789609551 0 0.0586542115 -0.998202801 -0.0122829173 0 -0.00716261705 -0.0127245942 0.999893367 0 25.8232594 -2.31816387 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999900043 0.0120970421 0.00731651532 0 -0.0121888509 0.999845862 0.0126366094 0 -0.00716252206 -0.0127245262 0.999893367 0 25.8232594 -0.999836743 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999900043 0.0120970421 0.00731651532 0 -0.0121888509 0.999845862 0.0126366094 0 -0.00716252206 -0.0127245262 0.999893367 0 24.7027073 -0.999836743 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.99825269 -0.0585599802 -0.00789609551 0 0.0586542115 -0.998202801 -0.0122829173 0 -0.00716261705 -0.0127245942 0.999893367 0 24.7027073 -2.31816387 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.99825269 -0.0585599802 -0.00789609551 0 0.0586542115 -0.998202801 -0.0122829173 0 -0.00716261705 -0.0127245942 0.999893367 0 23.3497829 -2.31816387 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999900043 0.0120970421 0.00731651532 0 -0.0121888509 0.999845862 0.0126366094 0 -0.00716252206 -0.0127245262 0.999893367 0 23.3497829 -0.999836743 2.16141319 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.99768585 0.0120968986 0.0669073835 0 -0.0129202995 0.999845862 0.0118875708 0 -0.0667532682 -0.0127245244 0.997688353 0 22.1374035 -0.999836743 2.10752964 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.996006846 -0.0585600063 -0.0673877373 0 0.0592821203 -0.998202801 -0.00876470655 0 -0.0667533651 -0.0127245961 0.997688353 0 22.1374035 -2.31816387 2.10752964 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.976827443 -0.0585600324 -0.205861211 0 0.0599252433 -0.998202801 -0.000397525699 0 -0.205467954 -0.012724597 0.978581131 0 20.8621616 -2.31816387 1.93240809 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.97855711 0.0120969051 0.20562011 0 -0.0144542214 0.999845862 0.00996614993 0 -0.205467865 -0.0127245262 0.978581131 0 20.8621616 -0.999836743 1.93240809 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.931905568 0.0120970802 0.362499207 0 -0.0158865601 0.999845862 0.00747466087 0 -0.362352908 -0.0127245439 0.931954086 0 19.9416504 -0.999836802 1.6001265 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.930159748 -0.0585600436 -0.362454891 0 0.0591873638 -0.998202801 0.0093834931 0 -0.362352967 -0.0127246017 0.931954086 0 19.9416504 -2.31816387 1.6001265 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 0.999998808 0.00156239618 0 -1 1.19000001e-08 2.99999997e-10 0 2.99999997e-10 -0.00156239618 0.999998808 0 8.5231905 -1.07172167 1.23390484 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.74799993e-07 -2.00000003e-10 0 1.74799993e-07 0.999998808 0.00156239618 0 -1.00000001e-10 -0.00156239618 0.999998808 0 9.92319012 -1.07172167 1.23390472 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.39099996e-07 -0.999998808 -0.00156239618 0 1 1.39099996e-07 2.00000003e-10 0 0 -0.00156239618 0.999998808 0 11.3231897 -1.07172167 1.23390472 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 2.00000003e-10 0 -8.73999966e-08 -0.999998808 -0.00156239618 0 1.00000001e-10 -0.00156239618 0.999998808 0 12.7231894 -1.07172215 1.23390472 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.39099996e-07 -0.999998808 -0.00156239618 0 1 1.39099996e-07 2.00000003e-10 0 0 -0.00156239618 0.999998808 0 16.9231892 -1.07172215 1.23390472 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.74799993e-07 -2.00000003e-10 0 1.74799993e-07 0.999998808 0.00156239618 0 -1.00000001e-10 -0.00156239618 0.999998808 0 15.5231905 -1.07172215 1.23390472 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 0.999998808 0.00156239618 0 -1 1.19000001e-08 2.99999997e-10 0 2.99999997e-10 -0.00156239618 0.999998808 0 14.1231909 -1.07172215 1.23390472 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 0.997766554 0.0667977855 0 -1 1.19000001e-08 8.00000011e-10 0 0 -0.0667977855 0.997766554 0 14.4829979 -2.34177852 1.25832725 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.74799993e-07 -1.14000001e-08 0 1.752e-07 0.997766554 0.0667977855 0 -2.99999997e-10 -0.0667977855 0.997766554 0 15.8829975 -2.34177852 1.25832725 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.38800004e-07 -0.997766554 -0.0667977855 0 1 1.38399997e-07 9.4999999e-09 0 -2.00000003e-10 -0.0667977855 0.997766554 0 17.2829971 -2.34177852 1.25832725 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 5.70000003e-09 0 -8.76000001e-08 -0.997766554 -0.0667977855 0 -1.00000001e-10 -0.0667977855 0.997766554 0 13.0829964 -2.34177852 1.25832725 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.38800004e-07 -0.997766554 -0.0667977855 0 1 1.38399997e-07 9.4999999e-09 0 -2.00000003e-10 -0.0667977855 0.997766554 0 11.6829967 -2.34177804 1.25832725 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.74799993e-07 -1.14000001e-08 0 1.752e-07 0.997766554 0.0667977855 0 -2.99999997e-10 -0.0667977855 0.997766554 0 10.2829971 -2.34177804 1.25832725 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 0.997766554 0.0667977855 0 -1 1.19000001e-08 8.00000011e-10 0 0 -0.0667977855 0.997766554 0 8.88299751 -2.34177804 1.25832736 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 27.6645432 1.73045444 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 27.6645432 2.05286169 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 28.0396519 2.05286169 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 28.0396519 1.73045444 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 23.1134186 -2.09866977 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 23.1134186 -1.77626264 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 22.7383099 -1.77626264 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.600000024 0 0 0 0 0.600000024 0 0 0 0 0.600000024 0 22.7383099 -2.09866977 2.94452524 1  ]
+    ObjectInstance "Plane.028"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.298731327 -0.954337239 0 0 0.954337239 -0.298731327 0 0 0 0 1 0 28.1856461 2.29299712 2.88834572 1  ]
+    ObjectInstance "plan_definitif"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.298731327 -0.954337239 0 0 0.954337239 -0.298731327 0 0 0 0 1 0 28.1856461 1.49162233 2.88834572 1  ]
+    ObjectInstance "plan_definitif"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.298731327 -0.954337239 0 0 0.954337239 -0.298731327 0 0 0 0 1 0 28.1856461 3.37068367 2.88834572 1  ]
+    ObjectInstance "plan_definitif.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.298731327 -0.954337239 0 0 0.954337239 -0.298731327 0 0 0 0 1 0 28.1856461 0.209195763 2.88834572 1  ]
+    ObjectInstance "plan_definitif.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.954337239 -0.298731297 0 0 0.298731297 0.954337239 0 0 0 0 1 0 24.6005383 -1.6060276 2.88834572 1  ]
+    ObjectInstance "plan_definitif.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.954337239 -0.298731297 0 0 0.298731297 0.954337239 0 0 0 0 1 0 21.4390507 -1.6060276 2.88834572 1  ]
+    ObjectInstance "plan_definitif.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.954337239 -0.298731297 0 0 0.298731297 0.954337239 0 0 0 0 1 0 23.3181114 -1.6060276 2.88834572 1  ]
+    ObjectInstance "plan_definitif"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.954337239 -0.298731297 0 0 0.298731297 0.954337239 0 0 0 0 1 0 22.516737 -1.6060276 2.88834572 1  ]
+    ObjectInstance "plan_definitif"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 25.7642822 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 25.7242813 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 24.5642815 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 24.5242805 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 23.3670521 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 23.3270512 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 22.1670513 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 22.1270504 2.474998 3.69714713 1  ]
+    ObjectInstance "Plane.027"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 28.8257408 4.09832287 2.65371537 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 28.8257408 -2.92825818 2.65371537 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 28.8257408 -0.245410055 2.65371537 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 19.1798935 -0.245410055 2.65371537 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 19.1798935 -2.9475162 2.65371537 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 17.6266499 0.0078760609 1.85448456 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 17.6266499 -2.94147253 1.85448456 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 7.17237329 -2.94147253 1.85448456 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 9.21513653 0.134097368 1.85448456 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 7.16859818 0.134097368 1.85448456 1  ]
+    ObjectInstance "Plane.023"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0235968325 0 0 0 0 0.0235968325 0 0 0 0 0.0235968325 0 24.0856972 7.19476891 4.08108759 1  ]
+    NamedMaterial "PlastiqueLampe.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00046.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.152292088 0 0 0 0 0.152292088 0 0 0 0 0.152292088 0 24.0857315 7.19450235 4.29716158 1  ]
+    NamedMaterial "Verre.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00047.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00697375555 0 0 0 0 4.99999986e-10 -0.00697375555 0 -0 0.00697375555 4.99999986e-10 0 24.085701 7.21682835 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00048.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687661 0.00603944901 0 0 -4.99999986e-10 -2.99999997e-10 -0.00697375555 0 -0.00603944901 -0.00348687661 4.99999986e-10 0 24.0647049 7.18191528 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00049.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687824 -0.00603944948 0 0 4.99999986e-10 -2.99999997e-10 -0.00697375555 0 0.00603944948 -0.00348687824 4.99999986e-10 0 24.1050377 7.18207073 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00050.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00906746555 0 0 0 0 0.00906746555 0 0 0 0 0.00906746555 0 24.0856285 7.19457054 4.39416409 1  ]
+    NamedMaterial "PlastiqueLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00051.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00906746555 0 0 0 0 0.00906746555 0 0 0 0 0.00906746555 0 23.0683498 7.19457054 4.39416409 1  ]
+    NamedMaterial "PlastiqueLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00052.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687824 -0.00603944948 0 0 4.99999986e-10 -2.99999997e-10 -0.00697375555 0 0.00603944948 -0.00348687824 4.99999986e-10 0 23.0877609 7.18207073 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00053.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687661 0.00603944901 0 0 -4.99999986e-10 -2.99999997e-10 -0.00697375555 0 -0.00603944901 -0.00348687661 4.99999986e-10 0 23.0474262 7.18191528 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00054.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00697375555 0 0 0 0 4.99999986e-10 -0.00697375555 0 -0 0.00697375555 4.99999986e-10 0 23.0684223 7.21682835 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00055.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.152292088 0 0 0 0 0.152292088 0 0 0 0 0.152292088 0 23.0684528 7.19450235 4.29716158 1  ]
+    NamedMaterial "Verre.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00056.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0235968325 0 0 0 0 0.0235968325 0 0 0 0 0.0235968325 0 23.0684185 7.19476891 4.08108759 1  ]
+    NamedMaterial "PlastiqueLampe.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00057.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0235968325 0 0 0 0 0.0235968325 0 0 0 0 0.0235968325 0 22.1546688 7.19476891 4.08108759 1  ]
+    NamedMaterial "PlastiqueLampe.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00058.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.152292088 0 0 0 0 0.152292088 0 0 0 0 0.152292088 0 22.1547031 7.19450235 4.29716158 1  ]
+    NamedMaterial "Verre.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00059.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00697375555 0 0 0 0 4.99999986e-10 -0.00697375555 0 -0 0.00697375555 4.99999986e-10 0 22.1546726 7.21682835 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00060.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687661 0.00603944901 0 0 -4.99999986e-10 -2.99999997e-10 -0.00697375555 0 -0.00603944901 -0.00348687661 4.99999986e-10 0 22.1336765 7.18191528 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00061.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687824 -0.00603944948 0 0 4.99999986e-10 -2.99999997e-10 -0.00697375555 0 0.00603944948 -0.00348687824 4.99999986e-10 0 22.1740112 7.18207073 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00062.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00906746555 0 0 0 0 0.00906746555 0 0 0 0 0.00906746555 0 22.1546001 7.19457054 4.39416409 1  ]
+    NamedMaterial "PlastiqueLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00063.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 0 0 -8.73999966e-08 -1 0 0 0 0 1 0 15.1866188 7.0979414 2.67478919 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00064.ply" ] 
+    NamedMaterial "livroom-table"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00065.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.917993307 -0.358307451 -0.170011953 0 0.396335602 -0.844351888 -0.360538512 0 -0.0143662775 -0.398353726 0.917119384 0 29.1606216 -4.98211622 1.47140002 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.799091697 -0.588622332 -0.122377507 0 0.601011992 -0.787318289 -0.137530133 0 -0.0153967449 -0.183449537 0.982908547 0 29.154068 -3.71609521 1.88958859 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.729593515 0.674242735 0.114411578 0 -0.683707714 -0.715362132 -0.144224733 0 -0.0153967692 -0.183449507 0.982908547 0 27.9300537 -3.71609521 1.88958859 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.78578496 -0.562704325 -0.256721377 0 0.618332982 -0.724346697 -0.304936439 0 -0.0143662188 -0.398353755 0.917119324 0 27.9366074 -4.98211622 1.47140002 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.511246026 -0.785330057 -0.349119127 0 0.859314322 -0.473889172 -0.192374513 0 -0.0143662803 -0.398353785 0.917119324 0 26.5587559 -4.98211622 1.47140002 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.344252259 -0.923897684 -0.167043269 0 0.938750923 0.335796565 0.0773779228 0 -0.0153967282 -0.183449551 0.982908547 0 26.5522022 -3.71609521 1.88958859 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.359451175 0.916291833 0.176646873 0 -0.933036864 0.356027424 0.051833231 0 -0.0153967636 -0.183449566 0.982908547 0 25.2546139 -3.71609521 1.88958859 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.98927325 -0.127685323 -0.0709570199 0 0.14536868 -0.908300996 -0.392246366 0 -0.0143662253 -0.398353785 0.917119324 0 25.2611675 -4.98211622 1.47140002 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.97267288 -0.20700486 -0.105149627 0 0.231734917 -0.893567741 -0.384494036 0 -0.0143661788 -0.398353755 0.917119324 0 23.8632507 -4.98211622 1.47140002 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.942352533 0.331294388 0.0470711216 0 -0.334267259 -0.925521612 -0.177974999 0 -0.0153967729 -0.183449522 0.982908547 0 23.8566971 -3.71609521 1.88958859 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.999877334 8.73999966e-08 -0.0156625584 0 0.00287320302 -0.983029127 -0.183427021 0 -0.0153967673 -0.183449522 0.982908547 0 22.579174 -3.71609521 1.88958859 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.978372455 -0.183687761 -0.0951110721 0 0.206351444 -0.898650706 -0.387099475 0 -0.0143661965 -0.398353755 0.917119324 0 22.5857277 -4.98211622 1.47140002 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.968589365 0.248162031 -0.015818134 0 -0.219464064 -0.883023143 -0.414856166 0 -0.116919331 -0.398353785 0.909749508 0 21.2780781 -4.98211622 1.38612866 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.933078229 -0.312167227 -0.178652242 0 0.337139845 -0.932146907 -0.132056177 0 -0.125306517 -0.183449537 0.975010037 0 21.2247639 -3.71609521 1.80095649 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.945835948 8.2699998e-08 -0.324644923 0 0.0595558807 -0.983029127 -0.173513189 0 -0.319135427 -0.183449537 0.929784298 0 19.9461403 -3.71609521 1.52379155 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.85747236 -0.287841529 -0.426483721 0 0.419608593 -0.870896935 -0.255865514 0 -0.297774643 -0.398353845 0.86755085 0 20.0819206 -4.98211622 1.12820578 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 7.10105133 3.22704434 8.02319717 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00066.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 7.2509532 3.79999971 3.74913669 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00067.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00068.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 23.5561733 2.45679307 4.50842476 1  ]
+    NamedMaterial "Inox.003"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00069.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 23.5561733 2.45679307 4.50842476 1  ]
+    NamedMaterial "Clay"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00070.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.985778034 0.168051377 0.000675632211 0 -0.167995185 0.985537708 -0.0222057607 0 -0.00439756969 0.0217764489 0.999753177 0 16.803545 5.51565552 2.94505548 1  ]
+    NamedMaterial "Inox.002"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00071.ply" ] 
+    NamedMaterial "Cuir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00072.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.954337239 -0.298731297 0 0 0.298731297 0.954337239 0 0 0 0 1 0 15.7013397 -1.8259232 2.08570695 1  ]
+    ObjectInstance "plan_definitif.017"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.958419085 -0.285364419 0 0 0.285364419 0.958419085 0 0 0 0 1 0 14.2314568 -1.8259232 2.08570695 1  ]
+    ObjectInstance "plan_definitif.017"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.954211712 -0.299132049 0 0 0.299132049 0.954211712 0 0 0 0 1 0 12.2458258 -1.8259232 2.08570695 1  ]
+    ObjectInstance "plan_definitif.017"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.428376973 -0.828810871 -0.35995242 0 0.903600097 -0.392921001 -0.170645565 0 2.44000002e-08 -0.398353696 0.917231917 0 14.4829988 -4.98211575 0.641988695 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.85662657 -0.473233789 -0.205525339 0 0.515936911 0.785725176 0.341240436 0 -6.41e-08 -0.398353726 0.917231858 0 15.8829985 -4.98211622 0.641988635 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.384047806 -0.846892297 -0.367805332 0 0.9233132 0.352260858 0.152986929 0 -2.22000001e-08 -0.398353815 0.917231858 0 17.282999 -4.98211622 0.641988635 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.933915675 0.357094735 -0.0168765951 0 -0.315234333 -0.844865441 -0.432237983 0 -0.168608353 -0.398353755 0.901601613 0 18.7214394 -4.98211622 0.759258211 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.377101898 -0.849514246 -0.368944079 0 0.92617178 -0.345889896 -0.150219917 0 -7.6100001e-08 -0.398353815 0.917231858 0 13.0829973 -4.98211575 0.641988695 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.980698705 -0.179341808 -0.0778881013 0 0.19552505 -0.899528086 -0.390665025 0 4.07000016e-08 -0.398353785 0.917231858 0 11.6829977 -4.98211575 0.641988695 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.952485025 -0.279375464 -0.121332824 0 0.304585487 0.873649597 0.379426003 0 5.32000008e-08 -0.398353785 0.917231858 0 10.2829981 -4.98211575 0.641988695 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.0302201118 -0.916812897 -0.398171872 0 0.99954325 -0.0277188495 -0.0120382942 0 -3.20000004e-09 -0.398353815 0.917231858 0 8.88299847 -4.98211527 0.641988873 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 2.83000006e-08 0 -9.14999987e-08 -0.917231858 -0.398353785 0 -8.89999985e-09 -0.398353785 0.917231858 0 7.68299723 -4.98211575 0.641988635 1  ]
+    ObjectInstance "unnamed_obj_0.001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 23.55023 6.71957922 2.79164934 1  ]
+    ObjectInstance "ASSISE (2).001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 23.5503178 6.71763086 2.97164917 1  ]
+    NamedMaterial "MetalRough"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00073.ply" ] 
+    NamedMaterial "Inox.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00074.ply" ] 
+    NamedMaterial "Aluminium"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00075.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 22.8140316 6.71763086 2.97164917 1  ]
+    NamedMaterial "MetalRough"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00076.ply" ] 
+    NamedMaterial "Inox.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00077.ply" ] 
+    NamedMaterial "Aluminium"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00078.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 22.8139439 6.71957922 2.79164934 1  ]
+    ObjectInstance "ASSISE (2).001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 22.0259895 6.71957922 2.79164934 1  ]
+    ObjectInstance "ASSISE (2).001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 22.0260773 6.71763086 2.97164917 1  ]
+    NamedMaterial "MetalRough"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00079.ply" ] 
+    NamedMaterial "Inox.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00080.ply" ] 
+    NamedMaterial "Aluminium"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00081.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 20.9599781 3.36955595 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00082.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 20.9597626 3.35813808 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00083.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 20.9599819 3.3577857 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00084.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 21.6547413 3.3577857 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00085.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 21.6545219 3.35813808 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00086.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 21.6547375 3.36955595 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00087.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 22.3494968 3.36955595 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00088.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 22.3492813 3.35813808 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00089.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 22.3495007 3.3577857 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00090.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 23.0325508 3.3577857 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00091.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 23.0323315 3.35813808 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00092.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 23.032547 3.36955595 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00093.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 23.8561115 3.36955595 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00094.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 23.855896 3.35813808 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00095.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.31000002e-08 1.10000002 0 0 -1.10000002 1.31000002e-08 0 0 0 0 1.10000002 0 23.8561153 3.3577857 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00096.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 23.8559628 1.62506366 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00097.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 23.8561821 1.62471128 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00098.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 23.8559666 1.61329341 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00099.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 23.0245972 1.61329341 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00100.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 23.0248127 1.62471128 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00101.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 23.0245934 1.62506366 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00102.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 22.3376389 1.62506366 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00103.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 22.3378582 1.62471128 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00104.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 22.3376427 1.61329341 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00105.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 21.6623974 1.61329341 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00106.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 21.6626129 1.62471128 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00107.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 21.6623936 1.62506366 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00108.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 15.7708874 8.18234921 8.02319813 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00109.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.990139008 8.65999965e-08 -0.140088499 0 -8.57000018e-08 -1 -1.20000001e-08 0 -0.140088499 1.00000001e-10 0.990139008 0 5.41659784 0.967272878 0.972667456 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.990139008 8.65999965e-08 -0.140088499 0 -8.57000018e-08 -1 -1.20000001e-08 0 -0.140088499 1.00000001e-10 0.990139008 0 5.41659784 -0.432727039 0.972667456 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.990139008 8.65999965e-08 -0.140088499 0 -8.57000018e-08 -1 -1.20000001e-08 0 -0.140088499 1.00000001e-10 0.990139008 0 5.41659784 -1.83272696 0.972667456 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.990139008 8.65999965e-08 -0.140088499 0 -8.57000018e-08 -1 -1.20000001e-08 0 -0.140088499 1.00000001e-10 0.990139008 0 5.41659784 -3.23272705 0.972667456 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.994925857 8.69999965e-08 -0.100610591 0 -8.65000018e-08 -1 -8.59999982e-09 0 -0.100610591 1.00000001e-10 0.994925857 0 6.69973135 -3.23272705 1.11181092 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.994925857 8.69999965e-08 -0.100610591 0 -8.65000018e-08 -1 -8.59999982e-09 0 -0.100610591 1.00000001e-10 0.994925857 0 6.69973135 -1.83272696 1.11181092 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.994925857 8.69999965e-08 -0.100610591 0 -8.65000018e-08 -1 -8.59999982e-09 0 -0.100610591 1.00000001e-10 0.994925857 0 6.69973135 -0.432727039 1.11181092 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.994925857 8.69999965e-08 -0.100610591 0 -8.65000018e-08 -1 -8.59999982e-09 0 -0.100610591 1.00000001e-10 0.994925857 0 6.69973135 0.967272878 1.11181092 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 1.59999995e-08 0 -8.8900002e-08 -0.983029127 -0.183449537 0 -2.99999997e-10 -0.183449537 0.983029127 0 7.68299723 -3.71609473 1.06022775 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.17000001e-08 0.983029127 0.183449537 0 -1 1.15000001e-08 2.19999996e-09 0 0 -0.183449537 0.983029127 0 8.88299847 -3.71609426 1.06022787 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.74799993e-07 -3.21000009e-08 0 1.77800004e-07 0.983029127 0.183449537 0 -4.99999986e-10 -0.183449537 0.983029127 0 10.2829981 -3.71609449 1.06022775 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.36699995e-07 -0.983029127 -0.183449537 0 1 1.34299995e-07 2.55000003e-08 0 -4.00000005e-10 -0.183449537 0.983029127 0 11.6829977 -3.71609449 1.06022775 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 1.59999995e-08 0 -8.8900002e-08 -0.983029127 -0.183449537 0 -2.99999997e-10 -0.183449537 0.983029127 0 13.0829973 -3.71609473 1.06022775 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.98295933 8.58999982e-08 -0.183823049 0 0.0337221697 -0.983029127 -0.180323452 0 -0.180703431 -0.183449537 0.966277659 0 18.644558 -3.71609521 1.17037034 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.36699995e-07 -0.983029127 -0.183449537 0 1 1.34299995e-07 2.55000003e-08 0 -4.00000005e-10 -0.183449537 0.983029127 0 17.282999 -3.71609497 1.06022775 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.74799993e-07 -3.21000009e-08 0 1.77800004e-07 0.983029127 0.183449537 0 -4.99999986e-10 -0.183449537 0.983029127 0 15.8829985 -3.71609497 1.06022775 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.17000001e-08 0.983029127 0.183449537 0 -1 1.15000001e-08 2.19999996e-09 0 0 -0.183449537 0.983029127 0 14.4829988 -3.71609473 1.06022775 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 12.3829975 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 0 0 -8.73999966e-08 -1 0 0 0 0 1 0 10.9829979 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 1 0 0 -1 1.19000001e-08 0 0 0 0 1 0 9.58299828 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 8.18299866 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 13.782999 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 1 0 0 -1 1.19000001e-08 0 0 0 0 1 0 15.1829987 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 0 0 -8.73999966e-08 -1 0 0 0 0 1 0 16.5829983 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00710848579 0.0997470245 0 0 -0.0997470245 -0.00710848579 0 0 0 0 0.100000001 0 -11.2144384 6.38185787 1.38999994e-07 1  ]
+    NamedMaterial "leave1.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00110.ply" ] 
+    NamedMaterial "leave2"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00111.ply" ] 
+    NamedMaterial "leave1"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00112.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00710848579 0.0997470245 0 0 -0.0997470245 -0.00710848579 0 0 0 0 0.100000001 0 -11.2144384 6.38185787 1.38999994e-07 1  ]
+    NamedMaterial "bark.005"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00113.ply" ] 
+    NamedMaterial "bark.004"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00114.ply" ] 
+    NamedMaterial "bark.002"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00115.ply" ] 
+    NamedMaterial "bark.006"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00116.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00710848579 0.0997470245 0 0 -0.0997470245 -0.00710848579 0 0 0 0 0.100000001 0 -11.2144384 6.38185787 1.38999994e-07 1  ]
+    NamedMaterial "bark.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00117.ply" ] 
+    NamedMaterial "bark.003"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00118.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00710848579 0.0997470245 0 0 -0.0997470245 -0.00710848579 0 0 0 0 0.100000001 0 -11.2144384 6.38185787 1.38999994e-07 1  ]
+    NamedMaterial "bark"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00119.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 10.1008825 2.68736053 7.71170044 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00120.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 1 -0 0 -1.37 1.62999996e-08 1.63300001e-07 0 1.19200003e-07 0 1 0 8.7870121 4.7009263 7.71170044 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00121.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1.37 -5.99000032e-08 0 0 0 0 1 0 8.25209427 3.62296891 7.72170067 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00122.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.37 0 0 0 0 1 0 0 0 0 1 0 17.0906582 3.08492208 7.72170067 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00123.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 1 0 0 -1.37 -5.99000032e-08 0 0 0 0 1 0 18.3789177 4.70289278 7.71170044 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00124.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 1.01068997 2.69356275 6.30718422 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00125.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.19000001e-08 1 0 0 -1 1.19000001e-08 0 0 0 0 1 0 -0.224442303 4.70336199 6.30718517 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00126.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 -0.609917402 3.62917113 6.31718445 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00127.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 7.16797209 3.0911243 6.31718445 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00128.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 1 0 0 -1 -4.36999983e-08 0 0 0 0 1 0 8.10830784 4.709095 6.30718422 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00129.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 1 0 0 -1 -4.36999983e-08 0 0 0 0 1 0 26.9937305 1.01785481 5.08258104 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00130.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 26.0533943 -0.600115657 5.09258127 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00131.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 18.390192 -0.0620686412 5.09258127 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00132.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 17.9991341 2.69316816 5.08258104 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00133.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 20.0107994 -0.997677028 5.08258104 1  ]
+    NamedMaterial "SStoit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00134.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 17.1621037 3.96292448 5.11569214 1  ]
+    ObjectInstance "Cylinder.003"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 18.8236084 3.96292448 5.11569214 1  ]
+    ObjectInstance "Cylinder.003"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 17.1614799 3.98776698 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 17.1614799 3.93606186 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 18.8228035 3.93606186 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00148023921 1.00000001e-10 0 0 -1.00000001e-10 -0.00148023921 0 0 0 0 0.00148023921 0 18.8228035 3.99025989 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.03023863 0 0 0 0 1 0 0 0 0 1 0 17.9928112 3.96266508 5.11349058 1  ]
+    NamedMaterial "blinds"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00135.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -2.79999995 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00136.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00137.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00148023921 1.00000001e-10 0 0 -1.00000001e-10 -0.00148023921 0 0 0 0 0.00148023921 0 14.8797827 3.98776555 8.02319908 1  ]
+    ObjectInstance "Cylinder.007"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 14.9126234 3.93685699 8.02319908 1  ]
+    ObjectInstance "Cylinder.007"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 13.3350563 3.93685699 8.02319908 1  ]
+    ObjectInstance "Cylinder.007"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 13.3350563 3.98776698 8.02319908 1  ]
+    ObjectInstance "Cylinder.007"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00148023921 1.00000001e-10 0 0 -1.00000001e-10 -0.00148023921 0 0 0 0 0.00148023921 0 16.701189 3.99025989 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 16.701189 3.93606186 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 15.1191692 3.93606186 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 15.1191692 3.98776698 8.02319908 1  ]
+    ObjectInstance "Cylinder.006"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00148023921 0 0 0 -0 -0.00148023921 0 0 0 0 0.00148023921 0 12.8738794 3.98892283 8.02319908 1  ]
+    ObjectInstance "Cylinder.005"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 -2.99999997e-10 0 0 2.99999997e-10 0.00148023921 0 0 0 0 0.00148023921 0 12.8769789 3.93568993 8.02319908 1  ]
+    ObjectInstance "Cylinder.005"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00148023921 1.00000001e-10 0 0 -1.00000001e-10 -0.00148023921 0 0 0 0 0.00148023921 0 11.2612991 3.93568993 8.02319908 1  ]
+    ObjectInstance "Cylinder.005"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 11.2644873 3.98776698 8.02319908 1  ]
+    ObjectInstance "Cylinder.005"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00148023921 1.00000001e-10 0 0 -1.00000001e-10 -0.00148023921 0 0 0 0 0.00148023921 0 9.42073727 3.93655229 8.01113701 1  ]
+    ObjectInstance "Cylinder.004"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00148023921 1.00000001e-10 0 0 -1.00000001e-10 -0.00148023921 0 0 0 0 0.00148023921 0 11.0365887 3.93655229 8.01113701 1  ]
+    ObjectInstance "Cylinder.004"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 11.0365887 3.98776698 8.02319908 1  ]
+    ObjectInstance "Cylinder.004"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00148023921 0 0 0 0 0.00148023921 0 0 0 0 0.00148023921 0 9.4225893 3.98776698 8.02319908 1  ]
+    ObjectInstance "Cylinder.004"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 16.7019939 3.96292448 5.11569214 1  ]
+    ObjectInstance "Cylinder.003"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 15.1197929 3.96292448 5.11569214 1  ]
+    ObjectInstance "Cylinder.003"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 14.9122181 3.96292448 5.11569214 1  ]
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00138.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 13.3356647 3.96292448 5.11569214 1  ]
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00139.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 9.42266083 3.96292448 5.11569214 1  ]
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00140.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 11.0353813 3.96292448 5.11569214 1  ]
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00141.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 12.8752775 3.96292448 5.11569214 1  ]
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00142.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00170906878 0 0 0 0 0.00190015603 0 0 0 0 0.00211705011 0 11.2627287 3.96292448 5.11569214 1  ]
+    NamedMaterial "StoreFicelle"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00143.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 12.0472221 7.85892916 -0.0599993393 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00144.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -3.57999994e-08 -0.818908155 0 0 1 -4.36999983e-08 0 0 0 0 1 0 20.2276421 0.0872471482 3.74645853 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00145.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh" 
+        "string filename" [ "geometry/mesh_00146.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 0 0 -8.73999966e-08 -1 0 0 0 0 1 0 -0.796616971 10.0136938 6.46980095 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00147.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 7.84280729 2.9141252 6.46980095 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00148.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 -18.8400879 3.70292807 1.05065751 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00149.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 -18.8400879 3.70292807 1.20109177 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00150.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 -0.292826056 2.95473671 6.46997643 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00151.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 -8.23313046 3.70006561 2.45134044 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00152.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 -8.23313046 3.70006561 2.60177469 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00153.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 18.2502975 2.9141264 7.87065935 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00154.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 7.91472387 2.95187449 7.87065935 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00155.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 0 0 -8.73999966e-08 -1 0 0 0 0 1 0 7.86087322 10.0136948 7.87065935 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00156.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -1 8.73999966e-08 0 0 -8.73999966e-08 -1 0 0 0 0 1 0 18.2440033 3.10783935 5.26931906 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00157.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 18.5472622 -0.748191357 5.26931906 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00158.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 26.733427 -0.475562871 5.26931906 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00159.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.000434234709 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00160.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 26.1125011 3.50627351 2.5395 1  ]
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00161.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 7.54999974e-08 1 0 0 -1 7.54999974e-08 0 18.0427265 4.9800002e-07 4.45791388 1  ]
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00162.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 7.7118516 1.03389931 1.73950005 1  ]
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00163.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 10.253376 1.17352319 -0.421126157 1  ]
+    NamedMaterial "Eau"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00164.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.977595508 0 0 0 0 1 0 0 0 0 1 0 14.1239252 3.96266508 4.60103559 1  ]
+    NamedMaterial "blinds"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00165.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.981179714 0 0 0 0 1 0 0 0 0 1 0 15.9108238 3.96266508 5.11349058 1  ]
+    NamedMaterial "blinds"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00166.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.977595508 0 0 0 0 1 0 0 0 0 1 0 14.1239252 3.96266508 5.11349058 1  ]
+    NamedMaterial "blinds"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00167.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 12.0689917 3.96266508 4.05473614 1  ]
+    NamedMaterial "blinds"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00168.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 12.0689917 3.96266508 5.11349058 1  ]
+    NamedMaterial "blinds"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00169.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 10.2289925 3.96266508 4.19081783 1  ]
+    NamedMaterial "LameStore"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00170.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 10.2289925 3.96266508 5.11349058 1  ]
+    NamedMaterial "blinds"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00171.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 17.5569839 5.14791965 4.98893309 1  ]
+    NamedMaterial "Plafond"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00172.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.974322796 0 0 0 0 1 0 0 0 0 1 0 14.9979267 3.79999971 3.74913669 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00173.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00174.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00175.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00176.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0.210000008 0 1  ]
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00177.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00178.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Bardage"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00179.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00180.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00181.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00182.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00183.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00184.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00185.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00186.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00187.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00188.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00189.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00190.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00191.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00192.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00193.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00194.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00195.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00196.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00197.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00198.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00199.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00200.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00201.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00202.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00203.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00204.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00205.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00206.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00207.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00208.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00209.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00210.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00211.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00212.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00213.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00214.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00215.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00216.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00217.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00218.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00219.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00220.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00221.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00222.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00223.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00224.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00225.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00226.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00227.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00228.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00229.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00230.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00231.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00232.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00233.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00234.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00235.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00236.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00237.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00238.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00239.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00240.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00241.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00242.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Bardage"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00243.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00244.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00245.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00246.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 -0.0149999997 0 1  ]
+    NamedMaterial "MurBlanc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00247.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00248.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Parquet"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00249.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "LameStore"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00250.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "MurGris"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00251.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "LaqueNoire"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00252.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "LaqueNoire"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00253.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00254.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Bardage"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00255.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00256.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00257.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00258.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Bardage"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00259.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00260.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 -0.0624231398 0 0 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00261.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh" 
+        "string filename" [ "geometry/mesh_00262.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 19.272501 -1.54999995 2.5395 1  ]
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00263.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00264.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "LameTerrasse"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00265.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 11.1509533 3.79999971 3.74913669 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00266.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00267.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00268.ply" ] 
+    NamedMaterial "Verre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00269.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Menuiseries"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00270.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00271.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00272.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00273.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00274.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00275.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00276.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00277.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00278.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00279.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00280.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00281.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 -0.150000006 1  ]
+    NamedMaterial "Zinc"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00282.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Toit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00283.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Toit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00284.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Toit"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00285.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00286.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00287.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00288.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00289.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00290.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00291.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00292.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00293.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00294.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00295.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00296.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00297.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00298.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00299.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00300.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00301.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00302.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00303.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00304.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Ossature"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00305.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "FrontCol"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00306.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    NamedMaterial "Liner"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00307.ply" ] 
+    NamedMaterial "Beton"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00308.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.100000001 0 0 0 0 0.100000001 0 0 0 0 0.100000001 0 0.14494884 -1.70314765 4.00000005e-10 1  ]
+    NamedMaterial "bark"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00309.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.100000001 0 0 0 0 0.100000001 0 0 0 0 0.100000001 0 0.14494884 -1.70314765 4.00000005e-10 1  ]
+    NamedMaterial "bark.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00310.ply" ] 
+    NamedMaterial "bark.003"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00311.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.100000001 0 0 0 0 0.100000001 0 0 0 0 0.100000001 0 0.14494884 -1.70314765 4.00000005e-10 1  ]
+    NamedMaterial "bark.005"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00312.ply" ] 
+    NamedMaterial "bark.004"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00313.ply" ] 
+    NamedMaterial "bark.002"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00314.ply" ] 
+    NamedMaterial "bark.006"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00315.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.100000001 0 0 0 0 0.100000001 0 0 0 0 0.100000001 0 0.14494884 -1.70314765 4.00000005e-10 1  ]
+    NamedMaterial "leave1.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00316.ply" ] 
+    NamedMaterial "leave2"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00317.ply" ] 
+    NamedMaterial "leave1"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00318.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 17.9829979 -2.37261248 1.16761351 1  ]
+    ObjectInstance "unnamed_obj_0"
+AttributeEnd
+
+AttributeBegin
+    Transform [ -4.36999983e-08 -1 0 0 1 -4.36999983e-08 0 0 0 0 1 0 22.3765278 2.47699738 2.91080356 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00319.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 20.9207954 1.62506366 2.55887651 1  ]
+    NamedMaterial "CaoutchoucNoir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00320.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 20.9210148 1.62471128 2.78394032 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00321.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 8.30000033e-08 -1.10000002 0 0 1.10000002 8.30000033e-08 0 0 0 0 1.10000002 0 20.9207993 1.61329341 3.20831633 1  ]
+    NamedMaterial "LaqueBlanche"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00322.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 21.2352123 6.71763086 2.97164917 1  ]
+    NamedMaterial "MetalRough"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00323.ply" ] 
+    NamedMaterial "Inox.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00324.ply" ] 
+    NamedMaterial "Aluminium"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00325.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.999921739 0.0125110848 0 0 -0.0125110848 0.999921739 0 0 0 0 1 0 21.2351246 6.71957922 2.79164934 1  ]
+    ObjectInstance "ASSISE (2).001"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.955408454 -0.29528752 0 0 0.29528752 0.955408454 0 0 0 0 1 0 10.7759428 -1.8259232 2.08570695 1  ]
+    ObjectInstance "plan_definitif.017"
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.993646264 -0.112546049 0.000675632211 0 0.112533234 0.993399799 -0.0222057626 0 0.00182799809 0.0221407041 0.999753177 0 14.6509142 5.51565552 2.94505548 1  ]
+    NamedMaterial "Inox.002"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00326.ply" ] 
+    NamedMaterial "Cuir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00327.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 2.15599997e-07 1.1071955 0 0 -1 1.94699993e-07 0 0 0 0 1 0 13.6982021 7.14211845 2.88487482 1  ]
+    NamedMaterial "Cuir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00328.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -3.12400005e-07 -1.1071955 0 0 1 -2.8209999e-07 0 0 0 0 1 0 17.5647964 8.22963524 2.8848753 1  ]
+    NamedMaterial "Cuir"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00329.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 21.3519382 2.45679307 4.49305344 1  ]
+    NamedMaterial "Clay"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00330.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 21.3519382 2.45679307 4.49305344 1  ]
+    NamedMaterial "Inox.003"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00331.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.233708233 -1.03334498 0 0 1.03334498 0.233708233 0 0 0 0 1.05944395 0 17.3853436 8.86471272 3.74191356 1  ]
+    NamedMaterial "LaqueNoire"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00332.ply" ] 
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00333.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 15.858551 7.63912725 2.67478919 1  ]
+    NamedMaterial "Inox"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00334.ply" ] 
+    NamedMaterial "livroom-table"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00335.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00906746555 0 0 0 0 0.00906746555 0 0 0 0 0.00906746555 0 21.2273464 7.19457054 4.39416409 1  ]
+    NamedMaterial "PlastiqueLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00336.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687824 -0.00603944948 0 0 4.99999986e-10 -2.99999997e-10 -0.00697375555 0 0.00603944948 -0.00348687824 4.99999986e-10 0 21.2467575 7.18207073 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00337.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ -0.00348687661 0.00603944901 0 0 -4.99999986e-10 -2.99999997e-10 -0.00697375555 0 -0.00603944901 -0.00348687661 4.99999986e-10 0 21.2064228 7.18191528 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00338.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.00697375555 0 0 0 0 4.99999986e-10 -0.00697375555 0 -0 0.00697375555 4.99999986e-10 0 21.2274189 7.21682835 4.36061907 1  ]
+    NamedMaterial "CaoutchoucLampe"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00339.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.152292088 0 0 0 0 0.152292088 0 0 0 0 0.152292088 0 21.2274494 7.19450235 4.29716158 1  ]
+    NamedMaterial "Verre.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00340.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0235968325 0 0 0 0 0.0235968325 0 0 0 0 0.0235968325 0 21.2274151 7.19476891 4.08108759 1  ]
+    NamedMaterial "PlastiqueLampe.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00341.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 7.54999974e-08 -1 0 0 1 7.54999974e-08 0 0 0 0 1 0 15.328639 6.65526152 2.54616022 1  ]
+    NamedMaterial "TapisCuisine"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00342.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 18.3987999 9.59424591 3.54918122 1  ]
+    NamedMaterial "LaqueBlanche.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00343.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 0.960172832 0 17.2792339 9.58671761 3.50767183 1  ]
+    NamedMaterial "LaqueBlanche.004"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00344.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 14.9229221 9.58435249 3.54918122 1  ]
+    NamedMaterial "LaqueBlanche.005"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00345.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 18.0261135 10.0897493 3.84930182 1  ]
+    NamedMaterial "Livres.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00346.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 14.5502348 10.0798559 3.84930182 1  ]
+    NamedMaterial "Livres.002"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00347.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 19.7368584 10.0897493 3.84930182 1  ]
+    NamedMaterial "Livres2.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00348.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 16.2609787 10.0798559 3.84930182 1  ]
+    NamedMaterial "Livres2.002"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00349.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 -1.19200003e-07 0 0 1.19200003e-07 1 0 0 0 0 0.960172832 0 16.2839832 10.0322857 3.79583955 1  ]
+    NamedMaterial "Livres2.003"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00350.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 17.713335 9.9435873 3.90518618 1  ]
+    NamedMaterial "PhoneBase"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00351.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 17.713335 9.93540001 3.76299429 1  ]
+    NamedMaterial "PhoneBase.001"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00352.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 17.713335 9.93780994 3.90585971 1  ]
+    NamedMaterial "PhoneKeys"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00353.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 17.713335 9.93780994 3.90585971 1  ]
+    NamedMaterial "PhoneScreen"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00354.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 0.0130903898 0 0 0 0 0.0123322653 -0.00439016195 0 -0 0.00439016195 0.0123322653 0 17.7121735 9.96731758 3.82265902 1  ]
+    NamedMaterial "PhoneShell"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00355.ply" ] 
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1.33084917 -0.00371566694 0 0 0.00371566694 1.33084917 0 0 0 0 1.33085442 0 16.4787388 9.92863083 3.73925877 1  ]
+    NamedMaterial "INOX"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00356.ply" ] 
+    NamedMaterial "LaqueNoire"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00357.ply" ] 
+    NamedMaterial "TV"
+    Shape "plymesh" "string filename" [ "geometry/mesh_00358.ply" ] 
+AttributeEnd
