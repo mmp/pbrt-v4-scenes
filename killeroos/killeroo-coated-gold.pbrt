@@ -1,0 +1,80 @@
+LookAt 200 250 70
+    0 33 -50
+    0 0 1
+Camera "perspective"
+    "float fov" [ 38 ]
+Film "rgb"
+    "string filename" [ "killeroo-coated-gold.exr" ]
+    "integer yresolution" [ 1026 ]
+    "integer xresolution" [ 1368 ]
+Sampler "sobol"
+    "integer pixelsamples" [ 2048 ]
+
+
+WorldBegin
+
+
+AttributeBegin
+    #Scale 1 -1 1
+    #LightSource "infinite" "integer nsamples" [ 8 ] # [64]
+    #	"string mapname" "textures/skylight-morn.exr"
+    Material "diffuse"
+        "rgb reflectance" [ 0 0 0 ]
+    AreaLightSource "diffuse"
+        "rgb L" [ 50 50 50 ]
+    Translate 0 0 800
+    ReverseOrientation
+    # was 300
+    Shape "disk"
+        "float radius" [ 150 ]
+AttributeEnd
+
+AttributeBegin
+    CoordSysTransform "camera"
+    LightSource "distant"
+        "rgb L" [ 0.2 0.2 0.2 ]
+AttributeEnd
+
+AttributeBegin
+    Material "diffuse"
+        "rgb reflectance" [ 0.5 0.5 0.5 ]
+    Translate 0 0 -140
+    Texture "grid" "spectrum" "imagemap"
+        "string filename" [ "textures/lines.png" ]
+    Texture "sgrid" "spectrum" "scale"
+        "float scale" [ 0.5 ]
+        "texture tex" [ "grid" ]
+    Material "diffuse"
+        "texture reflectance" [ "sgrid" ]
+    Shape "trianglemesh"
+        "point2 uv" [ 0 0 5 0 5 5 0 5 
+            ]
+        "integer indices" [ 0 1 2 2 3 0 ]
+        "point3 P" [ -400 -400 0 400 -400 0 400 400 0 -400 400 0 ]
+    Shape "trianglemesh"
+        "point2 uv" [ 0 0 5 0 5 5 0 5 
+            ]
+        "integer indices" [ 0 1 2 2 3 0 ]
+        "point3 P" [ -400 -400 0 400 -400 0 400 -400 1000 -400 -400 1000 ]
+    #Shape "trianglemesh" "point P" [ -400 400 0 400 400 0 
+    #	400 400  1000 -400 400 1000 ]
+    #      "float uv" [ 0 0 5 0 5 5 0 5 ]
+    #	"integer indices" [ 0 1 2 2 3 0]
+    #Shape "trianglemesh" "point P" [ 400 -400 0 400 400 0  400 400 1000 400 -400 1000 ]
+    #      "float uv" [ 0 0 5 0 5 5 0 5 ]
+    #	"integer indices" [ 0 1 2 2 3 0]
+    Shape "trianglemesh"
+        "point2 uv" [ 0 0 5 0 5 5 0 5 
+            ]
+        "integer indices" [ 0 1 2 2 3 0 ]
+        "point3 P" [ -400 -400 0 -400 400 0 -400 400 1000 -400 -400 1000 ]
+AttributeEnd
+
+AttributeBegin
+    Material "coatedconductor"
+        "spectrum conductor.k" [ "spds/Au.k.spd" ]
+        "spectrum conductor.eta" [ "spds/Au.eta.spd" ]
+        "float interface.roughness" [ 0.02 ]
+        "float conductor.roughness" [ 0.002 ]
+    Include "geometry/killeroo3.pbrt"
+AttributeEnd
