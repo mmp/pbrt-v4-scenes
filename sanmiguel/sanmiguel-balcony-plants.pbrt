@@ -14,7 +14,7 @@ Camera "perspective"
     "float shutteropen" [ 0 ]
     "float fov" [ 81.2026 ]
 Film "rgb"
-    "string filename" [ "sanmiguel_cam20.exr" ]
+    "string filename" [ "sanmiguel-balcony-plants.exr" ]
     "float cropwindow" [ 0.025 0.975 0 1 ]
     "integer yresolution" [ 1066 ]
     "integer xresolution" [ 1600 ]

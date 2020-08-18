@@ -24,7 +24,7 @@ Film "rgb"
     "integer xresolution" [ 1600 ]
     "integer yresolution" [ 1100 ]
     "float scale" [ 13 ]
-
+    "string filename" "sanmiguel-realistic-courtyard.exr"
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]
 

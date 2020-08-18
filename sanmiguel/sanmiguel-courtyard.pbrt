@@ -16,7 +16,7 @@ Camera "perspective"
 #	 "float cropwindow"  [0.01125  0.99875  0.0109091  0.907273]
 # End Camera Camera14
 Film "rgb"
-    "string filename" [ "sanmiguel_cam14.exr" ]
+    "string filename" [ "sanmiguel-courtyard.exr" ]
     "float cropwindow" [ 0.1 0.8 0.0109091 0.907273 ]
     "integer yresolution" [ 1100 ]
     "integer xresolution" [ 1600 ]

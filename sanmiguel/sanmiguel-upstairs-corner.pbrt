@@ -15,7 +15,7 @@ Camera "perspective"
     "float fov" [ 73.7398 ]
 # End Camera Camera03
 Film "rgb"
-    "string filename" [ "sanmiguel_cam3.exr" ]
+    "string filename" [ "sanmiguel-upstairs-corner.exr" ]
     "float cropwindow" [ 0 0.997245 0.0625 0.8375 ]
     "integer yresolution" [ 1600 ]
     "integer xresolution" [ 726 ]
