@@ -1,0 +1,765 @@
+# emitter
+MakeNamedMaterial "09.1"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "ABS Poly - High  Polish"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "Aluminium "
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "BLUE_mix"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "BOLTS"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "CONTENT_mix"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "Carbonfibre V2"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.01 ]
+    "rgb reflectance" [ 0.05 0.05 0.05 ]
+MakeNamedMaterial "FIRST-KICK-LIGHT"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "FLOOR-CLICKER"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "FLOOR-CLICKER2"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "FLOOR-WAVE FINAL"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "FLOOR_CLICKER2"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-10"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-13"
+    "string type" [ "diffuse" ]
+#    "texture Kd" [ "GL14-color" ]
+MakeNamedMaterial "GL-14"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-15"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-18"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-2"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-3"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-6"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "GL-7"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "LIGHTTOWER"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "MULTI-DOOR"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "MULTI-DOOR-1"
+    "string type" [ "diffuse" ]
+# emitter
+MakeNamedMaterial "MULTI-DOOR-2"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "OctSpecular"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "Plastic_Blue"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "SCREEN REFLECTIONS"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0 ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+# emitter
+MakeNamedMaterial "SMOOTHED"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "WHITE_mix (three)"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "_Glossy Material"
+    "string type" [ "coateddiffuse" ]
+    "float roughness" [ 0.01 ]
+    "rgb reflectance" [ 0.05 0.05 0.05 ]
+MakeNamedMaterial "accent- simple kick"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "accent-THREE (Lt)"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "accent-bighead"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "accent-floor clickers"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "accent-kick"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "bm"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "brushed-dirt"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "chromed steel 1"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "diag"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "dull two"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "floor screen-2"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "floor"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "glass"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "multi-arm"
+    "string type" [ "diffuse" ]
+# emitter
+MakeNamedMaterial "multi-arm-2 NO DETAILS"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "multi-arm-3"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "multi-arm-4"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "multi-arm-PAY"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "new metal"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "new metal-lighter"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "pryramid"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "side- blue"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+# emitter
+MakeNamedMaterial "chinese-one"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.1 ]
+    "float vroughness" [ 0.1 ]
+    "texture reflectance" [ "chinese-one-color" ]
+MakeNamedMaterial "chinese-two"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.1 ]
+    "float vroughness" [ 0.1 ]
+    "texture reflectance" [ "chinese-two-color" ]
+MakeNamedMaterial "chinese-four"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.1 ]
+    "float vroughness" [ 0.1 ]
+    "texture reflectance" [ "chinese-four-color" ]
+MakeNamedMaterial "decal"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|decal|Arnold_Shader-color" ]
+MakeNamedMaterial "light tower"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|light_tower|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|light_tower|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "OctGlossy.2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|OctGlossy.2|Arnold_Shader-color" ]
+MakeNamedMaterial "OctGlossy"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.1 ]
+    "float vroughness" [ 0.1 ]
+    "texture reflectance" [ "c4d|OctGlossy|Arnold_Shader-color" ]
+MakeNamedMaterial "accent-THREE"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "full -scratched"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|full_-scratched|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|full_-scratched|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.162647 0.162647 0.162647 ]
+MakeNamedMaterial "black metal"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|black_metal|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|black_metal|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.046964 0.046964 0.046964 ]
+MakeNamedMaterial "redtriang"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|redtriang|Arnold_Shader-color" ]
+MakeNamedMaterial "emmobart"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|emmobart|Arnold_Shader-color" ]
+MakeNamedMaterial "OctGlossy.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|OctGlossy.1|Arnold_Shader-color" ]
+MakeNamedMaterial "09"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|09|Arnold_Shader-color" ]
+MakeNamedMaterial "7890"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|7890|Arnold_Shader-color" ]
+MakeNamedMaterial "grey steel"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|grey_steel|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|grey_steel|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.005981 0.005981 0.005981 ]
+MakeNamedMaterial "room"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04569 ]
+    "float vroughness" [ 0.04569 ]
+    "rgb reflectance" [ 0.001974 0.001974 0.001974 ]
+MakeNamedMaterial "TRIANGLE"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|TRIANGLE|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|TRIANGLE|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.046964 0.046964 0.046964 ]
+# emitter
+MakeNamedMaterial "Alluminio Piastre"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0.001 ]
+    "rgb eta" [ 1.6539409 0.8784988 0.52012265 ]
+    "rgb k" [ 9.204306 6.2562046 4.826749 ]
+MakeNamedMaterial "dull"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.05869 ]
+    "float vroughness" [ 0.05869 ]
+    "rgb reflectance" [ 0.001974 0.001974 0.001974 ]
+MakeNamedMaterial "canisters"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "c4d|canisters|Arnold_Shader-color" ]
+    "texture uroughness" [ "c4d|canisters|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|canisters|Arnold_Shader-float" ]
+MakeNamedMaterial "kaution"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|kaution|Arnold_Shader-color" ]
+MakeNamedMaterial "multi-arm-2"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|multi-arm-2|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|multi-arm-2|Arnold_Shader-float" ]
+MakeNamedMaterial "caution"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|caution|Arnold_Shader-color" ]
+MakeNamedMaterial "Alluminio-2"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0.01 ]
+    "rgb eta" [ 1.6539409 0.8784988 0.52012265 ]
+    "rgb k" [ 9.204306 6.2562046 4.826749 ]
+MakeNamedMaterial "accent-ONE"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "Orey-jack"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|Orey-jack|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|Orey-jack|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.2 0.2 0.2 ]
+#    "texture Kd" [ "c4d|LIGHTTOWER-1|ramp_rgb-color" ]
+MakeNamedMaterial "LIGHTTOWER-1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03 ]
+    "float vroughness" [ 0.03 ]
+#    "texture Kd" [ "c4d|FULL_BLACK|ramp_rgb-color" ]
+MakeNamedMaterial "FULL BLACK"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03 ]
+    "float vroughness" [ 0.03 ]
+MakeNamedMaterial "85"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|85|Arnold_Shader-color" ]
+MakeNamedMaterial "SIMPLE KICK"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.05869 ]
+    "float vroughness" [ 0.05869 ]
+    "rgb reflectance" [ 0.848088 0.848088 0.848088 ]
+#    "texture Kd" [ "c4d|accent-_SIMPLE_KICK|ramp_rgb-color" ]
+MakeNamedMaterial "accent- SIMPLE KICK"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|accent-_SIMPLE_KICK|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|accent-_SIMPLE_KICK|Arnold_Shader-float" ]
+MakeNamedMaterial "accent-ONE (KICK)"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|accent-ONE_(KICK)|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|accent-ONE_(KICK)|Arnold_Shader-float" ]
+MakeNamedMaterial "black metal - BASE"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|black_metal_-_BASE|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|black_metal_-_BASE|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.046964 0.046964 0.046964 ]
+MakeNamedMaterial "Orey"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|Orey|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|Orey|Arnold_Shader-float" ]
+#    "texture Kd" [ "c4d|pre-beam|ramp_rgb-color" ]
+#        "string type" [ "metal" ] 
+#        "rgb eta" [ 1.65394092 0.878498793 0.520122647 ] 
+#        "rgb k" [ 9.20430565 6.25620461 4.82674885 ] 
+#        "float roughness" [ 0.0005 ] 
+MakeNamedMaterial "pre-beam"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|pre-beam|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|pre-beam|Arnold_Shader-float" ]
+MakeNamedMaterial "ceiling-1.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.09 ]
+    "float vroughness" [ 0.09 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "OctGlossy.4"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.004 ]
+    "float vroughness" [ 0.004 ]
+    "rgb reflectance" [ 0.233603 0.233603 0.233603 ]
+# emitter
+MakeNamedMaterial "floor laser-1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.09 ]
+    "float vroughness" [ 0.09 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "floor laser-2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.09 ]
+    "float vroughness" [ 0.09 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "OctGlossy.3"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.004 ]
+    "float vroughness" [ 0.004 ]
+    "rgb reflectance" [ 0.233603 0.233603 0.233603 ]
+MakeNamedMaterial "Orey-jack base"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|Orey-jack_base|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|Orey-jack_base|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.05 0.05 0.05 ]
+MakeNamedMaterial "BASE ROOM"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.01 ]
+    "float vroughness" [ 0.01 ]
+    "texture displacement" [ "room-bump" ]
+    "rgb reflectance" [ 0.4 0.4 0.4 ]
+MakeNamedMaterial "ceiling-3"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|ceiling-3|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|ceiling-3|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.2957 0.2957 0.2957 ]
+MakeNamedMaterial "accent-bigger"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "accent-TWO"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "Corrugated Steel (bump v4)"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+MakeNamedMaterial "elec"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "texture reflectance" [ "c4d|elec|Arnold_Shader-color" ]
+MakeNamedMaterial "DOORS"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|DOORS|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|DOORS|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.827571 0.827571 0.827571 ]
+MakeNamedMaterial "ceiling-1"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|ceiling-1|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|ceiling-1|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.933107 0.933107 0.933107 ]
+# it's an emitter
+MakeNamedMaterial "ceiling-2"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|ceiling-2|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|ceiling-2|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.43388 0.43388 0.43388 ]
+MakeNamedMaterial "white-no dirt"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|white-no_dirt|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|white-no_dirt|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.933107 0.933107 0.933107 ]
+MakeNamedMaterial "stomp-top"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.06569 ]
+    "float vroughness" [ 0.06569 ]
+    "rgb reflectance" [ 0.933107 0.933107 0.933107 ]
+MakeNamedMaterial "stomp-bottom"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03469 ]
+    "float vroughness" [ 0.03469 ]
+    "rgb reflectance" [ 1 1 1 ]
+MakeNamedMaterial "SIDE-SMASH-1"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|SIDE-SMASH-1|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|SIDE-SMASH-1|Arnold_Shader-float" ]
+MakeNamedMaterial "SIDE-SMASH-2"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|SIDE-SMASH-2|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|SIDE-SMASH-2|Arnold_Shader-float" ]
+#    "texture Kd" [ "c4d|SIDESMASHER|ramp_rgb-color" ]
+MakeNamedMaterial "SIDESMASHER"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|SIDESMASHER|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|SIDESMASHER|Arnold_Shader-float" ]
+MakeNamedMaterial "accent- FOUR"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "dull-lighter"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|dull-lighter|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|dull-lighter|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.223414 0.223414 0.223414 ]
+MakeNamedMaterial "room-no bump"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|room-no_bump|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|room-no_bump|Arnold_Shader-float" ]
+    "rgb reflectance" [ 0.064322 0.064322 0.064322 ]
+MakeNamedMaterial "standard"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.09 ]
+    "float vroughness" [ 0.09 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial " Glossy Material"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.062 ]
+    "float vroughness" [ 0.062 ]
+    "rgb reflectance" [ 0.033105 0.033105 0.033105 ]
+MakeNamedMaterial "SIDE -white"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0.05 0.05 0.05 ]
+MakeNamedMaterial "standard 02"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.051 ]
+    "float vroughness" [ 0.051 ]
+    "rgb reflectance" [ 0.062043 0.062043 0.062043 ]
+MakeNamedMaterial "MAIN SHAFT"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.068385 0.068385 0.068385 ]
+MakeNamedMaterial "black metal bas replace"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03369 ]
+    "float vroughness" [ 0.03369 ]
+MakeNamedMaterial "perfect plastic"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.05169 ]
+    "float vroughness" [ 0.05169 ]
+    "rgb reflectance" [ 0.030264 0.030264 0.030264 ]
+MakeNamedMaterial "Alluminio Piastre.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.05869 ]
+    "float vroughness" [ 0.05869 ]
+    "rgb reflectance" [ 0.012156 0.012156 0.012156 ]
+MakeNamedMaterial "dull-lighter.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0.233022 0.233022 0.233022 ]
+MakeNamedMaterial "OctGlossy.11"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.048 ]
+    "float vroughness" [ 0.048 ]
+    "rgb reflectance" [ 0.491905 0.491905 0.491905 ]
+MakeNamedMaterial "tube"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.053 ]
+    "float vroughness" [ 0.053 ]
+    "rgb reflectance" [ 0.139985 0.139985 0.139985 ]
+MakeNamedMaterial "full scratched repl"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.002 ]
+    "float vroughness" [ 0.002 ]
+    "rgb reflectance" [ 0.233603 0.233603 0.233603 ]
+MakeNamedMaterial "standard 03"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.09469 ]
+    "float vroughness" [ 0.09469 ]
+    "rgb reflectance" [ 0.284647 0.284647 0.284647 ]
+MakeNamedMaterial "NEW-1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03 ]
+    "float vroughness" [ 0.03 ]
+    "rgb reflectance" [ 0.5 0.5 0.5 ]
+MakeNamedMaterial "SIDE ACCENTS"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "SIDE -white.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "room-no bump.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.05169 ]
+    "float vroughness" [ 0.05169 ]
+    "rgb reflectance" [ 0.030264 0.030264 0.030264 ]
+MakeNamedMaterial "standard 05"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04769 ]
+    "float vroughness" [ 0.04769 ]
+    "rgb reflectance" [ 0.00854 0.00854 0.00854 ]
+MakeNamedMaterial "grey steel.1"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|grey_steel.1|Arnold_Shader_1-float" ]
+    "texture vroughness" [ "c4d|grey_steel.1|Arnold_Shader_1-float" ]
+    "rgb reflectance" [ 0.038478 0.038478 0.038478 ]
+MakeNamedMaterial "OctGlossy.8"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.061 ]
+    "float vroughness" [ 0.061 ]
+    "rgb reflectance" [ 0.2 0.2 0.2 ]
+MakeNamedMaterial "OctGlossy.9"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.061 ]
+    "float vroughness" [ 0.061 ]
+    "rgb reflectance" [ 0.2 0.2 0.2 ]
+MakeNamedMaterial "full -scratched.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.004 ]
+    "float vroughness" [ 0.004 ]
+    "rgb reflectance" [ 0.233603 0.233603 0.233603 ]
+MakeNamedMaterial "FLOOR.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "gates blurred"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.067 ]
+    "float vroughness" [ 0.067 ]
+    "rgb reflectance" [ 0.035613 0.035613 0.035613 ]
+#    "texture Kd" [ "c4d|orange_emitter|ramp_rgb-color" ]
+MakeNamedMaterial "orange emitter"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|orange_emitter|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|orange_emitter|Arnold_Shader-float" ]
+MakeNamedMaterial "OctGlossy.10"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.05269 ]
+    "float vroughness" [ 0.05269 ]
+    "rgb reflectance" [ 0.178867 0.178867 0.178867 ]
+MakeNamedMaterial "clean"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03 ]
+    "float vroughness" [ 0.03 ]
+    "rgb reflectance" [ 1 1 1 ]
+MakeNamedMaterial "KICKSHAFT"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.02 ]
+    "float vroughness" [ 0.02 ]
+#    "texture Kd" [ "c4d|dull-lighter.2|ramp_rgb-color" ]
+MakeNamedMaterial "dull-lighter.2"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|dull-lighter.2|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|dull-lighter.2|Arnold_Shader-float" ]
+MakeNamedMaterial " Glossy Material.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.062 ]
+    "float vroughness" [ 0.062 ]
+    "rgb reflectance" [ 0.033105 0.033105 0.033105 ]
+MakeNamedMaterial "white emitter"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0.376765 0.376765 0.376765 ]
+MakeNamedMaterial "blue gradientemitter"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.01 ]
+    "float vroughness" [ 0.01 ]
+    "rgb reflectance" [ 0.043234 1 0.971054 ]
+MakeNamedMaterial "room.1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.062 ]
+    "float vroughness" [ 0.062 ]
+    "rgb reflectance" [ 0.033105 0.033105 0.033105 ]
+MakeNamedMaterial "BLUE mix(first).1"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|BLUE_mix(first).1|Arnold_Shader_1-float" ]
+    "texture vroughness" [ "c4d|BLUE_mix(first).1|Arnold_Shader_1-float" ]
+MakeNamedMaterial "BLUE mix(first).2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.02 ]
+    "float vroughness" [ 0.02 ]
+MakeNamedMaterial "grey steel.2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03369 ]
+    "float vroughness" [ 0.03369 ]
+MakeNamedMaterial "CONTENT mix"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "sixmix-1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.043234 1 0.971054 ]
+MakeNamedMaterial "sixmix-2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.02269 ]
+    "float vroughness" [ 0.02269 ]
+    "rgb reflectance" [ 0.016867 0.016867 0.016867 ]
+MakeNamedMaterial "floor screen -1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.074 ]
+    "float vroughness" [ 0.074 ]
+    "rgb reflectance" [ 1 1 1 ]
+MakeNamedMaterial "warblemix-5"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "warblemix-4"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "warblemix-3"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "warblemix-2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "warblemix-1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "FLOOR"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+MakeNamedMaterial "BLUE mix(last)"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0.043234 1 0.971054 ]
+MakeNamedMaterial "BLUE mix(mid)"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+#    "texture Kd" [ "c4d|BLUE_mix(first)|ramp_rgb-color" ]
+MakeNamedMaterial "BLUE mix(first)"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|BLUE_mix(first)|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|BLUE_mix(first)|Arnold_Shader-float" ]
+#    "texture Kd" [ "c4d|accent-SIMPLE_KICK|ramp_rgb-color" ]
+MakeNamedMaterial "accent-SIMPLE KICK"
+    "string type" [ "coateddiffuse" ]
+    "texture uroughness" [ "c4d|accent-SIMPLE_KICK|Arnold_Shader-float" ]
+    "texture vroughness" [ "c4d|accent-SIMPLE_KICK|Arnold_Shader-float" ]
+MakeNamedMaterial "OctGlossy.5"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.003096 0.003096 0.003096 ]
+MakeNamedMaterial "OctGlossy.7"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.061 ]
+    "float vroughness" [ 0.061 ]
+    "rgb reflectance" [ 0.154872 0.154872 0.154872 ]
+MakeNamedMaterial "OctGlossy.6"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.08 ]
+    "float vroughness" [ 0.08 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "OctDiffuse"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.376765 0.376765 0.376765 ]
+MakeNamedMaterial "side - white"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0.376765 0.376765 0.376765 ]
+MakeNamedMaterial "side- blue(first)"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "stomp base"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.001 ]
+    "float vroughness" [ 0.001 ]
+    "rgb reflectance" [ 0.011645 0.011645 0.011645 ]
+MakeNamedMaterial "room.2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.03369 ]
+    "float vroughness" [ 0.03369 ]
+MakeNamedMaterial "accent-lighttower"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "accent-BIGGER"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0 0 0 ]
+MakeNamedMaterial "buzzwing"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.08 ]
+    "float vroughness" [ 0.08 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "buzzmix-6"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+MakeNamedMaterial " Glossy Material.2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.05169 ]
+    "float vroughness" [ 0.05169 ]
+    "rgb reflectance" [ 0.030264 0.030264 0.030264 ]
+MakeNamedMaterial "buzzmix-7"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+MakeNamedMaterial "stomp mid"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.073 ]
+    "float vroughness" [ 0.073 ]
+    "rgb reflectance" [ 0.491905 0.491905 0.491905 ]
+MakeNamedMaterial "MULTI-DOOR-3"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.057 ]
+    "float vroughness" [ 0.057 ]
+    "rgb reflectance" [ 0.554222 0.554222 0.554222 ]
+MakeNamedMaterial "buzzmix-1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+MakeNamedMaterial "buzzmix-5"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+MakeNamedMaterial "multi-arm-1"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.04669 ]
+    "float vroughness" [ 0.04669 ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "buzzmix-3"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+MakeNamedMaterial "buzzmix-2"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0.005 ]
+    "float vroughness" [ 0.005 ]
+    "rgb reflectance" [ 0.002322 0.002322 0.002322 ]
+MakeNamedMaterial "full reflection"
+    "string type" [ "coateddiffuse" ]
+    "float uroughness" [ 0 ]
+    "float vroughness" [ 0 ]
+    "rgb reflectance" [ 0.257073 0.257073 0.257073 ]

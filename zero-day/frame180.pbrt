@@ -1,0 +1,20 @@
+Transform [ 0.002187857 -0.016843824 -0.99985576 0 -0.1287901 0.9915264 -0.016985321 0 0.9916695 0.12880868 -4.284767e-16 0 -10.568136 81.36174 383.8853 1  ]
+Camera "perspective"
+    "float lensradius" [ 0.5 ]
+    "float focaldistance" [ 182 ]
+    "float fov" [ 22.275333 ]
+Film "rgb"
+    "float scale" [ 3 ]
+    "integer yresolution" [ 840 ]
+    "integer xresolution" [ 1920 ]
+    "string filename" [ "frame180.exr" ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 1024 ]
+
+
+WorldBegin
+
+Include "textures.pbrt"
+Include "materials.pbrt"
+Include "geometry/geometry-f180.pbrt"

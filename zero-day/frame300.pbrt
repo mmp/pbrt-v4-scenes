@@ -1,0 +1,20 @@
+Transform [ 0.00032152343 0.0044056084 -0.9999902 0 0.0727862 0.99733776 0.0044173254 0 0.99734753 -0.07278691 1.3476091e-15 0 5.166205 70.78886 -415.6682 1  ]
+Camera "perspective"
+    "float lensradius" [ 0.5 ]
+    "float focaldistance" [ 202 ]
+    "float fov" [ 22.275333 ]
+
+Film "rgb"
+    "float scale" [ 2 ]
+    "integer yresolution" [ 840 ]
+    "integer xresolution" [ 1920 ]
+    "string filename" [ "frame300.exr" ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 1024 ]
+
+WorldBegin
+
+Include "textures.pbrt"
+Include "materials.pbrt"
+Include "geometry/geometry-f300.pbrt"

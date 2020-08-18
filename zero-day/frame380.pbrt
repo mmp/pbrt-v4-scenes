@@ -1,0 +1,20 @@
+Transform [ 0.00007806421 0.004050054 -0.9999918 0 0.019271119 0.9998061 0.004050806 0 0.9998143 -0.019271277 -4.2863933e-16 0 1.3126198 68.100105 -949.8437 1  ]
+Camera "perspective"
+    "float lensradius" [ 0.5 ]
+    "float focaldistance" [ 431 ]
+    "float fov" [ 22.275333 ]
+Film "rgb"
+    "float scale" [ 2 ]
+    "integer yresolution" [ 840 ]
+    "integer xresolution" [ 1920 ]
+    "string filename" [ "frame380.exr" ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 1024 ]
+
+
+WorldBegin
+
+Include "textures.pbrt"
+Include "materials.pbrt"
+Include "geometry/geometry-f380.pbrt"

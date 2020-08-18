@@ -1,0 +1,21 @@
+# frame 35 from the c4d measure_one file
+Transform [ -0.00021541286 -0.0054053785 -0.9999854 0 0.039819386 0.99919224 -0.005409669 0 0.99920684 -0.03981997 -4.2866643e-16 0 2.6304407 66.005936 1353.004 1  ]
+Camera "perspective"
+    "float lensradius" [ 0.5 ]
+    "float focaldistance" [ 1500 ]
+    "float fov" [ 22.275333 ]
+Film "rgb"
+    "float scale" [ 3 ]
+    "integer yresolution" [ 840 ]
+    "integer xresolution" [ 1920 ]
+    "string filename" [ "frame35.exr" ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 1024 ]
+
+
+WorldBegin
+
+Include "textures.pbrt"
+Include "materials.pbrt"
+Include "geometry/geometry-f35.pbrt"

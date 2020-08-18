@@ -1,0 +1,20 @@
+Transform [ 0.0027127296 0.0005333793 -0.9999962 0 0.08496943 0.99638325 0.0007619522 0 0.99637985 -0.084971175 0.0026575974 0 3.9598055 66.38154 786.1554 1  ]
+Camera "perspective"
+    "float lensradius" [ 0.5 ]
+    "float focaldistance" [ 911 ]
+    "float fov" [ 22.275333 ]
+
+Film "rgb"
+    "integer xresolution" [ 1920 ]
+    "integer yresolution" [ 840 ]
+    "string filename" [ "frame120.exr" ]
+    "float scale" 3
+
+Sampler "halton"
+    "integer pixelsamples" [ 1024 ]
+
+WorldBegin
+
+Include "textures.pbrt"
+Include "materials.pbrt"
+Include "geometry/geometry-f120.pbrt"
