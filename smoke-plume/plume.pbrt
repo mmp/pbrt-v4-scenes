@@ -1,0 +1,53 @@
+LookAt 1  2.9  -10.5   1. 0.775 0    0 1 0
+Camera "perspective" "float fov" [8]
+
+Sampler "halton" "integer pixelsamples" [1024]
+
+Integrator "volpath"
+
+Film "rgb" "integer xresolution" [1200] "integer yresolution" [1200]
+      "string filename" "plume.exr"
+
+WorldBegin
+
+AttributeBegin
+Rotate 110 0 1 0
+Rotate -90 1 0 0
+LightSource "infinite" "string filename" "textures/sky.exr" "float scale" 4
+
+AttributeEnd
+
+AttributeBegin
+	Translate 1 1 -1 
+	Rotate 180 0 1 0
+	Translate -0.75 0 -0.75
+	Scale 2 2 2
+	Translate 0.375 0 0.375
+Material "conductor"
+    "float roughness" [ 0 ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+	Shape "sphere" "float radius" [0.1]
+AttributeEnd
+
+AttributeBegin
+	Translate 1 0 -1 
+	Rotate 180 0 1 0
+	Translate -0.75 0 -0.75
+	Scale 2 2 2
+
+Include "geometry/density_big_0084.pbrt"
+	"spectrum sigma_a" [300 10 830 10] 
+	"spectrum sigma_s" [300 80 830 80]
+
+        MediumInterface "smoke" ""
+        Material ""
+        Shape "sphere" "float radius" 3
+AttributeEnd
+
+# ground
+Material "diffuse" "rgb reflectance" [0.025 .025 .025]
+Translate 0  0.1 0
+Shape "trianglemesh" "integer indices" [0 1 2 2 3 0]
+	"point3 P" [-50 0.0 -50  50 0.0 -50  50 0.0 50  -50 0.0 50]
+
