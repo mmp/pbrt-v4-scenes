@@ -1,0 +1,39 @@
+Film "rgb"
+    "string filename" "lte-orb-blue-agat-spec.exr"
+    "integer yresolution" [ 1200 ]
+    "integer xresolution" [ 1200 ]
+Scale -1 1 1
+LookAt -0.3 0.5 -0.5
+    0 0.075 0
+    0 1 0
+Camera "perspective"
+    "float fov" [ 37 ]
+Sampler "sobol"
+    "integer pixelsamples" [ 64 ]
+
+
+WorldBegin
+
+ReverseOrientation
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "rgb L" [ 9.5 9.5 9.5 ]
+    ReverseOrientation
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "point3 P" [ -1 3.204597 -0.999721 1 3.204597 -0.999721 1 3.251826 0.999721 
+                     -1 3.251826 0.999721 ]
+AttributeEnd
+# Material in the inner part of the sphere
+# Matierial on the outer part of the sphere
+MakeNamedMaterial "InnerMat"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0.01 ]
+    "spectrum k" [ "metal-Ag-k" ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+MakeNamedMaterial "OuterMat"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/cc_blue_agat_spec.bsdf" ]
+
+Include "geometry/geometry.pbrt"
