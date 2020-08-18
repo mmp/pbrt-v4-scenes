@@ -1,0 +1,120 @@
+MakeNamedMaterial "Material"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "None"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.8 0.8 0.8 ]
+    "float roughness" [ 0 ]
+MakeNamedMaterial "black_glossy"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.02 0.02 0.02 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "candle_flame"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+Texture "concrete-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/Mies-BCN_M121.png" ]
+Texture "concrete-kd" "spectrum" "scale"
+    "float scale" [ 0.64 ]
+    "texture tex" [ "concrete-kd-img" ]
+MakeNamedMaterial "concrete"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "concrete-kd" ]
+    "float roughness" [ 0.010408 ]
+Texture "concrete_Mies-BCN_M121.jpg-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/Mies-BCN_M121.png" ]
+Texture "concrete_Mies-BCN_M121.jpg-kd" "spectrum" "scale"
+    "float scale" [ 0.64 ]
+    "texture tex" [ "concrete_Mies-BCN_M121.jpg-kd-img" ]
+MakeNamedMaterial "concrete_Mies-BCN_M121.png"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "concrete_Mies-BCN_M121.jpg-kd" ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "glass_architectural"
+    "string type" [ "dielectric" ]
+Texture "grass-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/grass_mid_seamless.png" ]
+Texture "grass-kd" "spectrum" "scale"
+    "float scale" [ 0.5 ]
+    "texture tex" [ "grass-kd-img" ]
+Texture "grass-kd-renamed-0" "spectrum" "scale"
+    "float scale" [ 0.3 ]
+    "texture tex" [ "grass-kd-img" ]
+MakeNamedMaterial "grass"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "grass-kd-renamed-0" ]
+    "float roughness" [ 0.1 ]
+MakeNamedMaterial "caulk"
+    "string type" [ "diffuse" ]
+    "float sigma" [ 20 ]
+    "rgb reflectance" [ 0.4 0.4 0.4 ]
+MakeNamedMaterial "leather_white"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/cm_white_spec.bsdf" ]
+Texture "marble-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/Mies-BCN_M01.png" ]
+MakeNamedMaterial "marble"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "marble-kd-img" ]
+    "float vroughness" [ 0.001 ]
+    "float uroughness" [ 0.001 ]
+Texture "marmol_verde-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/Mies-BCN_M11.png" ]
+MakeNamedMaterial "marmol_verde"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "marmol_verde-kd-img" ]
+    "float vroughness" [ 0.001 ]
+    "float uroughness" [ 0.001 ]
+# Mies-BCN_M081bump.png
+MakeNamedMaterial "metal"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Al-eta" ]
+    "spectrum k" [ "metal-Al-k" ]
+Texture "pavet-bump" "float" "imagemap"
+    "string filename" [ "textures/Mies-BCN_M081bump.png" ]
+Texture "pavet-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/Mies-BCN_M081.png" ]
+Texture "pavet-kd-scaled" "spectrum" "scale"
+    "float scale" [ 0.7 ]
+    "texture tex" [ "pavet-kd-img" ]
+Texture "pavet-kd" "spectrum" "scale"
+    "float scale" [ 0.64 ]
+    "texture tex" [ "pavet-kd-img" ]
+# rocks below water
+MakeNamedMaterial "pavet"
+    "string type" [ "coateddiffuse" ]
+    "texture displacement" [ "pavet-bump" ]
+    "texture reflectance" [ "pavet-kd" ]
+    "float vroughness" [ 0.1 ]
+    "float uroughness" [ 0.1 ]
+Texture "rocks-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/rocks.png" ]
+MakeNamedMaterial "pebbles.ground"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "rocks-kd-img" ]
+    "float roughness" [ 0.010408 ]
+Texture "water-bump-base" "float" "imagemap"
+    "string filename" [ "textures/water-raindrop.png" ]
+Texture "water-bump" "float" "scale"
+    "float scale" [ 0.005 ]
+    "texture tex" [ "water-bump-base" ]
+MakeNamedMaterial "water"
+    "string type" [ "dielectric" ]
+    "texture displacement" [ "water-bump" ]
+MakeNamedMaterial "wax"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+# Name "Cube.024_Cube.053"
+# floating lanterns in water
+MakeNamedMaterial "white_mat"
+    "string type" [ "diffuse" ]
+    "float sigma" [ 20 ]
+    "rgb reflectance" [ 0.6 0.6 0.6 ]
+Texture "wood" "spectrum" "imagemap"
+    "string filename" [ "textures/wood.png" ]
+MakeNamedMaterial "wood"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "wood" ]

@@ -1,0 +1,1371 @@
+
+AttributeBegin
+    ObjectBegin "xref_Betula_pendula_03mediumb.c4d"
+
+    AttributeBegin
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_tr_03_co_color" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_co.png" ]
+                Texture "Betula_pendula_tr_03_di_bump" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_di.png" ]
+                Texture "Betula_pendula_tr_03_sp_specular" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_sp.png" ]
+                Material "coateddiffuse"
+                    "texture displacement" [ "Betula_pendula_tr_03_di_bump" ]
+                    "texture reflectance" [ "Betula_pendula_tr_03_co_color" ]
+                    "float roughness" [ 0.65 ]
+                Shape "plymesh"
+                    "string filename" [ "../landscape/geometry/mesh_00064.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_tr_06_co2_color" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_06_co2.png" ]
+                Texture "Betula_pendula_tr_06_di3_bump" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_06_di3.png" ]
+                Texture "Betula_pendula_tr_06_sp2_specular" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_06_sp2.png" ]
+                Material "coateddiffuse"
+                    "texture displacement" [ "Betula_pendula_tr_06_di3_bump" ]
+                    "texture reflectance" [ "Betula_pendula_tr_06_co2_color" ]
+                    "float roughness" [ 0.7 ]
+                Shape "plymesh"
+                    "string filename" [ "../landscape/geometry/mesh_00065.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_tr_06_co2_color-renamed-0" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_06_co2.png" ]
+                Texture "Betula_pendula_tr_06_di3_bump-renamed-1" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_06_di3.png" ]
+                Texture "Betula_pendula_tr_06_sp2_specular-renamed-2" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_06_sp2.png" ]
+                Material "coateddiffuse"
+                    "texture displacement" [ "Betula_pendula_tr_06_di3_bump-renamed-1" ]
+                    "texture reflectance" [ "Betula_pendula_tr_06_co2_color-renamed-0" ]
+                    "float roughness" [ 0.7 ]
+                Shape "plymesh"
+                    "string filename" [ "../landscape/geometry/mesh_00066.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_tr_03_co_color-renamed-3" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_co.png" ]
+                Texture "Betula_pendula_tr_03_di_bump-renamed-4" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_di.png" ]
+                Texture "Betula_pendula_tr_03_sp_specular-renamed-5" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_sp.png" ]
+                Material "coateddiffuse"
+                    "texture displacement" [ "Betula_pendula_tr_03_di_bump-renamed-4" ]
+                    "texture reflectance" [ "Betula_pendula_tr_03_co_color-renamed-3" ]
+                    "float roughness" [ 0.65 ]
+                Shape "plymesh"
+                    "string filename" [ "../landscape/geometry/mesh_00067.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_tr_03_co_color-renamed-6" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_co.png" ]
+                Texture "Betula_pendula_tr_03_di_bump-renamed-7" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_di.png" ]
+                Texture "Betula_pendula_tr_03_sp_specular-renamed-8" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_tr_03_sp.png" ]
+                Material "coateddiffuse"
+                    "texture displacement" [ "Betula_pendula_tr_03_di_bump-renamed-7" ]
+                    "texture reflectance" [ "Betula_pendula_tr_03_co_color-renamed-6" ]
+                    "float roughness" [ 0.65 ]
+                Shape "plymesh"
+                    "string filename" [ "../landscape/geometry/mesh_00068.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_br_01_co_color" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_br_01_co.png" ]
+                Texture "Betula_pendula_br_01_co_bump" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_br_01_co.png" ]
+                Material "coateddiffuse"
+                    "texture displacement" [ "Betula_pendula_br_01_co_bump" ]
+                    "texture reflectance" [ "Betula_pendula_br_01_co_color" ]
+                    "float roughness" [ 0.65 ]
+                Shape "plymesh"
+                    "string filename" [ "../landscape/geometry/mesh_00069.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_lf_02_su_co_color" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_02_su_co.png" ]
+                Texture "Betula_pendula_lf_02_su_co_alpha" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_02_su_co.png" ]
+                Texture "Betula_pendula_lf_02_su_tr_bump" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_02_su_tr.png" ]
+                MakeNamedMaterial "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_02_su_front"
+                    "string type" [ "coateddiffuse" ]
+                    "texture displacement" [ "Betula_pendula_lf_02_su_tr_bump" ]
+                    "texture reflectance" [ "Betula_pendula_lf_02_su_co_color" ]
+                    "float roughness" [ 0.35 ]
+#                MakeNamedMaterial "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_02_su_back"
+#                    "string type" [ "diffusetransmission" ]
+Material "diffusetransmission"
+                    "texture reflectance" [ "Betula_pendula_lf_02_su_co_color" ]
+                    "texture transmittance" [ "Betula_pendula_lf_02_su_co_color" ]
+#                Material "mix"
+#                    "float amount" [ 0.4 ]
+#                    "string namedmaterial2" [ "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_02_su_back" ]
+#                    "string namedmaterial1" [ "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_02_su_front" ]
+                Shape "plymesh"
+                    "texture alpha" [ "Betula_pendula_lf_02_su_co_alpha" ]
+                    "string filename" [ "../landscape/geometry/mesh_00070.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_lf_01_su_co_color" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_01_su_co.png" ]
+                Texture "Betula_pendula_lf_01_su_co_alpha" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_01_su_co.png" ]
+                Texture "Betula_pendula_lf_01_su_tr_bump" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_01_su_tr.png" ]
+                MakeNamedMaterial "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_01_su_front"
+                    "string type" [ "coateddiffuse" ]
+                    "texture displacement" [ "Betula_pendula_lf_01_su_tr_bump" ]
+                    "texture reflectance" [ "Betula_pendula_lf_01_su_co_color" ]
+                    "float roughness" [ 0.3 ]
+#                MakeNamedMaterial "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_01_su_back"
+#                    "string type" [ "diffusetransmission" ]
+Material "diffusetransmission"
+                    "texture reflectance" [ "Betula_pendula_lf_01_su_co_color" ]
+                    "texture transmittance" [ "Betula_pendula_lf_01_su_co_color" ]
+#                Material "mix"
+#                    "float amount" [ 0.4 ]
+#                    "string namedmaterial2" [ "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_01_su_back" ]
+#                    "string namedmaterial1" [ "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_01_su_front" ]
+                Shape "plymesh"
+                    "texture alpha" [ "Betula_pendula_lf_01_su_co_alpha" ]
+                    "string filename" [ "../landscape/geometry/mesh_00071.ply" ]
+            AttributeEnd
+        AttributeEnd
+
+        AttributeBegin
+
+            AttributeBegin
+                Texture "Betula_pendula_lf_03_su_co_color" "spectrum" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_03_su_co.png" ]
+                Texture "Betula_pendula_lf_03_su_co_alpha" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_03_su_co.png" ]
+                Texture "Betula_pendula_lf_03_su_tr_bump" "float" "imagemap"
+                    "string filename" [ "../landscape/textures/Betula_pendula_lf_03_su_tr.png" ]
+                MakeNamedMaterial "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_03_su_front"
+                    "string type" [ "coateddiffuse" ]
+                    "texture displacement" [ "Betula_pendula_lf_03_su_tr_bump" ]
+                    "texture reflectance" [ "Betula_pendula_lf_03_su_co_color" ]
+                    "float roughness" [ 0.4 ]
+#                MakeNamedMaterial "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_03_su_back"
+#                    "string type" [ "diffusetransmission" ]
+Material "diffusetransmission"
+                    "texture reflectance" [ "Betula_pendula_lf_03_su_co_color" ]
+                    "texture transmittance" [ "Betula_pendula_lf_03_su_co_color" ]
+#                Material "mix"
+#                    "float amount" [ 0.4 ]
+#                    "string namedmaterial2" [ "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_03_su_back" ]
+#                    "string namedmaterial1" [ "xref_betula_pendula_03mediumb.c4d/betula_pendula_lf_03_su_front" ]
+                Shape "plymesh"
+                    "texture alpha" [ "Betula_pendula_lf_03_su_co_alpha" ]
+                    "string filename" [ "../landscape/geometry/mesh_00072.ply" ]
+            AttributeEnd
+        AttributeEnd
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    ObjectBegin "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+
+    AttributeBegin
+
+        AttributeBegin
+
+            AttributeBegin
+
+                AttributeBegin
+                    Texture "Tilia_tomentosa_tr_02_co_color" "spectrum" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_tr_02_co.png" ]
+                    Texture "Tilia_tomentosa_tr_02_di_bump" "float" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_tr_02_di.png" ]
+                    Material "coateddiffuse"
+                        "texture displacement" [ "Tilia_tomentosa_tr_02_di_bump" ]
+                        "texture reflectance" [ "Tilia_tomentosa_tr_02_co_color" ]
+                        "float roughness" [ 0.75 ]
+                    Shape "plymesh"
+                        "string filename" [ "../landscape/geometry/mesh_00078.ply" ]
+                AttributeEnd
+            AttributeEnd
+
+            AttributeBegin
+
+                AttributeBegin
+                    Texture "Tilia_tomentosa_br_01_co_color" "spectrum" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_br_01_co.png" ]
+                    Texture "Tilia_tomentosa_br_01_co_bump" "float" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_br_01_co.png" ]
+                    Material "coateddiffuse"
+                        "texture displacement" [ "Tilia_tomentosa_br_01_co_bump" ]
+                        "texture reflectance" [ "Tilia_tomentosa_br_01_co_color" ]
+                        "float roughness" [ 0.75 ]
+                    Shape "plymesh"
+                        "string filename" [ "../landscape/geometry/mesh_00079.ply" ]
+                AttributeEnd
+            AttributeEnd
+
+            AttributeBegin
+
+                AttributeBegin
+                    Texture "Tilia_tomentosa_br_02_co_color" "spectrum" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_br_02_co.png" ]
+                    Texture "Tilia_tomentosa_br_02_co_bump" "float" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_br_02_co.png" ]
+                    Material "coateddiffuse"
+                        "texture displacement" [ "Tilia_tomentosa_br_02_co_bump" ]
+                        "texture reflectance" [ "Tilia_tomentosa_br_02_co_color" ]
+                        "float roughness" [ 0.71999997 ]
+                    Shape "plymesh"
+                        "string filename" [ "../landscape/geometry/mesh_00080.ply" ]
+                AttributeEnd
+            AttributeEnd
+
+            AttributeBegin
+
+                AttributeBegin
+                    Texture "Tilia_tomentosa_lf_02_su_co_fr_color" "spectrum" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_02_su_co_fr.png" ]
+                    Texture "Tilia_tomentosa_lf_02_su_co_fr_alpha" "float" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_02_su_co_fr.png" ]
+                    Texture "Tilia_tomentosa_lf_02_su_tr_bump" "float" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_02_su_tr.png" ]
+                    Texture "Tilia_tomentosa_lf_02_su_tr_specular" "spectrum" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_02_su_tr.png" ]
+                    MakeNamedMaterial "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_02_su_fr_front"
+                        "string type" [ "coateddiffuse" ]
+                        "texture displacement" [ "Tilia_tomentosa_lf_02_su_tr_bump" ]
+                        "texture reflectance" [ "Tilia_tomentosa_lf_02_su_co_fr_color" ]
+                        "float roughness" [ 0.5 ]
+#                    MakeNamedMaterial "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_02_su_fr_back"
+#                        "string type" [ "diffusetransmission" ]
+Material "diffusetransmission"
+                        "texture transmittance" [ "Tilia_tomentosa_lf_02_su_co_fr_color" ]
+                        "texture reflectance" [ "Tilia_tomentosa_lf_02_su_co_fr_color" ]
+#                    Material "mix"
+#                        "float amount" [ 0.4 ]
+#                        "string namedmaterial2" [ "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_02_su_fr_back" ]
+#                        "string namedmaterial1" [ "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_02_su_fr_front" ]
+                    Shape "plymesh"
+                        "texture alpha" [ "Tilia_tomentosa_lf_02_su_co_fr_alpha" ]
+                        "string filename" [ "../landscape/geometry/mesh_00081.ply" ]
+                AttributeEnd
+            AttributeEnd
+
+            AttributeBegin
+
+                AttributeBegin
+                    Texture "Tilia_tomentosa_lf_01_su_co_fr_color" "spectrum" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_01_su_co_fr.png" ]
+                    Texture "Tilia_tomentosa_lf_01_su_co_fr_alpha" "float" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_01_su_co_fr.png" ]
+                    Texture "Tilia_tomentosa_lf_01_su_tr_bump" "float" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_01_su_tr.png" ]
+                    Texture "Tilia_tomentosa_lf_01_su_tr_specular" "spectrum" "imagemap"
+                        "string filename" [ "../landscape/textures/Tilia_tomentosa_lf_01_su_tr.png" ]
+                    MakeNamedMaterial "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_01_su_fr_front"
+                        "string type" [ "coateddiffuse" ]
+                        "texture displacement" [ "Tilia_tomentosa_lf_01_su_tr_bump" ]
+                        "texture reflectance" [ "Tilia_tomentosa_lf_01_su_co_fr_color" ]
+                        "float roughness" [ 0.4 ]
+#                    MakeNamedMaterial "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_01_su_fr_back"
+#                        "string type" [ "diffusetransmission" ]
+Material "diffusetransmission"
+                        "texture transmittance" [ "Tilia_tomentosa_lf_01_su_co_fr_color" ]
+                        "texture reflectance" [ "Tilia_tomentosa_lf_01_su_co_fr_color" ]
+#                    Material "mix"
+#                        "float amount" [ 0.4 ]
+#                        "string namedmaterial2" [ "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_01_su_fr_back" ]
+#                        "string namedmaterial1" [ "xref_tilia_tomentosa_02medium.c4d/tilia_tomentosa_lf_01_su_fr_front" ]
+                    Shape "plymesh"
+                        "texture alpha" [ "Tilia_tomentosa_lf_01_su_co_fr_alpha" ]
+                        "string filename" [ "../landscape/geometry/mesh_00082.ply" ]
+                AttributeEnd
+            AttributeEnd
+        AttributeEnd
+    AttributeEnd
+    ObjectEnd
+AttributeEnd
+
+AttributeBegin
+    Translate 40 0 0
+    Scale 0.01 0.01 0.01
+    ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+AttributeEnd
+
+AttributeBegin
+    Translate 37 0 10
+    Rotate 33 0 1 0
+    Scale 0.01 0.012 0.01
+    ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+AttributeEnd
+
+AttributeBegin
+    Translate 39 0 18
+    Rotate 98 0 1 0
+    Scale 0.01 0.01 0.01
+    ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+AttributeEnd
+
+AttributeBegin
+    Translate 42 0 35
+    Rotate 122 0 1 0
+    Scale 0.01 0.01 0.01
+    ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+AttributeEnd
+
+AttributeBegin
+    Translate 20 0 35
+    Rotate 192 0 1 0
+    Scale 0.01 0.01 0.01
+    ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+AttributeEnd
+
+AttributeBegin
+    Translate 0 0 36
+    Rotate 222 0 1 0
+    Scale 0.01 0.01 0.01
+    ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+AttributeEnd
+
+AttributeBegin
+    Translate -15 0 36
+    Rotate 302 0 1 0
+    Scale 0.01 0.011 0.01
+    ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+AttributeEnd
+
+AttributeBegin
+    Translate 10 0 0
+
+    AttributeBegin
+        Translate 0 0 -36
+        Rotate 302 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 10 0 -30
+        Rotate 72 0 1 0
+        Scale 0.011 0.01 0.011
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 25 0 -30
+        Rotate -72 0 1 0
+        Scale 0.009 0.009 0.009
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 25 0 -18
+        Rotate -72 0 1 0
+        Scale 0.009 0.009 0.009
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 17 0 -18
+        Rotate -72 0 1 0
+        Scale 0.009 0.009 0.009
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 35 0 -30
+        Rotate -72 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 25 0 -20
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 30 0 -30
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 30 0 -10
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 10 0 -15
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 15 0 -15
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 5 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 12 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 19 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 24 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 31 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 37 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+AttributeEnd
+
+AttributeBegin
+    Translate 5 -4 10
+
+    AttributeBegin
+        Translate 30 0 -10
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 10 0 -15
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 15 0 -15
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 5 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 12 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 19 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 24 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 31 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 37 0 -40
+        Rotate -172 0 1 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+AttributeEnd
+
+AttributeBegin
+    # top background row
+    Translate 50 -5 0
+
+    AttributeBegin
+        Translate 0 0 -20
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 -15
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 -10
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 5
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Betula_pendula_03mediumb.c4d"
+    AttributeEnd
+    Translate 10 0 10
+
+    AttributeBegin
+        Translate 0 0 -20
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 -15
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 -10
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 0
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+
+    AttributeBegin
+        Translate 0 0 5
+        Scale 0.01 0.01 0.01
+        ObjectInstance "xref_Tilia_tomentosa_02medium.c4d Instance.1"
+    AttributeEnd
+AttributeEnd
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00001.ply" ]
+AttributeEnd
+# Name "water_plane_still_Plane.002"
+
+AttributeBegin
+    NamedMaterial "water"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00002.ply" ]
+AttributeEnd
+# Name "Circle.005_Circle"
+
+AttributeBegin
+    NamedMaterial "wax"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00004.ply" ]
+AttributeEnd
+# Name "Circle.004_Circle"
+
+AttributeBegin
+    NamedMaterial "wax"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00006.ply" ]
+AttributeEnd
+# Name "Cube.101_Cube.106"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00007.ply" ]
+AttributeEnd
+# Name "Cube.100_Cube.105"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00008.ply" ]
+AttributeEnd
+# Name "Cube.099_Cube.104"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00009.ply" ]
+AttributeEnd
+# Name "Cube.098_Cube.103"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00010.ply" ]
+AttributeEnd
+# Name "Cube.097_Cube.102"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00011.ply" ]
+AttributeEnd
+# Name "Cube.096_Cube.101"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00012.ply" ]
+AttributeEnd
+# Name "Cube.095_Cube.100"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00013.ply" ]
+AttributeEnd
+# Name "Cube.089_Cube.091"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00014.ply" ]
+AttributeEnd
+# Name "Circle.003_Circle"
+
+AttributeBegin
+    NamedMaterial "wax"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00016.ply" ]
+AttributeEnd
+# Name "Circle.002_Circle"
+
+AttributeBegin
+    NamedMaterial "wax"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00018.ply" ]
+AttributeEnd
+# Name "Cube.086_Cube.091"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00019.ply" ]
+AttributeEnd
+# Name "Cube.075_Cube.091"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00020.ply" ]
+AttributeEnd
+# Name "Circle.001_Circle"
+
+AttributeBegin
+    NamedMaterial "wax"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00022.ply" ]
+AttributeEnd
+# Name "Circle"
+
+AttributeBegin
+    NamedMaterial "wax"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00024.ply" ]
+AttributeEnd
+# Name "Cube.072_Cube.091"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00025.ply" ]
+AttributeEnd
+# Name "Cube.060_Cube.091"
+
+AttributeBegin
+    NamedMaterial "wood"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00026.ply" ]
+AttributeEnd
+# Name "Cube.055_Cube.056"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00027.ply" ]
+AttributeEnd
+# Name "Cube.056_Cube.057"
+
+AttributeBegin
+    NamedMaterial "glass_architectural"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00028.ply" ]
+AttributeEnd
+# Name "Plane.004"
+
+AttributeBegin
+    NamedMaterial "black_glossy"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00029.ply" ]
+    NamedMaterial "white_mat"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00030.ply" ]
+AttributeEnd
+# Name "Cube.053_Cube.054"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00031.ply" ]
+AttributeEnd
+# Name "Cube.052_Cube.053"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00032.ply" ]
+AttributeEnd
+# Name "Cube.051_Cube.052"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00033.ply" ]
+AttributeEnd
+# Name "Cube.039_Cube.051"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00034.ply" ]
+AttributeEnd
+# Name "Cube.050"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00035.ply" ]
+AttributeEnd
+# Name "Cube.049"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00036.ply" ]
+AttributeEnd
+# Name "Cube.048"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00037.ply" ]
+AttributeEnd
+# Name "Cube.047"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00038.ply" ]
+AttributeEnd
+# Name "Cube.046"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00039.ply" ]
+AttributeEnd
+# Name "Cube.045"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00040.ply" ]
+AttributeEnd
+# Name "Cube.044_Cube.003"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00041.ply" ]
+AttributeEnd
+# Name "Cube.043_Cube.044"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00042.ply" ]
+AttributeEnd
+# Name "Cube.042_Cube.041"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00043.ply" ]
+AttributeEnd
+# Name "Cube.041_Cube.040"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00044.ply" ]
+AttributeEnd
+# Name "Cube.040_Cube.002"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00045.ply" ]
+AttributeEnd
+# Name "Cube.035_Cube.043"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00046.ply" ]
+AttributeEnd
+# Name "Cube.034_Cube.042"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00047.ply" ]
+AttributeEnd
+# Name "Plane.003"
+
+AttributeBegin
+    NamedMaterial "pebbles.ground"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00048.ply" ]
+AttributeEnd
+# Name "Cube.038"
+
+AttributeBegin
+    NamedMaterial "concrete"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00049.ply" ]
+AttributeEnd
+# Name "Cube.037_Cube.029"
+
+AttributeBegin
+    NamedMaterial "concrete"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00050.ply" ]
+AttributeEnd
+# Name "Cube.036_Cube.005"
+
+AttributeBegin
+    NamedMaterial "concrete"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00051.ply" ]
+AttributeEnd
+# Name "Cube.033_Cube"
+
+AttributeBegin
+    NamedMaterial "pavet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00052.ply" ]
+AttributeEnd
+# Name "Cube.031_Cube.036"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00053.ply" ]
+AttributeEnd
+# Name "Cube.029_Cube.034"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00054.ply" ]
+AttributeEnd
+# Name "Cube.027_Cube.032"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00055.ply" ]
+AttributeEnd
+# Name "Cube.025_Cube.031"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00056.ply" ]
+AttributeEnd
+# Name "Cube.026_Cube.030"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00057.ply" ]
+AttributeEnd
+# Name "Cube.054_Cube.055"
+
+AttributeBegin
+    NamedMaterial "glass_architectural"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00058.ply" ]
+AttributeEnd
+# Name "Cube.023_Cube.027"
+
+AttributeBegin
+    NamedMaterial "glass_architectural"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00059.ply" ]
+AttributeEnd
+# Name "Cube.022_Cube.026"
+
+AttributeBegin
+    NamedMaterial "glass_architectural"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00060.ply" ]
+AttributeEnd
+# Name "Cube.021_Cube.025"
+
+AttributeBegin
+    NamedMaterial "glass_architectural"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00061.ply" ]
+AttributeEnd
+# Name "Cube.020_Cube.024"
+
+AttributeBegin
+    NamedMaterial "glass_architectural"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00062.ply" ]
+AttributeEnd
+# Name "Cylinder.009_Cylinder.018"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00063.ply" ]
+AttributeEnd
+# Name "Cylinder.008_Cylinder.017"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00064.ply" ]
+AttributeEnd
+# Name "Cylinder.007_Cylinder.016"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00065.ply" ]
+AttributeEnd
+# Name "Cylinder.006_Cylinder.015"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00066.ply" ]
+AttributeEnd
+# Name "Cylinder.005_Cylinder.014"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00067.ply" ]
+AttributeEnd
+# Name "Cylinder.004_Cylinder.013"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00068.ply" ]
+AttributeEnd
+# Name "Cylinder.003_Cylinder.012"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00069.ply" ]
+AttributeEnd
+# Name "Cylinder.002_Cylinder.011"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00070.ply" ]
+AttributeEnd
+# Name "Cylinder.001_Cylinder.010"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00071.ply" ]
+AttributeEnd
+# Name "Cube.019_Cube.023"
+
+AttributeBegin
+    NamedMaterial "marble"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00072.ply" ]
+AttributeEnd
+# Name "Cylinder"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00073.ply" ]
+AttributeEnd
+# Name "Cube.018_Cube.022"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00074.ply" ]
+AttributeEnd
+# Name "Cube.017_Cube.021"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00075.ply" ]
+AttributeEnd
+# Name "Cube.016_Cube.020"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00076.ply" ]
+AttributeEnd
+# Name "Cube.015_Cube.019"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00077.ply" ]
+AttributeEnd
+# Name "Cube.014_Cube.018"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00078.ply" ]
+AttributeEnd
+# Name "Cube.013_Cube.017"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00079.ply" ]
+AttributeEnd
+# Name "Cube.012_Cube.016"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00080.ply" ]
+AttributeEnd
+# Name "Cube.011_Cube.015"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00081.ply" ]
+AttributeEnd
+# Name "Cube.010_Cube.014"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00082.ply" ]
+AttributeEnd
+# Name "Cube.009_Cube.013"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00083.ply" ]
+AttributeEnd
+# Name "Cube.008_Cube.012"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00084.ply" ]
+AttributeEnd
+# Name "Cube.007_Cube.011"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00085.ply" ]
+AttributeEnd
+# Name "Cube.006_Cube.010"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00086.ply" ]
+AttributeEnd
+# Name "Cube.005_Cube.009"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00087.ply" ]
+AttributeEnd
+# Name "Cube.004_Cube.008"
+
+AttributeBegin
+    NamedMaterial "concrete_Mies-BCN_M121.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00088.ply" ]
+AttributeEnd
+# Name "Plane.001"
+
+AttributeBegin
+    NamedMaterial "black_glossy"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00089.ply" ]
+    NamedMaterial "white_mat"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00090.ply" ]
+AttributeEnd
+# Name "Cube.003_Cube.007"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00091.ply" ]
+AttributeEnd
+# Name "Cube.002_Cube.006"
+
+AttributeBegin
+    NamedMaterial "marmol_verde"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00092.ply" ]
+AttributeEnd
+# Name "Cube.001_Cube.004"
+
+AttributeBegin
+    NamedMaterial "marmol_verde"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00093.ply" ]
+AttributeEnd
+# Name "Cube_Cube.001"
+
+AttributeBegin
+    NamedMaterial "caulk"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00094.ply" ]
+AttributeEnd
+# Name "Plane"
+
+AttributeBegin
+    NamedMaterial "Material"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00095.ply" ]
+AttributeEnd
+# Name "Plane.006_Plane.009"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00096.ply" ]
+AttributeEnd
+# Name "Curve.001_Mesh.037"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00097.ply" ]
+AttributeEnd
+# Name "Cube.058_Cube.071"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00098.ply" ]
+AttributeEnd
+# Name "Curve.000_Mesh.000"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00099.ply" ]
+AttributeEnd
+# Name "Plane.006_Plane.009"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00100.ply" ]
+AttributeEnd
+# Name "Curve.001_Mesh.037"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00101.ply" ]
+AttributeEnd
+# Name "Cube.058_Cube.071"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00102.ply" ]
+AttributeEnd
+# Name "Curve.000_Mesh.000"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00103.ply" ]
+AttributeEnd
+# Name "Plane.006_Plane.009"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00104.ply" ]
+AttributeEnd
+# Name "Curve.001_Mesh.037"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00105.ply" ]
+AttributeEnd
+# Name "Cube.058_Cube.071"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00106.ply" ]
+AttributeEnd
+# Name "Curve.000_Mesh.000"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00107.ply" ]
+AttributeEnd
+# Name "Plane.006_Plane.009"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00108.ply" ]
+AttributeEnd
+# Name "Curve.001_Mesh.037"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00109.ply" ]
+AttributeEnd
+# Name "Cube.058_Cube.071"
+
+AttributeBegin
+    NamedMaterial "metal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00110.ply" ]
+AttributeEnd
+# Name "Curve.000_Mesh.000"
+
+AttributeBegin
+    NamedMaterial "leather_white"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00111.ply" ]
+AttributeEnd
+# Name "pebbles_scatter_Plane.005"
+
+AttributeBegin
+    NamedMaterial "None"
+    #    Shape "plymesh" "string filename" "geometry/mesh_00112.ply" 
+AttributeEnd
+# Name "lotus_scattering_plane_Plane.016"
+
+AttributeBegin
+    NamedMaterial "None"
+    #    Shape "plymesh" "string filename" "geometry/mesh_00113.ply" 
+AttributeEnd
+# Name "tree_scatter_plane_Plane.018"
+
+AttributeBegin
+    NamedMaterial "grass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00114.ply" ]
+AttributeEnd
