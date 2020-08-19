@@ -2,6 +2,7 @@ Film "rgb" "float scale" 2
     "integer xresolution" [ 1920 ]
     "integer yresolution" [ 1080 ]
     "string filename" "sportscar-sky.exr"
+    "float maxcomponentvalue" 10
 
 LookAt 5.733494 -2.960355 0.910164
     4.846804 -2.506242 0.823198

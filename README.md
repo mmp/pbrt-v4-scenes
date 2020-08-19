@@ -5,9 +5,9 @@ the coming weeks and would happily accept contributions of additional ones!
 
 ## Barcelona Pavilion 
 
-<img alt="Daytime Barcelona Pavilion" src="images/barcelona-pavilion/pavilion-day.png" height="300"/>
+<img alt="Daytime Barcelona Pavilion" src="images/barcelona-pavilion/pavilion-day.png" height="400"/>
 
-[barcelona-pavilion/](tree/master/barcelona-pavilion/)
+[barcelona-pavilion/](https://github.com/mmp/pbrt-v4-scenes/tree/master/barcelona-pavilion/)
 
 A model of van der Rohe's classic [Barcelona
 Pavilion](https://en.wikipedia.org/wiki/Barcelona_Pavilion), including both
@@ -25,9 +25,9 @@ and made it available via a
 
 ## Head
 
-<img alt="Head" src="images/head/head.png" height="300"/>
+<img alt="Head" src="images/head/head.png" height="400"/>
 
-[head/](tree/master/head/)
+[head/](https://github.com/mmp/pbrt-v4-scenes/tree/master/head/)
 
 Human head model with a realistic BSSRDF, showing the effect of
 subsurface scattering.
@@ -39,9 +39,9 @@ gallery](http://gl.ict.usc.edu/Data/HighResProbes/).
 
 ## Killeroos
 
-<img alt="Coated Gold Killeroo" src="images/killeroos/killeroo-coated-gold.png" height="300"/>
+<img alt="Coated Gold Killeroo" src="images/killeroos/killeroo-coated-gold.png" height="400"/>
 
-[killeroos/](tree/master/killeroos/)
+[killeroos/](https://github.com/mmp/pbrt-v4-scenes/tree/master/killeroos/)
 
 The classic "killeroo" model, with a variety of materials and in a variety
 of settings.
@@ -50,9 +50,9 @@ Thanks to [headus](http://www.headus.com/au)/Rezard for the model.
 
 ## Landscape
 
-<img alt="Landscape" src="images/landscape/view-0.png" height="300"/>
+<img alt="Landscape" src="images/landscape/view-0.png" height="400"/>
 
-[landscape/](tree/master/landscape/)
+[landscape/](https://github.com/mmp/pbrt-v4-scenes/tree/master/landscape/)
 
 Complex realistic outdoor landscape scene,
 featuring 23,241 unique plant models.  Thanks to object instancing, the
@@ -66,9 +66,9 @@ Dapper from [Laubwerk](http://www.laubwerk.com) for this amazing scene.
 
 ## LTE Orb
 
-<img alt="Measured blue vinyl wrap" src="images/lte-orb/lte-orb-blue-agat-spec.png" height="300"/>
+<img alt="Measured blue vinyl wrap" src="images/lte-orb/lte-orb-blue-agat-spec.png" height="400"/>
 
-[lte-orb/](tree/master/lte-orb/)
+[lte-orb/](https://github.com/mmp/pbrt-v4-scenes/tree/master/lte-orb/)
 
 Spherical orb with an inset spherical object. The
 geometric structure of the shapes involved provides a useful tool for
@@ -79,9 +79,9 @@ Thanks to Yasutoshi Mori (@MirageYM) for this model;
 
 ## San Miguel
 
-![San Miguel courtyard](images/sanmiguel/sanmiguel-courtyard-second.png)
+<img alt="San Miguel courtyard" src="images/sanmiguel/sanmiguel-courtyard-second.png" height="400"/>
 
-[sanmiguel/](tree/master/sanmiguel/)
+[sanmiguel/](https://github.com/mmp/pbrt-v4-scenes/tree/master/sanmiguel/)
 
 A complex model inspired by a hotel in San Miguel de
 Allende, Mexico.
@@ -90,9 +90,9 @@ Thanks to Guillermo M. Leal Llaguno for this excellent scene.
 
 ## Smoke Plume
 
-<img alt="Smoke plume with sphere" src="images/smoke-plume/plume.png" height="300"/>
+<img alt="Smoke plume with sphere" src="images/smoke-plume/plume.png" height="400"/>
 
-[smoke-plume/](tree/master/smoke-plume/)
+[smoke-plume/](https://github.com/mmp/pbrt-v4-scenes/tree/master/smoke-plume/)
 
 A smoke simulation around an obstacle using volume data generated using the
 simulator published with Kim et al.'s [Wavelet Turbulence for Fluid
@@ -100,9 +100,9 @@ Simulation](https://www.cs.cornell.edu/~tedkim/wturb/) paper.
 
 ## Sportscar
 
-<img alt="" src="images/sportscar/sportscar-sky.png height="200px"" height="300"/>
+<img alt="Sportscar" src="images/sportscar/sportscar-sky.png height="400"/>
 
-[sportscar/](tree/master/sportscar/)
+[sportscar/](https://github.com/mmp/pbrt-v4-scenes/tree/master/sportscar/)
 
 Sportscar model, where nearly every surface uses a measured BRDF from the
 [RGL Material Database](http://rgl.epfl.ch/materials).
@@ -112,9 +112,9 @@ This excellent model and pbrt conversion courtesy of Yasutoshi Mori (@MirageYM);
 
 ## Transparent Machines
 
-<img alt="Frame 812" src="images/transparent-machines/frame812.png" height="300"/>
+<img alt="Frame 812" src="images/transparent-machines/frame812.png" height="400"/>
 
-[transparent-machines/](tree/master/transparent-machines/)
+[transparent-machines/](https://github.com/mmp/pbrt-v4-scenes/tree/master/transparent-machines/)
 
 A variety of detailed glass shapes illuminated by skylight. For good
 results, upwards of 64 ray bounces are required.
@@ -127,9 +127,9 @@ video](https://vimeo.com/78716671).
 
 ## Villa
 
-<img alt="Daylight villa" src="images/villa/villa-daylight.png" height="300"/>
+<img alt="Daylight villa" src="images/villa/villa-daylight.png" height="400"/>
 
-[villa/](tree/master/villa/)
+[villa/](https://github.com/mmp/pbrt-v4-scenes/tree/master/villa/)
 
 Modern indoor environment.
 
@@ -137,9 +137,9 @@ Many thanks to Florent Boyer for this scene.
 
 ## Zero Day
 
-<img alt="Zero Day, Measure One, Frame 180" src="images/measure-one/frame180.png" height="300"/>
+<img alt="Zero Day, Measure One, Frame 180" src="images/measure-one/frame180.png" height="400"/>
 
-[zero-day/](tree/master/zero-day/)
+[zero-day/](https://github.com/mmp/pbrt-v4-scenes/tree/master/zero-day/)
 
 A number of frames converted from Beeple's amazing
 [Zero-Day](https://vimeo.com/140163198) animation. Converted from Cinema4D
