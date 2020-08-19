@@ -110,6 +110,20 @@ Sportscar model, where nearly every surface uses a measured BRDF from the
 This excellent model and pbrt conversion courtesy of Yasutoshi Mori (@MirageYM);
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
+## SSS Dragon
+
+<img alt="Dragon" src="images/sssdragon/dragon_10.png" height="400"/>
+
+[sssdragon/](https://github.com/mmp/pbrt-v4-scenes/tree/master/sssdragon/)
+
+Dragon model rendered with subsurface scattering, where multiple scene
+description files show the visual effect of changing the density of the
+scattering medium.
+
+Dragon model courtesy [Stanford Computer Graphics
+Laboratory](http://graphics.stanford.edu/data/3Dscanrep/).  Environment map
+thanks to [Bernhard Vogl](http://dativ.at/lightprobes/index.html).
+
 ## Transparent Machines
 
 <img alt="Frame 812" src="images/transparent-machines/frame812.png" height="400"/>
