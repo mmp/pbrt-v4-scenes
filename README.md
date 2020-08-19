@@ -23,6 +23,17 @@ model](http://www.emirage.org/2013/04/24/free-download-archviz-project-pabellon-
 and made it available via a
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
+## Ganesha
+
+<img alt="Ganesha" src="images/ganesha/ganesha.png" height="400"/>
+
+[ganesha/](https://github.com/mmp/pbrt-v4-scenes/tree/master/head/)
+
+Very detailed scan of a small statue with over 4.3
+million triangles, illuminated by a few area light sources.
+
+Model scanned by Wenzel Jakob.
+
 ## Head
 
 <img alt="Head" src="images/head/head.png" height="400"/>
