@@ -1,0 +1,59 @@
+Sampler "halton"
+    "integer pixelsamples" [ 512 ]
+PixelFilter "gaussian"
+Film "rgb"
+    "string filename" [ "ganesha.exr" ]
+    "integer yresolution" [ 1440 ]
+    "integer xresolution" [ 1440 ]
+Scale -1 1 1
+LookAt 328 40.282 245
+    328 10 0
+    -0.00212272 0.998201 -0.0599264
+Camera "perspective"
+    "float fov" [ 30 ]
+
+
+WorldBegin
+
+Shape "trianglemesh"
+    "integer indices" [ 0 1 2 0 2 3 ]
+    "point3 P" [ -672 -41.999958 1000 1328 -41.999958 1000 1328 -42.000042 -1000 
+                 -672 -42.000042 -1000 ]
+
+AttributeBegin
+    Transform [ 0 0 -1 0 1 0 0 0 0 1 0 0 0 0 0 1  ]
+    LightSource "infinite"
+        "float scale" [0.1]
+        "string filename" "textures/sky.exr"
+AttributeEnd
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "rgb L" [ 15.258819 12.083925 9.589462 ]
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "point3 P" [ 220 61.367302 -343.62833 400 61.367302 -343.62833 400 238.63269 
+                     -312.37167 220 238.63269 -312.37167 ]
+AttributeEnd
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "rgb L" [ 15.258819 12.083925 9.589462 ]
+    ReverseOrientation
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "point3 P" [ 220 61.367302 343.62833 400 61.367302 343.62833 400 238.63269 
+                     312.37167 220 238.63269 312.37167 ]
+AttributeEnd
+Texture "tmap" "spectrum" "imagemap"
+    "string filename" [ "textures/ganesha.png" ]
+
+AttributeBegin
+    Material "coateddiffuse"
+        "bool remaproughness" [ false ]
+        "float vroughness" [ 0.01 ]
+        "float uroughness" [ 0.01 ]
+        "texture reflectance" [ "tmap" ]
+    Shape "plymesh"
+        "string filename" [ "geometry/ganesha.ply.gz" ]
+AttributeEnd
