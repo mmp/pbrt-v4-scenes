@@ -137,7 +137,7 @@ Many thanks to Florent Boyer for this scene.
 
 ## Zero Day
 
-<img alt="Zero Day, Measure One, Frame 180" src="images/measure-one/frame180.png" height="400"/>
+<img alt="Zero Day, Measure One, Frame 180" src="images/zero-day/frame180.png" height="400"/>
 
 [zero-day/](https://github.com/mmp/pbrt-v4-scenes/tree/master/zero-day/)
 
