@@ -100,7 +100,7 @@ Simulation](https://www.cs.cornell.edu/~tedkim/wturb/) paper.
 
 ## Sportscar
 
-<img alt="Sportscar" src="images/sportscar/sportscar-sky.png height="400"/>
+<img alt="Sportscar" src="images/sportscar/sportscar-sky.png" height="400"/>
 
 [sportscar/](https://github.com/mmp/pbrt-v4-scenes/tree/master/sportscar/)
 
