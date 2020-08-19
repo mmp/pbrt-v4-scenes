@@ -7,8 +7,8 @@ Film "rgb"
     "string filename" [ "killeroo-gold.exr" ]
     "integer yresolution" [ 1026 ]
     "integer xresolution" [ 1368 ]
-Sampler "sobol"
-    "integer pixelsamples" [ 2048 ]
+Sampler "halton"
+    "integer pixelsamples" [ 512 ]
 
 
 WorldBegin

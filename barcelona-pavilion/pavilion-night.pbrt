@@ -1,10 +1,9 @@
-
 Film "rgb"
-    "float maxcomponentvalue" [ 50 ]
-    "float scale" [ 2.5 ]
-    "string filename" [ "pavilion-night.exr" ]
-    "integer yresolution" [ 850 ]
     "integer xresolution" [ 1600 ]
+    "integer yresolution" [ 850 ]
+    "string filename" [ "pavilion-night.exr" ]
+    "float scale" [ 2.5 ]
+    "float maxcomponentvalue" [ 50 ]
 Scale -1 1 1
 LookAt -10 2.25 10
     7 1.75 -3
@@ -13,12 +12,12 @@ LookAt -10 2.25 10
 #LookAt -10 100 10    -10 0 10  1 0 0
 #Camera "perspective" "float fov" 60
 Camera "perspective"
-    "float lensradius" [ 0.01 ]
-    "float focaldistance" [ 15 ]
     "float fov" [ 45 ]
-
+    "float focaldistance" [ 15 ]
+    "float lensradius" [ 0.01 ]
 Sampler "halton"
     "integer pixelsamples" [ 512 ]
+
 
 WorldBegin
 
@@ -28,14 +27,15 @@ AttributeBegin
     Rotate -140 0 1 0
     Rotate -90 1 0 0
     LightSource "infinite"
-        "float scale" [0.5]
-        "string filename" "textures/night.exr"
+        "string filename" [ "textures/night.exr" ]
+        "float scale" [ 0.5 ]
 AttributeEnd
 # back room light; not directly visible
 
 AttributeBegin
     AreaLightSource "diffuse"
-        "blackbody L" [ 3500 750 ]
+        "float scale" [750]
+        "blackbody L" [ 3500 ]
     Translate 10 4 2.5
     Shape "sphere"
         "float radius" [ 0.1 ]
@@ -44,7 +44,8 @@ AttributeEnd
 
 AttributeBegin
     AreaLightSource "diffuse"
-        "blackbody L" [ 3500 75 ]
+        "float scale" [75]
+        "blackbody L" [ 3500 ]
     Translate 12 4 5.5
     Shape "sphere"
         "float radius" [ 0.05 ]
@@ -52,14 +53,15 @@ AttributeEnd
 
 AttributeBegin
     # Candles inside floating wood lanterns
-    AreaLightSource "diffuse"
-        "blackbody L" [ 2500 25000 ]
     # Lights in lanterns that aren't visible in the default view
     #    Shape "plymesh" "string filename" "geometry/mesh_00003.ply" 
     #    Shape "plymesh" "string filename" "geometry/mesh_00015.ply" 
     #    Shape "plymesh" "string filename" "geometry/mesh_00017.ply" 
     #    Shape "plymesh" "string filename" "geometry/mesh_00021.ply" 
     #    Shape "plymesh" "string filename" "geometry/mesh_00023.ply" 
+    AreaLightSource "diffuse"
+        "float scale" [25000]
+        "blackbody L" [ 2500 ]
     Shape "plymesh"
         "string filename" [ "geometry/mesh_00005.ply" ]
 AttributeEnd
