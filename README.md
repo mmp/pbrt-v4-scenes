@@ -3,11 +3,11 @@ This repository provides the following scenes for use with
 [pbrt-v4](https://github.com/mmp/pbrt-v4). We will be adding more scenes in
 the coming weeks and would happily accept contributions of additional ones!
 
-== Barcelona Pavilion ==
+## Barcelona Pavilion 
 
 ![Daytime Barcelona Pavilion](images/barcelona-pavilion/pavilion-day.png)
 
-<tt>barcelona-tavilion/</tt>
+<tt>barcelona-pavilion/</tt>
 
 A model of van der Rohe's classic [Barcelona
 Pavilion](https://en.wikipedia.org/wiki/Barcelona_Pavilion), including both
@@ -23,7 +23,7 @@ model](http://www.emirage.org/2013/04/24/free-download-archviz-project-pabellon-
 and made it available via a
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
-== Head ==
+## Head
 
 ![Head](images/head/head.png)
 
@@ -37,7 +37,7 @@ Model thanks to Infinite Realities, Inc.,
 map thanks to [USC-ICT light probe image
 gallery](http://gl.ict.usc.edu/Data/HighResProbes/).
 
-== Killeroos ==
+## Killeroos
 
 ![Coated Gold Killeroo](images/killeroos/killeroo-coated-gold.png)
 
@@ -47,7 +47,7 @@ The classic "killeroo" model, in a variety of settings.
 
 Thanks to [headus](http://www.headus.com/au)/Rezard for the model.
 
-== Landscape ==
+## Landscape
 
 ![Landscape](images/landscape/view-0.png)
 
@@ -63,7 +63,7 @@ book.
 Many thanks to Jan-Walter Schliep, Burak Kahraman, and Timm
 Dapper from [Laubwerk](http://www.laubwerk.com) for this amazing scene.
 
-== LTE Orb ==
+## LTE Orb
 
 ![Measured blue vinyl wrap](images/lte-orb/lte-orb-blue-agat-spec.png)
 
@@ -76,7 +76,7 @@ visualizing the appearance of various materials.
 Thanks to Yasutoshi Mori (@MirageYM) for this model;
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
-== San Miguel ==
+## San Miguel
 
 ![San Miguel courtyard](images/sanmiguel/sanmiguel-courtyard-second.png)
 
@@ -87,7 +87,7 @@ Allende, Mexico.
 
 Thanks to Guillermo M. Leal Llaguno for this excellent scene.
 
-== Smoke Plume ==
+## Smoke Plume
 
 ![Smoke plume with sphere](images/smoke-plume/plume.png)
 
@@ -97,9 +97,9 @@ A smoke simulation around an obstacle using volume data generated using the
 simulator published with Kim et al.'s [Wavelet Turbulence for Fluid
 Simulation](https://www.cs.cornell.edu/~tedkim/wturb/) paper.
 
-== Sportscar ==
+## Sportscar
 
-![](images/sportscar/sportscar.png height="200px")
+![](images/sportscar/sportscar-sky.png height="200px")
 
 <tt>sportscar/</tt>
 
@@ -109,21 +109,7 @@ Sportscar model, where nearly every surface uses a measured BRDF from the
 This excellent model and pbrt conversion courtesy of Yasutoshi Mori (@MirageYM);
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
-== SSS Dragon ==
-
-![](images/sssdragon/dragon_10.png)
-
-<tt>sssdragon/</tt>
-
-Dragon model rendered with subsurface scattering, where multiple scene
-description files show the visual effect of changing the density of the
-scattering medium.
-
-Dragon model courtesy [Stanford Computer Graphics
-Laboratory](http://graphics.stanford.edu/data/3Dscanrep/).  Environment map
-thanks to [Bernhard Vogl](http://dativ.at/lightprobes/index.html).
-
-== Transparent Machines ==
+## Transparent Machines
 
 ![Frame 812](images/transparent-machines/frame812.png)
 
@@ -136,9 +122,11 @@ Models are from frames of [@beeple](http://beeple-crap.com)'s amazing
 [Transparent Machines
 video](https://vimeo.com/78716671).
 
-== Villa ==
+[License](http://beeple-crap.com/resources.php).
 
-![Daylight villa](images/villa/villa-daylight.png height="200px")
+## Villa
+
+![Daylight villa](images/villa/villa-daylight.png)
 
 <tt>villa/</tt>
 
@@ -147,7 +135,7 @@ Modern indoor environment.
 Many thanks to Florent Boyer for this scene.  Skylight environment
 map courtesy Nolan Goodnight.
 
-== Zero Day ==
+## Zero Day
 
 ![Zero Day, Measure One, Frame 180](images/measure-one/frame180.png)
 
@@ -160,4 +148,4 @@ website](http://www.beeple-crap.com/resources.php). (Note that the original
 materials and lighting is much better--improvements to our conversion
 gratefully received!)
 
-[License]((http://beeple-crap.com/resources.php).
+[License](http://beeple-crap.com/resources.php).
