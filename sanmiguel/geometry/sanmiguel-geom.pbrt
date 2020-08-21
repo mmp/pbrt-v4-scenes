@@ -846,8 +846,8 @@ AttributeBegin
     AreaLightSource "diffuse"
         "float scale" [ 4000 ]
         "rgb L" [ 1 0.839216 0.490196 ]
-    Shape "plymesh"
-        "string filename" [ "geometry/sanmiguel_00133.ply" ]
+    #Shape "plymesh"
+    #    "string filename" [ "geometry/sanmiguel_00133.ply" ]
 AttributeEnd
 
 AttributeBegin
@@ -17264,9 +17264,9 @@ AttributeBegin
     AreaLightSource "diffuse"
         "float scale" [ 2 ]
         "rgb L" [ 0.894118 0.988235 1 ]
-    Shape "plymesh"
-        "float alpha" [ 0 ]
-        "string filename" [ "geometry/sanmiguel_00233.ply" ]
+    #Shape "plymesh"
+    #    "float alpha" [ 0 ]
+    #    "string filename" [ "geometry/sanmiguel_00233.ply" ]
 AttributeEnd
 
 AttributeBegin
