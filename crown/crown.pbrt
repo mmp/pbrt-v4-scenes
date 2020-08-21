@@ -1,0 +1,5424 @@
+Scale -1 1 1
+# Rotate 1 0 0 1 # slight lean left to even out
+Film "rgb"
+    "string filename" [ "crown.exr" ]
+    "integer yresolution" [ 1400 ]
+    "integer xresolution" [ 1000 ]
+    "float iso" 150
+    "string sensor" "canon_eos_5d_mkiv"
+
+LookAt 0 5.5 24
+    0 11 -10
+    0 1 0
+Camera "perspective"
+    "float lensradius" [ 0.1 ]
+    "float focaldistance" [ 17 ]
+    "float fov" [ 47 ]
+Sampler "halton"
+    "integer pixelsamples" [ 512 ]
+Integrator "volpath"
+    "integer maxdepth" [ 100 ]
+
+
+WorldBegin
+
+# Name "back_light"
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "float scale" [10]
+        "blackbody L" [ 5500 ]
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "normal N" [ -0.0461 0.3077 -0.9504 -0.0461 0.3077 -0.9504 -0.0461 0.3077 
+                     -0.9504 -0.0461 0.3077 -0.9504 ]
+        "point3 P" [ 5.702774 -13.539273 -76.185936 -14.945709 -13.791711 -75.26613 
+                     -14.886804 13.04458 -66.57877 5.761684 13.297014 -67.49859 ]
+AttributeEnd
+# Name "right_light"
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "float scale" [10]
+        "blackbody L" [ 5500 ]
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "normal N" [ -0.9146 -0.3208 0.2462 -0.9146 -0.3208 0.2462 -0.9146 -0.3208 
+                     0.2462 -0.9146 -0.3208 0.2462 ]
+        "point3 P" [ 41.6316 14.548275 -16.682684 45.396217 14.548271 -2.696177 40.693626 
+                     28.926506 -1.430422 36.92901 28.926506 -15.416933 ]
+AttributeEnd
+# Name "left_light"
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "float scale" [10]
+        "blackbody L" [ 5500 ]
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "normal N" [ 0.9117 -0.324 0.2527 0.9117 -0.324 0.2527 0.9117 -0.324 0.2527 
+                     0.9117 -0.324 0.2527 ]
+        "point3 P" [ -45.1155 14.650443 -2.989656 -41.24645 14.65044 -16.947636 -36.506706 
+                     29.012154 -15.633818 -40.37576 29.012156 -1.675834 ]
+AttributeEnd
+# Name "front_right_Plane.013"
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "float scale" [10]
+        "blackbody L" [ 5500 ]
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "normal N" [ -0.6595 0.2621 -0.7045 -0.6595 0.2621 -0.7045 -0.6595 0.2621 
+                     -0.7045 -0.6595 0.2621 -0.7045 ]
+        "point3 P" [ 20.38967 -4.332172 17.202255 13.206003 -4.332175 23.926588 15.053431 
+                     5.620016 25.900215 22.237099 5.620017 19.17588 ]
+AttributeEnd
+# Name "front_left"
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "float scale" [10]
+        "blackbody L" [ 5500 ]
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "normal N" [ 0.7361 0.2294 -0.6368 0.7361 0.2294 -0.6368 0.7361 0.2294 -0.6368 
+                     0.7361 0.2294 -0.6368 ]
+        "point3 P" [ -18.349361 -3.757668 23.42476 -24.791203 -3.75767 15.977483 
+                     -26.581875 6.287214 17.5264 -20.140032 6.287215 24.973679 ]
+AttributeEnd
+# Name "front_light"
+
+AttributeBegin
+    AreaLightSource "diffuse"
+        "float scale" [10]
+        "blackbody L" [ 5500 ]
+    Shape "trianglemesh"
+        "integer indices" [ 0 1 2 0 2 3 ]
+        "normal N" [ -0.0256 -0.7391 -0.6731 -0.0256 -0.7391 -0.6731 -0.0256 -0.7391 
+                     -0.6731 -0.0256 -0.7391 -0.6731 ]
+        "point3 P" [ 9.260806 19.171276 24.593668 -9.12361 19.171274 25.294205 -9.666298 
+                     32.1588 11.052294 8.718122 32.1588 10.351759 ]
+AttributeEnd
+# Name "env_sphere"
+
+AttributeBegin
+    Material "diffuse"
+        "rgb reflectance" [ 0.2 0.2 0.2 ]
+    Shape "sphere"
+        "float radius" [ 100 ]
+AttributeEnd
+
+MakeNamedMedium "sapphire-medium" "string type" "homogeneous"
+   "rgb sigma_a" [.5 .2 .01] "rgb sigma_s" [0 0 0]
+MakeNamedMedium "ruby-medium" "string type" "homogeneous"
+   "rgb sigma_a" [.01 .2 .5] "rgb sigma_s" [0 0 0]
+
+###########################################################################
+# Converted from "imperial_crown.obj" by obj2pbrt
+# Scene bounds: (-89.848320, -28.851381, -98.681221) - (89.382942, 87.356941, 75.904129)
+# can't see where this is used?
+Texture "arc_rosetta_red-kd-img" "spectrum" "imagemap"
+    "string filename" [ "textures/mitra/mitra_border_color.png" ]
+Texture "arc_rosetta_red-kd" "spectrum" "scale"
+    "float scale" [ 0.620968 ]
+    "texture tex" [ "arc_rosetta_red-kd-img" ]
+MakeNamedMaterial "arc_rosetta_red"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "arc_rosetta_red-kd" ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "arc_zirk_socket_base"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "b_lily_arc"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "b_lily_tray"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "big_ruby"
+    "string type" [ "dielectric" ]
+    "float eta" [ 3 ]
+MakeNamedMaterial "clamp_gold"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+Texture "bl_clamp_a-mask" "float" "imagemap"
+    "string filename" [ "textures/b_lily/clamp_mask.png" ]
+MakeNamedMaterial "bl_clamp_a-red"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.6 0.025 0.025 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "bl_clamp_a"
+    "string type" [ "mix" ]
+    "string materials" [ "bl_clamp_a-red" "clamp_gold" ]
+    "texture amount" [ "bl_clamp_a-mask" ]
+Texture "border_bott_inlay-mask" "float" "imagemap"
+    "string filename" [ "textures/mitra/mitra_border_color_mask.png" ]
+# crack inside top gem
+MakeNamedMaterial "border_bott_inlay"
+    "string type" [ "conductor" ]
+    "texture roughness" [ "border_bott_inlay-mask" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+# part of up top gold cross 
+MakeNamedMaterial "crack"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.8 0.8 0.8 ]
+MakeNamedMaterial "cross_enamel"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.8 0.8 0.8 ]
+    "float roughness" [ 0.10408 ]
+MakeNamedMaterial "cross_gold"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+# velvet crown is resting on
+MakeNamedMaterial "cross_gold_cross_flower_mask.png"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+#.2 .025 .025 ] 
+MakeNamedMaterial "dark_velvet"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.15 0.0015 0.0015 ]
+    "float roughness" [ 0.2 ]
+MakeNamedMaterial "deco"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "diamond"
+    "string type" [ "dielectric" ]
+    "float eta" [ 3 ]
+MakeNamedMaterial "diamond_tray_normal_SPEC."
+    "string type" [ "dielectric" ]
+    "float eta" [ 3 ]
+MakeNamedMaterial "gold.002"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_base"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_base_border"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_base_border_mitra_border.png"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_base_bumped"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_base_bumped_mitra_border.png.002"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_base_mitra_border.png"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_base_mitra_border.png.002"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_lower_arc"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_tray"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0.010408 ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_tray_clamp"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_tray_front"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "gold_upper_arc"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+Texture "mitra_inlay-kd-tex" "spectrum" "imagemap"
+    "string filename" [ "textures/mitra/mitra_border_color.png" ]
+Texture "mitra_inlay-kd" "spectrum" "scale"
+    "float scale" [ 1.5 ]
+    "texture tex" [ "mitra_inlay-kd-tex" ]
+Texture "mitra_inlay-bump" "float" "imagemap"
+    "string filename" [ "textures/mitra/mitra_border_bump.png" ]
+Texture "mitra_inlay-bump-sc" "float" "scale"
+    "float scale" [ 0.25 ]
+    "texture tex" [ "mitra_inlay-bump" ]
+# big gold areas mid-crown
+MakeNamedMaterial "mitra_inlay"
+    "string type" [ "coateddiffuse" ]
+    "texture displacement" [ "mitra_inlay-bump-sc" ]
+    "texture reflectance" [ "mitra_inlay-kd" ]
+    "float roughness" [ 0.010408 ]
+Texture "mitra_right_back-bump" "float" "imagemap"
+    "string filename" [ "textures/mitra/right_front_bump2.png" ]
+Texture "mitra_right_back-bump-sc" "float" "scale"
+    "float scale" [ 0.25 ]
+    "texture tex" [ "mitra_right_back-bump" ]
+Texture "mitra_right_back-roughness-tex" "float" "imagemap"
+    "string filename" [ "textures/mitra/right_front_spec.png" ]
+Texture "mitra_right_back-roughness" "float" "scale"
+    "float scale" [ 0.1 ]
+    "texture tex" [ "mitra_right_back-roughness-tex" ]
+MakeNamedMaterial "mitra_right_back"
+    "string type" [ "conductor" ]
+    "texture displacement" [ "mitra_right_back-bump-sc" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+    "texture roughness" [ "mitra_right_back-roughness" ]
+MakeNamedMaterial "mitra_right_front"
+    "string type" [ "conductor" ]
+    "texture displacement" [ "mitra_right_back-bump-sc" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "pearl"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.65 0.6 0.6 ]
+    "float vroughness" [ 0.001 ]
+    "float uroughness" [ 0.001 ]
+MakeNamedMaterial "pearl_rosetta"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.45 0.45 0.4 ]
+MakeNamedMaterial "pearl_rosetta_tray_front_normal"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.45 0.45 0.4 ]
+MakeNamedMaterial "rosetta_deco"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+Texture "rosetta-deco-mask" "float" "imagemap"
+    "string filename" [ "textures/pearl_tray/deco_mask.png" ]
+MakeNamedMaterial "rosetta_gold"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "deco-mask-white"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+MakeNamedMaterial "rosetta_deco_deco_mask.png"
+    "string type" [ "mix" ]
+    "string materials" [ "deco-mask-white" "rosetta_gold" ]
+    "texture amount" [ "rosetta-deco-mask" ]
+MakeNamedMaterial "rosetta_fix"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "rosetta_fix_tray_front_normal"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "s_lily_gold_tray"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+# up top
+MakeNamedMaterial "s_lily_ruby_socket"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+Texture "sapphire-bump" "float" "imagemap"
+    "string filename" [ "textures/arc/saphire_bump.png" ]
+Texture "sapphire-bump-sc" "float" "scale"
+    "float scale" [ 0.25 ]
+    "texture tex" [ "sapphire-bump" ]
+MakeNamedMaterial "saphire"
+    "string type" [ "dielectric" ]
+    "float eta" [ 3 ]
+    "texture displacement" [ "sapphire-bump-sc" ]
+MakeNamedMaterial "small_ruby"
+    "string type" [ "dielectric" ]
+    "float eta" [ 3 ]
+MakeNamedMaterial "socket_clamp"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+# velvet inside crown
+MakeNamedMaterial "socket_clamp1"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "spectrum k" [ "metal-Au-k" ]
+MakeNamedMaterial "velvet"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.15 0.0015 0.0015 ]
+    "float roughness" [ 0.2 ]
+# Name "mitra_right_mitra_right.001"
+MakeNamedMaterial "zirkon"
+    "string type" [ "dielectric" ]
+    "float eta" [ 2.5 ]
+
+AttributeBegin
+    NamedMaterial "mitra_right_back"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00007.ply" ]
+    NamedMaterial "mitra_right_front"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00008.ply" ]
+AttributeEnd
+# Name "crown"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00009.ply" ]
+AttributeEnd
+# Name "s_lily_tray.002"
+
+AttributeBegin
+    NamedMaterial "s_lily_gold_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00010.ply" ]
+AttributeEnd
+# Name "s_lily_rod.005"
+
+AttributeBegin
+    NamedMaterial "socket_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00011.ply" ]
+AttributeEnd
+# Name "s_lily_rod.004"
+
+AttributeBegin
+    NamedMaterial "socket_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00012.ply" ]
+AttributeEnd
+# Name "s_lily_pearl.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00013.ply" ]
+AttributeEnd
+# Name "s_lily_top.002"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00014.ply" ]
+AttributeEnd
+# Name "s_lily_clamp.005_Plane.017"
+
+AttributeBegin
+    NamedMaterial "socket_clamp1"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00015.ply" ]
+AttributeEnd
+# Name "s_lily_clamp.004_Plane.006"
+
+AttributeBegin
+    NamedMaterial "socket_clamp1"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00016.ply" ]
+AttributeEnd
+# Name "s_lily_arc.011"
+
+AttributeBegin
+    NamedMaterial "gold_upper_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00017.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.011"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00018.ply" ]
+AttributeEnd
+# Name "s_lily_arc.010"
+
+AttributeBegin
+    NamedMaterial "gold_lower_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00019.ply" ]
+AttributeEnd
+# Name "s_lily_arc.009"
+
+AttributeBegin
+    NamedMaterial "gold_upper_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00020.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.010"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00021.ply" ]
+AttributeEnd
+# Name "s_lily_arc.008"
+
+AttributeBegin
+    NamedMaterial "gold_lower_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00022.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.009"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00023.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.008"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00024.ply" ]
+AttributeEnd
+# Name "ruby_sockets.002"
+
+AttributeBegin
+    NamedMaterial "s_lily_ruby_socket"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00025.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.029"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00026.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.028"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00027.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.027"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00028.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.026"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00029.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.025"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00030.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.024"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00031.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.023"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00032.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.022"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00033.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.021"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00034.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.020"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00035.ply" ]
+AttributeEnd
+# Name "b_lily_tray.003_b_lily_tray.004"
+
+AttributeBegin
+    NamedMaterial "b_lily_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00036.ply" ]
+AttributeEnd
+# Name "b_lily_arc.007"
+
+AttributeBegin
+    NamedMaterial "b_lily_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00037.ply" ]
+AttributeEnd
+# Name "b_lily_arc.006"
+
+AttributeBegin
+    NamedMaterial "b_lily_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00038.ply" ]
+AttributeEnd
+# Name "b_lily_dmnd_socke.002"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00039.ply" ]
+AttributeEnd
+# Name "b_lily_diamond.003"
+
+AttributeBegin
+    NamedMaterial "diamond"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00040.ply" ]
+AttributeEnd
+# Name "b_lily_frame.003"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00041.ply" ]
+AttributeEnd
+# Name "b_lily_frame1.003"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00042.ply" ]
+AttributeEnd
+# Name "b_lily_pearls.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00043.ply" ]
+AttributeEnd
+# Name "b_lily_pearls.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00044.ply" ]
+AttributeEnd
+# Name "bl_bigpearl_b.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00045.ply" ]
+AttributeEnd
+# Name "bl_pearl_holder_b.003"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00046.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.043"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00047.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.043"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00048.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.042"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00049.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.042"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00050.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.041"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00051.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.041"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00052.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.040"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00053.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.040"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00054.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.039"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00055.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.039"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00056.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.038"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00057.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.038"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00058.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.037"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00059.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.037"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00060.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.036"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00061.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.036"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00062.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.035"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00063.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.035"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00064.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.034"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00065.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.034"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00066.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.033"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00067.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.033"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00068.ply" ]
+AttributeEnd
+# Name "bl_deco.031"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00069.ply" ]
+AttributeEnd
+# Name "bl_deco.030"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00070.ply" ]
+AttributeEnd
+# Name "bl_deco.029"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00071.ply" ]
+AttributeEnd
+# Name "bl_deco.028"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00072.ply" ]
+AttributeEnd
+# Name "bl_deco.027"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00073.ply" ]
+AttributeEnd
+# Name "bl_deco.026"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00074.ply" ]
+AttributeEnd
+# Name "bl_deco.025"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00075.ply" ]
+AttributeEnd
+# Name "bl_deco.024"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00076.ply" ]
+AttributeEnd
+# Name "bl_deco_a.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00077.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.011"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00078.ply" ]
+AttributeEnd
+# Name "bl_small_dia.011"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00079.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.010"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00080.ply" ]
+AttributeEnd
+# Name "bl_small_dia.010"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00081.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.009"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00082.ply" ]
+AttributeEnd
+# Name "bl_small_dia.009"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00083.ply" ]
+AttributeEnd
+# Name "bl_ruby_socket.003"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00084.ply" ]
+AttributeEnd
+# Name "bl_ruby.003"
+
+AttributeBegin
+    NamedMaterial "big_ruby"
+    MediumInterface "" "ruby-medium"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00085.ply" ]
+AttributeEnd
+# Name "b_lily_tray.002_b_lily_tray.003"
+
+AttributeBegin
+    NamedMaterial "b_lily_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00086.ply" ]
+AttributeEnd
+# Name "b_lily_arc.005"
+
+AttributeBegin
+    NamedMaterial "b_lily_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00087.ply" ]
+AttributeEnd
+# Name "b_lily_arc.004"
+
+AttributeBegin
+    NamedMaterial "b_lily_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00088.ply" ]
+AttributeEnd
+# Name "b_lily_dmnd_socke.001"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00089.ply" ]
+AttributeEnd
+# Name "b_lily_diamond.002"
+
+AttributeBegin
+    NamedMaterial "diamond"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00090.ply" ]
+AttributeEnd
+# Name "b_lily_frame.002"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00091.ply" ]
+AttributeEnd
+# Name "b_lily_frame1.002"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00092.ply" ]
+AttributeEnd
+# Name "b_lily_pearls.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00093.ply" ]
+AttributeEnd
+# Name "b_lily_pearls.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00094.ply" ]
+AttributeEnd
+# Name "bl_bigpearl_b.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00095.ply" ]
+AttributeEnd
+# Name "bl_pearl_holder_b.002"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00096.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.032"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00097.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.032"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00098.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.031"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00099.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.031"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00100.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.030"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00101.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.030"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00102.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.029"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00103.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.029"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00104.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.028"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00105.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.028"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00106.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.027"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00107.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.027"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00108.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.026"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00109.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.026"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00110.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.025"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00111.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.025"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00112.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.024"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00113.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.024"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00114.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.023"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00115.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.023"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00116.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.022"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00117.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.022"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00118.ply" ]
+AttributeEnd
+# Name "bl_deco.023"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00119.ply" ]
+AttributeEnd
+# Name "bl_deco.022"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00120.ply" ]
+AttributeEnd
+# Name "bl_deco.021"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00121.ply" ]
+AttributeEnd
+# Name "bl_deco.020"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00122.ply" ]
+AttributeEnd
+# Name "bl_deco.019"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00123.ply" ]
+AttributeEnd
+# Name "bl_deco.018"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00124.ply" ]
+AttributeEnd
+# Name "bl_deco.017"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00125.ply" ]
+AttributeEnd
+# Name "bl_deco.016"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00126.ply" ]
+AttributeEnd
+# Name "bl_deco_a.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00127.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.008"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00128.ply" ]
+AttributeEnd
+# Name "bl_small_dia.008"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00129.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.007"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00130.ply" ]
+AttributeEnd
+# Name "bl_small_dia.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00131.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.006"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00132.ply" ]
+AttributeEnd
+# Name "bl_small_dia.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00133.ply" ]
+AttributeEnd
+# Name "bl_ruby_socket.002"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00134.ply" ]
+AttributeEnd
+# Name "bl_ruby.002"
+
+AttributeBegin
+    NamedMaterial "big_ruby"
+    MediumInterface "" "ruby-medium"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00135.ply" ]
+AttributeEnd
+# Name "b_lily_tray.001_b_lily_tray.002"
+
+AttributeBegin
+    NamedMaterial "b_lily_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00136.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.005"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00137.ply" ]
+AttributeEnd
+# Name "bl_small_dia.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00138.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.004"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00139.ply" ]
+AttributeEnd
+# Name "bl_small_dia.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00140.ply" ]
+AttributeEnd
+# Name "bl_dia_socket_a.003"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00141.ply" ]
+AttributeEnd
+# Name "bl_small_dia.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00142.ply" ]
+AttributeEnd
+# Name "bl_deco_a.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00143.ply" ]
+AttributeEnd
+# Name "bl_deco.015"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00144.ply" ]
+AttributeEnd
+# Name "bl_deco.014"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00145.ply" ]
+AttributeEnd
+# Name "bl_deco.013"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00146.ply" ]
+AttributeEnd
+# Name "bl_deco.012"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00147.ply" ]
+AttributeEnd
+# Name "bl_deco.011"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00148.ply" ]
+AttributeEnd
+# Name "bl_deco.010_bl_deco.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00149.ply" ]
+AttributeEnd
+# Name "bl_deco.009_bl_deco.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00150.ply" ]
+AttributeEnd
+# Name "bl_deco.008_bl_deco.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00151.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.021"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00152.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.021"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00153.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.020"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00154.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.020"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00155.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.019"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00156.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.019"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00157.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.018"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00158.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.018"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00159.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.017"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00160.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.017"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00161.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.016"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00162.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.016"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00163.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.015"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00164.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.015"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00165.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.014"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00166.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.014"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00167.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.013"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00168.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.013"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00169.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.012"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00170.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.012"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00171.ply" ]
+AttributeEnd
+# Name "bl_clamp_a.011_bl_clamp_a.001"
+
+AttributeBegin
+    NamedMaterial "bl_clamp_a"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00172.ply" ]
+AttributeEnd
+# Name "bl_clamp_b.011"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00173.ply" ]
+AttributeEnd
+# Name "bl_big_pearl.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00174.ply" ]
+AttributeEnd
+# Name "bl_pearl_holder_b.004"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00175.ply" ]
+AttributeEnd
+# Name "b_lily_ruby_big.001"
+
+AttributeBegin
+    NamedMaterial "big_ruby"
+    MediumInterface "" "ruby-medium"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00176.ply" ]
+AttributeEnd
+# Name "big_ruby_clamp.001"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00177.ply" ]
+AttributeEnd
+# Name "b_lily_pearls.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00178.ply" ]
+AttributeEnd
+# Name "b_lily_pearls.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00179.ply" ]
+AttributeEnd
+# Name "b_lily_frame1.001"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00180.ply" ]
+AttributeEnd
+# Name "b_lily_frame.001"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00181.ply" ]
+AttributeEnd
+# Name "b_lily_dmnd_socke"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00182.ply" ]
+AttributeEnd
+# Name "b_lily_diamond.001"
+
+AttributeBegin
+    NamedMaterial "diamond"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00183.ply" ]
+AttributeEnd
+# Name "b_lily_arc.003"
+
+AttributeBegin
+    NamedMaterial "b_lily_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00184.ply" ]
+AttributeEnd
+# Name "b_lily_arc.001"
+
+AttributeBegin
+    NamedMaterial "b_lily_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00185.ply" ]
+AttributeEnd
+# Name "s_lily_tray"
+
+AttributeBegin
+    NamedMaterial "s_lily_gold_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00186.ply" ]
+AttributeEnd
+# Name "ruby_sockets"
+
+AttributeBegin
+    NamedMaterial "s_lily_ruby_socket"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00187.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.009"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00188.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.008"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00189.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.007"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00190.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.006"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00191.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.005"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00192.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.004"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00193.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.003"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00194.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.002"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00195.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.001"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00196.ply" ]
+AttributeEnd
+# Name "s_lily_ruby"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00197.ply" ]
+AttributeEnd
+# Name "s_lily_arc.003_s_lily_arc.004"
+
+AttributeBegin
+    NamedMaterial "gold_lower_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00198.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.003_s_lily_pearls.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00199.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.002_s_lily_pearls.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00200.ply" ]
+AttributeEnd
+# Name "s_lily_arc.002_s_lily_arc.003"
+
+AttributeBegin
+    NamedMaterial "gold_upper_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00201.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.001_s_lily_pearls.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00202.ply" ]
+AttributeEnd
+# Name "s_lily_arc.001"
+
+AttributeBegin
+    NamedMaterial "gold_lower_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00203.ply" ]
+AttributeEnd
+# Name "s_lily_arc"
+
+AttributeBegin
+    NamedMaterial "gold_upper_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00204.ply" ]
+AttributeEnd
+# Name "s_lily_pearls_s_lily_pearls.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00205.ply" ]
+AttributeEnd
+# Name "s_lily_clamp.001_Plane.003"
+
+AttributeBegin
+    NamedMaterial "socket_clamp1"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00206.ply" ]
+AttributeEnd
+# Name "s_lily_clamp_Plane.002"
+
+AttributeBegin
+    NamedMaterial "socket_clamp1"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00207.ply" ]
+AttributeEnd
+# Name "s_lily_pearl"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00208.ply" ]
+AttributeEnd
+# Name "s_lily_top"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00209.ply" ]
+AttributeEnd
+# Name "s_lily_rod.001_s_lily_rod.002"
+
+AttributeBegin
+    NamedMaterial "socket_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00210.ply" ]
+AttributeEnd
+# Name "s_lily_rod"
+
+AttributeBegin
+    NamedMaterial "socket_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00211.ply" ]
+AttributeEnd
+# Name "s_lily_tray.001"
+
+AttributeBegin
+    NamedMaterial "s_lily_gold_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00212.ply" ]
+AttributeEnd
+# Name "s_lily_rod.003"
+
+AttributeBegin
+    NamedMaterial "socket_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00213.ply" ]
+AttributeEnd
+# Name "s_lily_rod.002_s_lily_rod.001"
+
+AttributeBegin
+    NamedMaterial "socket_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00214.ply" ]
+AttributeEnd
+# Name "s_lily_pearl.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00215.ply" ]
+AttributeEnd
+# Name "s_lily_top.001"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00216.ply" ]
+AttributeEnd
+# Name "s_lily_clamp.003_Plane.001"
+
+AttributeBegin
+    NamedMaterial "socket_clamp1"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00217.ply" ]
+AttributeEnd
+# Name "s_lily_clamp.002_Plane"
+
+AttributeBegin
+    NamedMaterial "socket_clamp1"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00218.ply" ]
+AttributeEnd
+# Name "s_lily_arc.007"
+
+AttributeBegin
+    NamedMaterial "gold_upper_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00219.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.007_s_lily_pearls.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00220.ply" ]
+AttributeEnd
+# Name "s_lily_arc.006"
+
+AttributeBegin
+    NamedMaterial "gold_lower_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00221.ply" ]
+AttributeEnd
+# Name "s_lily_arc.005"
+
+AttributeBegin
+    NamedMaterial "gold_upper_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00222.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.006_s_lily_pearls.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00223.ply" ]
+AttributeEnd
+# Name "s_lily_arc.004_s_lily_arc.002"
+
+AttributeBegin
+    NamedMaterial "gold_lower_arc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00224.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.005_s_lily_pearls.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00225.ply" ]
+AttributeEnd
+# Name "s_lily_pearls.004_s_lily_pearls"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00226.ply" ]
+AttributeEnd
+# Name "ruby_sockets.001"
+
+AttributeBegin
+    NamedMaterial "s_lily_ruby_socket"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00227.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.019"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00228.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.018"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00229.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.017"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00230.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.016"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00231.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.015"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00232.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.014"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00233.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.013"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00234.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.012"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00235.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.011"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00236.ply" ]
+AttributeEnd
+# Name "s_lily_ruby.010"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00237.ply" ]
+AttributeEnd
+# Name "diamond_tray.004_diamond_tray.008"
+
+AttributeBegin
+    NamedMaterial "gold_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00238.ply" ]
+AttributeEnd
+# Name "diamond.004_diamond.005"
+
+AttributeBegin
+    NamedMaterial "diamond_tray_normal_SPEC."
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00239.ply" ]
+AttributeEnd
+# Name "tray_backplane.004_tray_backplane.005"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00240.ply" ]
+AttributeEnd
+# Name "tray_holder.006_tray_holder.007"
+
+AttributeBegin
+    NamedMaterial "gold_tray_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00241.ply" ]
+AttributeEnd
+# Name "zirkon_tray.120_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00242.ply" ]
+AttributeEnd
+# Name "zirkon_tray.139_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00243.ply" ]
+AttributeEnd
+# Name "zirkon_tray.138_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00244.ply" ]
+AttributeEnd
+# Name "zirkon_tray.137_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00245.ply" ]
+AttributeEnd
+# Name "zirkon_tray.136_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00246.ply" ]
+AttributeEnd
+# Name "zirkon_tray.135_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00247.ply" ]
+AttributeEnd
+# Name "zirkon_tray.134_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00248.ply" ]
+AttributeEnd
+# Name "zirkon_tray.133_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00249.ply" ]
+AttributeEnd
+# Name "zirkon_tray.132_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00250.ply" ]
+AttributeEnd
+# Name "zirkon_tray.131_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00251.ply" ]
+AttributeEnd
+# Name "zirkon_tray.130_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00252.ply" ]
+AttributeEnd
+# Name "zirkon_tray.129_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00253.ply" ]
+AttributeEnd
+# Name "zirkon_tray.128_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00254.ply" ]
+AttributeEnd
+# Name "zirkon_tray.127_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00255.ply" ]
+AttributeEnd
+# Name "zirkon_tray.126_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00256.ply" ]
+AttributeEnd
+# Name "zirkon_tray.125_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00257.ply" ]
+AttributeEnd
+# Name "zirkon_tray.124_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00258.ply" ]
+AttributeEnd
+# Name "zirkon_tray.123_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00259.ply" ]
+AttributeEnd
+# Name "zirkon_tray.122_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00260.ply" ]
+AttributeEnd
+# Name "zirkon_tray.121_zirkon_mesh.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00261.ply" ]
+AttributeEnd
+# Name "diamond_tray.003_diamond_tray.007"
+
+AttributeBegin
+    NamedMaterial "gold_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00262.ply" ]
+AttributeEnd
+# Name "zirkon_tray.100_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00263.ply" ]
+AttributeEnd
+# Name "zirkon_tray.119_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00264.ply" ]
+AttributeEnd
+# Name "zirkon_tray.118_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00265.ply" ]
+AttributeEnd
+# Name "zirkon_tray.117_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00266.ply" ]
+AttributeEnd
+# Name "zirkon_tray.116_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00267.ply" ]
+AttributeEnd
+# Name "zirkon_tray.115_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00268.ply" ]
+AttributeEnd
+# Name "zirkon_tray.114_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00269.ply" ]
+AttributeEnd
+# Name "zirkon_tray.113_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00270.ply" ]
+AttributeEnd
+# Name "zirkon_tray.112_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00271.ply" ]
+AttributeEnd
+# Name "zirkon_tray.111_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00272.ply" ]
+AttributeEnd
+# Name "zirkon_tray.110_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00273.ply" ]
+AttributeEnd
+# Name "zirkon_tray.109_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00274.ply" ]
+AttributeEnd
+# Name "zirkon_tray.108_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00275.ply" ]
+AttributeEnd
+# Name "zirkon_tray.107_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00276.ply" ]
+AttributeEnd
+# Name "zirkon_tray.106_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00277.ply" ]
+AttributeEnd
+# Name "zirkon_tray.105_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00278.ply" ]
+AttributeEnd
+# Name "zirkon_tray.104_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00279.ply" ]
+AttributeEnd
+# Name "zirkon_tray.103_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00280.ply" ]
+AttributeEnd
+# Name "zirkon_tray.102_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00281.ply" ]
+AttributeEnd
+# Name "zirkon_tray.101_zirkon_mesh.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00282.ply" ]
+AttributeEnd
+# Name "tray_holder.005_tray_holder.006"
+
+AttributeBegin
+    NamedMaterial "gold_tray_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00283.ply" ]
+AttributeEnd
+# Name "tray_backplane.003_tray_backplane.004"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00284.ply" ]
+AttributeEnd
+# Name "diamond.003_diamond.004"
+
+AttributeBegin
+    NamedMaterial "diamond_tray_normal_SPEC."
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00285.ply" ]
+AttributeEnd
+# Name "diamond_tray.002_diamond_tray.006"
+
+AttributeBegin
+    NamedMaterial "gold_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00286.ply" ]
+AttributeEnd
+# Name "diamond.002_diamond.003"
+
+AttributeBegin
+    NamedMaterial "diamond_tray_normal_SPEC."
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00287.ply" ]
+AttributeEnd
+# Name "tray_backplane.002_tray_backplane.003"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00288.ply" ]
+AttributeEnd
+# Name "tray_holder.004_tray_holder.005"
+
+AttributeBegin
+    NamedMaterial "gold_tray_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00289.ply" ]
+AttributeEnd
+# Name "zirkon_tray.080_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00290.ply" ]
+AttributeEnd
+# Name "zirkon_tray.099_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00291.ply" ]
+AttributeEnd
+# Name "zirkon_tray.098_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00292.ply" ]
+AttributeEnd
+# Name "zirkon_tray.097_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00293.ply" ]
+AttributeEnd
+# Name "zirkon_tray.096_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00294.ply" ]
+AttributeEnd
+# Name "zirkon_tray.095_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00295.ply" ]
+AttributeEnd
+# Name "zirkon_tray.094_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00296.ply" ]
+AttributeEnd
+# Name "zirkon_tray.093_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00297.ply" ]
+AttributeEnd
+# Name "zirkon_tray.092_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00298.ply" ]
+AttributeEnd
+# Name "zirkon_tray.091_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00299.ply" ]
+AttributeEnd
+# Name "zirkon_tray.090_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00300.ply" ]
+AttributeEnd
+# Name "zirkon_tray.089_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00301.ply" ]
+AttributeEnd
+# Name "zirkon_tray.088_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00302.ply" ]
+AttributeEnd
+# Name "zirkon_tray.087_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00303.ply" ]
+AttributeEnd
+# Name "zirkon_tray.086_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00304.ply" ]
+AttributeEnd
+# Name "zirkon_tray.085_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00305.ply" ]
+AttributeEnd
+# Name "zirkon_tray.084_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00306.ply" ]
+AttributeEnd
+# Name "zirkon_tray.083_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00307.ply" ]
+AttributeEnd
+# Name "zirkon_tray.082_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00308.ply" ]
+AttributeEnd
+# Name "zirkon_tray.081_zirkon_mesh.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00309.ply" ]
+AttributeEnd
+# Name "diamond_tray.001_diamond_tray.002"
+
+AttributeBegin
+    NamedMaterial "gold_tray"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00310.ply" ]
+AttributeEnd
+# Name "zirkon_tray.060_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00311.ply" ]
+AttributeEnd
+# Name "zirkon_tray.079_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00312.ply" ]
+AttributeEnd
+# Name "zirkon_tray.078_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00313.ply" ]
+AttributeEnd
+# Name "zirkon_tray.077_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00314.ply" ]
+AttributeEnd
+# Name "zirkon_tray.076_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00315.ply" ]
+AttributeEnd
+# Name "zirkon_tray.075_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00316.ply" ]
+AttributeEnd
+# Name "zirkon_tray.074_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00317.ply" ]
+AttributeEnd
+# Name "zirkon_tray.073_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00318.ply" ]
+AttributeEnd
+# Name "zirkon_tray.072_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00319.ply" ]
+AttributeEnd
+# Name "zirkon_tray.071_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00320.ply" ]
+AttributeEnd
+# Name "zirkon_tray.070_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00321.ply" ]
+AttributeEnd
+# Name "zirkon_tray.069_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00322.ply" ]
+AttributeEnd
+# Name "zirkon_tray.068_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00323.ply" ]
+AttributeEnd
+# Name "zirkon_tray.067_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00324.ply" ]
+AttributeEnd
+# Name "zirkon_tray.066_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00325.ply" ]
+AttributeEnd
+# Name "zirkon_tray.065_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00326.ply" ]
+AttributeEnd
+# Name "zirkon_tray.064_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00327.ply" ]
+AttributeEnd
+# Name "zirkon_tray.063_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00328.ply" ]
+AttributeEnd
+# Name "zirkon_tray.062_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00329.ply" ]
+AttributeEnd
+# Name "zirkon_tray.061_zirkon_mesh.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00330.ply" ]
+AttributeEnd
+# Name "tray_holder.003_tray_holder.004"
+
+AttributeBegin
+    NamedMaterial "gold_tray_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00331.ply" ]
+AttributeEnd
+# Name "tray_backplane.001_tray_backplane.002"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00332.ply" ]
+AttributeEnd
+# Name "diamond.001"
+
+AttributeBegin
+    NamedMaterial "diamond_tray_normal_SPEC."
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00333.ply" ]
+AttributeEnd
+# Name "flower_pearl.008"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00334.ply" ]
+AttributeEnd
+# Name "pearl_rosette.009"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00335.ply" ]
+AttributeEnd
+# Name "pearl_rosette.008"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00336.ply" ]
+AttributeEnd
+# Name "flower_pearl.009"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00337.ply" ]
+AttributeEnd
+# Name "flower_fix.009"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00338.ply" ]
+AttributeEnd
+# Name "flower_fix.008"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00339.ply" ]
+AttributeEnd
+# Name "flower_deco.019"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00340.ply" ]
+AttributeEnd
+# Name "flower_deco.018"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00341.ply" ]
+AttributeEnd
+# Name "flower_deco.017"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00342.ply" ]
+AttributeEnd
+# Name "flower_deco.016"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco_deco_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00343.ply" ]
+AttributeEnd
+# Name "flower_pearl.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00344.ply" ]
+AttributeEnd
+# Name "flower_deco.015"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco_deco_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00345.ply" ]
+AttributeEnd
+# Name "flower_deco.014"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00346.ply" ]
+AttributeEnd
+# Name "flower_deco.013"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00347.ply" ]
+AttributeEnd
+# Name "flower_deco.012"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00348.ply" ]
+AttributeEnd
+# Name "flower_fix.007"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00349.ply" ]
+AttributeEnd
+# Name "flower_fix.006"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00350.ply" ]
+AttributeEnd
+# Name "flower_pearl.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00351.ply" ]
+AttributeEnd
+# Name "pearl_rosette.007"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00352.ply" ]
+AttributeEnd
+# Name "pearl_rosette.006"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00353.ply" ]
+AttributeEnd
+# Name "flower_pearl.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00354.ply" ]
+AttributeEnd
+# Name "pearl_rosette.005"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00355.ply" ]
+AttributeEnd
+# Name "pearl_rosette.004"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00356.ply" ]
+AttributeEnd
+# Name "flower_pearl.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00357.ply" ]
+AttributeEnd
+# Name "flower_fix.005"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00358.ply" ]
+AttributeEnd
+# Name "flower_fix.004"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00359.ply" ]
+AttributeEnd
+# Name "flower_deco.011"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00360.ply" ]
+AttributeEnd
+# Name "flower_deco.010"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00361.ply" ]
+AttributeEnd
+# Name "flower_deco.009"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00362.ply" ]
+AttributeEnd
+# Name "flower_deco.008"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco_deco_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00363.ply" ]
+AttributeEnd
+# Name "diamond_tray_fron"
+
+AttributeBegin
+    NamedMaterial "gold_tray_front"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00364.ply" ]
+AttributeEnd
+# Name "zirkon_tray.040_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00365.ply" ]
+AttributeEnd
+# Name "zirkon_tray.059_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00366.ply" ]
+AttributeEnd
+# Name "zirkon_tray.058_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00367.ply" ]
+AttributeEnd
+# Name "zirkon_tray.057_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00368.ply" ]
+AttributeEnd
+# Name "zirkon_tray.056_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00369.ply" ]
+AttributeEnd
+# Name "zirkon_tray.055_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00370.ply" ]
+AttributeEnd
+# Name "zirkon_tray.054_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00371.ply" ]
+AttributeEnd
+# Name "zirkon_tray.053_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00372.ply" ]
+AttributeEnd
+# Name "zirkon_tray.052_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00373.ply" ]
+AttributeEnd
+# Name "zirkon_tray.051_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00374.ply" ]
+AttributeEnd
+# Name "zirkon_tray.050_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00375.ply" ]
+AttributeEnd
+# Name "zirkon_tray.049_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00376.ply" ]
+AttributeEnd
+# Name "zirkon_tray.048_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00377.ply" ]
+AttributeEnd
+# Name "zirkon_tray.047_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00378.ply" ]
+AttributeEnd
+# Name "zirkon_tray.046_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00379.ply" ]
+AttributeEnd
+# Name "zirkon_tray.045_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00380.ply" ]
+AttributeEnd
+# Name "zirkon_tray.044_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00381.ply" ]
+AttributeEnd
+# Name "zirkon_tray.043_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00382.ply" ]
+AttributeEnd
+# Name "zirkon_tray.042_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00383.ply" ]
+AttributeEnd
+# Name "zirkon_tray.041_zirkon_mesh.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00384.ply" ]
+AttributeEnd
+# Name "tray_holder.002_tray_holder.003"
+
+AttributeBegin
+    NamedMaterial "gold_tray_clamp"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00385.ply" ]
+AttributeEnd
+# Name "diamond_front.001"
+
+AttributeBegin
+    NamedMaterial "diamond"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00386.ply" ]
+AttributeEnd
+# Name "flower_pearl.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00387.ply" ]
+AttributeEnd
+# Name "flower_deco_flower_deco.001"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco_deco_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00388.ply" ]
+AttributeEnd
+# Name "flower_deco.001_flower_deco.003"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00389.ply" ]
+AttributeEnd
+# Name "flower_deco.002_flower_deco"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00390.ply" ]
+AttributeEnd
+# Name "flower_deco.003_flower_deco.002"
+
+AttributeBegin
+    NamedMaterial "rosetta_deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00391.ply" ]
+AttributeEnd
+# Name "flower_fix"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00392.ply" ]
+AttributeEnd
+# Name "flower_fix.001"
+
+AttributeBegin
+    NamedMaterial "rosetta_fix"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00393.ply" ]
+AttributeEnd
+# Name "flower_pearl.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00394.ply" ]
+AttributeEnd
+# Name "pearl_rosette"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta_tray_front_normal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00395.ply" ]
+AttributeEnd
+# Name "pearl_rosette.001"
+
+AttributeBegin
+    NamedMaterial "pearl_rosetta"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00396.ply" ]
+AttributeEnd
+# Name "pearls_lower"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00397.ply" ]
+AttributeEnd
+# Name "pearls_upper"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00398.ply" ]
+AttributeEnd
+# Name "mitra_border"
+
+AttributeBegin
+    NamedMaterial "gold_base_mitra_border.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00399.ply" ]
+    NamedMaterial "mitra_inlay"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00400.ply" ]
+AttributeEnd
+# Name "deco.007_deco.004"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00401.ply" ]
+AttributeEnd
+# Name "deco.006_deco.003"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00402.ply" ]
+AttributeEnd
+# Name "deco"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00403.ply" ]
+AttributeEnd
+# Name "deco.001"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00404.ply" ]
+AttributeEnd
+# Name "deco.002"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00405.ply" ]
+AttributeEnd
+# Name "deco.003_deco.007"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00406.ply" ]
+AttributeEnd
+# Name "deco.004_deco.008"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00407.ply" ]
+AttributeEnd
+# Name "deco.005_deco.009"
+
+AttributeBegin
+    NamedMaterial "deco"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00408.ply" ]
+AttributeEnd
+# Name "mitra_border_back_mitra_border_back.001"
+
+AttributeBegin
+    NamedMaterial "gold.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00409.ply" ]
+AttributeEnd
+# Name "mitra_border_front_mitra_border_fron"
+
+AttributeBegin
+    NamedMaterial "border_bott_inlay"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00410.ply" ]
+    NamedMaterial "gold_base_border"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00411.ply" ]
+    NamedMaterial "gold_base_border_mitra_border.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00412.ply" ]
+AttributeEnd
+# Name "mitra_border_middle_mitra_border_midd"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00413.ply" ]
+    NamedMaterial "mitra_inlay"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00414.ply" ]
+AttributeEnd
+# Name "mitra_left_mitra_left.001"
+
+AttributeBegin
+    NamedMaterial "mitra_right_front"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00415.ply" ]
+AttributeEnd
+# Name "mitra_pearls_mitra_pearls.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00416.ply" ]
+AttributeEnd
+# Name "Sphere.004_Sphere"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00417.ply" ]
+AttributeEnd
+# Name "Sphere.005_Sphere.001"
+
+AttributeBegin
+    NamedMaterial "gold_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00418.ply" ]
+AttributeEnd
+# Name "arc"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00419.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00420.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00421.ply" ]
+AttributeEnd
+# Name "arc_pearl_b"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00422.ply" ]
+AttributeEnd
+# Name "arc_pearl_a"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00423.ply" ]
+AttributeEnd
+# Name "arc_rosetta.002_arc_rosetta_base"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00424.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00425.ply" ]
+AttributeEnd
+# Name "arc_pearl_c"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00426.ply" ]
+AttributeEnd
+# Name "arc_rosetta.004_arc_rosetta_base"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00427.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00428.ply" ]
+AttributeEnd
+# Name "arc_rosetta.003_arc_rosetta_base"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00429.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00430.ply" ]
+AttributeEnd
+# Name "arc_pearl_d"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00431.ply" ]
+AttributeEnd
+# Name "arc_rosetta.001_arc_rosetta_base"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00432.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00433.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00434.ply" ]
+AttributeEnd
+# Name "arc_rosetta.006_arc_rosetta_base.001"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00435.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00436.ply" ]
+AttributeEnd
+# Name "arc_pearl_e"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00437.ply" ]
+AttributeEnd
+# Name "arc_rosetta_arc_rosetta_base"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00438.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00439.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00440.ply" ]
+AttributeEnd
+# Name "arc_rosetta.005_arc_rosetta_base.001"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00441.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00442.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00443.ply" ]
+AttributeEnd
+# Name "arc_ruby"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00444.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.001"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00445.ply" ]
+AttributeEnd
+# Name "arc_ruby.001"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00446.ply" ]
+AttributeEnd
+# Name "arc_zirkon"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00447.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.001"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00448.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00449.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00450.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00451.ply" ]
+AttributeEnd
+# Name "arc_rosetta.010_arc_rosetta_base.003"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00452.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00453.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.001"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00454.ply" ]
+AttributeEnd
+# Name "arc_rosetta.011_arc_rosetta_base.003"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00455.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00456.ply" ]
+AttributeEnd
+# Name "arc_rosetta.009_arc_rosetta_base.003"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00457.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00458.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00459.ply" ]
+AttributeEnd
+# Name "arc_rosetta.007_arc_rosetta_base.002"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00460.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00461.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00462.ply" ]
+AttributeEnd
+# Name "arc_rosetta.013_arc_rosetta_base.003"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00463.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00464.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00465.ply" ]
+AttributeEnd
+# Name "arc_rosetta.008_arc_rosetta_base.002"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00466.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00467.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00468.ply" ]
+AttributeEnd
+# Name "arc_rosetta.012_arc_rosetta_base.003"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00469.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00470.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.002"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00471.ply" ]
+AttributeEnd
+# Name "arc_ruby.002"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00472.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.003"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00473.ply" ]
+AttributeEnd
+# Name "arc_ruby.003"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00474.ply" ]
+AttributeEnd
+# Name "arc_zirkon.001"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00475.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.002"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00476.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00477.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00478.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00479.ply" ]
+AttributeEnd
+# Name "arc_rosetta.017_arc_rosetta_base.004"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00480.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00481.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.002"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00482.ply" ]
+AttributeEnd
+# Name "arc_rosetta.016_arc_rosetta_base.004"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00483.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00484.ply" ]
+AttributeEnd
+# Name "arc_rosetta.018_arc_rosetta_base.004"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00485.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00486.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00487.ply" ]
+AttributeEnd
+# Name "arc_rosetta.014_arc_rosetta_base.004"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00488.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00489.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00490.ply" ]
+AttributeEnd
+# Name "arc_rosetta.020_arc_rosetta_base.005"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00491.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00492.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00493.ply" ]
+AttributeEnd
+# Name "arc_rosetta.015_arc_rosetta_base.004"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00494.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00495.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00496.ply" ]
+AttributeEnd
+# Name "arc_rosetta.019_arc_rosetta_base.005"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00497.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00498.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.004"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00499.ply" ]
+AttributeEnd
+# Name "arc_ruby.004"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00500.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.005"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00501.ply" ]
+AttributeEnd
+# Name "arc_ruby.005"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00502.ply" ]
+AttributeEnd
+# Name "arc_zirkon.002"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00503.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.003"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00504.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00505.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00506.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00507.ply" ]
+AttributeEnd
+# Name "arc_rosetta.024_arc_rosetta_base.007"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00508.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00509.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.003"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00510.ply" ]
+AttributeEnd
+# Name "arc_rosetta.025_arc_rosetta_base.007"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00511.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00512.ply" ]
+AttributeEnd
+# Name "arc_rosetta.023_arc_rosetta_base.007"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00513.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00514.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00515.ply" ]
+AttributeEnd
+# Name "arc_rosetta.021_arc_rosetta_base.006"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00516.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00517.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00518.ply" ]
+AttributeEnd
+# Name "arc_rosetta.027_arc_rosetta_base.007"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00519.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00520.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00521.ply" ]
+AttributeEnd
+# Name "arc_rosetta.022_arc_rosetta_base.006"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00522.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00523.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00524.ply" ]
+AttributeEnd
+# Name "arc_rosetta.026_arc_rosetta_base.007"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00525.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00526.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.006"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00527.ply" ]
+AttributeEnd
+# Name "arc_ruby.006"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00528.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.007"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00529.ply" ]
+AttributeEnd
+# Name "arc_ruby.007"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00530.ply" ]
+AttributeEnd
+# Name "arc_zirkon.003"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00531.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.004"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00532.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00533.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00534.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00535.ply" ]
+AttributeEnd
+# Name "arc_rosetta.031_arc_rosetta_base.008"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00536.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00537.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.004"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00538.ply" ]
+AttributeEnd
+# Name "arc_rosetta.030_arc_rosetta_base.008"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00539.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00540.ply" ]
+AttributeEnd
+# Name "arc_rosetta.032_arc_rosetta_base.008"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00541.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00542.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.008"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00543.ply" ]
+AttributeEnd
+# Name "arc_rosetta.028_arc_rosetta_base.008"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00544.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00545.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.009"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00546.ply" ]
+AttributeEnd
+# Name "arc_rosetta.034_arc_rosetta_base.009"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00547.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00548.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.008"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00549.ply" ]
+AttributeEnd
+# Name "arc_rosetta.029_arc_rosetta_base.008"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00550.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00551.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.009"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00552.ply" ]
+AttributeEnd
+# Name "arc_rosetta.033_arc_rosetta_base.009"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00553.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00554.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.008"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00555.ply" ]
+AttributeEnd
+# Name "arc_ruby.008"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00556.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.009"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00557.ply" ]
+AttributeEnd
+# Name "arc_ruby.009"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00558.ply" ]
+AttributeEnd
+# Name "arc_zirkon.004"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00559.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.005"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00560.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00561.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00562.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00563.ply" ]
+AttributeEnd
+# Name "arc_rosetta.038_arc_rosetta_base.011"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00564.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00565.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.005"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00566.ply" ]
+AttributeEnd
+# Name "arc_rosetta.039_arc_rosetta_base.011"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00567.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00568.ply" ]
+AttributeEnd
+# Name "arc_rosetta.037_arc_rosetta_base.011"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00569.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00570.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.010"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00571.ply" ]
+AttributeEnd
+# Name "arc_rosetta.035_arc_rosetta_base.010"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00572.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00573.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.011"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00574.ply" ]
+AttributeEnd
+# Name "arc_rosetta.041_arc_rosetta_base.011"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00575.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00576.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.010"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00577.ply" ]
+AttributeEnd
+# Name "arc_rosetta.036_arc_rosetta_base.010"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00578.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00579.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.011"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00580.ply" ]
+AttributeEnd
+# Name "arc_rosetta.040_arc_rosetta_base.011"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00581.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00582.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.010"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00583.ply" ]
+AttributeEnd
+# Name "arc_ruby.010"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00584.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.011"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00585.ply" ]
+AttributeEnd
+# Name "arc_ruby.011"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00586.ply" ]
+AttributeEnd
+# Name "arc_zirkon.005"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00587.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.006"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00588.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00589.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00590.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00591.ply" ]
+AttributeEnd
+# Name "arc_rosetta.045_arc_rosetta_base.012"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00592.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00593.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.006"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00594.ply" ]
+AttributeEnd
+# Name "arc_rosetta.044_arc_rosetta_base.012"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00595.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00596.ply" ]
+AttributeEnd
+# Name "arc_rosetta.046_arc_rosetta_base.012"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00597.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00598.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.012"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00599.ply" ]
+AttributeEnd
+# Name "arc_rosetta.042_arc_rosetta_base.012"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00600.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00601.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.013"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00602.ply" ]
+AttributeEnd
+# Name "arc_rosetta.048_arc_rosetta_base.013"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00603.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00604.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.012"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00605.ply" ]
+AttributeEnd
+# Name "arc_rosetta.043_arc_rosetta_base.012"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00606.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00607.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.013"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00608.ply" ]
+AttributeEnd
+# Name "arc_rosetta.047_arc_rosetta_base.013"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00609.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00610.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.012"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00611.ply" ]
+AttributeEnd
+# Name "arc_ruby.012"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00612.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.013"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00613.ply" ]
+AttributeEnd
+# Name "arc_ruby.013"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00614.ply" ]
+AttributeEnd
+# Name "arc_zirkon.006"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00615.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.007"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00616.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00617.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00618.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00619.ply" ]
+AttributeEnd
+# Name "arc_rosetta.052_arc_rosetta_base.015"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00620.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00621.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.007"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00622.ply" ]
+AttributeEnd
+# Name "arc_rosetta.053_arc_rosetta_base.015"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00623.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00624.ply" ]
+AttributeEnd
+# Name "arc_rosetta.051_arc_rosetta_base.015"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00625.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00626.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.014"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00627.ply" ]
+AttributeEnd
+# Name "arc_rosetta.049_arc_rosetta_base.014"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00628.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00629.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.015"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00630.ply" ]
+AttributeEnd
+# Name "arc_rosetta.055_arc_rosetta_base.015"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00631.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00632.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.014"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00633.ply" ]
+AttributeEnd
+# Name "arc_rosetta.050_arc_rosetta_base.014"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00634.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00635.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.015"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00636.ply" ]
+AttributeEnd
+# Name "arc_rosetta.054_arc_rosetta_base.015"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00637.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00638.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.014"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00639.ply" ]
+AttributeEnd
+# Name "arc_ruby.014"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00640.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.015"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00641.ply" ]
+AttributeEnd
+# Name "arc_ruby.015"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00642.ply" ]
+AttributeEnd
+# Name "arc_zirkon.007"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00643.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.008"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00644.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00645.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.008"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00646.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.008"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00647.ply" ]
+AttributeEnd
+# Name "arc_rosetta.059_arc_rosetta_base.016"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00648.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00649.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.008"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00650.ply" ]
+AttributeEnd
+# Name "arc_rosetta.058_arc_rosetta_base.016"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00651.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00652.ply" ]
+AttributeEnd
+# Name "arc_rosetta.060_arc_rosetta_base.016"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00653.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00654.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.016"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00655.ply" ]
+AttributeEnd
+# Name "arc_rosetta.056_arc_rosetta_base.016"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00656.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00657.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.017"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00658.ply" ]
+AttributeEnd
+# Name "arc_rosetta.062_arc_rosetta_base.017"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00659.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00660.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.016"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00661.ply" ]
+AttributeEnd
+# Name "arc_rosetta.057_arc_rosetta_base.016"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00662.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00663.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.017"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00664.ply" ]
+AttributeEnd
+# Name "arc_rosetta.061_arc_rosetta_base.017"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00665.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00666.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.016"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00667.ply" ]
+AttributeEnd
+# Name "arc_ruby.016"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00668.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.017"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00669.ply" ]
+AttributeEnd
+# Name "arc_ruby.017"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00670.ply" ]
+AttributeEnd
+# Name "arc_zirkon.008"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00671.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.009"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00672.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00673.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.009"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00674.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.009"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00675.ply" ]
+AttributeEnd
+# Name "arc_rosetta.066_arc_rosetta_base.019"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00676.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00677.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.009"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00678.ply" ]
+AttributeEnd
+# Name "arc_rosetta.067_arc_rosetta_base.019"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00679.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00680.ply" ]
+AttributeEnd
+# Name "arc_rosetta.065_arc_rosetta_base.019"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00681.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00682.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.018"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00683.ply" ]
+AttributeEnd
+# Name "arc_rosetta.063_arc_rosetta_base.018"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00684.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00685.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.019"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00686.ply" ]
+AttributeEnd
+# Name "arc_rosetta.069_arc_rosetta_base.019"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00687.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00688.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.018"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00689.ply" ]
+AttributeEnd
+# Name "arc_rosetta.064_arc_rosetta_base.018"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00690.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00691.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.019"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00692.ply" ]
+AttributeEnd
+# Name "arc_rosetta.068_arc_rosetta_base.019"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00693.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00694.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.018"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00695.ply" ]
+AttributeEnd
+# Name "arc_ruby.018"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00696.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.019"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00697.ply" ]
+AttributeEnd
+# Name "arc_ruby.019"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00698.ply" ]
+AttributeEnd
+# Name "arc_zirkon.009"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00699.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.010"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00700.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00701.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.010"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00702.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.010"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00703.ply" ]
+AttributeEnd
+# Name "arc_rosetta.073_arc_rosetta_base.020"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00704.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00705.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.010"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00706.ply" ]
+AttributeEnd
+# Name "arc_rosetta.072_arc_rosetta_base.020"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00707.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00708.ply" ]
+AttributeEnd
+# Name "arc_rosetta.074_arc_rosetta_base.020"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00709.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00710.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.020"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00711.ply" ]
+AttributeEnd
+# Name "arc_rosetta.070_arc_rosetta_base.020"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00712.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00713.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.021"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00714.ply" ]
+AttributeEnd
+# Name "arc_rosetta.076_arc_rosetta_base.021"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00715.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00716.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.020"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00717.ply" ]
+AttributeEnd
+# Name "arc_rosetta.071_arc_rosetta_base.020"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00718.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00719.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.021"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00720.ply" ]
+AttributeEnd
+# Name "arc_rosetta.075_arc_rosetta_base.021"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00721.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00722.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.020"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00723.ply" ]
+AttributeEnd
+# Name "arc_ruby.020"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00724.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.021"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00725.ply" ]
+AttributeEnd
+# Name "arc_ruby.021"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00726.ply" ]
+AttributeEnd
+# Name "arc_zirkon.010"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00727.ply" ]
+AttributeEnd
+# Name "arc_zirkon_socket.011_arc_zirkon_socket.012"
+
+AttributeBegin
+    NamedMaterial "arc_zirk_socket_base"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00728.ply" ]
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00729.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.011"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00730.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.011"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00731.ply" ]
+AttributeEnd
+# Name "arc_rosetta.080_arc_rosetta_base.023"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00732.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00733.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.011"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00734.ply" ]
+AttributeEnd
+# Name "arc_rosetta.081_arc_rosetta_base.023"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00735.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00736.ply" ]
+AttributeEnd
+# Name "arc_rosetta.079_arc_rosetta_base.023"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00737.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00738.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.022"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00739.ply" ]
+AttributeEnd
+# Name "arc_rosetta.077_arc_rosetta_base.022"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00740.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00741.ply" ]
+AttributeEnd
+# Name "arc_pearl_d.023"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00742.ply" ]
+AttributeEnd
+# Name "arc_rosetta.083_arc_rosetta_base.023"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00743.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00744.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.022"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00745.ply" ]
+AttributeEnd
+# Name "arc_rosetta.078_arc_rosetta_base.022"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00746.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00747.ply" ]
+AttributeEnd
+# Name "arc_pearl_e.023"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00748.ply" ]
+AttributeEnd
+# Name "arc_rosetta.082_arc_rosetta_base.023"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00749.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00750.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.022"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00751.ply" ]
+AttributeEnd
+# Name "arc_ruby.022"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00752.ply" ]
+AttributeEnd
+# Name "arc_ruby_socket.023"
+
+AttributeBegin
+    NamedMaterial "gold_base_bumped"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00753.ply" ]
+AttributeEnd
+# Name "arc_ruby.023"
+
+AttributeBegin
+    NamedMaterial "small_ruby"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00754.ply" ]
+AttributeEnd
+# Name "arc_zirkon.011"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00755.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.012_arc_pearl_b.013"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00756.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.012"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00757.ply" ]
+AttributeEnd
+# Name "arc_rosetta.085_arc_rosetta_base.024"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00758.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00759.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.012"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00760.ply" ]
+AttributeEnd
+# Name "arc_rosetta.084_arc_rosetta_base.024"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00761.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00762.ply" ]
+AttributeEnd
+# Name "arc_rosetta.086_arc_rosetta_base.024"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00763.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00764.ply" ]
+AttributeEnd
+# Name "arc_pearl_b.013_arc_pearl_b.015"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00765.ply" ]
+AttributeEnd
+# Name "arc_pearl_a.013"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00766.ply" ]
+AttributeEnd
+# Name "arc_rosetta.088_arc_rosetta_base.025"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00767.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00768.ply" ]
+AttributeEnd
+# Name "arc_pearl_c.013"
+
+AttributeBegin
+    NamedMaterial "pearl"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00769.ply" ]
+AttributeEnd
+# Name "arc_rosetta.089_arc_rosetta_base.025"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00770.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00771.ply" ]
+AttributeEnd
+# Name "arc_rosetta.087_arc_rosetta_base.025"
+
+AttributeBegin
+    NamedMaterial "arc_rosetta_red"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00772.ply" ]
+    NamedMaterial "gold_base_mitra_border.png.002"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00773.ply" ]
+AttributeEnd
+# Name "cross"
+
+AttributeBegin
+    NamedMaterial "cross_gold"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00774.ply" ]
+    NamedMaterial "cross_gold_cross_flower_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00775.ply" ]
+AttributeEnd
+# Name "saphire.001"
+
+AttributeBegin
+    NamedMaterial "saphire"
+    MediumInterface "" "sapphire-medium"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00776.ply" ]
+AttributeEnd
+# Name "cross_flower"
+
+AttributeBegin
+    NamedMaterial "cross_enamel"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00777.ply" ]
+    NamedMaterial "cross_gold_cross_flower_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00778.ply" ]
+AttributeEnd
+# Name "cross_flower.001"
+
+AttributeBegin
+    NamedMaterial "cross_enamel"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00779.ply" ]
+    NamedMaterial "cross_gold_cross_flower_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00780.ply" ]
+AttributeEnd
+# Name "cross_flower.002"
+
+AttributeBegin
+    NamedMaterial "cross_enamel"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00781.ply" ]
+    NamedMaterial "cross_gold_cross_flower_mask.png"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00782.ply" ]
+AttributeEnd
+# Name "saphire"
+
+AttributeBegin
+    NamedMaterial "saphire"
+    MediumInterface "" "sapphire-medium"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00783.ply" ]
+AttributeEnd
+# Name "crack.003_Plane.009"
+
+AttributeBegin
+    NamedMaterial "crack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00784.ply" ]
+AttributeEnd
+# Name "crack_Plane.005"
+
+AttributeBegin
+    NamedMaterial "crack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00785.ply" ]
+AttributeEnd
+# Name "crack.001_Plane.007"
+
+AttributeBegin
+    NamedMaterial "crack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00786.ply" ]
+AttributeEnd
+# Name "crack.002_Plane.008"
+
+AttributeBegin
+    NamedMaterial "crack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00787.ply" ]
+AttributeEnd
+# Name "crack.004_Plane.010"
+
+AttributeBegin
+    NamedMaterial "crack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00788.ply" ]
+AttributeEnd
+# Name "saphire_holder"
+
+AttributeBegin
+    NamedMaterial "cross_enamel"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00789.ply" ]
+AttributeEnd
+# Name "zirkon_tray.140_zirkon_mesh"
+
+AttributeBegin
+    NamedMaterial "zirkon"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00790.ply" ]
+AttributeEnd
+# Name "velvet_cap"
+
+AttributeBegin
+    NamedMaterial "velvet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00791.ply" ]
+AttributeEnd
+# Name "aaaa1_Tube"
+
+AttributeBegin
+    NamedMaterial "dark_velvet"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00794.ply" ]
+AttributeEnd
