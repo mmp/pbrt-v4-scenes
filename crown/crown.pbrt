@@ -141,7 +141,8 @@ MakeNamedMaterial "b_lily_tray"
     "spectrum k" [ "metal-Au-k" ]
 MakeNamedMaterial "big_ruby"
     "string type" [ "dielectric" ]
-    "float eta" [ 3 ]
+#    "spectrum eta" [ 200 3.1 900 2.9 ]
+    "float eta" [3]
 MakeNamedMaterial "clamp_gold"
     "string type" [ "conductor" ]
     "spectrum eta" [ "metal-Au-eta" ]
@@ -181,7 +182,6 @@ MakeNamedMaterial "cross_gold_cross_flower_mask.png"
     "string type" [ "conductor" ]
     "spectrum eta" [ "metal-Au-eta" ]
     "spectrum k" [ "metal-Au-k" ]
-#.2 .025 .025 ] 
 MakeNamedMaterial "dark_velvet"
     "string type" [ "coateddiffuse" ]
     "rgb reflectance" [ 0.15 0.0015 0.0015 ]
@@ -192,10 +192,10 @@ MakeNamedMaterial "deco"
     "spectrum k" [ "metal-Au-k" ]
 MakeNamedMaterial "diamond"
     "string type" [ "dielectric" ]
-    "float eta" [ 3 ]
+    "spectrum eta" [ 200 3.5 900 3.3 ]
 MakeNamedMaterial "diamond_tray_normal_SPEC."
     "string type" [ "dielectric" ]
-    "float eta" [ 3 ]
+    "spectrum eta" [ 200 3.5 900 3.3 ]
 MakeNamedMaterial "gold.002"
     "string type" [ "conductor" ]
     "spectrum eta" [ "metal-Au-eta" ]
@@ -338,11 +338,12 @@ Texture "sapphire-bump-sc" "float" "scale"
     "texture tex" [ "sapphire-bump" ]
 MakeNamedMaterial "saphire"
     "string type" [ "dielectric" ]
-    "float eta" [ 3 ]
+#    "spectrum eta" [ 200 3.5 900 3n3 ]
+    "float eta" [3]
     "texture displacement" [ "sapphire-bump-sc" ]
 MakeNamedMaterial "small_ruby"
     "string type" [ "dielectric" ]
-    "float eta" [ 3 ]
+    "spectrum eta" [ 200 3.5 900 3.3 ]
 MakeNamedMaterial "socket_clamp"
     "string type" [ "conductor" ]
     "spectrum eta" [ "metal-Au-eta" ]
