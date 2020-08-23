@@ -104,7 +104,7 @@ Thanks to Yasutoshi Mori (@MirageYM) for this model;
 
 <img alt="pbrt book" src="images/pbrt-book/book.png" height="400"/>
 
-[lte-orb/](https://github.com/mmp/pbrt-v4-scenes/tree/master/pbrt-book/)
+[pbrt-book/](https://github.com/mmp/pbrt-v4-scenes/tree/master/pbrt-book/)
 
 A realistic model of the second edition of the _Physically
 Based Rendering_ book.
