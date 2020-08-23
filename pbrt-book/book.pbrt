@@ -2,8 +2,10 @@ Sampler "halton"
     "integer pixelsamples" [ 2048 ]
 Film "rgb"
     "string filename" [ "book.exr" ]
-    "integer yresolution" [ 720 ]
-    "integer xresolution" [ 1280 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
+    "string sensor" "canon_eos_100d"
+    "float iso" 150
 Scale -1 1 1
 LookAt 0 2.1088 13.574
     0 2.1088 12.574

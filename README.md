@@ -100,6 +100,17 @@ visualizing the appearance of various materials.
 Thanks to Yasutoshi Mori (@MirageYM) for this model;
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
+## PBRT Book
+
+<img alt="pbrt book" src="images/pbrt-book/book.png" height="400"/>
+
+[lte-orb/](https://github.com/mmp/pbrt-v4-scenes/tree/master/pbrt-book/)
+
+A realistic model of the second edition of the _Physically
+Based Rendering_ book.
+
+Thanks to Karl Li (@yiningkarlli) for this fun model.
+
 ## San Miguel
 
 <img alt="San Miguel courtyard" src="images/sanmiguel/sanmiguel-courtyard-second.png" height="400"/>
