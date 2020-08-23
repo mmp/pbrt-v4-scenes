@@ -37,7 +37,7 @@ This amazing model was created by Martin Lubich (http://www.loramel.net/).
 
 ## Dam Break
 
-<img alt="Dam break" src="images/dambreak/dabmreak0.png" height="400"/>
+<img alt="Dam break" src="images/dambreak/dambreak0.png" height="400"/>
 
 [dambreak/](https://github.com/mmp/pbrt-v4-scenes/tree/master/dambreak/)
 
