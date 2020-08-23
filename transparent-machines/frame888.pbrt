@@ -28,7 +28,7 @@ AttributeBegin
         "float scale" [6]
         "string filename" "textures/sky.exr"
 AttributeEnd
-Material "dielectric"
+Material "dielectric" "spectrum eta" "glass-BK7"
 
 AttributeBegin
     ObjectBegin "single arm 0"
