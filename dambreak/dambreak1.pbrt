@@ -1,0 +1,132 @@
+LookAt 50 40 180
+    60 30 0
+    0 1 0
+Camera "perspective"
+    "float fov" [ 50 ]
+Film "rgb"
+    "string filename" [ "dambreak1.exr" ]
+    "float maxcomponentvalue" [ 10 ]
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
+    "string sensor" "canon_eos_100d"
+    "float iso" 150
+Sampler "halton"
+    "integer pixelsamples" [ 8192 ]
+Integrator "volpath"
+    "integer maxdepth" [ 64 ]
+
+
+WorldBegin
+
+
+AttributeBegin
+    Rotate 60 0 1 0
+    LightSource "infinite"
+        "float scale" [3]
+        "string filename" "textures/sky.exr"
+AttributeEnd
+
+AttributeBegin
+    # Converted from "tank_wall_back.obj" by obj2pbrt
+    # Scene bounds: (1.078640, 0.104601, 63.142288) - (126.961639, 64.040604, 64.141289)
+    # Name "polySurface3"
+    Material "dielectric" "spectrum eta" "glass-BAF10"
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/mesh_00001.ply" ]
+    AttributeEnd
+    # Converted from "tank_wall_bottom.obj" by obj2pbrt
+    # Scene bounds: (1.078640, 0.149298, 1.167021) - (126.961639, 1.148298, 63.123634)
+    # Name "polySurface1"
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/mesh_00002.ply" ]
+    AttributeEnd
+    # Converted from "tank_wall_front.obj" by obj2pbrt
+    # Scene bounds: (1.078640, 0.104601, 0.211058) - (126.961639, 64.040604, 1.210058)
+    # Name "polySurface4"
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/mesh_00003.ply" ]
+    AttributeEnd
+    # Converted from "tank_wall_left.obj" by obj2pbrt
+    # Scene bounds: (126.950043, 0.104601, 0.204847) - (127.949043, 64.040604, 64.140854)
+    # Name "polySurface5"
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/mesh_00004.ply" ]
+    AttributeEnd
+    # Converted from "tank_wall_right.obj" by obj2pbrt
+    # Scene bounds: (0.079597, 0.104601, 0.204847) - (1.078598, 64.040604, 64.140854)
+    # Name "polySurface6"
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/mesh_00005.ply" ]
+    AttributeEnd
+    # Converted from "tank_wall_top.obj" by obj2pbrt
+    # Scene bounds: (1.078640, 63.005722, 1.167021) - (126.961639, 64.004715, 63.123634)
+    # Name "polySurface2"
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/mesh_00006.ply" ]
+    AttributeEnd
+AttributeEnd
+
+AttributeBegin
+    Material "dielectric" "spectrum eta" "glass-F11"
+    # 0625 ] 
+    MakeNamedMedium "liquid"
+        "rgb sigma_s" [ 0.00125 0.00125 0.000625 ]
+        "rgb sigma_a" [ 0.0125 0.0125 0.01 ]
+        "float scale" [ 0.5 ]
+        "string type" [ "homogeneous" ]
+
+    MediumInterface "" "liquid"
+    ReverseOrientation
+    #The box walls are all already in world-space, but the fluid meshes need a
+    # slight transform to get them to interface correctly, due to a small
+    # inaccuracy in my fluid meshing # system. The required transformation is:
+    Translate -0.6 -0.02 -0.6
+    Scale 1.001 1.001 1.001
+    # Converted from "water1.obj" by obj2pbrt
+    # Scene bounds: (1.577353, 1.117343, 1.691385) - (127.586357, 63.036682, 63.710018)
+    # Name "initialShadingGroup"
+    MakeNamedMaterial ""
+        "string type" [ "diffuse" ]
+        "rgb reflectance" [ 0 0 0 ]
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/dambreak1.ply" ]
+    AttributeEnd
+AttributeEnd
+
+AttributeBegin
+    # The backdrop needs the following transformation:
+    Translate 0 -0.04 0
+    # Converted from "backdrop.obj" by obj2pbrt
+    # Scene bounds: (-368.511017, 0.030000, -219.573166) - (518.185120, 324.945526, 153.771759)
+    # Name "backdrop:group2"
+    MakeNamedMaterial "-renamed-0"
+        "string type" [ "diffuse" ]
+        "rgb reflectance" [ 0 0 0 ]
+
+    AttributeBegin
+        # Material unspecified in OBJ file
+        Shape "plymesh"
+            "string filename" [ "geometry/mesh_00008.ply" ]
+    AttributeEnd
+AttributeEnd

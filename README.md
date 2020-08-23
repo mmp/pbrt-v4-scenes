@@ -35,6 +35,16 @@ light passing through them.
 
 This amazing model was created by Martin Lubich (http://www.loramel.net/).
 
+## Dam Break
+
+<img alt="Dam break" src="images/dambreak/dabmreak0.png" height="400"/>
+
+[dambreak/](https://github.com/mmp/pbrt-v4-scenes/tree/master/dambreak/)
+
+Two frames of a fluid simlulation from [Yining Karl
+Li](http://www.yiningkarlli.com)'s nifty [Ariel fluid
+simulator](http://www.yiningkarlli.com/projects/arielflip.html).
+
 ## Ganesha
 
 <img alt="Ganesha" src="images/ganesha/ganesha.png" height="400"/>
