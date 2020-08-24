@@ -7,6 +7,7 @@ Integrator "volpath"
 
 Film "rgb" "integer xresolution" [1200] "integer yresolution" [1200]
       "string filename" "plume.exr"
+      "float maxcomponentvalue" 20
 
 WorldBegin
 
