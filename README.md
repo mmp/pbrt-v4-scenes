@@ -45,6 +45,16 @@ Two frames of a fluid simlulation from [Yining Karl
 Li](http://www.yiningkarlli.com)'s nifty [Ariel fluid
 simulator](http://www.yiningkarlli.com/projects/arielflip.html).
 
+## Explosion
+
+<img alt="Explosion" src="images/explosion/explosion.png" height="400"/>
+
+[explosion/](https://github.com/mmp/pbrt-v4-scenes/tree/master/explosion/)
+
+A volumetric fiery explosion, stored in a NanoVDB volume that was converted
+from an OpenVDB volume from the [OpenVDB
+repository](https://www.openvdb.org/download/).
+
 ## Ganesha
 
 <img alt="Ganesha" src="images/ganesha/ganesha.png" height="400"/>
