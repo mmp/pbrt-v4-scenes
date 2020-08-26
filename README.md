@@ -23,6 +23,17 @@ model](http://www.emirage.org/2013/04/24/free-download-archviz-project-pabellon-
 and made it available via a
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
+## Bunny Cloud
+
+<img alt="Bunny cloud" src="images/bunny-cloud/bunny-cloud.png" height="400"/>
+
+[bunny-cloud/](https://github.com/mmp/pbrt-v4-scenes/tree/master/bunny-cloud/)
+
+The classic Stanford bunny model, remade using volumetric media to give it
+a cloud-like appearance.  The bunny is stored in a NanoVDB volume that was
+converted from an OpenVDB volume from the [OpenVDB
+repository](https://www.openvdb.org/download/).
+
 ## Crown
 
 <img alt="Crown" src="images/crown/crown.png" height="400"/>
