@@ -1,0 +1,109 @@
+Film "rgb" "float scale" 2
+    "integer xresolution" [ 1920 ]
+    "integer yresolution" [ 900 ]
+    "float maxcomponentvalue" 10
+    "string filename" "sportscar-area-lights.exr"
+
+LookAt 5.733494 -2.960355 0.910164
+    4.846804 -2.506242 0.823198
+    -0.077418 0.039618 0.996211
+
+Camera "perspective"
+    "float fov" [ 22 ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 512 ]
+
+Integrator "volpath" "bool regularize" true
+
+
+WorldBegin
+
+Include "materials.pbrt"
+
+AttributeBegin
+    #  "Plane.005"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 -5.2136307 -0.22083592 2.5782707 1  ]
+    NamedMaterial "Material"
+
+    # ["Plane.005"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    Shape "bilinearmesh" "point3 P" [
+         -0.07217014 -5.078359 0 
+           0.07217014 -5.078359 0 
+          -0.07217014 5.078359 0 
+          0.07217014 5.078359 0  ]
+        "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane.004"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 4.399416 -0.47967497 2.8145123 1  ]
+    NamedMaterial "Material"
+
+    # ["Plane.004"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    Shape "bilinearmesh" "point3 P" [
+       -0.07217014 -5.078359 0 
+        0.07217014 -5.078359 0 
+       -0.07217014 5.078359 0 
+        0.07217014 5.078359 0  ]
+        "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane.002"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 2.2832558 0.097757846 2.7668362 1  ]
+    NamedMaterial "Material"
+
+    # ["Plane.002"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    Shape "bilinearmesh" "point3 P" [
+        -0.07217014 -5.078359 0 
+         0.07217014 -5.078359 0 
+        -0.07217014 5.078359 0 
+         0.07217014 5.078359 0  ]
+        "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane.001"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 -2.2272038 0.060931124 2.8959062 1  ]
+    NamedMaterial "Material"
+
+    # ["Plane.001"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    Shape "bilinearmesh" "point3 P"  [
+        -0.07217014 -5.078359 0 
+         0.07217014 -5.078359 0 
+        -0.07217014 5.078359 0 
+         0.07217014 5.078359 0  ]
+       "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+AttributeBegin
+    #  "Plane"
+    Transform [ 1 0 0 0 0 -1 -8.742278e-8 0 0 8.742278e-8 -1 0 0.068977356 -0.14026897 2.83562 1  ]
+    NamedMaterial "Material"
+
+    # ["Plane"]
+    AreaLightSource "diffuse"
+        "rgb L" [ 7 7 7 ]
+    Shape "bilinearmesh" "point3 P" [
+       -0.07217014 -5.078359 0 
+        0.07217014 -5.078359 0
+       -0.07217014 5.078359 0
+        0.07217014 5.078359 0 ]
+        "float alpha" [ 0 ]
+AttributeEnd
+# ""
+
+Include "geometry/geometry.pbrt"
