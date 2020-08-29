@@ -30,7 +30,7 @@ WorldBegin
 # Enviorment 
 
 AttributeBegin
-    Rotate 198 0 0 1
+    Rotate 125 0 0 1
     LightSource "infinite"
         "float scale" [15]
         "string filename" "textures/sky.exr"

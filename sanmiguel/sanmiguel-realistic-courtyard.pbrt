@@ -18,7 +18,7 @@ Camera "perspective"
 Camera "realistic"
     "string lensfile" [ "lenses/wide.22mm.dat" ]
     "float focusdistance" [ 40 ]
-    "float aperturediameter" [ 10 ]
+    "float aperturediameter" [ 8.7 ]
 
 Film "rgb"
     "integer xresolution" [ 1600 ]
@@ -33,7 +33,7 @@ WorldBegin
 # Enviorment 
 
 AttributeBegin
-    Rotate 198 0 0 1
+    Rotate 125 0 0 1
     LightSource "infinite"
         "string filename" [ "textures/sky.exr" ]
         "float scale" [ 15 ]
