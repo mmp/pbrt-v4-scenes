@@ -6,7 +6,9 @@ Camera "perspective"
     "float lensradius" [ 0.5 ]
 Film "rgb"
     "string filename" "frame52.exr"
-    "float scale" 3
+    "string sensor" "canon_eos_100d"
+    "float whitebalance" 5500
+    "float iso" 125
     "integer xresolution" [ 1920 ]
     "integer yresolution" [ 840 ]
 

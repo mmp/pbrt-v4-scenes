@@ -8,7 +8,10 @@ Film "rgb"
     "integer xresolution" [ 1920 ]
     "integer yresolution" [ 840 ]
     "string filename" [ "frame120.exr" ]
-    "float scale" 3
+    "string sensor" "canon_eos_100d"
+    "float whitebalance" 5500
+    "float iso" 125
+
 
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]

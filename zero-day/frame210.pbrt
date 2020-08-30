@@ -4,10 +4,12 @@ Camera "perspective"
     "float focaldistance" [ 314 ]
     "float fov" [ 22.275333 ]
 Film "rgb"
-    "float scale" [ 3 ]
     "integer yresolution" [ 840 ]
     "integer xresolution" [ 1920 ]
     "string filename" [ "frame210.exr" ]
+    "string sensor" "canon_eos_100d"
+    "float whitebalance" 5500
+    "float iso" 125
 
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]

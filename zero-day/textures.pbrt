@@ -15,7 +15,7 @@ Texture "c4d|decal|Arnold_Shader-color" "spectrum" "imagemap"
 #Texture "c4d|full_-scratched|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_3.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/BronzeCopper0036_1_L.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/BronzeCopper0036_1_L.png"
-Texture "c4d|light_tower|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|light_tower|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/RustMixed0006_L_1.png" ]
 #Texture "c4d|black_metal|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/MetalScratches0011_L_1.png"
 #Texture "c4d|full_-scratched|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_3.png"
@@ -31,10 +31,10 @@ Texture "c4d|OctGlossy|Arnold_Shader-color" "spectrum" "imagemap"
 #Texture "c4d|decal|Arnold_Shader_3-float" "float" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r23_c11_1.png"
 #Texture "c4d|decal|Arnold_Shader_3-color" "color" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r23_c11_1.png"
 #Texture "c4d|OctGlossy.1|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/tech decals_new_grunged_r2_c9_1.png"
-Texture "c4d|full_-scratched|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|full_-scratched|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/DSC_1420_1_3.png" ]
 #Texture "c4d|09|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_11_1.png"
-Texture "c4d|black_metal|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|black_metal|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/MetalScratches0011_L_1.png" ]
 #Texture "c4d|7890|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_18_1_1.png"
 Texture "c4d|redtriang|Arnold_Shader-color" "spectrum" "imagemap"
@@ -64,13 +64,13 @@ Texture "c4d|7890|Arnold_Shader-color" "spectrum" "imagemap"
 #Texture "c4d|kaution|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_15_1.png"
 Texture "c4d|grey_steel|Arnold_Shader-float" "float" "imagemap"
     "string filename" [ "textures/MetalScratches0011_L_1.png" ]
-Texture "c4d|TRIANGLE|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|TRIANGLE|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/plastic_2.png" ]
 #Texture "c4d|multi-arm-2|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/RustMixed0006_L_1.png"
 #Texture "c4d|multi-arm-2|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/plastic_2.png"
 #Texture "c4d|multi-arm-2|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/plastic_2.png"
 #Texture "c4d|caution|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_21.png"
-Texture "c4d|canisters|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|canisters|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/MetalBare0080_1_L_1.png" ]
 #Texture "c4d|Alluminio-2|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/RustMixed0006_L_1.png"
 #Texture "c4d|Alluminio-2|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/RustMixed0006_L_1.png"
@@ -93,17 +93,17 @@ Texture "c4d|kaution|Arnold_Shader-color" "spectrum" "imagemap"
 #Texture "c4d|09|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_11_1.png"
 #Texture "c4d|09|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/full_color_decals-grunged_11_1.png"
 #Texture "c4d|85|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r15_c27_1.png"
-Texture "c4d|multi-arm-2|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|multi-arm-2|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/RustMixed0006_L_1.png" ]
 #Texture "c4d|full_-scratched|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_3.png"
 #Texture "c4d|full_-scratched|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_3.png"
 Texture "c4d|caution|Arnold_Shader-color" "spectrum" "imagemap"
     "string filename" [ "textures/full_color_decals-grunged_21.png" ]
 #Texture "c4d|SIMPLE_KICK|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/MetalScratches0011_L_1.png"
-Texture "c4d|accent-ONE|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-ONE|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|accent-_SIMPLE_KICK|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
-Texture "c4d|Orey-jack|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|Orey-jack|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/RustMixed0006_L_1.png" ]
 #Texture "c4d|accent-ONE_(KICK)|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|grey_steel|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/MetalScratches0011_L_1.png"
@@ -121,7 +121,7 @@ Texture "c4d|Orey-jack|Arnold_Shader-float" "float" "imagemap"
 Texture "c4d|85|Arnold_Shader-color" "spectrum" "imagemap"
     "string filename" [ "textures/full_color_decals grunged SMALLER_r15_c27_1.png" ]
 #Texture "c4d|black_metal_-_BASE|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/MetalScratches0011_L_1.png"
-Texture "c4d|SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/MetalScratches0011_L_1.png" ]
 #Texture "c4d|Orey|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/RustMixed0006_L_1.png"
 #Texture "c4d|Orey|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/plastic_2.png"
@@ -134,7 +134,7 @@ Texture "c4d|SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|redtriang|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r3_c18_3.png"
 #Texture "c4d|decal|Arnold_Shader_6-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_21_1_1.png"
 #Texture "c4d|decal|Arnold_Shader_6-color" "color" "imagemap"  "string filename" "textures/full_color_decals-grunged_21_1_1.png"
-Texture "c4d|accent-_SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-_SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|pre-beam|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|ceiling-1.1|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/clean-tech_03_2.png"
@@ -151,7 +151,7 @@ Texture "c4d|accent-_SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|floor_laser-2|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/clean-tech_03_2.png"
 #Texture "c4d|accent-ONE|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|accent-ONE|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
-Texture "c4d|accent-ONE_(KICK)|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-ONE_(KICK)|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|Orey-jack_base|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/MetalBare0080_1_L.png"
 #Texture "c4d|accent-ONE|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/FENCE.png"
@@ -162,12 +162,12 @@ Texture "c4d|accent-ONE_(KICK)|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|black_metal|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/MetalScratches0011_L.png"
 #Texture "c4d|BASE_ROOM|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/MetalBare0080_1_L.png"
 #Texture "c4d|BASE_ROOM|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/MetalBare0080_1_L.png"
-Texture "c4d|black_metal_-_BASE|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|black_metal_-_BASE|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/MetalScratches0011_L_1.png" ]
 #Texture "c4d|ceiling-3|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/MetalBare0080_1_L.png"
 #Texture "c4d|Alluminio_Piastre|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|Alluminio_Piastre|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
-Texture "c4d|Orey|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|Orey|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/RustMixed0006_L_1.png" ]
 #Texture "c4d|accent-bigger|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|Orey-jack|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/RustMixed0006_L.png"
@@ -176,29 +176,29 @@ Texture "c4d|Orey|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|Orey-jack|Arnold_Shader_3-color" "color" "imagemap"  "string filename" "textures/plastic_1.png"
 #Texture "c4d|decal|Arnold_Shader_7-float" "float" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r23_c11.png"
 #Texture "c4d|decal|Arnold_Shader_7-color" "color" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r23_c11.png"
-Texture "c4d|pre-beam|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|pre-beam|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|accent-TWO|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|accent-THREE|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|accent-THREE|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|full_-scratched|Arnold_Shader_4-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|full_-scratched|Arnold_Shader_4-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
-Texture "c4d|Orey-jack_base|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|Orey-jack_base|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/MetalBare0080_1_L.png" ]
 #Texture "c4d|dull|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/MetalScratches0011_L.png"
 #Texture "c4d|Corrugated_Steel_(bump_v4)|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/Simple_Metal_Mtl_DiamondPlate_pattern.png"
-Texture "c4d|ceiling-3|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|ceiling-3|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/MetalBare0080_1_L.png" ]
 #Texture "c4d|TRIANGLE|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|TRIANGLE|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|caution|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r21_c5.png"
 #Texture "c4d|caution|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r21_c5.png"
 #Texture "c4d|elec|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_11.png"
-Texture "c4d|accent-bigger|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-bigger|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|full_-scratched|Arnold_Shader_5-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|full_-scratched|Arnold_Shader_5-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
-Texture "c4d|accent-TWO|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-TWO|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|DOORS|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/MetalBare0080_1_L.png"
 #Texture "c4d|OctGlossy.1|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r23_c11.png"
@@ -224,7 +224,7 @@ Texture "c4d|elec|Arnold_Shader-color" "spectrum" "imagemap"
 #Texture "c4d|full_-scratched|Arnold_Shader_6-color" "color" "imagemap"  "string filename" "textures/MetalBare0138_H_1.png"
 #Texture "c4d|grey_steel|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/Plastic0068_L.png"
 #Texture "c4d|grey_steel|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/Plastic0068_L.png"
-Texture "c4d|DOORS|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|DOORS|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/MetalBare0080_1_L.png" ]
 #Texture "c4d|white-no_dirt|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/tech-yellow_03_1.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_5-float" "float" "imagemap"  "string filename" "textures/MetalBare0080_1_L.png"
@@ -252,7 +252,7 @@ Texture "c4d|ceiling-3|Arnold_Shader_1-float" "float" "imagemap"
 #Texture "c4d|SIDE-SMASH-1|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/plastic_1.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_9-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_9-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
-Texture "c4d|ceiling-1|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|ceiling-1|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/tech-yellow_03_1.png" ]
 #Texture "c4d|SIDE-SMASH-2|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/RustMixed0006_L.png"
 #Texture "c4d|SIDE-SMASH-2|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/plastic_1.png"
@@ -281,12 +281,12 @@ Texture "c4d|ceiling-1|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|Orey-jack|Arnold_Shader_4-color" "color" "imagemap"  "string filename" "textures/RustMixed0006_L.png"
 #Texture "c4d|Orey-jack|Arnold_Shader_5-float" "float" "imagemap"  "string filename" "textures/plastic_1.png"
 #Texture "c4d|Orey-jack|Arnold_Shader_5-color" "color" "imagemap"  "string filename" "textures/plastic_1.png"
-Texture "c4d|ceiling-2|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|ceiling-2|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/tech-yellow_03_1.png" ]
 #Texture "c4d|SIDESMASHER|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|accent-THREE|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|accent-THREE|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
-Texture "c4d|white-no_dirt|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|white-no_dirt|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/tech-yellow_03_1.png" ]
 #Texture "c4d|accent-_FOUR|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|decal|Arnold_Shader_11-float" "float" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r3_c18_2.png"
@@ -315,14 +315,14 @@ Texture "c4d|white-no_dirt|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|DOORS|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/MetalBare0080_1_L.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_12-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_12-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
-Texture "c4d|SIDE-SMASH-1|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|SIDE-SMASH-1|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/RustMixed0006_L.png" ]
 #Texture "c4d|dull-lighter|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1_1.png"
 #Texture "c4d|emmobart|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r15_c27.png"
 #Texture "c4d|emmobart|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/full_color_decals grunged SMALLER_r15_c27.png"
 #Texture "c4d|OctGlossy.2|Arnold_Shader_3-float" "float" "imagemap"  "string filename" "textures/full_color_decals-grunged_15_25.png"
 #Texture "c4d|OctGlossy.2|Arnold_Shader_3-color" "color" "imagemap"  "string filename" "textures/full_color_decals-grunged_15_25.png"
-Texture "c4d|SIDE-SMASH-2|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|SIDE-SMASH-2|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/RustMixed0006_L.png" ]
 #Texture "c4d|room-no_bump|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/plastic_1.png"
 #Texture "c4d|grey_steel|Arnold_Shader_3-float" "float" "imagemap"  "string filename" "textures/Plastic0068_L.png"
@@ -359,15 +359,15 @@ Texture "c4d|SIDE-SMASH-2|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|grey_steel|Arnold_Shader_6-color" "color" "imagemap"  "string filename" "textures/kick_one-base_1.png"
 #Texture "c4d|grey_steel|Arnold_Shader_7-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1.png"
 #Texture "c4d|grey_steel|Arnold_Shader_7-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1.png"
-Texture "c4d|SIDESMASHER|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|SIDESMASHER|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|SIDE_ACCENTS|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|tube|Arnold_Shader_4-float" "float" "imagemap"  "string filename" "textures/grates-2-blurred.png"
 #Texture "c4d|tube|Arnold_Shader_4-color" "color" "imagemap"  "string filename" "textures/grates-2-blurred.png"
-Texture "c4d|accent-_FOUR|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-_FOUR|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|grey_steel.1|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/kick_one-base_1.png"
-Texture "c4d|dull-lighter|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|dull-lighter|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/DSC_1420_1_1.png" ]
 #Texture "c4d|grey_steel.1|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1.png"
 #Texture "c4d|room|Arnold_Shader_3-float" "float" "imagemap"  "string filename" "textures/grates-2-blurred.png"
@@ -378,7 +378,7 @@ Texture "c4d|dull-lighter|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|grey_steel|Arnold_Shader_10-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1.png"
 #Texture "c4d|gates_blurred|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/grates-2-blurred.png"
 #Texture "c4d|gates_blurred|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/grates-2-blurred.png"
-Texture "c4d|room-no_bump|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|room-no_bump|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/plastic_1.png" ]
 #Texture "c4d|orange_emitter|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|grey_steel|Arnold_Shader_12-float" "float" "imagemap"  "string filename" "textures"
@@ -397,7 +397,7 @@ Texture "c4d|room-no_bump|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|grey_steel|Arnold_Shader_16-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1.png"
 #Texture "c4d|grey_steel|Arnold_Shader_18-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1.png"
 #Texture "c4d|grey_steel|Arnold_Shader_18-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1.png"
-Texture "c4d|SIDE_ACCENTS|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|SIDE_ACCENTS|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|dull-lighter.2|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|OctGlossy|Arnold_Shader_13-float" "float" "imagemap"  "string filename" "textures/clean-tech_03.png"
@@ -418,7 +418,7 @@ Texture "c4d|SIDE_ACCENTS|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|black_metal|Arnold_Shader_4-color" "color" "imagemap"  "string filename" "textures"
 #Texture "c4d|black_metal|Arnold_Shader_5-float" "float" "imagemap"  "string filename" "textures/DSC_1420_1.png"
 #Texture "c4d|black_metal|Arnold_Shader_5-color" "color" "imagemap"  "string filename" "textures/DSC_1420_1.png"
-Texture "c4d|grey_steel.1|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|grey_steel.1|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/kick_one-base_1.png" ]
 #Texture "c4d|BLUE_mix(first).1|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/white_noise_harder_00030.png"
 Texture "c4d|grey_steel.1|Arnold_Shader_1-float" "float" "imagemap"
@@ -478,7 +478,7 @@ Texture "c4d|grey_steel.1|Arnold_Shader_1-float" "float" "imagemap"
 #Texture "c4d|full_-scratched|Arnold_Shader_9-color" "color" "imagemap"  "string filename" "textures/Simple_Metal_Mtl_Brush_pattern.png"
 #Texture "c4d|BLUE_mix(last)|Arnold_Shader-float" "float" "imagemap"  "string filename" "textures/softbox_1_blue.png"
 #Texture "c4d|BLUE_mix(last)|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/softbox_1_blue.png"
-Texture "c4d|orange_emitter|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|orange_emitter|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|BLUE_mix(first)|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|SIMPLE_KICK|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/clean-tech_03_2.png"
@@ -487,7 +487,7 @@ Texture "c4d|orange_emitter|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|SIMPLE_KICK|Arnold_Shader_3-color" "color" "imagemap"  "string filename" "textures/clean-tech_03_2.png"
 #Texture "c4d|accent-_SIMPLE_KICK|Arnold_Shader_1-float" "float" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|accent-_SIMPLE_KICK|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
-Texture "c4d|dull-lighter.2|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|dull-lighter.2|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 #Texture "c4d|accent-SIMPLE_KICK|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 #Texture "c4d|black_metal_-_BASE|Arnold_Shader_7-float" "float" "imagemap"  "string filename" "textures/kick_one-base_1.png"
@@ -508,7 +508,7 @@ Texture "c4d|dull-lighter.2|Arnold_Shader-float" "float" "imagemap"
 #Texture "c4d|room.2|Arnold_Shader_1-color" "color" "imagemap"  "string filename" "textures/kick_one-base_1.png"
 #Texture "c4d|room.2|Arnold_Shader_2-float" "float" "imagemap"  "string filename" "textures/kick_one-base_1.png"
 #Texture "c4d|room.2|Arnold_Shader_2-color" "color" "imagemap"  "string filename" "textures/kick_one-base_1.png"
-Texture "c4d|BLUE_mix(first).1|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|BLUE_mix(first).1|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/white_noise_harder_00030.png" ]
 #Texture "c4d|accent-lighttower|Arnold_Shader-color" "color" "imagemap"  "string filename" "textures/FENCE.png"
 Texture "c4d|BLUE_mix(first).1|Arnold_Shader_1-float" "float" "imagemap"
@@ -536,13 +536,13 @@ Texture "c4d|BLUE_mix(first).1|Arnold_Shader_1-float" "float" "imagemap"
 #Texture "Corrugated Steel (bump v4)-Ks" "color" "mix" "rgb tex1" [ 0 0 0 ]
 #  "texture amount" "c4d|Corrugated_Steel_(bump_v4)|Arnold_Shader-float"
 #  "rgb tex2" [ 1.000000 1.000000 1.000000 ]
-Texture "c4d|BLUE_mix(first)|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|BLUE_mix(first)|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
-Texture "c4d|accent-SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-SIMPLE_KICK|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
-Texture "c4d|accent-lighttower|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-lighttower|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
-Texture "c4d|accent-BIGGER|Arnold_Shader-float" "float" "imagemap"
+Texture "c4d|accent-BIGGER|Arnold_Shader-float" "float" "imagemap" "float scale" [ 0.01 ]
     "string filename" [ "textures/FENCE.png" ]
 Texture "chinese-one-color" "spectrum" "imagemap"
     "string filename" [ "textures/chinese sign one.png" ]
@@ -554,4 +554,4 @@ Texture "room-bump-base" "float" "imagemap"
     "string filename" [ "textures/clean-tech_03_2.png" ]
 Texture "room-bump" "float" "scale"
     "texture tex" [ "room-bump-base" ]
-    "float scale" [ 0.05 ]
+    "float scale" [ 0.5 ]
