@@ -2,7 +2,7 @@ Film "rgb"
     "integer xresolution" [ 1600 ]
     "integer yresolution" [ 850 ]
     "string filename" [ "pavilion-night.exr" ]
-    "float scale" [ 2.5 ]
+    "float iso" [ 250 ]
     "float maxcomponentvalue" [ 50 ]
 Scale -1 1 1
 LookAt -10 2.25 10
@@ -17,7 +17,7 @@ Camera "perspective"
     "float lensradius" [ 0.01 ]
 Sampler "halton"
     "integer pixelsamples" [ 512 ]
-
+Integrator "bdpt"
 
 WorldBegin
 

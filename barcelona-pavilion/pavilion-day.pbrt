@@ -1,6 +1,6 @@
 
 Film "rgb"
-    "float scale" [ 5 ]
+    "float iso" [ 500 ]
     "string filename" [ "pavilion-day.exr" ]
     "integer yresolution" [ 850 ]
     "integer xresolution" [ 1600 ]

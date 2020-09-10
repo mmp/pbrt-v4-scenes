@@ -1,4 +1,4 @@
-Film "rgb" "float scale" 2
+Film "rgb" "float iso" 200
     "integer xresolution" [ 1920 ]
     "integer yresolution" [ 900 ]
     "float maxcomponentvalue" 10

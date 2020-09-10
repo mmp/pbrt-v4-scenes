@@ -19,7 +19,7 @@ Film "rgb"
     "float cropwindow" [ 0 0.997245 0.03875 0.725 ]
     "integer yresolution" [ 1600 ]
     "integer xresolution" [ 726 ]
-    "float scale" 10
+    "float iso" 1000
 Sampler "halton"
     "integer pixelsamples" [ 2048 ]
 Integrator "volpath"

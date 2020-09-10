@@ -2,7 +2,7 @@ Film "rgb"
     "string filename" "head.exr"
     "integer yresolution" [ 1080 ]
     "integer xresolution" [ 1920 ]
-    "float scale" [ 4 ]
+    "float iso" [ 400 ]
     "float cropwindow" [.3 .8 .15 .7] 
 LookAt 0.322839 0.0534825 0.504299
     -0.140808 -0.162727 -0.354936

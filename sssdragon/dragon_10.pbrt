@@ -1,7 +1,7 @@
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]
 PixelFilter "gaussian"
-Film "rgb" "float scale" 2
+Film "rgb" "float iso" 200
     "string filename" [ "dragon_10.exr" ]
     "integer yresolution" [ 1024 ]
     "integer xresolution" [ 1366 ]

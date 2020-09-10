@@ -9,7 +9,7 @@ Camera "perspective"
     "float fov" [ 47 ]
 Film "rgb"
     "string filename" [ "villa-lights-on.exr" ]
-    "float scale" [ 1.6 ]
+    "float iso" [ 160 ]
     "integer yresolution" [ 444 ]
     "integer xresolution" [ 1000 ]
 Sampler "sobol"
