@@ -228,3 +228,19 @@ materials and lighting is much better--improvements to our conversion
 gratefully received!)
 
 [License](http://beeple-crap.com/resources.php).
+
+## Disney Cloud
+
+<img alt="Disney Cloud" src="images/disney-cloud/disney-cloud-hd.png" height="400"/>
+
+[disney-cloud/](https://github.com/mmp/pbrt-v4-scenes/tree/master/disney-cloud/)
+
+The cloud from the dataset provided by Disney ([see here](https://disney-animation.s3.amazonaws.com/uploads/production/data_set_asset/1/asset/Cloud_Readme.pdf)).
+
+The original dataset includes the HD render computed with Disney's Hyperion, and the cloud density field voxelized at different resolutions and stored in OpenVDB volumes.
+It also includes a Mitsuba scene description file and the associated SD render computed with it.
+The original dataset is Copyright 2017 Disney Enterprises, Inc. and is licensed under the [CCA-SA 3.0 Licence](http://creativecommons.org/licenses/by-sa/3.0/).
+The volumetric cloud model used for reference is a photograph by Kevin Udy provided on [the Colorado Clouds Blog](https://coclouds.com/436/cumulus/2012-07-26/) and licensed under the [CCA-SA 3.0 Licence](http://creativecommons.org/licenses/by-sa/3.0/).
+
+Here, we propose the Disney cloud scene, now manually ported to pbrt-v4 and ready to be rendered in SD (333x180 pixels) or HD (1998x1080 pixels).
+The voxelized density field is stored in a NanoVDB volume that was converted from the OpenVDB "quarter" resolution volume due to size limitations.
