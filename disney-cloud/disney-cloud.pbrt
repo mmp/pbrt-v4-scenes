@@ -1,0 +1,60 @@
+Integrator "volpath" "integer maxdepth" [1000000]
+
+Sampler "sobol" "integer pixelsamples" [1024]
+
+Film "rgb" 
+  "integer xresolution" [333]
+  "integer yresolution" [180]
+  "string filename" "disney-cloud-sd.exr"
+  #"integer xresolution" [1998]
+  #"integer yresolution" [1080]
+  #"string filename" "disney-cloud-hd.exr"
+
+#Reverse X axis.
+Scale -1 1 1
+LookAt
+  #Eye
+  648.064 -82.473 -63.856
+  #Target
+  6.021 100.043 -43.679
+  #Up vector
+  0.273 0.962 -0.009
+#Converting fov according to the height/width ratio: 31.07 = 360/(2*PI) * 2*arctan(180/333*tan(54.43 * PI/360)).
+Camera "perspective" "float fov" [31.07]
+
+
+WorldBegin
+
+#Uniform illumination from all directions.
+LightSource "infinite" "rgb L" [0.03 0.07 0.23]
+
+#Approximate the sun.
+LightSource "distant"
+  "point3 to" [-0.5826 -0.7660 -0.2717]
+  "rgb L" [2.6 2.5 2.3]
+
+AttributeBegin
+  Translate 0 -1000 0
+  Scale 2000 2000 2000
+  Rotate -90 1 0 0
+  Material "diffuse" "spectrum reflectance" [200 0.2 900 0.2]
+  Shape "disk"  
+AttributeEnd
+
+TransformBegin
+  MakeNamedMedium "cloud" "string type" "nanovdb" 
+    "string filename" "wdas_cloud_quarter.nvdb"
+    "spectrum sigma_a" [200 0 900 0]
+    "spectrum sigma_s" [200 1 900 1]
+    "float g" [0.877]
+    "float scale" [4]
+  
+  AttributeBegin
+    Translate -9.984 73.008 -42.64
+    Scale 206.544 140.4 254.592
+    Material ""
+    MediumInterface "cloud" ""
+      #Bounding sphere of a unit cube (of diameter equal to the cubic root of 3).
+      Shape "sphere" "float radius" [1.44224957031]
+  AttributeEnd
+TransformEnd
