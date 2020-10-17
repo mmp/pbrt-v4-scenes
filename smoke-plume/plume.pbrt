@@ -38,8 +38,8 @@ AttributeBegin
 	Scale 2 2 2
 
 Include "geometry/density_big_0084.pbrt"
-	"spectrum sigma_a" [300 10 830 10] 
-	"spectrum sigma_s" [300 80 830 80]
+	"spectrum sigma_a" [300 20 830 20] 
+	"spectrum sigma_s" [300 160 830 160]
 
         MediumInterface "smoke" ""
         Material ""
