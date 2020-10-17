@@ -41,7 +41,7 @@ AttributeBegin
   Shape "disk"  
 AttributeEnd
 
-TransformBegin
+AttributeBegin
   MakeNamedMedium "cloud" "string type" "nanovdb" 
     "string filename" "wdas_cloud_quarter.nvdb"
     "spectrum sigma_a" [200 0 900 0]
@@ -57,4 +57,4 @@ TransformBegin
       #Bounding sphere of a unit cube (of diameter equal to the cubic root of 3).
       Shape "sphere" "float radius" [1.44224957031]
   AttributeEnd
-TransformEnd
+AttributeEnd

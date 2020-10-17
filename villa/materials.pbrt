@@ -149,13 +149,13 @@ MakeNamedMaterial "Inox.002"
                    1.28 546.167 1.43 598.937 1.62 662.99506 1.84 751.394 2.19 860.972 
                    2.56 ]
     "float roughness" [ 0.01 ]
-TransformBegin
+AttributeBegin
     Scale 3 3 3
     Texture "couch-disp" "float" "wrinkled"
     Texture "scaled-couch-disp" "float" "scale"
         "texture tex" [ "couch-disp" ]
         "float scale" [ 0.005 ]
-TransformEnd
+AttributeEnd
 # Material 'AssiseLem'  seat lem
 # Material 'MetalRough'
 MakeNamedMaterial "Cuir"
@@ -512,7 +512,7 @@ MakeNamedMaterial "Zinc"
     "spectrum eta" [ "metal-Ag-eta" ]
     "spectrum k" [ "metal-Ag-k" ]
     "float roughness" [ 0.01 ]
-TransformBegin
+AttributeBegin
     Scale 6 6 6
     Texture "water" "float" "windy"
     Texture "sc" "float" "constant"
@@ -520,7 +520,7 @@ TransformBegin
     Texture "swater" "float" "scale"
         "texture tex" [ "water" ]
         "texture scale" [ "sc" ]
-TransformEnd
+AttributeEnd
 # Material 'Plafond' ceiling
 # Material 'FrontCol'
 MakeNamedMaterial "Eau"
