@@ -12,7 +12,6 @@ Film "rgb"
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]
 Integrator "volpath"
-    "float rrthreshold" [ 0 ]
     "integer maxdepth" [ 256 ]
 
 

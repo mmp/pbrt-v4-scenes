@@ -13,7 +13,6 @@ Sampler "halton"
     "integer pixelsamples" [ 64 ]
 Integrator "volpath"
     "integer maxdepth" [ 256 ]
-    "float rrthreshold" [ 0 ]
 
 
 WorldBegin
