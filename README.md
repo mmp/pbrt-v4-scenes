@@ -34,6 +34,14 @@ a cloud-like appearance.  The bunny is stored in a NanoVDB volume that was
 converted from an OpenVDB volume from the [OpenVDB
 repository](https://www.openvdb.org/download/).
 
+## Contemporary Bathroom
+
+<img alt="Contemporary Bathroom" src="images/contemporary-bathroom/contemporary-bathroom.png" height="400"/>
+
+[contemporary-bathroom/](https://github.com/mmp/pbrt-v4-scenes/tree/master/contemporary-bathroom/)
+
+A model of a contemporary bathroom, courtesy of Mareck via [BlendSwap](https://www.blendswap.com/blend/13303). [CC Zero](http://creativecommons.org/publicdomain/mark/1.0/) (Public Domain) license.
+
 ## Crown
 
 <img alt="Crown" src="images/crown/crown.png" height="400"/>

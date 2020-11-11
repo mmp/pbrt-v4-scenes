@@ -1,0 +1,217 @@
+# Converted from "contemporary_bathroom.obj" by obj2pbrt
+# Scene bounds: (-7.714911, -4.399745, -11.240966) - (3.559370, 3.157831, 2.465844)
+# battub (more shiny interior?)
+# porcelain bathtub (exterior?)
+MakeNamedMaterial "bathtube"
+    "string type" [ "measured" ]
+    "string filename" [ "bsdfs/satin_white_spec.bsdf" ]
+# frothy bubbly water
+MakeNamedMaterial "bathtube.001"
+    "string type" [ "dielectric" ]
+# rug on floor
+MakeNamedMaterial "bathtube.002"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0 ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+Texture "rug-kd" "spectrum" "imagemap"
+    "string filename" [ "textures/tapis.png" ]
+Texture "rug-bump-base" "float" "imagemap"
+    "string filename" [ "textures/tapis.png" ]
+Texture "rug-bump" "float" "scale"
+    "float scale" [ 0.05 ]
+    "texture tex" [ "rug-bump-base" ]
+MakeNamedMaterial "carpet"
+    "string type" [ "diffuse" ]
+    "texture displacement" [ "rug-bump" ]
+    "texture reflectance" [ "rug-kd" ]
+# Vanessa Pike-Russell https://www.flickr.com/photos/lilcrabbygal/
+MakeNamedMaterial "ceilling_white"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.8 0.8 0.8 ]
+Texture "drawing-kd" "spectrum" "imagemap"
+    "string filename" [ "textures/smoke.png" ]
+# on wall by window
+# CC-BY NASA goddard space flight center https://www.flickr.com/photos/gsfc/
+MakeNamedMaterial "drawing"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "drawing-kd" ]
+Texture "drawing2-kd" "spectrum" "imagemap"
+    "string filename" [ "textures/hurricane.png" ]
+# flower petals
+MakeNamedMaterial "drawing2"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "drawing2-kd" ]
+# branches of flowers in vase
+MakeNamedMaterial "feuilles"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.64 0.2 0.1 ]
+# strings part of shades?
+MakeNamedMaterial "feuilles.001"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.2 0.2 0.05 ]
+# black floor
+MakeNamedMaterial "ficelle"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+Texture "floor-kd" "spectrum" "imagemap"
+    "string filename" [ "textures/97702high.png" ]
+Texture "floor-bump-base" "float" "imagemap"
+    "string filename" [ "textures/97702high.png" ]
+Texture "floor-bump" "float" "scale"
+    "float scale" [ -0.05 ]
+    "texture tex" [ "floor-bump-base" ]
+MakeNamedMaterial "floor"
+    "string type" [ "coateddiffuse" ]
+    "texture displacement" [ "floor-bump" ]
+    "texture reflectance" [ "floor-kd" ]
+    "float vroughness" [ 0.010408 ]
+    "float uroughness" [ 0.010408 ]
+# around lights above sinks
+MakeNamedMaterial "glass_ewt_window"
+    "string type" [ "dielectric" ]
+# in front of picture by window
+MakeNamedMaterial "glass_globe"
+    "string type" [ "dielectric" ]
+    "float eta" [ 1.5 ]
+# metal faucets
+MakeNamedMaterial "glass_globe.001"
+    "string type" [ "dielectric" ]
+# ? foot metal?
+MakeNamedMaterial "inox"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+    "float roughness" [ 0.001 ]
+# ??? exterior light source for window?
+MakeNamedMaterial "inox_pied"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+    "float roughness" [ 0.001 ]
+# the lights in the globes!!
+MakeNamedMaterial "light"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+# part of the lights in the globes; not clear what/where?
+MakeNamedMaterial "low_light"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.181951 0.018709 ]
+    "float roughness" [ 0.010408 ]
+# part of the lights in the globes; not clear what/where?
+MakeNamedMaterial "low_light.001"
+    "string type" [ "dielectric" ]
+# sinks
+MakeNamedMaterial "low_light_plan"
+    "string type" [ "dielectric" ]
+# ?
+MakeNamedMaterial "marble"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+# metal frame around window panes
+MakeNamedMaterial "metal_gold"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.058588 0.028707 0 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "metal_windows"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.055983 0.055983 0.055983 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "metalic_plate"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.121859 0.121859 0.121859 ]
+    "float roughness" [ 0.010408 ]
+# paper behind poster by window?
+MakeNamedMaterial "miroir"
+    "string type" [ "conductor" ]
+    "float roughness" [ 0 ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "spectrum k" [ "metal-Ag-k" ]
+# cords above up high lights
+MakeNamedMaterial "papier"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+# black pots by sinks
+MakeNamedMaterial "plastic_black"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.023279 0.023279 0.023279 ]
+    "float roughness" [ 0.010408 ]
+# ? part of window shades
+MakeNamedMaterial "pots"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.05 0.05 0.05 ]
+    "float roughness" [ 0.4 ]
+# window shade pull?
+MakeNamedMaterial "store_knot"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+# shades
+MakeNamedMaterial "store_knot_plastic"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "stores"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "tableau1"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+# vase by window holding flowers
+MakeNamedMaterial "tableau2"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+# wallpapered wall seen in mirror
+MakeNamedMaterial "vase_white"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+Texture "wallpaper-kd" "spectrum" "imagemap"
+    "float vscale" [ 0.2 ]
+    "float uscale" [ 0.2 ]
+    "string filename" [ "textures/contemporary_china.png" ]
+# overall white walls
+MakeNamedMaterial "wall_blue"
+    "string type" [ "diffuse" ]
+    "texture reflectance" [ "wallpaper-kd" ]
+# ???
+MakeNamedMaterial "wall_grey"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.501329 0.501329 0.501329 ]
+    "float roughness" [ 0.010408 ]
+# all the wood
+MakeNamedMaterial "wall_grey.001"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.501329 0.501329 0.501329 ]
+    "float roughness" [ 0.010408 ]
+Texture "wood-kd" "spectrum" "imagemap"
+    "string filename" [ "textures/American_walnut_pxr128.png" ]
+# ? small wood strip on floor?
+MakeNamedMaterial "wood"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "wood-kd" ]
+    "float vroughness" [ 0.010408 ]
+    "float uroughness" [ 0.010408 ]
+# wood around poster by window
+MakeNamedMaterial "wood_baguette"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "wood-kd" ]
+    "float vroughness" [ 0.010408 ]
+    "float uroughness" [ 0.010408 ]
+# white painted wood molding around window
+MakeNamedMaterial "wood_cadre"
+    "string type" [ "coateddiffuse" ]
+    "texture reflectance" [ "wood-kd" ]
+    "float vroughness" [ 0.010408 ]
+    "float uroughness" [ 0.010408 ]
+MakeNamedMaterial "wood_white"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.7 0.7 0.7 ]
+    "float roughness" [ 0.010408 ]
