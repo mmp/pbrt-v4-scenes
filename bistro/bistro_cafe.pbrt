@@ -1,0 +1,38 @@
+#############################
+# Scene metadata:
+# - UpAxis : 1
+# - UpAxisSign : 1
+# - FrontAxis : 2
+# - FrontAxisSign : 1
+# - CoordAxis : 0
+# - CoordAxisSign : 1
+# - OriginalUpAxis : 1
+# - OriginalUpAxisSign : 1
+# - UnitScaleFactor : 100
+# - OriginalUnitScaleFactor : 1
+# - AmbientColor : Vector3D (unable to print)
+
+Film "rgb"
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
+    "string filename" [ "bistro_cafe.exr" ]
+    "float iso" 110
+    "float maxcomponentvalue" 20
+
+Scale -1 1 1
+LookAt  -11.7 2.5 6.5   -8.5 2.8 8  0 1 0
+Camera "perspective" "float fov" [ 53 ]
+
+Sampler "zsobol" "integer pixelsamples" 256
+
+WorldBegin
+
+AttributeBegin
+Rotate -10 0 0 1
+Rotate -90 1 0 0
+LightSource "infinite" "string filename" "textures/sky.exr" "float scale" 40
+AttributeEnd
+
+Include "materials.pbrt"
+
+Include "geometry.pbrt"

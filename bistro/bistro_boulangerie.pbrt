@@ -1,0 +1,26 @@
+
+Film "rgb"
+    "integer yresolution" [ 1080 ]
+    "integer xresolution" [ 1920 ]
+    "string filename" [ "bistro_boulangerie.exr" ]
+    "float iso" 40
+    "float maxcomponentvalue" 20
+
+Scale -1 1 1
+
+LookAt 8 3.9 -35    9.6 3.9 -25    0 1 0
+Camera "perspective" "float fov" [ 60 ]
+
+Sampler "zsobol" "integer pixelsamples" 256
+
+WorldBegin
+
+AttributeBegin
+Rotate -10 0 0 1
+Rotate -90 1 0 0
+LightSource "infinite" "string filename" "textures/sky.exr" "float scale" 40
+AttributeEnd
+
+Include "materials.pbrt"
+
+Include "geometry.pbrt"

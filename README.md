@@ -23,6 +23,18 @@ model](http://www.emirage.org/2013/04/24/free-download-archviz-project-pabellon-
 and made it available via a
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
 
+## Bistro
+
+<img alt="Bistro" src="images/bistro/bistro_vespa.png" height="400"/>
+
+[bistro/](https://github.com/mmp/pbrt-v4-scenes/tree/master/bistro/)
+
+Amazon Lumberyard's "Bistro" model, featuring a detailed model of a
+Parisian street.  This model is via NVIDIA's [Open Research Content Archive
+(ORCA)](http://developer.nvidia.com/orca/amazon-lumberyard-bistro) and is
+licensed under a [CC-BY](https://creativecommons.org/licenses/by/4.0/)
+license.
+
 ## Bunny Cloud
 
 <img alt="Bunny cloud" src="images/bunny-cloud/bunny-cloud.png" height="400"/>

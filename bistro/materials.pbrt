@@ -1,0 +1,1500 @@
+
+
+###################
+# Textures
+Texture "rgb:textures/Stringlights_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Stringlights_BaseColor.png" ]
+Texture "rgb:textures/Paris_StringLights_01_Orange_Color_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StringLights_01_Orange_Color_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Paris_StringLights_01_Blue_Color_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StringLights_01_Blue_Color_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Paris_StringLights_01_White_Color_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StringLights_01_White_Color_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Paris_StringLights_01_Pink_Color_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StringLights_01_Pink_Color_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Paris_StringLights_01_Red_Color_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StringLights_01_Red_Color_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Paris_StringLights_01_Green_Color_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StringLights_01_Green_Color_Emissive_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Bistro_Main_Door_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Bistro_Main_Door_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Curbstones_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Curbstones_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Manhole_Cover_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Manhole_Cover_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Cobblestone_Wet_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Cobblestone_Wet_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Focus_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Focus_BaseColor.png" ]
+Texture "rgb:textures/Emissive_StreetLight_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Emissive_StreetLight_BaseColor.png" ]
+Texture "alpha:textures/Emissive_StreetLight_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Emissive_StreetLight_BaseColor.png" ]
+Texture "rgb:textures/Spotlight_Glass_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Spotlight_Glass_Emissive_BaseColor.png" ]
+Texture "rgb:textures/LanternEmissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/LanternEmissive_BaseColor.png" ]
+Texture "alpha:textures/LanternEmissive_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/LanternEmissive_BaseColor.png" ]
+Texture "rgb:textures/Trashcan_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Trashcan_BaseColor.png" ]
+Texture "rgb:textures/Banner_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Banner_Metal_BaseColor.png" ]
+Texture "rgb:textures/Spotlight_Main_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Spotlight_Main_BaseColor.png" ]
+Texture "rgb:textures/Spotlight_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Spotlight_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Paris_TrafficSign_A_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_TrafficSign_A_BaseColor.png" ]
+Texture "rgb:textures/Paris_Table_Terrace_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_Table_Terrace_BaseColor.png" ]
+Texture "rgb:textures/Paris_StreetSign_01_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StreetSign_01_BaseColor.png" ]
+Texture "rgb:textures/Paris_StreetPivot_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StreetPivot_BaseColor.png" ]
+Texture "rgb:textures/Streetlight_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Streetlight_Metal_BaseColor.png" ]
+Texture "rgb:textures/Paris_StringLights_01_White_Color_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_StringLights_01_White_Color_BaseColor.png" ]
+Texture "rgb:textures/Streetlight_Support_Bulb_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Streetlight_Support_Bulb_BaseColor.png" ]
+Texture "rgb:textures/Streetlight_Chains_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Streetlight_Chains_BaseColor.png" ]
+Texture "rgb:textures/Concrete3_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Concrete3_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Brick_Small_Red_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Brick_Small_Red_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Ground_Wet_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Ground_Wet_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Cobble_Leaves_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Cobble_Leaves_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Cobblestone_01_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Cobblestone_01_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Cobblestone_Wet_Leaves_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Cobblestone_Wet_Leaves_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Cobblestone_Small_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Cobblestone_Small_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Cobblestone_Big_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Cobblestone_Big_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Brick_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Brick_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/Pavement_Cobblestone_02_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Pavement_Cobblestone_02_BaseColor.png" ]
+Texture "rgb:textures/Sidewalkbarrier_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Sidewalkbarrier_BaseColor.png" ]
+Texture "rgb:textures/Shopsign_Pharmacy_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Shopsign_Pharmacy_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Shopsign_Book_Store_Emissive_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Shopsign_Book_Store_Emissive_BaseColor.png" ]
+Texture "rgb:textures/Antenna_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Antenna_Metal_BaseColor.png" ]
+Texture "rgb:textures/Shopsign_Bakery_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Shopsign_Bakery_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Metal_BaseColor.png" ]
+Texture "rgb:textures/Shopsign_Ties_Shop_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Shopsign_Ties_Shop_BaseColor.png" ]
+Texture "rgb:textures/Plantpots_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Plantpots_BaseColor.png" ]
+Texture "rgb:textures/NapkinHolder_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/NapkinHolder_BaseColor.png" ]
+Texture "rgb:textures/MenuSign_02_Mesh_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MenuSign_02_Mesh_BaseColor.png" ]
+Texture "rgb:textures/MenuSign_02_Glass_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MenuSign_02_Glass_BaseColor.png" ]
+Texture "rgb:textures/MenuSign_01_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MenuSign_01_BaseColor.png" ]
+Texture "rgb:textures/Balcony_Concrete_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Balcony_Concrete_BaseColor.png" ]
+Texture "rgb:textures/Balcony_Trims_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Balcony_Trims_BaseColor.png" ]
+Texture "rgb:textures/Balcony_Ornaments_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Balcony_Ornaments_BaseColor.png" ]
+Texture "rgb:textures/Balcony_Green_Wood_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Balcony_Green_Wood_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Glass_Dirty_MASKED_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Glass_Dirty_MASKED_BaseColor.png" ]
+Texture "alpha:textures/MASTER_Glass_Dirty_MASKED_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/MASTER_Glass_Dirty_MASKED_BaseColor.png" ]
+Texture "rgb:textures/Paris_LiquorBottle_01_Glass_Wine_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_LiquorBottle_01_Glass_Wine_BaseColor.png" ]
+Texture "alpha:textures/Paris_LiquorBottle_01_Glass_Wine_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Paris_LiquorBottle_01_Glass_Wine_BaseColor.png" ]
+Texture "rgb:textures/Paris_LiquorBottle_01_Caps_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_LiquorBottle_01_Caps_BaseColor.png" ]
+Texture "rgb:textures/Paris_LiquorBottle_01_Labels_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_LiquorBottle_01_Labels_BaseColor.png" ]
+Texture "alpha:textures/Paris_LiquorBottle_01_Labels_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Paris_LiquorBottle_01_Labels_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Paris_Flowers_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Paris_Flowers_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Flowers_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Flowers_BaseColor.png" ]
+Texture "alpha:textures/Foliage_Flowers_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Foliage_Flowers_BaseColor.png" ]
+Texture "rgb:textures/ElectricBox_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/ElectricBox_BaseColor.png" ]
+Texture "rgb:textures/Concrete_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Concrete_BaseColor.png" ]
+Texture "rgb:textures/Concrete_Striped_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Concrete_Striped_BaseColor.png" ]
+Texture "rgb:textures/Concrete2_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Concrete2_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Black_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Black_Metal_BaseColor.png" ]
+Texture "rgb:textures/Chimneys_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Chimneys_Metal_BaseColor.png" ]
+Texture "alpha:textures/Chimneys_Metal_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Chimneys_Metal_BaseColor.png" ]
+Texture "rgb:textures/Plaster_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Plaster_BaseColor.png" ]
+Texture "rgb:textures/Paris_Chair_01_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Paris_Chair_01_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Grain_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Grain_Metal_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Curtains_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Curtains_BaseColor.png" ]
+Texture "alpha:textures/MASTER_Curtains_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/MASTER_Curtains_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_Plaster_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_Plaster_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Roofing_Shingle_Grey_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Roofing_Shingle_Grey_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Wood_Painted_Green_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Wood_Painted_Green_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Room_Interior_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Room_Interior_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Brick_Large_Beige_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Brick_Large_Beige_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Doors_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Doors_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Forge_Metal_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Forge_Metal_BaseColor.png" ]
+Texture "alpha:textures/MASTER_Forge_Metal_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/MASTER_Forge_Metal_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Wood_Brown_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Wood_Brown_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_Grooved_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_Grooved_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_Smooth_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_Smooth_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_Plaster1_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_Plaster1_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Plastic_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Plastic_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Frosted_Glass_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Frosted_Glass_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Awning_Fabric_Red_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Awning_Fabric_Red_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Boulangerie_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Boulangerie_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Awning_Beams_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Awning_Beams_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Roofing_Metal_01_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Roofing_Metal_01_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Details_Dark_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Details_Dark_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Rollup_Door_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Rollup_Door_BaseColor.png" ]
+Texture "alpha:textures/MASTER_Rollup_Door_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/MASTER_Rollup_Door_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Building_Details_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Building_Details_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Wood_Painted_Cyan_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Wood_Painted_Cyan_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Glass_Dirty_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Glass_Dirty_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Awning_Fabric_Cyan_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Awning_Fabric_Cyan_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Wood_Painted3_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Wood_Painted3_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Bronze_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Bronze_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Wood_Painted_Green_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Wood_Painted_Green_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_Smooth_BLENDSHADER_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_Smooth_BLENDSHADER_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Book_Covers_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Book_Covers_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_White_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_White_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Brick_Small_Red_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Brick_Small_Red_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Brick_Large_White_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Brick_Large_White_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Light_Bulb_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Light_Bulb_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Glass_Exterior_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Glass_Exterior_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Side_Letters_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Side_Letters_BaseColor.png" ]
+Texture "alpha:textures/MASTER_Side_Letters_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/MASTER_Side_Letters_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete1_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete1_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Focus_Ornament_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Focus_Ornament_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Metal_Pipe_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Metal_Pipe_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Wood_Polished_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Wood_Polished_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Concrete_Yellow_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Concrete_Yellow_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Roofing_Shingle_Green_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Roofing_Shingle_Green_BaseColor.png" ]
+Texture "rgb:textures/MASTER_Trim_Cornice_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/MASTER_Trim_Cornice_BaseColor.png" ]
+Texture "rgb:textures/Bollards_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Bollards_BaseColor.png" ]
+Texture "rgb:textures/Bistro_Sign_Main_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Bistro_Sign_Main_BaseColor.png" ]
+Texture "rgb:textures/Bistro_Sign_Letters_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Bistro_Sign_Letters_BaseColor.png" ]
+Texture "rgb:textures/Awnings_Hotel_Fabric_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Awnings_Hotel_Fabric_BaseColor.png" ]
+Texture "rgb:textures/Awnings_Fabric_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Awnings_Fabric_BaseColor.png" ]
+Texture "rgb:textures/Awnings_Beams_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Awnings_Beams_BaseColor.png" ]
+Texture "rgb:textures/Ashtray_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Ashtray_BaseColor.png" ]
+Texture "rgb:textures/Antenna_Plastic_Blue_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Antenna_Plastic_Blue_BaseColor.png" ]
+Texture "rgb:textures/Antenna_Plastic_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Antenna_Plastic_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Linde_Tree_Large_Trunk_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Linde_Tree_Large_Trunk_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Linde_Tree_Large_Orange_Leaves_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Linde_Tree_Large_Orange_Leaves_BaseColor.png" ]
+Texture "alpha:textures/Foliage_Linde_Tree_Large_Orange_Leaves_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Foliage_Linde_Tree_Large_Orange_Leaves_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Linde_Tree_Large_Green_Leaves_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Linde_Tree_Large_Green_Leaves_BaseColor.png" ]
+Texture "alpha:textures/Foliage_Linde_Tree_Large_Green_Leaves_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Foliage_Linde_Tree_Large_Green_Leaves_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Ivy_branches_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Ivy_branches_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Ivy_leaf_a_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Ivy_leaf_a_BaseColor.png" ]
+Texture "alpha:textures/Foliage_Ivy_leaf_a_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Foliage_Ivy_leaf_a_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Bux_Hedges46_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Bux_Hedges46_BaseColor.png" ]
+Texture "alpha:textures/Foliage_Bux_Hedges46_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Foliage_Bux_Hedges46_BaseColor.png" ]
+Texture "rgb:textures/Vespa_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Vespa_BaseColor.png" ]
+Texture "rgb:textures/Vespa_Odometer_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Vespa_Odometer_BaseColor.png" ]
+Texture "rgb:textures/Vespa_Odometer_Glass_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Vespa_Odometer_Glass_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Leaves_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Leaves_BaseColor.png" ]
+Texture "alpha:textures/Foliage_Leaves_BaseColor.png" "float" "imagemap"
+    "string filename" [ "textures/Foliage_Leaves_BaseColor.png" ]
+Texture "rgb:textures/Foliage_Trunk_BaseColor" "spectrum" "imagemap"
+    "string filename" [ "textures/Foliage_Trunk_BaseColor.png" ]
+####################
+# Materials (132) total
+
+# - Material 1: Stringlights
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Stringlights" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Stringlights_BaseColor"
+    "string normalmap" "textures/Stringlights_Normal.png"
+
+# - Material 2: Paris_StringLights_01_Orange_Color_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StringLights_01_Orange_Color_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StringLights_01_Orange_Color_Emissive_BaseColor"
+    "string normalmap" "textures/Paris_StringLights_01_Orange_Color_Emissive_Normal.png"
+
+# - Material 3: Paris_StringLights_01_Blue_Color_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StringLights_01_Blue_Color_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StringLights_01_Blue_Color_Emissive_BaseColor"
+    "string normalmap" "textures/Paris_StringLights_01_Blue_Color_Emissive_Normal.png"
+
+# - Material 4: Paris_StringLights_01_White_Color_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StringLights_01_White_Color_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StringLights_01_White_Color_Emissive_BaseColor"
+    "string normalmap" "textures/Paris_StringLights_01_White_Color_Emissive_Normal.png"
+
+# - Material 5: Paris_StringLights_01_Pink_Color_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StringLights_01_Pink_Color_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StringLights_01_Pink_Color_Emissive_BaseColor"
+    "string normalmap" "textures/Paris_StringLights_01_Pink_Color_Emissive_Normal.png"
+
+# - Material 6: Paris_StringLights_01_Red_Color_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StringLights_01_Red_Color_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StringLights_01_Red_Color_Emissive_BaseColor"
+    "string normalmap" "textures/Paris_StringLights_01_Red_Color_Emissive_Normal.png"
+
+# - Material 7: Paris_StringLights_01_Green_Color_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StringLights_01_Green_Color_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StringLights_01_Green_Color_Emissive_BaseColor"
+    "string normalmap" "textures/Paris_StringLights_01_Green_Color_Emissive_Normal.png"
+
+# - Material 8: MASTER_Bistro_Main_Door
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Bistro_Main_Door" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Bistro_Main_Door_BaseColor"
+    "string normalmap" "textures/MASTER_Bistro_Main_Door_Normal.png"
+
+# - Material 9: Pavement_Curbstones
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Curbstones" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Curbstones_BaseColor"
+    "string normalmap" "textures/Pavement_Curbstones_Normal.png"
+
+# - Material 10: Pavement_Manhole_Cover
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Manhole_Cover" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Manhole_Cover_BaseColor"
+    "string normalmap" "textures/Pavement_Manhole_Cover_Normal.png"
+
+# - Material 11: Pavement_Cobblestone_Wet_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Cobblestone_Wet_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Cobblestone_Wet_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/Pavement_Cobblestone_Wet_BLENDSHADER_Normal.png"
+
+# - Material 12: MASTER_Focus
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Focus" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Focus_BaseColor"
+    "string normalmap" "textures/MASTER_Focus_Normal.png"
+
+# - Material 13: Emissive_StreetLight
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Emissive_StreetLight" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Emissive_StreetLight_BaseColor"
+    "string normalmap" "textures/Emissive_StreetLight_Normal.png"
+
+# - Material 14: Spotlight_Glass_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Spotlight_Glass_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Spotlight_Glass_Emissive_BaseColor"
+    "string normalmap" "textures/Spotlight_Glass_Emissive_Normal.png"
+
+# - Material 15: LanternEmissive
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "LanternEmissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/LanternEmissive_BaseColor"
+    "string normalmap" "textures/LanternEmissive_Normal.png"
+
+# - Material 16: Trashcan
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Trashcan" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Trashcan_BaseColor"
+    "string normalmap" "textures/Trashcan_Normal.png"
+
+# - Material 17: Banner_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Banner_Metal" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Banner_Metal_BaseColor"
+    "string normalmap" "textures/Banner_Metal_Normal.png"
+
+# - Material 18: Spotlight_Main
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Spotlight_Main" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Spotlight_Main_BaseColor"
+    "string normalmap" "textures/Spotlight_Main_Normal.png"
+
+# - Material 19: Spotlight_Emissive
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Spotlight_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Spotlight_Emissive_BaseColor"
+    "string normalmap" "textures/Spotlight_Emissive_Normal.png"
+
+# - Material 20: Paris_TrafficSign_A
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_TrafficSign_A" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_TrafficSign_A_BaseColor"
+    "string normalmap" "textures/Paris_TrafficSign_A_Normal.png"
+
+# - Material 21: Paris_Table_Terrace
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_Table_Terrace" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_Table_Terrace_BaseColor"
+    "string normalmap" "textures/Paris_Table_Terrace_Normal.png"
+
+# - Material 22: Paris_StreetSign_01
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StreetSign_01" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StreetSign_01_BaseColor"
+    "string normalmap" "textures/Paris_StreetSign_01_Normal.png"
+
+# - Material 23: Paris_StreetPivot
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StreetPivot" "string type" "coateddiffuse"
+    "float roughness" [0.1]
+    "texture reflectance" "rgb:textures/Paris_StreetPivot_BaseColor"
+    "string normalmap" "textures/Paris_StreetPivot_Normal.png"
+
+# - Material 24: Streetlight_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Streetlight_Metal" "string type" "coateddiffuse"
+    "float roughness" [0.01]
+    "texture reflectance" "rgb:textures/Streetlight_Metal_BaseColor"
+    "string normalmap" "textures/Streetlight_Metal_Normal.png"
+
+# - Material 25: Paris_StringLights_01_White_Color
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_StringLights_01_White_Color" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_StringLights_01_White_Color_BaseColor"
+    "string normalmap" "textures/Paris_StringLights_01_White_Color_Normal.png"
+
+# - Material 26: Streetlight_Support_Bulb
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Streetlight_Support_Bulb" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Streetlight_Support_Bulb_BaseColor"
+    "string normalmap" "textures/Streetlight_Support_Bulb_Normal.png"
+
+# - Material 27: Streetlight_Chains
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Streetlight_Chains" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Streetlight_Chains_BaseColor"
+    "string normalmap" "textures/Streetlight_Chains_Normal.png"
+
+# - Material 28: Concrete3
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Concrete3" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Concrete3_BaseColor"
+    "string normalmap" "textures/Concrete3_Normal.png"
+
+# - Material 29: MASTER_Brick_Small_Red_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Brick_Small_Red_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Brick_Small_Red_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/MASTER_Brick_Small_Red_BLENDSHADER_Normal.png"
+
+# - Material 30: Pavement_Ground_Wet
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Ground_Wet" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Ground_Wet_BaseColor"
+    "string normalmap" "textures/Pavement_Ground_Wet_Normal.png"
+
+# - Material 31: Pavement_Cobble_Leaves_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Cobble_Leaves_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Cobble_Leaves_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/Pavement_Cobble_Leaves_BLENDSHADER_Normal.png"
+
+# - Material 32: Pavement_Cobblestone_01_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Cobblestone_01_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Cobblestone_01_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/Pavement_Cobblestone_01_BLENDSHADER_Normal.png"
+
+# - Material 33: Pavement_Cobblestone_Wet_Leaves_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Cobblestone_Wet_Leaves_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Cobblestone_Wet_Leaves_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/Pavement_Cobblestone_Wet_Leaves_BLENDSHADER_Normal.png"
+
+# - Material 34: Pavement_Cobblestone_Small_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Cobblestone_Small_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Cobblestone_Small_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/Pavement_Cobblestone_Small_BLENDSHADER_Normal.png"
+
+# - Material 35: Pavement_Cobblestone_Big_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Cobblestone_Big_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Cobblestone_Big_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/Pavement_Cobblestone_Big_BLENDSHADER_Normal.png"
+
+# - Material 36: Pavement_Brick_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Brick_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Brick_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/Pavement_Brick_BLENDSHADER_Normal.png"
+
+# - Material 37: Pavement_Cobblestone_02
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pavement_Cobblestone_02" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Pavement_Cobblestone_02_BaseColor"
+    "string normalmap" "textures/Pavement_Cobblestone_02_Normal.png"
+
+# - Material 38: Sidewalkbarrier
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Sidewalkbarrier" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Sidewalkbarrier_BaseColor"
+    "string normalmap" "textures/Sidewalkbarrier_Normal.png"
+
+# - Material 39: Shopsign_Pharmacy_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Shopsign_Pharmacy_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Shopsign_Pharmacy_Emissive_BaseColor"
+    "string normalmap" "textures/Shopsign_Pharmacy_Emissive_Normal.png"
+
+# - Material 40: Shopsign_Book_Store_Emissive
+#   - Number of Material Properties: 45
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Emissive: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Shopsign_Book_Store_Emissive" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Shopsign_Book_Store_Emissive_BaseColor"
+    "string normalmap" "textures/Shopsign_Book_Store_Emissive_Normal.png"
+
+# - Material 41: Antenna_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Antenna_Metal" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Antenna_Metal_BaseColor"
+    "string normalmap" "textures/Antenna_Metal_Normal.png"
+
+# - Material 42: Shopsign_Bakery
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Shopsign_Bakery" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Shopsign_Bakery_BaseColor"
+    "string normalmap" "textures/Shopsign_Bakery_Normal.png"
+
+# - Material 43: MASTER_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Metal" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Metal_BaseColor"
+    "string normalmap" "textures/MASTER_Metal_Normal.png"
+
+# - Material 44: Shopsign_Ties_Shop
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Shopsign_Ties_Shop" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Shopsign_Ties_Shop_BaseColor"
+    "string normalmap" "textures/Shopsign_Ties_Shop_Normal.png"
+
+# - Material 45: Plantpots
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Plantpots" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Plantpots_BaseColor"
+    "string normalmap" "textures/Plantpots_Normal.png"
+
+# - Material 46: NapkinHolder
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "NapkinHolder" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/NapkinHolder_BaseColor"
+    "string normalmap" "textures/NapkinHolder_Normal.png"
+
+# - Material 47: MenuSign_02_Mesh
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MenuSign_02_Mesh" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MenuSign_02_Mesh_BaseColor"
+    "string normalmap" "textures/MenuSign_02_Mesh_Normal.png"
+
+# - Material 48: MenuSign_02_Glass
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MenuSign_02_Glass" "string type" "dielectric"
+#    "float roughness" [0.5]
+    "texture tint" "rgb:textures/MenuSign_02_Glass_BaseColor"
+    "string normalmap" "textures/MenuSign_02_Glass_Normal.png"
+
+# - Material 49: MenuSign_01
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MenuSign_01" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MenuSign_01_BaseColor"
+    "string normalmap" "textures/MenuSign_01_Normal.png"
+
+# - Material 50: Balcony_Concrete
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Balcony_Concrete" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Balcony_Concrete_BaseColor"
+    "string normalmap" "textures/Balcony_Concrete_Normal.png"
+
+# - Material 51: Balcony_Trims
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Balcony_Trims" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Balcony_Trims_BaseColor"
+    "string normalmap" "textures/Balcony_Trims_Normal.png"
+
+# - Material 52: Balcony_Ornaments
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Balcony_Ornaments" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Balcony_Ornaments_BaseColor"
+    "string normalmap" "textures/Balcony_Ornaments_Normal.png"
+
+# - Material 53: Balcony_Green_Wood
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Balcony_Green_Wood" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Balcony_Green_Wood_BaseColor"
+    "string normalmap" "textures/Balcony_Green_Wood_Normal.png"
+
+# - Material 54: MASTER_Glass_Dirty_MASKED
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Glass_Dirty_MASKED" "string type" "dielectric"
+#    "float roughness" [0.5]
+    "texture tint" "rgb:textures/MASTER_Glass_Dirty_MASKED_BaseColor"
+    "string normalmap" "textures/MASTER_Glass_Dirty_MASKED_Normal.png"
+
+# - Material 55: Paris_LiquorBottle_01_Glass_Wine
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_LiquorBottle_01_Glass_Wine" "string type" "dielectric"
+#    "float roughness" [0.5]
+    "texture tint" "rgb:textures/Paris_LiquorBottle_01_Glass_Wine_BaseColor"
+    "string normalmap" "textures/Paris_LiquorBottle_01_Glass_Wine_Normal.png"
+
+# - Material 56: Paris_LiquorBottle_01_Caps
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_LiquorBottle_01_Caps" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_LiquorBottle_01_Caps_BaseColor"
+    "string normalmap" "textures/Paris_LiquorBottle_01_Caps_Normal.png"
+
+# - Material 57: Paris_LiquorBottle_01_Labels
+#   - Number of Material Properties: 33
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_LiquorBottle_01_Labels" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_LiquorBottle_01_Labels_BaseColor"
+    "string normalmap" "textures/Paris_LiquorBottle_01_Labels_Normal.png"
+
+# - Material 58: Foliage_Paris_Flowers
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Paris_Flowers" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Paris_Flowers_BaseColor"
+    "string normalmap" "textures/Foliage_Paris_Flowers_Normal.png"
+
+# - Material 59: Foliage_Flowers.DoubleSided
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Flowers.DoubleSided" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Flowers_BaseColor"
+    "string normalmap" "textures/Foliage_Flowers_Normal.png"
+
+# - Material 60: ElectricBox
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "ElectricBox" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/ElectricBox_BaseColor"
+    "string normalmap" "textures/ElectricBox_Normal.png"
+
+# - Material 61: Concrete
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Concrete" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Concrete_BaseColor"
+    "string normalmap" "textures/Concrete_Normal.png"
+
+# - Material 62: Concrete_Striped
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Concrete_Striped" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Concrete_Striped_BaseColor"
+    "string normalmap" "textures/Concrete_Striped_Normal.png"
+
+# - Material 63: Concrete2
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Concrete2" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Concrete2_BaseColor"
+    "string normalmap" "textures/Concrete2_Normal.png"
+
+# - Material 64: MASTER_Black_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Black_Metal" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Black_Metal_BaseColor"
+    "string normalmap" "textures/MASTER_Black_Metal_Normal.png"
+
+# - Material 65: Chimneys_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Chimneys_Metal" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Chimneys_Metal_BaseColor"
+    "string normalmap" "textures/Chimneys_Metal_Normal.png"
+
+# - Material 66: Plaster
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Plaster" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Plaster_BaseColor"
+    "string normalmap" "textures/Plaster_Normal.png"
+
+# - Material 67: Paris_Chair_01
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Paris_Chair_01" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Paris_Chair_01_BaseColor"
+    "string normalmap" "textures/Paris_Chair_01_Normal.png"
+
+# - Material 68: MASTER_Grain_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Grain_Metal" "string type" "coatedconductor"
+#    "float roughness" [0.5]
+#    "texture reflectance" "rgb:textures/MASTER_Grain_Metal_BaseColor"
+    "string normalmap" "textures/MASTER_Grain_Metal_Normal.png"
+    "float interface.roughness" [ 0.3 ]
+    "float conductor.roughness" [ 0.01 ]
+    "string type" [ "coatedconductor" ]
+    "spectrum conductor.eta" "metal-CuZn-eta"
+    "spectrum conductor.k" "metal-CuZn-k"
+    "float thickness" .5 "rgb albedo" [.5 .5 .5]
+
+# - Material 69: MASTER_Curtains
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Curtains" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Curtains_BaseColor"
+    "string normalmap" "textures/MASTER_Curtains_Normal.png"
+
+# - Material 70: MASTER_Concrete_Plaster
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete_Plaster" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_Plaster_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_Plaster_Normal.png"
+
+# - Material 71: MASTER_Roofing_Shingle_Grey
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Roofing_Shingle_Grey" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Roofing_Shingle_Grey_BaseColor"
+    "string normalmap" "textures/MASTER_Roofing_Shingle_Grey_Normal.png"
+
+# - Material 72: MASTER_Wood_Painted_Green
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Wood_Painted_Green" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Wood_Painted_Green_BaseColor"
+    "string normalmap" "textures/MASTER_Wood_Painted_Green_Normal.png"
+
+# - Material 73: MASTER_Room_Interior
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Room_Interior" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Room_Interior_BaseColor"
+    "string normalmap" "textures/MASTER_Room_Interior_Normal.png"
+
+# - Material 74: MASTER_Brick_Large_Beige_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Brick_Large_Beige_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Brick_Large_Beige_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/MASTER_Brick_Large_Beige_BLENDSHADER_Normal.png"
+
+# - Material 75: MASTER_Doors
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Doors" "string type" "coateddiffuse"
+    "float roughness" [0.1]
+    "texture reflectance" "rgb:textures/MASTER_Doors_BaseColor"
+    "string normalmap" "textures/MASTER_Doors_Normal.png"
+
+# - Material 76: MASTER_Concrete
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_Normal.png"
+
+# - Material 77: MASTER_Forge_Metal
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Forge_Metal" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Forge_Metal_BaseColor"
+    "string normalmap" "textures/MASTER_Forge_Metal_Normal.png"
+
+# - Material 78: MASTER_Wood_Brown
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Wood_Brown" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Wood_Brown_BaseColor"
+    "string normalmap" "textures/MASTER_Wood_Brown_Normal.png"
+
+# - Material 79: MASTER_Concrete_Grooved
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete_Grooved" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_Grooved_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_Grooved_Normal.png"
+
+# - Material 80: MASTER_Concrete_Smooth
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete_Smooth" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_Smooth_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_Smooth_Normal.png"
+
+# - Material 81: MASTER_Concrete_Plaster1_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete_Plaster1_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_Plaster1_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_Plaster1_BLENDSHADER_Normal.png"
+
+# - Material 82: MASTER_Plastic
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Plastic" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Plastic_BaseColor"
+    "string normalmap" "textures/MASTER_Plastic_Normal.png"
+
+# - Material 83: MASTER_Frosted_Glass
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Frosted_Glass" "string type" "dielectric"
+    "float roughness" [0.25]
+    "texture tint" "rgb:textures/MASTER_Frosted_Glass_BaseColor"
+    "string normalmap" "textures/MASTER_Frosted_Glass_Normal.png"
+
+# - Material 84: MASTER_Awning_Fabric_Red
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Awning_Fabric_Red" "string type" "coateddiffuse"
+    "float roughness" [0.05]
+    "texture reflectance" "rgb:textures/MASTER_Awning_Fabric_Red_BaseColor"
+    "string normalmap" "textures/MASTER_Awning_Fabric_Red_Normal.png"
+
+# - Material 85: MASTER_Boulangerie
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Boulangerie" "string type" "coateddiffuse"
+    "float roughness" [0.05]
+    "texture reflectance" "rgb:textures/MASTER_Boulangerie_BaseColor"
+    "string normalmap" "textures/MASTER_Boulangerie_Normal.png"
+
+# - Material 86: MASTER_Awning_Beams
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Awning_Beams" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Awning_Beams_BaseColor"
+    "string normalmap" "textures/MASTER_Awning_Beams_Normal.png"
+
+# - Material 87: MASTER_Roofing_Metal_01
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Roofing_Metal_01" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Roofing_Metal_01_BaseColor"
+    "string normalmap" "textures/MASTER_Roofing_Metal_01_Normal.png"
+
+# - Material 88: MASTER_Details_Dark
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Details_Dark" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Details_Dark_BaseColor"
+    "string normalmap" "textures/MASTER_Details_Dark_Normal.png"
+
+# - Material 89: MASTER_Rollup_Door
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Rollup_Door" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Rollup_Door_BaseColor"
+    "string normalmap" "textures/MASTER_Rollup_Door_Normal.png"
+
+# - Material 90: MASTER_Building_Details
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Building_Details" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Building_Details_BaseColor"
+    "string normalmap" "textures/MASTER_Building_Details_Normal.png"
+
+# - Material 91: MASTER_Wood_Painted_Cyan
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Wood_Painted_Cyan" "string type" "coateddiffuse"
+    "float roughness" [0.03]
+    "texture reflectance" "rgb:textures/MASTER_Wood_Painted_Cyan_BaseColor"
+    "string normalmap" "textures/MASTER_Wood_Painted_Cyan_Normal.png"
+
+# - Material 92: MASTER_Glass_Dirty
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Glass_Dirty" "string type" "dielectric"
+#    "float roughness" [0.5]
+    "texture tint" "rgb:textures/MASTER_Glass_Dirty_BaseColor"
+    "string normalmap" "textures/MASTER_Glass_Dirty_Normal.png"
+
+# - Material 93: MASTER_Awning_Fabric_Cyan
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Awning_Fabric_Cyan" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Awning_Fabric_Cyan_BaseColor"
+    "string normalmap" "textures/MASTER_Awning_Fabric_Cyan_Normal.png"
+
+# - Material 94: MASTER_Wood_Painted3
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Wood_Painted3" "string type" "coateddiffuse"
+    "float roughness" [0.03]
+    "texture reflectance" "rgb:textures/MASTER_Wood_Painted3_BaseColor"
+    "string normalmap" "textures/MASTER_Wood_Painted3_Normal.png"
+
+# - Material 95: MASTER_Bronze_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Bronze_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Bronze_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/MASTER_Bronze_BLENDSHADER_Normal.png"
+
+# - Material 96: MASTER_Wood_Painted_Green_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Wood_Painted_Green_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.05]
+    "texture reflectance" "rgb:textures/MASTER_Wood_Painted_Green_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/MASTER_Wood_Painted_Green_BLENDSHADER_Normal.png"
+
+# - Material 97: MASTER_Concrete_Smooth_BLENDSHADER
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete_Smooth_BLENDSHADER" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_Smooth_BLENDSHADER_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_Smooth_BLENDSHADER_Normal.png"
+
+# - Material 98: MASTER_Book_Covers
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Book_Covers" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Book_Covers_BaseColor"
+    "string normalmap" "textures/MASTER_Book_Covers_Normal.png"
+
+# - Material 99: MASTER_Concrete_White
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete_White" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_White_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_White_Normal.png"
+
+# - Material 100: MASTER_Brick_Small_Red
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Brick_Small_Red" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Brick_Small_Red_BaseColor"
+    "string normalmap" "textures/MASTER_Brick_Small_Red_Normal.png"
+
+# - Material 101: MASTER_Brick_Large_White
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Brick_Large_White" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Brick_Large_White_BaseColor"
+    "string normalmap" "textures/MASTER_Brick_Large_White_Normal.png"
+
+# - Material 102: MASTER_Light_Bulb
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Light_Bulb" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Light_Bulb_BaseColor"
+    "string normalmap" "textures/MASTER_Light_Bulb_Normal.png"
+
+# - Material 103: MASTER_Glass_Exterior
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Glass_Exterior" "string type" "dielectric"
+#    "float roughness" [0.5]
+    "texture tint" "rgb:textures/MASTER_Glass_Exterior_BaseColor"
+    "string normalmap" "textures/MASTER_Glass_Exterior_Normal.png"
+
+# - Material 104: MASTER_Side_Letters
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Side_Letters" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Side_Letters_BaseColor"
+    "string normalmap" "textures/MASTER_Side_Letters_Normal.png"
+
+# - Material 105: MASTER_Concrete1
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete1" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete1_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete1_Normal.png"
+
+# - Material 106: MASTER_Focus_Ornament
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Focus_Ornament" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Focus_Ornament_BaseColor"
+    "string normalmap" "textures/MASTER_Focus_Ornament_Normal.png"
+
+# - Material 107: MASTER_Metal_Pipe
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Metal_Pipe" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Metal_Pipe_BaseColor"
+    "string normalmap" "textures/MASTER_Metal_Pipe_Normal.png"
+
+# - Material 108: MASTER_Wood_Polished
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Wood_Polished" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Wood_Polished_BaseColor"
+    "string normalmap" "textures/MASTER_Wood_Polished_Normal.png"
+
+# - Material 109: MASTER_Concrete_Yellow
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Concrete_Yellow" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Concrete_Yellow_BaseColor"
+    "string normalmap" "textures/MASTER_Concrete_Yellow_Normal.png"
+
+# - Material 110: MASTER_Roofing_Shingle_Green
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Roofing_Shingle_Green" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Roofing_Shingle_Green_BaseColor"
+    "string normalmap" "textures/MASTER_Roofing_Shingle_Green_Normal.png"
+
+# - Material 111: MASTER_Trim_Cornice
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "MASTER_Trim_Cornice" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/MASTER_Trim_Cornice_BaseColor"
+    "string normalmap" "textures/MASTER_Trim_Cornice_Normal.png"
+
+# - Material 112: Bollards
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Bollards" 
+    "string normalmap" "textures/Bollards_Normal.png"
+    "float interface.roughness" [ 0.1 ]
+    "float conductor.roughness" [ 0.3 ]
+    "string type" [ "coatedconductor" ]
+    "spectrum conductor.eta" "metal-CuZn-eta"
+    "spectrum conductor.k" "metal-CuZn-k"
+    "float thickness" .6 "rgb albedo" [.5 .5 .5]
+
+
+# - Material 113: Bistro_Sign_Main
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Bistro_Sign_Main" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Bistro_Sign_Main_BaseColor"
+    "string normalmap" "textures/Bistro_Sign_Main_Normal.png"
+
+# - Material 114: Bistro_Sign_Letters
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Bistro_Sign_Letters" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Bistro_Sign_Letters_BaseColor"
+    "string normalmap" "textures/Bistro_Sign_Letters_Normal.png"
+
+# - Material 115: Awnings_Hotel_Fabric
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Awnings_Hotel_Fabric" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Awnings_Hotel_Fabric_BaseColor"
+    "string normalmap" "textures/Awnings_Hotel_Fabric_Normal.png"
+
+# - Material 116: Awnings_Fabric
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Awnings_Fabric" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Awnings_Fabric_BaseColor"
+    "string normalmap" "textures/Awnings_Fabric_Normal.png"
+
+# - Material 117: Awnings_Beams
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Awnings_Beams" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Awnings_Beams_BaseColor"
+    "string normalmap" "textures/Awnings_Beams_Normal.png"
+
+# - Material 118: Ashtray
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Ashtray" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Ashtray_BaseColor"
+    "string normalmap" "textures/Ashtray_Normal.png"
+
+# - Material 119: Antenna_Plastic_Blue
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Antenna_Plastic_Blue" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Antenna_Plastic_Blue_BaseColor"
+    "string normalmap" "textures/Antenna_Plastic_Blue_Normal.png"
+
+# - Material 120: Antenna_Plastic
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Antenna_Plastic" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Antenna_Plastic_BaseColor"
+    "string normalmap" "textures/Antenna_Plastic_Normal.png"
+
+# - Material 121: Foliage_Linde_Tree_Large_Trunk
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Linde_Tree_Large_Trunk" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Linde_Tree_Large_Trunk_BaseColor"
+    "string normalmap" "textures/Foliage_Linde_Tree_Large_Trunk_Normal.png"
+
+# - Material 122: Foliage_Linde_Tree_Large_Orange_Leaves.DoubleSided
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Linde_Tree_Large_Orange_Leaves.DoubleSided" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Linde_Tree_Large_Orange_Leaves_BaseColor"
+    "string normalmap" "textures/Foliage_Linde_Tree_Large_Orange_Leaves_Normal.png"
+
+# - Material 123: Foliage_Linde_Tree_Large_Green_Leaves.DoubleSided
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Linde_Tree_Large_Green_Leaves.DoubleSided" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Linde_Tree_Large_Green_Leaves_BaseColor"
+    "string normalmap" "textures/Foliage_Linde_Tree_Large_Green_Leaves_Normal.png"
+
+# - Material 124: Foliage_Ivy_branches
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Ivy_branches" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Ivy_branches_BaseColor"
+    "string normalmap" "textures/Foliage_Ivy_branches_Normal.png"
+
+# - Material 125: Foliage_Ivy_leaf_a.DoubleSided
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Ivy_leaf_a.DoubleSided" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Ivy_leaf_a_BaseColor"
+    "string normalmap" "textures/Foliage_Ivy_leaf_a_Normal.png"
+
+# - Material 126: Foliage_Bux_Hedges46.DoubleSided
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Bux_Hedges46.DoubleSided" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Bux_Hedges46_BaseColor"
+    "string normalmap" "textures/Foliage_Bux_Hedges46_Normal.png"
+
+# - Material 127: Vespa
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Vespa" "string type" "coateddiffuse"
+    "float roughness" [0.01]
+    "texture reflectance" "rgb:textures/Vespa_BaseColor"
+    "string normalmap" "textures/Vespa_Normal.png"
+
+# - Material 128: Vespa_Odometer
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Vespa_Odometer" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Vespa_Odometer_BaseColor"
+    "string normalmap" "textures/Vespa_Odometer_Normal.png"
+
+# - Material 129: Vespa_Odometer_Glass
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Vespa_Odometer_Glass" "string type" "dielectric"
+#    "float roughness" [0.5]
+    "texture tint" "rgb:textures/Vespa_Odometer_Glass_BaseColor"
+    "string normalmap" "textures/Vespa_Odometer_Glass_Normal.png"
+
+# - Material 130: Foliage_Leaves.DoubleSided
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Leaves.DoubleSided" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Leaves_BaseColor"
+    "string normalmap" "textures/Foliage_Leaves_Normal.png"
+
+# - Material 131: Foliage_Trunk
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Foliage_Trunk" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+    "texture reflectance" "rgb:textures/Foliage_Trunk_BaseColor"
+    "string normalmap" "textures/Foliage_Trunk_Normal.png"
+
+# - Material 132: Vespa_Headlight
+#   - Number of Material Properties: 39
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Vespa_Headlight" "string type" "coateddiffuse"
+    "float roughness" [0.5]
+#    "texture reflectance" "rgb:textures/Vespa_Headlight_BaseColor"
+#    "string normalmap" "textures/Vespa_Headlight_Normal.png"
+
