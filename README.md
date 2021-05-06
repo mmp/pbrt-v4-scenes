@@ -146,7 +146,7 @@ gallery](http://gl.ict.usc.edu/Data/HighResProbes/).
 The classic "killeroo" model, with a variety of materials and in a variety
 of settings.
 
-Thanks to [headus](http://www.headus.com/au)/Rezard for the model.
+Thanks to [headus](http://headus.com.au) for the model.
 
 ## Landscape
 
@@ -161,8 +161,10 @@ though only 24 million triangles need to be stored in memory. `view-0.pbrt`
 is the cover image of the third edition of the _Physically Based Rendering_
 book.
 
-Many thanks to Jan-Walter Schliep, Burak Kahraman, and Timm
-Dapper from [Laubwerk](http://www.laubwerk.com) for this amazing scene.
+Many thanks to Jan-Walter Schliep, Burak Kahraman, and Timm Dapper from
+[Laubwerk](http://www.laubwerk.com) for this amazing scene, which is
+licensed under a [CC-BY](https://creativecommons.org/licenses/by/4.0/)
+license.
 
 ## LTE Orb
 
