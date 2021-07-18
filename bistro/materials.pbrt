@@ -728,7 +728,7 @@ MakeNamedMaterial "MenuSign_02_Mesh" "string type" "coateddiffuse"
 #    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
 MakeNamedMaterial "MenuSign_02_Glass" "string type" "dielectric"
 #    "float roughness" [0.5]
-    "texture tint" "rgb:textures/MenuSign_02_Glass_BaseColor"
+#     "texture tint" "rgb:textures/MenuSign_02_Glass_BaseColor"
     "string normalmap" "textures/MenuSign_02_Glass_Normal.png"
 
 # - Material 49: MenuSign_01
@@ -782,7 +782,7 @@ MakeNamedMaterial "Balcony_Green_Wood" "string type" "coateddiffuse"
 #    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
 MakeNamedMaterial "MASTER_Glass_Dirty_MASKED" "string type" "dielectric"
 #    "float roughness" [0.5]
-    "texture tint" "rgb:textures/MASTER_Glass_Dirty_MASKED_BaseColor"
+#     "texture tint" "rgb:textures/MASTER_Glass_Dirty_MASKED_BaseColor"
     "string normalmap" "textures/MASTER_Glass_Dirty_MASKED_Normal.png"
 
 # - Material 55: Paris_LiquorBottle_01_Glass_Wine
@@ -791,7 +791,7 @@ MakeNamedMaterial "MASTER_Glass_Dirty_MASKED" "string type" "dielectric"
 #    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
 MakeNamedMaterial "Paris_LiquorBottle_01_Glass_Wine" "string type" "dielectric"
 #    "float roughness" [0.5]
-    "texture tint" "rgb:textures/Paris_LiquorBottle_01_Glass_Wine_BaseColor"
+#     "texture tint" "rgb:textures/Paris_LiquorBottle_01_Glass_Wine_BaseColor"
     "string normalmap" "textures/Paris_LiquorBottle_01_Glass_Wine_Normal.png"
 
 # - Material 56: Paris_LiquorBottle_01_Caps
@@ -1049,7 +1049,7 @@ MakeNamedMaterial "MASTER_Plastic" "string type" "coateddiffuse"
 #    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
 MakeNamedMaterial "MASTER_Frosted_Glass" "string type" "dielectric"
     "float roughness" [0.25]
-    "texture tint" "rgb:textures/MASTER_Frosted_Glass_BaseColor"
+#     "texture tint" "rgb:textures/MASTER_Frosted_Glass_BaseColor"
     "string normalmap" "textures/MASTER_Frosted_Glass_Normal.png"
 
 # - Material 84: MASTER_Awning_Fabric_Red
@@ -1130,7 +1130,7 @@ MakeNamedMaterial "MASTER_Wood_Painted_Cyan" "string type" "coateddiffuse"
 #    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
 MakeNamedMaterial "MASTER_Glass_Dirty" "string type" "dielectric"
 #    "float roughness" [0.5]
-    "texture tint" "rgb:textures/MASTER_Glass_Dirty_BaseColor"
+#     "texture tint" "rgb:textures/MASTER_Glass_Dirty_BaseColor"
     "string normalmap" "textures/MASTER_Glass_Dirty_Normal.png"
 
 # - Material 93: MASTER_Awning_Fabric_Cyan
@@ -1227,9 +1227,10 @@ MakeNamedMaterial "MASTER_Light_Bulb" "string type" "coateddiffuse"
 #   - Number of Material Properties: 39
 #   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Normals: 1 
 #    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
-MakeNamedMaterial "MASTER_Glass_Exterior" "string type" "dielectric"
-#    "float roughness" [0.5]
-    "texture tint" "rgb:textures/MASTER_Glass_Exterior_BaseColor"
+MakeNamedMaterial "MASTER_Glass_Exterior" "string type" "coatedconductor"
+#    "float interface.roughness" [0.02]
+    "float conductor.roughness" [0.5]
+     "texture reflectance" "rgb:textures/MASTER_Glass_Exterior_BaseColor"
     "string normalmap" "textures/MASTER_Glass_Exterior_Normal.png"
 
 # - Material 104: MASTER_Side_Letters
@@ -1468,7 +1469,7 @@ MakeNamedMaterial "Vespa_Odometer" "string type" "coateddiffuse"
 #    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
 MakeNamedMaterial "Vespa_Odometer_Glass" "string type" "dielectric"
 #    "float roughness" [0.5]
-    "texture tint" "rgb:textures/Vespa_Odometer_Glass_BaseColor"
+#     "texture tint" "rgb:textures/Vespa_Odometer_Glass_BaseColor"
     "string normalmap" "textures/Vespa_Odometer_Glass_Normal.png"
 
 # - Material 130: Foliage_Leaves.DoubleSided
