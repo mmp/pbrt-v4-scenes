@@ -144,7 +144,7 @@ Texture "Map #491" "float" "imagemap"
     "string filename" [ "textures/tela_mesa_cuadrada_alpah.png" ]
 MakeNamedMaterial "Tela Mesa D 2"
     "string type" [ "diffuse" ]
-    "float sigma" [ 10 ]
+    #"float sigma" [ 10 ]
     "texture reflectance" [ "Map #485" ]
 Texture "Map #484" "spectrum" "imagemap"
     "float uscale" [ 1 ]
@@ -157,5 +157,5 @@ Texture "Map #484" "spectrum" "imagemap"
     "string filename" [ "textures/tela_mesa_b.png" ]
 MakeNamedMaterial "Tela Mesa D"
     "string type" [ "diffuse" ]
-    "float sigma" [ 5 ]
+    #"float sigma" [ 5 ]
     "texture reflectance" [ "Map #484" ]
