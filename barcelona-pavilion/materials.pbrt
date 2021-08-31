@@ -48,7 +48,7 @@ MakeNamedMaterial "grass"
     "float roughness" [ 0.1 ]
 MakeNamedMaterial "caulk"
     "string type" [ "diffuse" ]
-    "float sigma" [ 20 ]
+#    "float sigma" [ 20 ]
     "rgb reflectance" [ 0.4 0.4 0.4 ]
 MakeNamedMaterial "leather_white"
     "string type" [ "measured" ]
@@ -111,7 +111,7 @@ MakeNamedMaterial "wax"
 # floating lanterns in water
 MakeNamedMaterial "white_mat"
     "string type" [ "diffuse" ]
-    "float sigma" [ 20 ]
+#    "float sigma" [ 20 ]
     "rgb reflectance" [ 0.6 0.6 0.6 ]
 Texture "wood" "spectrum" "imagemap"
     "string filename" [ "textures/wood.png" ]

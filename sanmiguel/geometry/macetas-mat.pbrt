@@ -80,7 +80,7 @@ MakeNamedMaterial "Maceta_A"
     "string type" [ "diffuse" ]
     "texture displacement" [ "MacetaA_BumpMap_bump" ]
     "texture reflectance" [ "Maceta_A_Diffuse" ]
-    "texture sigma" [ "Maceta_A_Rough_sigma" ]
+#    "texture sigma" [ "Maceta_A_Rough_sigma" ]
 Texture "Maceta_A2_Diffuse" "spectrum" "imagemap"
     "float uscale" [ 1 ]
     "float vscale" [ 1 ]
@@ -120,7 +120,7 @@ MakeNamedMaterial "Maceta_A2"
     "string type" [ "diffuse" ]
     "texture displacement" [ "Maceta_A2_Bump_bump" ]
     "texture reflectance" [ "Maceta_A2_Diffuse" ]
-    "texture sigma" [ "Maceta_A2_Rough_sigma" ]
+#    "texture sigma" [ "Maceta_A2_Rough_sigma" ]
 Texture "Maceta_B_Diffuse" "spectrum" "imagemap"
     "float uscale" [ 1 ]
     "float vscale" [ 1 ]
@@ -160,7 +160,7 @@ MakeNamedMaterial "Maceta_B"
     "string type" [ "diffuse" ]
     "texture displacement" [ "Maceta_B_Bump_bump" ]
     "texture reflectance" [ "Maceta_B_Diffuse" ]
-    "texture sigma" [ "Maceta_B_Rough_sigma" ]
+#    "texture sigma" [ "Maceta_B_Rough_sigma" ]
 Texture "Maceta_B2_Diffuse" "spectrum" "imagemap"
     "float uscale" [ 1 ]
     "float vscale" [ 1 ]
@@ -200,7 +200,7 @@ MakeNamedMaterial "Maceta_B2"
     "string type" [ "diffuse" ]
     "texture displacement" [ "Maceta_B2_Bump_bump" ]
     "texture reflectance" [ "Maceta_B2_Diffuse" ]
-    "texture sigma" [ "Maceta_B2_Rough_sigma" ]
+#    "texture sigma" [ "Maceta_B2_Rough_sigma" ]
 Texture "Maceta_C_Diffuse" "spectrum" "imagemap"
     "float uscale" [ 1 ]
     "float vscale" [ 1 ]
@@ -240,7 +240,7 @@ MakeNamedMaterial "Maceta_C"
     "string type" [ "diffuse" ]
     "texture displacement" [ "Maceta_C_Bump_bump" ]
     "texture reflectance" [ "Maceta_C_Diffuse" ]
-    "texture sigma" [ "Maceta_C_Rough_sigma" ]
+#    "texture sigma" [ "Maceta_C_Rough_sigma" ]
 Texture "Maceta_C2_Diffuse" "spectrum" "imagemap"
     "float uscale" [ 1 ]
     "float vscale" [ 1 ]
@@ -279,7 +279,7 @@ MakeNamedMaterial "Maceta_C2"
     "string type" [ "diffuse" ]
     "texture displacement" [ "Maceta_C2_Bump_bump" ]
     "texture reflectance" [ "Maceta_C2_Diffuse" ]
-    "texture sigma" [ "Maceta_C2_Rough_sigma" ]
+#    "texture sigma" [ "Maceta_C2_Rough_sigma" ]
 Texture "Maceta_D2_Diffuse" "spectrum" "imagemap"
     "float uscale" [ 1 ]
     "float vscale" [ 1 ]
@@ -317,4 +317,4 @@ MakeNamedMaterial "Maceta_D2"
     "string type" [ "diffuse" ]
     "texture displacement" [ "MacetaD_BumpMap_bump" ]
     "texture reflectance" [ "Maceta_D2_Diffuse" ]
-    "texture sigma" [ "Maceta_D2_Rough_sigma" ]
+#    "texture sigma" [ "Maceta_D2_Rough_sigma" ]
