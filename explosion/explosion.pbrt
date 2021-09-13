@@ -34,7 +34,7 @@ AttributeEnd
 
 AttributeBegin
 MediumInterface "kaboom" ""
-Material ""
+Material "interface"
 Translate 0 40 0
 Shape "sphere" "float radius" 80
 AttributeEnd

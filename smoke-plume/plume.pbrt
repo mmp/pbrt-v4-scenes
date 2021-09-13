@@ -42,7 +42,7 @@ Include "geometry/density_big_0084.pbrt"
 	"spectrum sigma_s" [300 160 830 160]
 
         MediumInterface "smoke" ""
-        Material ""
+        Material "interface"
         Shape "sphere" "float radius" 3
 AttributeEnd
 

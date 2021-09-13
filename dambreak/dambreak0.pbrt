@@ -104,9 +104,6 @@ AttributeBegin
     # Converted from "water0.obj" by obj2pbrt
     # Scene bounds: (1.805353, 1.117343, 1.977379) - (127.814362, 63.036682, 63.996017)
     # Name "initialShadingGroup"
-    MakeNamedMaterial ""
-        "string type" [ "diffuse" ]
-        "rgb reflectance" [ 0 0 0 ]
 
     AttributeBegin
         Shape "plymesh"
@@ -120,9 +117,6 @@ AttributeBegin
     # Converted from "backdrop.obj" by obj2pbrt
     # Scene bounds: (-368.511017, 0.030000, -219.573166) - (518.185120, 324.945526, 153.771759)
     # Name "backdrop:group2"
-    MakeNamedMaterial "-renamed-0"
-        "string type" [ "diffuse" ]
-        "rgb reflectance" [ 0 0 0 ]
 
     AttributeBegin
         Shape "plymesh"

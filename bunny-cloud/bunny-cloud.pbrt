@@ -32,7 +32,7 @@ AttributeEnd
 
 AttributeBegin
 MediumInterface "foo" ""
-Material ""
+Material "interface"
 Shape "sphere" "float radius" 45
 AttributeEnd
 

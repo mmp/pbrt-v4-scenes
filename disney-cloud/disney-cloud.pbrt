@@ -52,7 +52,7 @@ AttributeBegin
   AttributeBegin
     Translate -9.984 73.008 -42.64
     Scale 206.544 140.4 254.592
-    Material ""
+    Material "interface"
     MediumInterface "cloud" ""
       #Bounding sphere of a unit cube (of diameter equal to the cubic root of 3).
       Shape "sphere" "float radius" [1.44224957031]
