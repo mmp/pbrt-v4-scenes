@@ -35,6 +35,18 @@ Parisian street.  This model is via NVIDIA's [Open Research Content Archive
 licensed under a [CC-BY](https://creativecommons.org/licenses/by/4.0/)
 license.
 
+## BMW M6
+
+<img alt="BMW M6" src="images/bmw-m6/bmw-m6.png" height="400"/>
+
+[bmw-m6/](https://github.com/mmp/pbrt-v4-scenes/tree/master/bmw-m6/)
+
+This nice model of a BMW M6 automobile is thanks to *tyrant monkey* from
+[Blend Swap](https://www.blendswap.com/blend/2164).  [CC
+Zero](http://creativecommons.org/publicdomain/mark/1.0/) (Public Domain)
+license.
+
+
 ## Bunny Cloud
 
 <img alt="Bunny cloud" src="images/bunny-cloud/bunny-cloud.png" height="400"/>
@@ -52,7 +64,7 @@ repository](https://www.openvdb.org/download/).
 
 [contemporary-bathroom/](https://github.com/mmp/pbrt-v4-scenes/tree/master/contemporary-bathroom/)
 
-A model of a contemporary bathroom, courtesy of Mareck via [BlendSwap](https://www.blendswap.com/blend/13303). [CC Zero](http://creativecommons.org/publicdomain/mark/1.0/) (Public Domain) license.
+A model of a contemporary bathroom, courtesy of Mareck via [Blend Swap](https://www.blendswap.com/blend/13303). [CC Zero](http://creativecommons.org/publicdomain/mark/1.0/) (Public Domain) license.
 
 ## Crown
 

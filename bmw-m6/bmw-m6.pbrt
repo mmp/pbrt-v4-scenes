@@ -1,0 +1,846 @@
+Film "rgb"
+    "float iso" [ 100 ]
+    "string filename" [ "bmw-m6.exr" ]
+    "integer yresolution" [ 1000 ]
+    "integer xresolution" [ 1400 ]
+LookAt -11 0.8 5
+    -2 -0.5 0
+    0 1 0
+Camera "perspective"
+    "float fov" [ 30 ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 65536 ]
+
+Integrator "volpath"
+    "integer maxdepth" [ 8 ]
+    "bool regularize" true
+
+WorldBegin
+
+# Converted from "tyrant_monkey_bmw249.obj" by obj2pbrt
+# Scene bounds: (-23.973587, -1.432975, -28.291519) - (25.880672, 13.435121, 26.584051)
+AttributeBegin
+  Rotate 80 0 1 0
+  Rotate -90 1 0 0
+  LightSource "infinite"
+    "string filename" "textures/sunflowers_equiarea.exr"
+AttributeEnd
+MakeNamedMaterial "CarPaint"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.7 .7 .7 ]
+    "float roughness" [ 0 ]
+MakeNamedMaterial "HeadLight"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.64 0.64 0.64 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "HeadLightGlass"
+    "string type" [ "dielectric" ]
+MakeNamedMaterial "HeadLightGlass01"
+    "string type" [ "dielectric" ]
+MakeNamedMaterial "LEATHER-white"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ .8 .8 .8] "float roughness" .01
+MakeNamedMaterial "LEATHER-black"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.01 0.01 0.01 ]
+MakeNamedMaterial "LEATHER"
+    "string type" [ "mix" ]
+    "float amount" [ 0.2 ]
+    "string materials" [ "LEATHER-black" "LEATHER-white" ]
+MakeNamedMaterial "LightGlass"
+    "string type" [ "dielectric" ]
+MakeNamedMaterial "LogoAzure"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.157092 0.390301 0.641521 ]
+MakeNamedMaterial "LogoBlack"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.064 0.064 0.064 ]
+MakeNamedMaterial "LogoBlue"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.191944 0.515774 0.616524 ]
+MakeNamedMaterial "LogoRed"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.673442 0.105791 0.105791 ]
+MakeNamedMaterial "LogoSilver"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Al-eta" ]
+    "spectrum k" [ "metal-Al-k" ]
+MakeNamedMaterial "LogoWhite"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.773397 0.773397 0.773397 ]
+#        "float index" [ 1 ] 
+MakeNamedMaterial "None"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.8 0.8 0.8 ]
+    "float roughness" [ 0.1 ]
+MakeNamedMaterial "Seal"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.073077 0.072906 0.072906 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "WheelRim"
+    "string type" [ "coatedconductor" ]
+    "spectrum conductor.eta" [ "metal-Al-eta" ]
+    "spectrum conductor.k" [ "metal-Al-k" ]
+    "float conductor.roughness" .05
+    "float interface.roughness" 0
+MakeNamedMaterial "WindowSeal"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.030770008 0.029060025 0.029060025 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "WindscreenGlass"
+    "string type" [ "dielectric" ]
+MakeNamedMaterial "brakeDisc"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.594118 0.58856 0.58856 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "brake_clipper"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.492676 0.132439 0.132439 ]
+    "float roughness" [ 0.010408 ]
+MakeNamedMaterial "carbonfibre"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.034283 0.032314 0.032314 ]
+    "float vroughness" [ 0.01 ]
+    "float uroughness" [ 0.01 ]
+MakeNamedMaterial "floor"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.0442848 0.0442848 0.0442848 ]
+    "float vroughness" [ 0.010408 ]
+    "float uroughness" [ 0.010408 ]
+MakeNamedMaterial "grillmetal"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Al-eta" ]
+    "spectrum k" [ "metal-Al-k" ]
+MakeNamedMaterial "mattefloor"
+    "string type" [ "diffuse" ]
+    "rgb reflectance" [ 0.095488 0.071542 0.030397 ]
+MakeNamedMaterial "shinychrome"
+    "string type" [ "conductor" ]
+    "spectrum eta" [ "metal-Al-eta" ]
+    "spectrum k" [ "metal-Al-k" ]
+    "float roughness" .01
+#Texture "tiresidewall-bump" "float" "imagemap" 
+#        "string filename" [ "textures/wm_original_continental_sportcontact2_sitemap_original.jpg" ] 
+# Name "BMWHeadLightA.009_Cube.001"
+MakeNamedMaterial "tire"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.06394 0.06235 0.06235 ]
+    "float roughness" [ 0.10408 ]
+MakeNamedMaterial "tiresidewall"
+    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.06394 0.06235 0.06235 ]
+    "float roughness" [ 0.10408 ]
+
+AttributeBegin
+    NamedMaterial "LightGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00001.ply" ]
+AttributeEnd
+# Name "BMWSideMirrorA.004_Cube.130"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00002.ply" ]
+AttributeEnd
+# Name "BMWSideMirrorA.003_Cube.129"
+
+AttributeBegin
+    NamedMaterial "carbonfibre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00003.ply" ]
+AttributeEnd
+# Name "BMWSideMirrorA.002_Cube.128"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00004.ply" ]
+AttributeEnd
+# Name "BMWSideMirrorA.001_Cube.127"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00005.ply" ]
+AttributeEnd
+# Name "BMWSideMirrorA_Cube.028"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00006.ply" ]
+AttributeEnd
+# Name "BMWM3Logo.001_Cube.019"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00007.ply" ]
+AttributeEnd
+# Name "BMWM6LOGO.002_Cube.016"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00008.ply" ]
+AttributeEnd
+# Name "BMWWatersquirt_Cube.026"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00009.ply" ]
+AttributeEnd
+# Name "BMWHeadLightA.008_Cube.125"
+
+AttributeBegin
+    NamedMaterial "LightGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00010.ply" ]
+AttributeEnd
+# Name "BMWHeadLightA.007_Cube.124"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00011.ply" ]
+AttributeEnd
+# Name "BMWHeadLightA.006_Cube.123"
+
+AttributeBegin
+    #    AreaLightSource "diffuse" 
+    #            "rgb L" [ 0.841207981 0.841207981 0.841207981 ] 
+    NamedMaterial "HeadLight"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00012.ply" ]
+AttributeEnd
+# Name "BMWHeadLightA.004_Cube.006"
+
+AttributeBegin
+    NamedMaterial "None"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00013.ply" ]
+AttributeEnd
+# Name "BMWMirror_Cube.121"
+
+AttributeBegin
+    NamedMaterial "LEATHER"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00014.ply" ]
+AttributeEnd
+# Name "BMWRearBrakeDisc.L_Mesh.005"
+
+AttributeBegin
+    NamedMaterial "brakeDisc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00015.ply" ]
+AttributeEnd
+# Name "BWMFloor_Cube.119"
+
+AttributeBegin
+    NamedMaterial "mattefloor"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00016.ply" ]
+AttributeEnd
+# Name "BMWSeal_Cube.023"
+
+AttributeBegin
+    NamedMaterial "Seal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00017.ply" ]
+AttributeEnd
+# Name "BWMRearParkinglight_Cube.113"
+
+AttributeBegin
+    NamedMaterial "None"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00018.ply" ]
+AttributeEnd
+# Name "BWMRearBumper.002_Cube.112"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00019.ply" ]
+AttributeEnd
+# Name "BWMExhaust_Cube.111"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00020.ply" ]
+AttributeEnd
+# Name "BMWHeadLightA.003_Cube.110"
+
+AttributeBegin
+    #    AreaLightSource "diffuse" 
+    #            "rgb L" [ 0.841207981 0.841207981 0.841207981 ] 
+    NamedMaterial "HeadLight"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00021.ply" ]
+AttributeEnd
+# Name "Curve.008_Mesh.009"
+
+AttributeBegin
+    NamedMaterial "LogoBlack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00022.ply" ]
+    NamedMaterial "LogoBlue"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00023.ply" ]
+    NamedMaterial "LogoSilver"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00024.ply" ]
+    NamedMaterial "LogoWhite"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00025.ply" ]
+AttributeEnd
+# Name "BMWWheelLogoFW.L_Mesh.002"
+
+AttributeBegin
+    NamedMaterial "LogoBlack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00026.ply" ]
+    NamedMaterial "LogoBlue"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00027.ply" ]
+    NamedMaterial "LogoSilver"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00028.ply" ]
+    NamedMaterial "LogoWhite"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00029.ply" ]
+AttributeEnd
+# Name "BMWFender.006_Cube.107"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00030.ply" ]
+AttributeEnd
+# Name "BMWFender.005_Cube.106"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00031.ply" ]
+AttributeEnd
+# Name "BMWFrontbumper_Cube.105"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00032.ply" ]
+AttributeEnd
+# Name "BMWKidnerGrill2_Cube.014"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00033.ply" ]
+AttributeEnd
+# Name "BMWFrontTire.L_Circle.011"
+
+AttributeBegin
+    NamedMaterial "tiresidewall"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00034.ply" ]
+AttributeEnd
+# Name "BMWFrontTread.L_Plane.007"
+
+AttributeBegin
+    NamedMaterial "tire"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00035.ply" ]
+AttributeEnd
+# Name "BMWRearTread.L_Plane.003"
+
+AttributeBegin
+    NamedMaterial "tire"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00036.ply" ]
+AttributeEnd
+# Name "BMWLFrontTire.001_Circle.010"
+
+AttributeBegin
+    NamedMaterial "tiresidewall"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00037.ply" ]
+AttributeEnd
+# Name "BMWRearTire.R_Circle.005"
+
+AttributeBegin
+    NamedMaterial "tiresidewall"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00038.ply" ]
+AttributeEnd
+# Name "BMWRearTread.R_Plane"
+
+AttributeBegin
+    NamedMaterial "tire"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00039.ply" ]
+AttributeEnd
+# Name "BMWFrontRim.R_Circle.013"
+
+AttributeBegin
+    NamedMaterial "WheelRim"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00040.ply" ]
+AttributeEnd
+# Name "BMWRearRim.R_Circle.008"
+
+AttributeBegin
+    NamedMaterial "WheelRim"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00041.ply" ]
+AttributeEnd
+# Name "BMWFrontTread.R_Plane.011"
+
+AttributeBegin
+    NamedMaterial "tire"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00042.ply" ]
+AttributeEnd
+# Name "BMWFrontTire.R_Circle.014"
+
+AttributeBegin
+    NamedMaterial "tiresidewall"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00043.ply" ]
+AttributeEnd
+# Name "BMWFrontBrake.L_Circle.006"
+
+AttributeBegin
+    NamedMaterial "brake_clipper"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00044.ply" ]
+AttributeEnd
+# Name "BMWFronttirevalve.L_Circle.001"
+
+AttributeBegin
+    NamedMaterial "WheelRim"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00045.ply" ]
+AttributeEnd
+# Name "BMWM3Logo_Cube.101"
+
+AttributeBegin
+    NamedMaterial "LogoAzure"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00046.ply" ]
+    NamedMaterial "LogoBlack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00047.ply" ]
+    NamedMaterial "LogoBlue"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00048.ply" ]
+    NamedMaterial "LogoRed"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00049.ply" ]
+    NamedMaterial "LogoSilver"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00050.ply" ]
+AttributeEnd
+# Name "BWMRearBumper.001_Cube.027"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00051.ply" ]
+AttributeEnd
+# Name "Curve.004_Mesh.007"
+
+AttributeBegin
+    NamedMaterial "LogoBlack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00052.ply" ]
+    NamedMaterial "LogoBlue"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00053.ply" ]
+    NamedMaterial "LogoSilver"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00054.ply" ]
+    NamedMaterial "LogoWhite"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00055.ply" ]
+AttributeEnd
+# Name "BMWWheelLogoRW.L_Mesh.006"
+
+AttributeBegin
+    NamedMaterial "LogoBlack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00056.ply" ]
+    NamedMaterial "LogoBlue"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00057.ply" ]
+    NamedMaterial "LogoSilver"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00058.ply" ]
+    NamedMaterial "LogoWhite"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00059.ply" ]
+AttributeEnd
+# Name "BMWHoodLogo_Mesh.004"
+
+AttributeBegin
+    NamedMaterial "LogoBlack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00060.ply" ]
+    NamedMaterial "LogoBlue"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00061.ply" ]
+    NamedMaterial "LogoSilver"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00062.ply" ]
+    NamedMaterial "LogoWhite"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00063.ply" ]
+AttributeEnd
+# Name "BMWBootLogo_Mesh.001"
+
+AttributeBegin
+    NamedMaterial "LogoBlack"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00064.ply" ]
+    NamedMaterial "LogoBlue"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00065.ply" ]
+    NamedMaterial "LogoSilver"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00066.ply" ]
+    NamedMaterial "LogoWhite"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00067.ply" ]
+AttributeEnd
+# Name "BMWHood.001_Cube.098"
+
+AttributeBegin
+    NamedMaterial "None"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00068.ply" ]
+AttributeEnd
+# Name "BMWRoofLining_Cube.097"
+
+AttributeBegin
+    NamedMaterial "LEATHER"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00069.ply" ]
+AttributeEnd
+# Name "BMWRearDash_Cube.092"
+
+AttributeBegin
+    NamedMaterial "LEATHER"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00070.ply" ]
+AttributeEnd
+# Name "BMWDoor.001_Cube.090"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00071.ply" ]
+AttributeEnd
+# Name "BMWHeadLightCover.001_Cube.088"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00072.ply" ]
+AttributeEnd
+# Name "BMWHeadLightA.001_Cube.085"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00073.ply" ]
+AttributeEnd
+# Name "BMWRadiator_Cube.015"
+
+AttributeBegin
+    NamedMaterial "mattefloor"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00074.ply" ]
+AttributeEnd
+# Name "BMWMeshgrill_Cube.024"
+
+AttributeBegin
+    NamedMaterial "grillmetal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00075.ply" ]
+AttributeEnd
+# Name "BMWSideWindowSealB_Cube.074"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00076.ply" ]
+AttributeEnd
+# Name "BMWSideWindowSealC_Cube.073"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00077.ply" ]
+AttributeEnd
+# Name "BMWFender_Cube.071"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00078.ply" ]
+AttributeEnd
+# Name "BMWIndicator_Cube.103"
+
+AttributeBegin
+    NamedMaterial "HeadLightGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00079.ply" ]
+AttributeEnd
+# Name "BMWSidewindowSealA_Cube.069"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00080.ply" ]
+AttributeEnd
+# Name "BMWFlicenseholder_Cube.010"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00081.ply" ]
+AttributeEnd
+# Name "BMWAirDam_Cube.065"
+
+AttributeBegin
+    NamedMaterial "mattefloor"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00082.ply" ]
+AttributeEnd
+# Name "BMWBoot_Cube.057"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00083.ply" ]
+AttributeEnd
+# Name "BMWM6LOGO.001_Cube.100"
+
+AttributeBegin
+    NamedMaterial "None"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00084.ply" ]
+AttributeEnd
+# Name "BMWRearSeam_Cube.054"
+
+AttributeBegin
+    NamedMaterial "None"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00085.ply" ]
+AttributeEnd
+# Name "BMWHoodSeal_Cube.030"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00086.ply" ]
+AttributeEnd
+# Name "BMWSeamB_Cube.029"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00087.ply" ]
+AttributeEnd
+# Name "BMWSeamC_Cube.012"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00088.ply" ]
+AttributeEnd
+# Name "BMWFrontWheel.L_Circle.009"
+
+AttributeBegin
+    NamedMaterial "WheelRim"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00089.ply" ]
+AttributeEnd
+# Name "BMWRearRim.L_Circle"
+
+AttributeBegin
+    NamedMaterial "WheelRim"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00090.ply" ]
+AttributeEnd
+# Name "BMWFrontrim.L_Circle.002"
+
+AttributeBegin
+    NamedMaterial "WheelRim"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00091.ply" ]
+AttributeEnd
+# Name "BWMRearBumper_Cube.051"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00092.ply" ]
+AttributeEnd
+# Name "BMWHood_Cube.050"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00093.ply" ]
+AttributeEnd
+# Name "BMWSideskirting_Cube.044"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00094.ply" ]
+AttributeEnd
+# Name "BMWRearLight_Cube.032"
+
+AttributeBegin
+    NamedMaterial "HeadLightGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00095.ply" ]
+AttributeEnd
+# Name "BMWSideWindowB_Cube.009"
+
+AttributeBegin
+    NamedMaterial "WindscreenGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00096.ply" ]
+AttributeEnd
+# Name "BMWSideWindowA_Cube.004"
+
+AttributeBegin
+    NamedMaterial "WindscreenGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00097.ply" ]
+AttributeEnd
+# Name "BMWGlassSeamA_Cube.025"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00098.ply" ]
+AttributeEnd
+# Name "BMWWindscreenSeal_Cube.022"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00099.ply" ]
+AttributeEnd
+# Name "BMWWindScreen_Cube.021"
+
+AttributeBegin
+    NamedMaterial "WindscreenGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00100.ply" ]
+AttributeEnd
+# Name "BMWMirrorPlate_Cube.120"
+
+AttributeBegin
+    NamedMaterial "LEATHER"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00101.ply" ]
+AttributeEnd
+# Name "BMWGlassSeamB_Cube.018"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00102.ply" ]
+AttributeEnd
+# Name "BMWRoofSeal_Cube.013"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00103.ply" ]
+AttributeEnd
+# Name "BMWRoof_Cube.011"
+
+AttributeBegin
+    NamedMaterial "carbonfibre"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00104.ply" ]
+AttributeEnd
+# Name "BMWSideRearWindow_Cube.008"
+
+AttributeBegin
+    NamedMaterial "WindscreenGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00105.ply" ]
+AttributeEnd
+# Name "Plane_Plane.001"
+
+AttributeBegin
+    NamedMaterial "floor"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00106.ply" ]
+AttributeEnd
+# Name "BMWSteeringWheel_Torus"
+
+AttributeBegin
+    NamedMaterial "WindowSeal"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00107.ply" ]
+AttributeEnd
+# Name "BMWFrontSeats_Cube.005"
+
+AttributeBegin
+    NamedMaterial "LEATHER"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00108.ply" ]
+AttributeEnd
+# Name "BMWFrontBrakeDisc.L_Mesh"
+
+AttributeBegin
+    NamedMaterial "brakeDisc"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00109.ply" ]
+AttributeEnd
+# Name "BMWHeadLightCoverA_Cube.066"
+
+AttributeBegin
+    NamedMaterial "HeadLightGlass"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00110.ply" ]
+AttributeEnd
+# Name "BMWHeadLightCoverB_Cube.067"
+
+AttributeBegin
+    NamedMaterial "HeadLightGlass01"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00111.ply" ]
+AttributeEnd
+# Name "BMWDoor_Cube.091"
+
+AttributeBegin
+    NamedMaterial "CarPaint"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00112.ply" ]
+AttributeEnd
+# Name "BMWKidneyGrill_Cube.108"
+
+AttributeBegin
+    NamedMaterial "shinychrome"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00113.ply" ]
+AttributeEnd
+# Name "BMWDashBoard_Cube.002"
+
+AttributeBegin
+    NamedMaterial "LEATHER"
+    Shape "plymesh"
+        "string filename" [ "geometry/mesh_00114.ply" ]
+AttributeEnd
