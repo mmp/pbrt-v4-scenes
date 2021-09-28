@@ -1,7 +1,7 @@
 Sampler "halton"
     "integer pixelsamples" [ 1024 ]
 PixelFilter "gaussian"
-Film "rgb" "float iso" 200
+Film "rgb" "float iso" 400
     "string filename" [ "dragon_50.exr" ]
     "integer yresolution" [ 1024 ]
     "integer xresolution" [ 1366 ]
@@ -12,15 +12,11 @@ LookAt 3.69558 -3.46243 3.25463
 Camera "perspective"
     "float fov" [ 28.841503 ]
 
-
 WorldBegin
 
 
 AttributeBegin
-    ConcatTransform [ -0.224951 0 -0.97437 0 -0.97437 0 0.224951 0 0 1 0 8.87 0 0 0 1  ]
-    ConcatTransform [ 0 0 -1 0 1 0 0 0 0 1 0 0 0 0 0 1  ]
-    LightSource "infinite" "float scale" .3
-        "string filename" "textures/envmap.exr"
+    LightSource "infinite" "string filename" "textures/small_rural_road_equiarea.exr"
 AttributeEnd
 
 AttributeBegin
@@ -35,15 +31,9 @@ AttributeBegin
     Shape "plymesh"
         "string filename" [ "geometry/dragon.ply.gz" ]
 AttributeEnd
-Texture "checkers" "spectrum" "checkerboard"
-    "float uscale" [ 16 ]
-    "float vscale" [ 16 ]
-    "rgb tex2" [ 0.2 0.2 0.2 ]
-    "rgb tex1" [ 0.4 0.4 0.4 ]
 
 AttributeBegin
-    Material "diffuse"
-        "texture reflectance" [ "checkers" ]
+    Material "coateddiffuse" "float roughness" .2
     Shape "plymesh"
         "string filename" [ "geometry/meshes_0.ply" ]
 AttributeEnd
