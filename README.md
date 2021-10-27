@@ -46,7 +46,6 @@ This nice model of a BMW M6 automobile is thanks to *tyrant monkey* from
 Zero](http://creativecommons.org/publicdomain/mark/1.0/) (Public Domain)
 license.
 
-
 ## Bunny Cloud
 
 <img alt="Bunny cloud" src="images/bunny-cloud/bunny-cloud.png" height="400"/>
@@ -57,6 +56,17 @@ The classic Stanford bunny model, remade using volumetric media to give it
 a cloud-like appearance.  The bunny is stored in a NanoVDB volume that was
 converted from an OpenVDB volume from the [OpenVDB
 repository](https://www.openvdb.org/download/).
+
+## Bunny Fur
+
+<img alt="Bunny fur" src="images/bunny-fur/bunny-fur.png" height="400"/>
+
+[bunny-fur/](https://github.com/mmp/pbrt-v4-scenes/tree/master/bunny-fur/)
+
+The Stanford bunny model, now covered in fur that is modeled using pbrt's
+curve shape for its geometry and pbrt's hair BSDF for its reflection.  This
+scene is computationally challenging to render, requiring long light paths
+in difficult-to-intersect geometry.
 
 ## Contemporary Bathroom
 

@@ -1,0 +1,68 @@
+
+Film "rgb"
+    "float iso" [ 110 ]
+    "integer xresolution" [ 1200 ]
+    "integer yresolution" [ 900 ]
+    "string filename" "bunny-fur.exr"
+
+LookAt 0 2 5
+    .02 .47 0
+    0 1 0
+
+Camera "perspective"
+    "float fov" [ 18 ]
+
+Sampler "halton" "integer pixelsamples" 8192
+
+Integrator "volpath" "integer maxdepth" 20
+
+WorldBegin
+
+AttributeBegin
+Rotate -90 1 0 0
+LightSource "infinite" "string filename" "textures/abandoned_tank_farm_03_4k.exr"
+AttributeEnd
+
+# ground
+AttributeBegin
+Translate 0 0 -5
+Material "diffuse"
+    "rgb reflectance" [ 0.1 0.1 0.1 ]
+Shape "trianglemesh"
+    "point3 P" [ -10 0 -10 10 0 -10 10 0 10 -10 0 10 ]
+    "integer indices" [ 0 1 2 2 3 0 ]
+
+# backstop
+AttributeBegin
+  Translate 0 1 0
+  Shape "bilinearmesh" "point3 P" [ -10 0 -2   10 0 -2   -10 10 -2  10 10 -2]
+AttributeEnd
+AttributeBegin
+  Translate 0 1 -1
+  Rotate -90 1 0 0
+  Rotate 90 0 1 0
+  Shape "cylinder" "float radius" 1 "float phimax" 90 "float zmin" -10 "float zmax" 10
+AttributeEnd
+AttributeEnd
+
+
+AttributeBegin
+Translate .15 -.03 0
+Scale 7 7 7
+
+# bunny
+Material "diffuse"
+    "rgb reflectance" [ 0.35 0.31 0.3 ]
+Include "geometry/bunnymesh.pbrt"
+
+# fur
+Material "diffusetransmission"
+    "rgb reflectance" [ 0.5 0.5 0.5 ]
+    "rgb transmittance" [ 0.3 0.3 0.3 ]
+Material "hair"
+    "float beta_m" 0.5 " float beta_n" 0.5
+    "rgb color" [ 0.5 0.5 0.5 ]
+
+Include "geometry/bunny-fur-curves.pbrt.gz"
+
+AttributeEnd
