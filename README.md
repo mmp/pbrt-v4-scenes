@@ -145,6 +145,20 @@ million triangles, illuminated by a few area light sources.
 
 Model scanned by Wenzel Jakob.
 
+## Hair
+
+<img alt="Hair" src="images/hair/hair-actual-bsdf.png" height="400"/>
+
+[hair/](https://github.com/mmp/pbrt-v4-scenes/tree/master/hair/)
+
+Geometric hair models lit by an environment map, showing the effect of
+rendering using pbrt's `HairBxDF` scattering model with parameters that
+simulate various types of hair.
+
+Hair geometry courtesy of [Cem Yuksel](http://www.cemyuksel.com/);
+environment map thanks to [Sergej Majboroda via Poly
+Haven](https://polyhaven.com/a/sunflowers) (CC0 license).
+
 ## Head
 
 <img alt="Head" src="images/head/head.png" height="400"/>
@@ -156,8 +170,8 @@ subsurface scattering.
 
 Model thanks to Infinite Realities, Inc.,
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.  Environment
-map thanks to [USC-ICT light probe image
-gallery](http://gl.ict.usc.edu/Data/HighResProbes/).
+thanks to [Sergej Majboroda via Poly
+Haven](https://polyhaven.com/a/sunflowers) (CC0 license).
 
 ## Killeroos
 

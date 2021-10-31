@@ -1,0 +1,38 @@
+Integrator "volpath"
+    "integer maxdepth" [ 3 ]
+Transform [ -0.999887 0.00390257 0.0145262 -0 -0 0.965755 -0.259457 -0 0.0150413 0.259428 0.965645 -0 0.146624 -9.36998 28.765 1  ]
+Sampler "halton"
+    "integer pixelsamples" [ 4096 ]
+
+Film "rgb"
+    "float iso" [ 400 ]
+    "string filename" [ "hair-blonde-3-bounces.exr" ]
+    "integer yresolution" [ 1024 ]
+    "integer xresolution" [ 1024 ]
+    "float maxcomponentvalue" 50
+Camera "perspective"
+    "float fov" [ 32 ]
+    "float focaldistance" 21
+#    "float lensradius" .2
+#Camera "spherical" "string mapping" "equirectangular"
+
+WorldBegin
+
+AttributeBegin
+    Rotate -120 1 0 0
+    Rotate 120 0 0 1
+    LightSource "infinite"
+        "string filename" "textures/sunflowers_equiarea_blurred.exr"
+AttributeEnd
+
+Material "hair"  "float beta_m" 0.25 "float eumelanin" 0.2
+
+Include "geometry/curly-hair.pbrt.gz"
+
+
+AttributeBegin
+CoordSysTransform "camera"
+Material "diffuse" "rgb reflectance" [.1 .1 .1]
+Translate 0 2 25
+Shape "sphere"  "float radius" 3
+AttributeEnd
