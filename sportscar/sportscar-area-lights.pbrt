@@ -34,7 +34,7 @@ AttributeBegin
            0.07217014 -5.078359 0 
           -0.07217014 5.078359 0 
           0.07217014 5.078359 0  ]
-        "float alpha" [ 0 ]
+#        "float alpha" [ 0 ]
 AttributeEnd
 # ""
 
@@ -51,7 +51,7 @@ AttributeBegin
         0.07217014 -5.078359 0 
        -0.07217014 5.078359 0 
         0.07217014 5.078359 0  ]
-        "float alpha" [ 0 ]
+#        "float alpha" [ 0 ]
 AttributeEnd
 # ""
 
@@ -68,7 +68,7 @@ AttributeBegin
          0.07217014 -5.078359 0 
         -0.07217014 5.078359 0 
          0.07217014 5.078359 0  ]
-        "float alpha" [ 0 ]
+#        "float alpha" [ 0 ]
 AttributeEnd
 # ""
 
@@ -85,7 +85,7 @@ AttributeBegin
          0.07217014 -5.078359 0 
         -0.07217014 5.078359 0 
          0.07217014 5.078359 0  ]
-       "float alpha" [ 0 ]
+#       "float alpha" [ 0 ]
 AttributeEnd
 # ""
 
@@ -102,7 +102,7 @@ AttributeBegin
         0.07217014 -5.078359 0
        -0.07217014 5.078359 0
         0.07217014 5.078359 0 ]
-        "float alpha" [ 0 ]
+#        "float alpha" [ 0 ]
 AttributeEnd
 # ""
 
