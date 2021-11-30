@@ -2,7 +2,7 @@
 
 AttributeBegin
     #  "Plane.003"
-    Transform [ 4.98112822 0 0 0 0 15.005867 0 0 0 0 4.98112822 0 0.068977356 -0.0555419922 -0.00681811571 1  ]
+    ConcatTransform [ 4.98112822 0 0 0 0 15.005867 0 0 0 0 4.98112822 0 0.068977356 -0.0555419922 -0.00681811571 1  ]
     NamedMaterial "Material.001"
     #"bool generatetangents" ["false"]
     # ["Plane.003"]
@@ -12,7 +12,7 @@ AttributeEnd
 
 AttributeBegin
     #  "OSD_CarPoly"
-    Transform [ 1 0 0 0 0 0 1 0 0 -1 0 0 0 0 0 1  ]
+    ConcatTransform [ 1 0 0 0 0 0 1 0 0 -1 0 0 0 0 0 1  ]
 
     AttributeBegin
         #  ""
@@ -432,7 +432,7 @@ AttributeEnd
 
 AttributeBegin
     #  "CarHeadLightCover"
-    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
+    ConcatTransform [ 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1  ]
 
     AttributeBegin
         #  ""
