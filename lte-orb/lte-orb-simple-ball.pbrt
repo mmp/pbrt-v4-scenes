@@ -1,0 +1,33 @@
+Film "gbuffer"
+    "string filename" "lte-orb-simple-ball.exr"
+    "integer yresolution" [ 1200 ]
+    "integer xresolution" [ 1200 ]
+Scale -1 1 1
+LookAt 0.2 0.4 -0.5
+    0 0.1 0
+    0 1 0
+Camera "perspective"
+    "float fov" [ 37 ]
+
+Sampler "halton"
+    "integer pixelsamples" [ 1024 ]
+
+WorldBegin
+
+AttributeBegin
+  Rotate -90 1 0 0
+  LightSource "infinite" "string filename" "textures/small_rural_road_equiarea.exr"
+    "float scale" 1.4
+AttributeEnd
+
+ReverseOrientation
+
+MakeNamedMaterial "Material"
+    "string type" [ "measured" ]
+    "string filename" "bsdfs/cc_ibiza_sunset_spec.bsdf"
+#"string filename" "aniso_metallic_paper_copper_spec.bsdf"
+#"string filename" "aniso_sari_silk_2color_spec.bsdf"
+# "string filename" "aniso_morpho_melenaus_spec.bsdf"
+
+Include "geometry/geometry-simple.pbrt"
+

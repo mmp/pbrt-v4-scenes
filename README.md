@@ -205,12 +205,14 @@ license.
 ## LTE Orb
 
 <img alt="Measured blue vinyl wrap" src="images/lte-orb/lte-orb-blue-agat-spec.png" height="400"/>
+<img alt="" src="images/lte-orb/lte-orb-simple-ball.png" height="400"/>
 
 [lte-orb/](https://github.com/mmp/pbrt-v4-scenes/tree/master/lte-orb/)
 
 Spherical orb with an inset spherical object. The
 geometric structure of the shapes involved provides a useful tool for
-visualizing the appearance of various materials.
+visualizing the appearance of various materials.  (A simplified version of
+the scene without the light transport equation is also available.)
 
 Thanks to Yasutoshi Mori (@MirageYM) for this model;
 [CC-BY](https://creativecommons.org/licenses/by/2.0/) license.
