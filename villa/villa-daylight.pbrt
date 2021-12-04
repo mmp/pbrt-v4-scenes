@@ -1,0 +1,27 @@
+Scale -1 1 1
+LookAt 10.2391167 5.01395178 3.75999999
+        11.2326469 5.17000008 3.75999999
+        0 0 1
+Camera "perspective" "float fov" [ 48 ] 
+
+Film "rgb" "integer xresolution" [ 1800 ] 
+    "integer yresolution" [ 870 ] 
+    "float maxcomponentvalue" [ 25 ]
+    "float iso" 200
+    "string filename" "villa-daylight.exr"
+
+Integrator "volpath" "integer maxdepth" 10
+
+Sampler "halton" "integer pixelsamples" [ 4096 ] 
+
+WorldBegin
+
+AttributeBegin
+   Rotate -170 0 0 1
+    Rotate -6 1 .2 0
+    LightSource "infinite" "float scale" [ 36 ] 
+        "string filename" [ "textures/sky.exr" ] 
+AttributeEnd
+
+Include "materials.pbrt"
+Include "geometry.pbrt"

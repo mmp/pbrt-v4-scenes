@@ -12,14 +12,25 @@ Film "rgb"
     "float iso" [ 160 ]
     "integer yresolution" [ 444 ]
     "integer xresolution" [ 1000 ]
-Sampler "sobol"
+    "float whitebalance" 5000
+Sampler "halton"
     "integer pixelsamples" [ 1024 ]
 
 
 WorldBegin
 
+# night sky
+LightSource "infinite" "float scale" .01 "blackbody L" 8000
+
+# fill behind camera
+AttributeBegin
+CoordSysTransform "camera"
+AreaLightSource "diffuse" "blackbody L" 5000 "float scale" 2
+Translate 0 0 -1
+Shape "disk" "float radius" 4
+AttributeEnd
+
 # metal lamp
-# kitchen counter
 LightSource "spot"
     "float scale" [30]
     "blackbody I" [ 4000 ]
@@ -27,29 +38,36 @@ LightSource "spot"
     "point3 from" [ 16.801588 8.158092 4.187272 ]
     "float conedeltaangle" [ 20 ]
     "float coneangle" [ 50 ]
-# table
+
+# kitchen counter
 LightSource "spot"
     "blackbody I" [ 4000 ]
     "point3 to" [ 21.276855 7.200419 2.96 ]
     "point3 from" [ 21.276855 7.200419 3.96 ]
     "float coneangle" [ 60 ]
+    "float scale" 2
 LightSource "spot"
     "blackbody I" [ 4000 ]
     "point3 to" [ 22.116617 7.185427 2.96 ]
     "point3 from" [ 22.116617 7.185427 3.96 ]
     "float coneangle" [ 60 ]
+    "float scale" 2
 LightSource "spot"
     "blackbody I" [ 4000 ]
     "point3 to" [ 23.0586 7.186698 2.96 ]
     "point3 from" [ 23.0586 7.186698 3.96 ]
     "float coneangle" [ 60 ]
-Include "materials.pbrt"
-Include "geometry.pbrt"
+    "float scale" 2
+
+# above table
 LightSource "point"
-    "float scale" [10]
+    "float scale" [2]
     "blackbody I" [ 4000 ]
     "point3 from" [ 23.565807 2.462955 4.35 ]
 LightSource "point"
-    "float scale" [10]
+    "float scale" [2]
     "blackbody I" [ 4000 ]
     "point3 from" [ 21.317902 2.461441 4.35 ]
+
+Include "materials.pbrt"
+Include "geometry.pbrt"

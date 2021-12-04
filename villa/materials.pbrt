@@ -605,12 +605,10 @@ Texture "TapisCuisine::Kd" "spectrum" "imagemap"
 Texture "TapisCuisine::Kd.scale" "spectrum" "scale"
     "float scale" [ 0.8 ]
     "texture tex" [ "TapisCuisine::Kd" ]
-#   "string type" ["measured"] "string filename" "brdfs/white-acrylic.binary"
 # Material 'LaqueBlanche.004'
 MakeNamedMaterial "TapisCuisine"
-    "string type" [ "coateddiffuse" ] "float roughness" .01
+    "string type" [ "coateddiffuse" ] "float roughness" .3
     "texture reflectance" [ "TapisCuisine::Kd.scale" ]
-#   "string type" ["measured"] "string filename" "brdfs/white-acrylic.binary"
 # Material 'LaqueBlanche.005'
 MakeNamedMaterial "LaqueBlanche.001"
     "string type" [ "coateddiffuse" ] "float roughness" .01
