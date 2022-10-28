@@ -7,8 +7,10 @@ Sampler "halton"
     "integer pixelsamples" [ 512 ]
 Film "rgb"
     "string filename" [ "view-1.exr" ]
-    "integer yresolution" [ 1080 ]
-    "integer xresolution" [ 1920 ]
+    "integer yresolution" [ 2160 ]
+    "integer xresolution" [ 3840 ]
+    "float iso" 200
+    "float whitebalance" 9000
 
 
 WorldBegin
