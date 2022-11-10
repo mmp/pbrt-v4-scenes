@@ -29,7 +29,7 @@ Rotate 90 1 0 0
 MakeNamedMedium "kaboom" "string type" "nanovdb"
    "string filename" "fire.nvdb"
    "spectrum sigma_s" [200 10 900 10] "spectrum sigma_a" [200 10 900 10]
-   "float LeScale" 5  "float temperaturecutoff" 1 "float temperaturescale" 100
+   "float temperaturecutoff" 1 "float temperaturescale" 100
 AttributeEnd
 
 AttributeBegin
