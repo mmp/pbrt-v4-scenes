@@ -1,0 +1,2502 @@
+###################
+# Textures
+
+#Texture "grid" "spectrum" "imagemap"
+#    "string filename" "../../grid.exr"
+
+AttributeBegin
+Identity
+Translate 38.9952 10.1927 -183.041
+Rotate 90 1 0 0
+Scale 1 1 -19
+Texture "drippy-lower-right" "float" "imagemap"
+    "string filename" "textures/Spot_tin_i04042021.png"
+#    "string filename" "../../grid.exr"
+    "string mapping" "cylindrical"
+AttributeEnd
+
+AttributeBegin
+Identity
+Translate -3.03061 85.3559 -150.711
+Rotate 90 1 0 0
+Scale 1 1 -19
+Texture "drippy-upper-left" "float" "imagemap"
+    "string filename" "textures/Spot_tin_i04042021.png"
+#    "string filename" "../../grid.exr"
+    "string mapping" "cylindrical"
+AttributeEnd
+
+AttributeBegin
+Identity
+Translate 169.74 81 38.6
+Scale 1 1 20
+Texture "case gold tarnish" "float" "imagemap"
+    "string filename" [ "textures/Metal_1_Base_Color_i04042021-crop.png" ]
+    "string mapping" "cylindrical"
+AttributeEnd
+
+#Texture "rgb:textures/BG_i04042021" "spectrum" "imagemap"
+#    "string filename" [ "textures/BG_i04042021.png" ]
+Texture "rgb:textures/Dirt_08_i0404201" "spectrum" "imagemap"
+    "string filename" [ "textures/Dirt_08_i0404201.png" ] #"float scale" .1
+Texture "alpha:textures/Dirt_08_i0404201.png" "float" "imagemap" "float scale" .05
+    "string filename" [ "textures/Dirt_08_i0404201.png" ]
+Texture "rgb:textures/Concrete_2_Base_Color_i04042021" "spectrum" "imagemap" "float scale" .9
+    "string filename" [ "textures/Concrete_2_Base_Color_i04042021.png" ]
+Texture "float:textures/Concrete_2_Roughness_i04042021" "float" "imagemap" "float scale" .2
+    "string filename" [ "textures/Concrete_2_Roughness_i04042021.png" ]
+Texture "float:textures/Concrete_2_Ambient_Occlusion_i04042021" "float" "imagemap"
+    "string filename" [ "textures/Concrete_2_Ambient_Occlusion_i04042021.png" ]
+Texture "rgb:textures/Wood_Window_i04042021" "spectrum" "imagemap" "float uscale" 2 "float vscale" 2
+    "string filename" [ "textures/Wood_Window_i04042021.png" ]
+Texture "float:textures/Wood_Window_Glossiness_i04042021_Roughness" "float" "imagemap"
+    "string filename" [ "textures/Wood_Window_Glossiness_i04042021.png" ]
+    "bool invert" [ true ]
+Texture "rgb:textures/Paper_01_Diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Paper_01_Diffuse_i04042021.png" ]
+Texture "rgb:textures/Paper_9_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Paper_9_i04042021.png" ]
+Texture "rgb:textures/Poster_2_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Poster_2_i04042021.png" ]
+Texture "rgb:textures/Poster_4_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Poster_4_i04042021.png" ]
+Texture "rgb:textures/Paper_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Paper_i04042021.png" ]
+Texture "rgb:textures/Wood_Elements_V03_Diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_Elements_V03_Diffuse_i04042021.png" ]
+Texture "float:textures/Wood_Elements_V03_Glossiness_i04042021_Roughness" "float" "imagemap"
+    "string filename" [ "textures/Wood_Elements_V03_Glossiness_i04042021.png" ]
+    "bool invert" [ true ]
+Texture "rgb:textures/Book_62_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_62_i04042021.png" ]
+Texture "rgb:textures/SidePages_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/SidePages_i04042021.png" ]
+Texture "rgb:textures/Koala_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Koala_i04042021.png" ]
+Texture "rgb:textures/Artisan_Champagne_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Artisan_Champagne_i04042021.png" ]
+Texture "rgb:textures/Artisan_Peach_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Artisan_Peach_i04042021.png" ]
+Texture "rgb:textures/White_Linen_Paper_Texture_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/White_Linen_Paper_Texture_i04042021.png" ]
+Texture "alpha:textures/White_Linen_Paper_Texture_i04042021.png" "float" "imagemap"
+    "string filename" [ "textures/White_Linen_Paper_Texture_i04042021.png" ]
+Texture "rgb:textures/Rope_diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Rope_diffuse_i04042021.png" ]
+Texture "rgb:textures/Dirt_20_i0404201" "spectrum" "imagemap" "float scale" .15
+    "string filename" [ "textures/Dirt_20_i0404201.png" ]
+AttributeBegin
+Texture "rgb:textures/Dirt_20_i0404201-folder" "spectrum" "imagemap" "float scale" .15
+    "string filename" [ "textures/Dirt_20_i0404201.png" ]
+    "string mapping" "planar"
+    "vector3 v1" [ -0.004659 0.000000 0.012332 ] "float udelta" -0.313237
+    "vector3 v2" [ -0.015621 0.000000 -0.005481 ] "float vdelta" -1.612223
+AttributeEnd
+
+Texture "alpha:textures/Dirt_20_i0404201.png" "float" "imagemap"
+    "string filename" [ "textures/Dirt_20_i0404201.png" ]
+Texture "rgb:textures/Wicker_Diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wicker_Diffuse_i04042021.png" ]
+Texture "rgb:textures/Metal_Base_Color_i04042021" "spectrum" "imagemap" "float scale" .1
+    "string filename" [ "textures/Metal_Base_Color_i04042021.png" ]
+Texture "float:textures/Metal_Roughness_i04042021_Roughness" "float" "imagemap" "float scale" .1
+    "string filename" [ "textures/Metal_Base_Color_i04042021.png" ]
+Texture "float:textures/Metal_Roughness_i04042021_Thickness" "float" "imagemap" "float scale" 10
+    "string filename" [ "textures/Metal_Base_Color_i04042021.png" ]
+#    "string filename" [ "textures/Metal_Roughness_i04042021.png" ]
+#    "bool invert" [ true ]
+Texture "rgb:textures/Metal024_4K_Color_i04042021" "spectrum" "imagemap" "float scale" 1.5
+    "string filename" [ "textures/Metal024_4K_Color_i04042021.png" ]
+Texture "rgb:textures/Page_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Page_i04042021.png" ]
+Texture "rgb:textures/Wood034_2K_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood034_2K_Color_i04042021.png" ]
+Texture "rgb:textures/Grembiule_D_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Grembiule_D_i04042021.png" ]
+
+Texture "float:textures/Leather_black_Base_Color_i04042021" "float" "imagemap" "float scale" .1
+    "string filename" [ "textures/Leather_black_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Leather_black_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Leather_black_Base_Color_i04042021.png" ]
+
+Texture "alpha:textures/Leather_black_Base_Color_i04042021.png" "float" "imagemap"
+    "string filename" [ "textures/Leather_black_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Wood_Table_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_Table_i04042021.png" ]
+
+AttributeBegin
+Identity
+Translate -178.966 67.3505 -69.5481
+Rotate 90 1 0 0
+Scale 1 1 14
+Texture "rgb:textures/Wood_Table_i04042021-cyl" "spectrum" "imagemap" "float scale" 3
+    "string filename" [ "textures/Wood_Table_i04042021.png" ]
+    "string mapping" "cylindrical"
+AttributeEnd
+
+
+Texture "rgb:textures/Drawing_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Drawing_i04042021.png" ] "float udelta" .55 "float vdelta" .5 "float vscale" 0.5 "float uscale" .825
+Texture "rgb:textures/Canvas_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Canvas_i04042021.png" ] "float uscale" 2 "float vscale" 2
+Texture "alpha:textures/Canvas_i04042021.png" "float" "imagemap"
+    "string filename" [ "textures/Canvas_i04042021.png" ]
+Texture "float:textures/Canvas_i04042021" "float" "imagemap" "float uscale" 2 "float vscale" 2
+    "string filename" [ "textures/Canvas_i04042021.png" ]
+Texture "rgb:textures/Wood_plank_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_plank_i04042021.png" ]
+Texture "rgb:textures/Wood_01_2K_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_01_2K_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Postit-1_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Postit-1_i04042021.png" ]
+Texture "rgb:textures/Postit-2_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Postit-2_i04042021.png" ]
+Texture "rgb:textures/Postit-3_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Postit-3_i04042021.png" ]
+Texture "rgb:textures/Postit-4_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Postit-4_i04042021.png" ]
+Texture "rgb:textures/Postit-5_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Postit-5_i04042021.png" ]
+Texture "rgb:textures/Marker_2_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Marker_2_i04042021.png" ]
+AttributeBegin
+Identity
+    Transform [ 0.89607 -0.443913 -3.72529e-8 0 0.443913 0.89607 2.04891e-7 0 -5.96046e-8 -1.97223e-7 1 0 178.879 98.4034 3.64689 1  ]
+Translate 0 0.22 0 
+Rotate 90 0 1 0
+Rotate 90 1 0 0
+Scale 1 1 -20
+Texture "rgb:textures/Marker_2_i04042021-bag" "spectrum" "imagemap"
+    "string filename" [ "textures/Marker_2_i04042021.png" ]
+#    "string filename" [ "../../grid.exr" ]
+    "string mapping" "cylindrical"
+AttributeEnd
+
+AttributeBegin
+Identity
+    Transform [ -0.959825 -0.324921 -0.804334 0 -0.154892 1.24449 -0.31789 0 0.853542 -0.139543 -0.962176 0 148.059 80.7202 8.53974 1  ]
+Translate 0 0.22 0 
+Rotate 90 0 1 0
+Rotate 90 1 0 0
+Scale 1 1 -20
+Texture "rgb:watercupbrush" "spectrum" "imagemap" "float scale" 2
+    "string filename" [ "textures/Brush_wood_02_i04042021.png" ]
+    "string mapping" "cylindrical"
+AttributeEnd
+
+
+Texture "rgb:textures/Wood_87_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_87_i04042021.png" ]
+Texture "rgb:textures/Scratches_Overlay_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Scratches_Overlay_i04042021.png" ]
+Texture "float:textures/Scratches_Overlay_i04042021" "float" "imagemap" "float scale" .2
+    "string filename" [ "textures/Scratches_Overlay_i04042021.png" ]
+Texture "rgb:textures/Leather_D_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Leather_D_i04042021.png" ]
+Texture "rgb:textures/Book_51_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_51_i04042021.png" ]
+Texture "rgb:textures/Book_53_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_53_i04042021.png" ]
+Texture "rgb:textures/Wood_Elements_V01_Diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_Elements_V01_Diffuse_i04042021.png" ]
+Texture "float:textures/Wood_Elements_V01_Glossiness_i04042021_Roughness" "float" "imagemap"
+    "string filename" [ "textures/Wood_Elements_V01_Glossiness_i04042021.png" ]
+    "bool invert" [ true ]
+Texture "rgb:textures/Statuette_Clay_Diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Statuette_Clay_Diffuse_i04042021.png" ]
+Texture "float:textures/Statuette_Clay_Displacement_i04042021" "float" "imagemap" 
+    "string filename" [ "textures/Statuette_Clay_Displacement_i04042021.png" ]
+Texture "rgb:textures/Dirt_19_i0404201" "spectrum" "imagemap"
+    "string filename" [ "textures/Dirt_19_i0404201.png" ]
+Texture "rgb:textures/Dirt_19_i0404201-scaled" "spectrum" "imagemap" "float scale" .15
+    "string filename" [ "textures/Dirt_19_i0404201.png" ]
+Texture "alpha:textures/Dirt_19_i0404201.png" "float" "imagemap"
+    "string filename" [ "textures/Dirt_19_i0404201.png" ]
+Texture "float:textures/Carpet_4_i04042021-scaled" "float" "imagemap" "float scale" -.75
+    "string filename" [ "textures/Carpet_4_BaseColor_i04042021.png" ]
+Texture "rgb:textures/Carpet_4_BaseColor_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Carpet_4_BaseColor_i04042021.png" ]
+Texture "float:textures/Carpet_4_AO_i04042021" "float" "imagemap"
+    "string filename" [ "textures/Carpet_4_AO_i04042021.png" ]
+Texture "rgb:textures/Book_39_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_39_i04042021.png" ]
+Texture "rgb:textures/Book_pages_02_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_pages_02_i04042021.png" ]
+Texture "rgb:textures/Book_35_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_35_i04042021.png" ]
+Texture "rgb:textures/Book_36_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_36_i04042021.png" ]
+Texture "float:textures/Dirt_19_i0404201_Roughness" "float" "imagemap" "float scale" .025
+    "string filename" [ "textures/Dirt_19_i0404201.png" ]
+#    "bool invert" [ true ]
+Texture "rgb:textures/Color_4_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Color_4_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Rosso_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Rosso_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Wood_46_D_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_46_D_i04042021.png" ]
+
+AttributeBegin
+Identity
+Translate 104.163 86 -0.509259
+Rotate 90 1 0 0
+Scale 1 1 14
+Texture "rgb:textures/Wood_BaseColor_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_BaseColor_i04042021.png" ]
+    "string mapping" "cylindrical"
+AttributeEnd
+
+Texture "rgb:textures/Color_3_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Color_3_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Colore_Rosso_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Colore_Rosso_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Paint_6_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Paint_6_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Paint_5_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Paint_5_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Color_2_Base_Color_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Color_2_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Leaves_Albedo_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Leaves_Albedo_i04042021.png" ]
+Texture "float:textures/Leaves_Alpha_i04042021" "float" "imagemap"
+    "string filename" [ "textures/Leaves_Alpha_i04042021.png" ]
+Texture "rgb:textures/Branches_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Branches_i04042021.png" ]
+Texture "rgb:textures/Pen_diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Pen_diffuse_i04042021.png" ]
+Texture "rgb:textures/Pen_02_i04042021" "spectrum" "imagemap" "float udelta" -.07
+    "string filename" [ "textures/Pen_02_i04042021.png" ]
+Texture "rgb:textures/Pen_05_i04042021" "spectrum" "imagemap" "float udelta" -.07
+    "string filename" [ "textures/Pen_05_i04042021.png" ]
+Texture "rgb:textures/Pen_03_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Pen_03_i04042021.png" ]
+Texture "rgb:textures/Piper_D_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Piper_D_i04042021.png" ]
+Texture "rgb:textures/Paper_2_i04042021" "spectrum" "imagemap" "float scale" .8
+    "string filename" [ "textures/Paper_2_i04042021.png" ]
+Texture "rgb:textures/Paper_1_1_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Paper_1_1_i04042021.png" ]
+Texture "rgb:textures/Fabric_Rag_02_D_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Fabric_Rag_02_D_i04042021.png" ]
+Texture "float:textures/Fabric_Rag_02_D_i04042021" "float" "imagemap" "float scale" .7
+    "string filename" [ "textures/Fabric_Rag_02_D_i04042021.png" ]
+Texture "rgb:textures/Cup_Diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Cup_Diffuse_i04042021.png" ]
+Texture "rgb:textures/Notebook_i04042021" "spectrum" "imagemap" "float scale" .7
+    "string filename" [ "textures/Notebook_i04042021.png" ]
+Texture "rgb:textures/Fabric_D_i04042021" "spectrum" "imagemap" "float scale" 1.5
+    "string filename" [ "textures/Fabric_D_i04042021.png" ]
+Texture "float:textures/Fabric_D_i04042021" "float" "imagemap" "float scale" .1
+    "string filename" [ "textures/Fabric_D_i04042021.png" ]
+Texture "rgb:textures/Wood_Chair_Diffuse_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_Chair_Diffuse_i04042021.png" ]
+Texture "rgb:textures/Noce_Canaletto_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Noce_Canaletto_i04042021.png" ]
+Texture "float:textures/Noce_Canaletto_R_i04042021" "float" "imagemap" "float scale" .03
+    "string filename" [ "textures/Noce_Canaletto_R_i04042021.png" ]
+Texture "rgb:textures/Metal_3_BaseColor_2_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Metal_3_BaseColor_2_i04042021.png" ]
+Texture "float:textures/Metal_3_Roughness_2_i04042021" "float" "imagemap" "float scale" .1
+    "string filename" [ "textures/Metal_3_Roughness_2_i04042021.png" ]
+Texture "rgb:textures/Metal_1_Base_Color_i04042021" "spectrum" "imagemap" "float scale" 2
+    "string filename" [ "textures/Metal_1_Base_Color_i04042021.png" ]
+Texture "rgb:textures/Dirt_Glass_Base_Color_1_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Dirt_Glass_Base_Color_1_i04042021.png" ]
+Texture "float:textures/Dirt_Glass_Base_Color_1_i04042021" "float" "imagemap"
+    "string filename" [ "textures/Dirt_Glass_Base_Color_1_i04042021.png" ]
+Texture "float:textures/Dirt_20_i0404201" "float" "imagemap"
+    "string filename" [ "textures/Dirt_20_i0404201.png" ]
+Texture "rgb:textures/Panno_Base Color_1_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Panno_Base Color_1_i04042021.png" ]
+Texture "rgb:textures/Fabric_29_D_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Fabric_29_D_i04042021.png" ]
+AttributeBegin
+Identity
+Translate -11.8017 110.386 -149.658
+Rotate 90 1 0 0
+Scale 1 1 14
+Texture "rgb:textures/Brush_wood_02_i04042021-cyl" "spectrum" "imagemap"
+    "string filename" [ "textures/Brush_wood_02_i04042021.png" ]
+AttributeEnd
+
+AttributeBegin
+Identity
+Translate 11.7 100.7 -148.5
+Rotate 90 1 0 0
+Scale 1 1 14
+Texture "rgb:textures/Brush_wood_02_i04042021-cyl-topshelf" "spectrum" "imagemap"
+    "string filename" [ "textures/Brush_wood_02_i04042021.png" ]
+AttributeEnd
+AttributeBegin
+Identity
+Translate 11.7 100.7 -148.5
+Rotate 90 1 0 0
+Scale 1 1 14
+Texture "rgb:textures/Brush_wood_01_i04042021-cyl-topshelf" "spectrum" "imagemap"
+    "string filename" [ "textures/Brush_wood_01_i04042021.png" ]
+AttributeEnd
+
+
+Texture "rgb:textures/Brush_wood_02_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Brush_wood_02_i04042021.png" ]
+
+Texture "rgb:textures/Brush_wood_01_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Brush_wood_01_i04042021.png" ]
+Texture "rgb:textures/Wood_Rough_Diffuse_i04042021" "spectrum" "imagemap" "float scale" 3
+    "string filename" [ "textures/Wood_Rough_Diffuse_i04042021.png" ]
+Texture "float:textures/Wood_Rough_Glossiness_i04042021_Roughness" "float" "imagemap" "float scale" .02
+    "string filename" [ "textures/Wood_Rough_Glossiness_i04042021.png" ]
+#    "bool invert" [ true ]
+Texture "rgb:textures/Rovere_Miele_i04042021" "spectrum" "imagemap" "float scale" 3
+    "string filename" [ "textures/Rovere_Miele_i04042021.png" ]
+
+AttributeBegin
+Identity
+Translate 36.2376 90.9113 -228.057
+Rotate 90 1 0 0
+Scale 1 1 14
+Texture "rgb:textures/Dirt_09_i04042021" "spectrum" "imagemap" "float scale" .2
+    "string filename" [ "textures/Dirt_09_i04042021.png" ]
+    "string mapping" "cylindrical"
+AttributeEnd
+
+Texture "rgb:textures/Dirt_09_i04042021-mix" "spectrum" "mix"
+    "texture tex1" "rgb:textures/Dirt_09_i04042021"
+    "rgb tex2" [.4 .4 .4]
+    "float amount" .5
+
+Texture "rgb:textures/Dirt_01_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Dirt_01_i04042021.png" ]
+Texture "alpha:textures/Dirt_01_i04042021.png" "float" "imagemap"
+    "string filename" [ "textures/Dirt_01_i04042021.png" ]
+Texture "rgb:textures/Cork_D_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Cork_D_i04042021.png" ]
+Texture "rgb:textures/Dirt_05_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Dirt_05_i04042021.png" ]
+Texture "rgb:textures/Dirt_05_i04042021-dark" "spectrum" "imagemap" "float scale" .75
+    "string filename" [ "textures/Dirt_05_i04042021.png" ]
+AttributeBegin
+Identity
+Translate 11.8039 145.404 -228.519
+Rotate 90 1 0 0
+Scale 1 1 14
+Texture "rgb:textures/Dirt_05_i04042021-lampcyl" "spectrum" "imagemap" "float scale" .2
+    "string filename" [ "textures/Dirt_05_i04042021.png" ]
+    "string mapping" "cylindrical"
+AttributeEnd
+Texture "alpha:textures/Dirt_05_i04042021.png" "float" "imagemap"
+    "string filename" [ "textures/Dirt_05_i04042021.png" ]
+Texture "rgb:textures/Dirt_03_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Dirt_03_i04042021.png" ]
+Texture "float:textures/Dirt_03_i04042021.png" "float" "imagemap" "float scale" 1.5
+    "string filename" [ "textures/Dirt_03_i04042021.png" ]
+Texture "rgb:textures/Soil_i0404201" "spectrum" "imagemap"
+    "string filename" [ "textures/Soil_i0404201.png" ]
+Texture "rgb:textures/Waterplant_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Waterplant_i04042021.png" ]
+Texture "float:textures/Waterplant_Alpha_i04042021" "float" "imagemap"
+    "string filename" [ "textures/Waterplant_Alpha_i04042021.png" ]
+Texture "rgb:textures/Cardboard_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Cardboard_i04042021.png" ]
+Texture "rgb:textures/Wood_25_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Wood_25_i04042021.png" ]
+Texture "rgb:textures/Book_pages_03_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_pages_03_i04042021.png" ]
+
+Texture "rgb:textures/Picture_01_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Picture_01_i04042021.png" ]
+
+Texture "float:textures/Picture_02_i04042021-scaled" "float" "imagemap"  "float scale" .3
+    "string filename" [ "textures/Picture_02_i04042021.png" ]
+    "vector3 v1" [ 0.000000 0.000000 -0.016949 ] "float udelta" -0.152542
+    "vector3 v2" [ 0.000000 0.013699 0.000000 ] "float vdelta" -2.486849
+    "string mapping" "planar"
+
+Texture "rgb:textures/Picture_02_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Picture_02_i04042021.png" ]
+    "vector3 v1" [ 0.000000 0.000000 -0.016949 ] "float udelta" -0.152542
+    "vector3 v2" [ 0.000000 0.013699 0.000000 ] "float vdelta" -2.486849
+    "string mapping" "planar"
+
+Texture "rgb:textures/Picture_03_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Picture_03_i04042021.png" ]
+    "string mapping" "planar" 
+    "vector3 v1" [ 0.000000 0.000000 -0.024000 ] "float udelta" -4.2000
+    "vector3 v2" [ 0.000000 0.018 0.000000 ] "float vdelta" -.005
+
+Texture "rgb:textures/Picture_04_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Picture_04_i04042021.png" ]
+    "float uscale" 1.1
+    "float vscale" 1.4
+    "float udelta" -.2
+    "float vdelta" -.18
+
+Texture "rgb:textures/Picture_08_i04042021" "spectrum" "imagemap" "float scale" .8
+    "string filename" [ "textures/Picture_08_i04042021.png" ]
+Texture "rgb:textures/Book_Cover_01_i04042021" "spectrum" "imagemap"
+    "string filename" [ "textures/Book_Cover_01_i04042021.png" ]
+Texture "rgb:textures/Watercolor_tree_i04042021" "spectrum" "imagemap" "float scale" .7
+    "string filename" [ "textures/Watercolor_tree_i04042021.png" ]
+
+AttributeBegin
+Identity
+Texture "rgb:textures/Watercolor_plate_spot_i04042021" "spectrum" "imagemap" "float scale" .8
+    "string filename" [ "textures/Watercolor_plate_spot_i04042021.png" ]
+    "string mapping" "planar"
+    "vector3 v1" [ 0.038847 0.000000 -0.008370 ] "float udelta" -4.530881
+    "vector3 v2" [ -0.018152 0.000000 -0.078444 ] "float vdelta" 2.792482
+    "string wrap" "clamp"
+AttributeEnd
+
+Texture "rgb:dirty-white" "spectrum" "mix"
+    "texture tex1" "rgb:textures/Dirt_08_i0404201" "rgb tex2" [.88 .88 .88 ] "float amount" .9
+
+Texture "rgb:textures/Concrete_2_Base_Color_i04042021-mix" "spectrum" "mix"
+    "texture tex1" "rgb:textures/Concrete_2_Base_Color_i04042021" "rgb tex2" [.5 .45 .4]
+    "float amount" .2
+
+Texture "rgb:textures/Concrete_2_Base_Color_i04042021-mix-ao" "spectrum" "scale"
+    "texture tex" "rgb:textures/Concrete_2_Base_Color_i04042021-mix"
+    "texture scale" "float:textures/Concrete_2_Ambient_Occlusion_i04042021"
+
+Texture "rgb:textures/Noce_Canaletto_i04042021-scaled" "spectrum" "scale"
+    "texture tex" "rgb:textures/Noce_Canaletto_i04042021" "float scale" 2
+
+Texture "float:textures/Carpet_4_AO_i04042021-biased" "float" "mix"
+    "texture tex1" "float:textures/Carpet_4_AO_i04042021" "float tex2" 1
+    "float amount" .5
+
+Texture "rgb:textures/Carpet_4_i04042021-aoscaled" "spectrum" "scale"
+    "texture tex" "rgb:textures/Carpet_4_BaseColor_i04042021"
+    "texture scale" "float:textures/Carpet_4_AO_i04042021-biased"
+
+Texture "rgb:textures/Noce_Canaletto_i04042021-light" "spectrum" "mix"
+    "texture tex1" "rgb:textures/Noce_Canaletto_i04042021-scaled" "rgb tex2" [.4 .4 .4]
+    "float amount" .15
+
+Texture "rgb:textures/Artisan_Peach_i04042021-desat" "spectrum" "mix"
+    "texture tex1" "rgb:textures/Artisan_Peach_i04042021" "rgb tex2" [.6 .6 .6]
+    "float amount" .3
+
+Texture "rgb:textures/Fabric_D_i04042021-desat" "spectrum" "mix"
+    "texture tex1" "rgb:textures/Fabric_D_i04042021" "rgb tex2" [.35 .45 .4 ]
+    "float amount" .5
+
+Texture "rgb:textures/Canvas_i04042021-scaled" "spectrum" "scale"
+    "texture tex" "rgb:textures/Canvas_i04042021" "float scale" .3
+Texture "rgb:textures/Canvas_i04042021-mixed" "spectrum" "mix"
+    "texture tex1" "rgb:textures/Canvas_i04042021-scaled" "rgb tex2" [1 1 1]
+    "float amount" .6
+
+####################
+# Materials (227) total
+# - Material 1: BG
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Emissive: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+# - Material 2: Plaster
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+#MakeNamedMaterial "BG"
+#    "texture reflectance" [ "rgb:textures/BG_i04042021" ]
+#    "string type" [ "diffuse" ]
+# - Material 3: Material.2
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Plaster"
+    "texture reflectance" [ "rgb:dirty-white" ] 
+    "texture displacement" "alpha:textures/Dirt_08_i0404201.png"
+    "string type" [ "diffuse" ]
+
+# - Material 4: Wood - window 
+#   - Number of Material Properties: 38
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Material.2"
+    "texture reflectance" [ "rgb:textures/Concrete_2_Base_Color_i04042021-mix-ao" ]
+    "texture roughness" "float:textures/Concrete_2_Roughness_i04042021"
+    "string normalmap" "textures/Concrete_2_Normal_i04042021.png"
+    "string type" [ "coateddiffuse" ]
+# - Material 5: Glass
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 1 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - window "
+    "texture reflectance" [ "rgb:textures/Wood_Window_i04042021" ]
+#    "texture roughness" [ "float:textures/Wood_Window_Glossiness_i04042021_Roughness" ]
+    "string type" [ "diffuse" ]
+# - Material 6: Paper 01 
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Glass"
+    "string type" [ "dielectric" ]
+# - Material 7: Poster 2
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Paper 01 "
+    "texture reflectance" [ "rgb:textures/Paper_01_Diffuse_i04042021" ]
+#    "float roughness" [ 0.2 ]
+    "string type" [ "diffuse" ]
+# - Material 8: Poster 2_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Poster 2"
+    "texture reflectance" [ "rgb:textures/Paper_9_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 9: Poster 3
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Poster 2_dupe"
+    "texture reflectance" [ "rgb:textures/Poster_2_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 10: Paper 01 _dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Poster 3"
+    "texture reflectance" [ "rgb:textures/Poster_4_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 11: Wood - elements V03
+#   - Number of Material Properties: 38
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Paper 01 _dupe"
+    "texture reflectance" [ "rgb:textures/Paper_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 12: Metal - tins 
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Wood - elements V03"
+    "texture reflectance" [ "rgb:textures/Wood_Elements_V03_Diffuse_i04042021" ]
+    "texture roughness" [ "float:textures/Wood_Elements_V03_Glossiness_i04042021_Roughness" ]
+    "string type" [ "coateddiffuse" ]
+# - Material 13: White - shiny 
+#   - Number of Material Properties: 14
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Metal - tins "
+    "rgb reflectance" [ 0.25 0.25 0.25 ]
+    "float interface.roughness" [ 0.025 ]
+    "string type" [ "coatedconductor" ]
+
+MakeNamedMaterial "tins - paint"
+    "rgb reflectance" [ .8 .8 .8 ]
+    "float roughness" .01
+    "string type" "coateddiffuse" 
+
+
+MakeNamedMaterial "Metal - tins - drippy-upper-left"
+    "string type" "mix"
+    "string materials" [ "tins - paint" "Metal - tins " ]
+    "texture amount" "drippy-upper-left"
+
+MakeNamedMaterial "Metal - tins - drippy-lower-right"
+    "string type" "mix"
+    "string materials" [ "tins - paint" "Metal - tins " ]
+    "texture amount" "drippy-lower-right"
+
+# - Material 14: DefaultMaterial
+#   - Number of Material Properties: 2
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 0 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "White - shiny "
+#    "texture reflectance" "rgb:dirty-white"
+#    "float roughness" [ 0.1 ]
+#    "string type" [ "coateddiffuse" ]
+    "rgb reflectance" [ 0.15 .15 .15 ]
+#    "texture reflectance" "rgb:dirty-white"
+    "float interface.roughness" [ 0.01 ]
+    "float conductor.roughness" [ 0.01 ]
+    "string type" [ "coatedconductor" ]
+
+
+
+# - Material 15: White - shiny .1
+#   - Number of Material Properties: 14
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "DefaultMaterial"
+    "rgb reflectance" [ 1 0 0 ]
+    "string type" [ "diffuse" ]
+# - Material 16: Book67
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "White - shiny .1"
+    "rgb reflectance" [ 0.15 .15 .15 ]
+#    "texture reflectance" "rgb:dirty-white"
+#    "float interface.roughness" [ 0.01 ]
+    "float roughness" [ 0.01 ]
+    "string type" [ "conductor" ]
+# - Material 17: Side pages 1
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Book67"
+    "texture reflectance" [ "rgb:textures/Book_62_i04042021" ]
+    "float roughness" .1
+    "string type" [ "coateddiffuse" ]
+# - Material 18: Leather 01
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Side pages 1"
+    "texture reflectance" [ "rgb:textures/SidePages_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 19: Material.9
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Leather 01"
+    "texture reflectance" [ "rgb:textures/Koala_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 20: Cushion Fabric
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Material.9"
+    "texture reflectance" [ "rgb:textures/Artisan_Champagne_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 21: White Plastic
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Cushion Fabric"
+    "texture reflectance" [ "rgb:textures/Artisan_Peach_i04042021-desat" ]
+    "string type" [ "diffuse" ]
+# - Material 22: Chrome
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "White Plastic"
+    "rgb reflectance" [ .85 .85 .85 ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+MakeNamedMaterial "Grey Plastic"
+    "rgb reflectance" [ .35 .35 .35 ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 23: Black hole
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Chrome"
+    "spectrum k" [ "metal-Ag-k" ]
+    "spectrum eta" [ "metal-Ag-eta" ]
+    "float roughness" [ 0 ]
+    "string type" [ "conductor" ]
+# - Material 24: Paper
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Black hole"
+    "rgb reflectance" [ 0.05 0.05 0.05 ]
+    "string type" [ "diffuse" ]
+# - Material 25: Fabric 03
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Paper"
+    "texture reflectance" [ "rgb:textures/White_Linen_Paper_Texture_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 26: Folder
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Fabric 03"
+    "texture reflectance" [ "rgb:textures/Rope_diffuse_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 27: Wicker 
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Folder"
+    "texture reflectance" [ "rgb:textures/Dirt_20_i0404201-folder" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 28: Wicker .4
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wicker "
+    "texture reflectance" [ "rgb:textures/Wicker_Diffuse_i04042021" ]
+    "float roughness" [ 0.01 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 29: Dents
+#   - Number of Material Properties: 32
+#   - Non-Zero Texture Type Counts: Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wicker .4"
+    "texture reflectance" [ "rgb:textures/Wicker_Diffuse_i04042021" ]
+    "float roughness" [ 0.01 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 30: Dents_dupe
+#   - Number of Material Properties: 32
+#   - Non-Zero Texture Type Counts: Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "xDents"
+    "texture reflectance" [ "rgb:textures/Metal_Base_Color_i04042021" ]
+#    "float interface.roughness" .05
+    "texture roughness" [ "float:textures/Metal_Roughness_i04042021_Roughness" ]
+    "string type" [ "conductor" ]
+MakeNamedMaterial "Dents"
+    "rgb reflectance" [ .2 .2 .2 ]
+    "float conductor.roughness" .01
+    "float interface.roughness" .01
+    "texture thickness" [ "float:textures/Metal_Roughness_i04042021_Thickness" ]
+    "rgb albedo" [ .1 .1 .1 ]
+    "string type" [ "coatedconductor" ]
+# - Material 31: Material.12
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Dents_dupe"
+    "rgb reflectance" [ 0.07 0.07 0.07 ]
+    "texture interface.roughness" [ "float:textures/Metal_Roughness_i04042021_Roughness" ]
+    "string type" [ "coatedconductor" ]
+# - Material 32: Rope
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Material.12"
+    "texture reflectance" [ "rgb:textures/Metal024_4K_Color_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "conductor" ]
+# - Material 33: Poster back 3
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Rope"
+    "string normalmap" [ "textures/Rope_normal_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Rope_diffuse_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 34: Poster back 3.1
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Poster back 3"
+    "texture reflectance" [ "rgb:textures/Page_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 35: Brush top 01
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Poster back 3.1"
+    "texture reflectance" [ "rgb:textures/Page_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 36: Spot catcher
+#   - Number of Material Properties: 14
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Brush top 01"
+    "rgb reflectance" [ 0.05 .05 .075 ]
+    "float roughness" 0
+    "string type" [ "coateddiffuse" ]
+#    "spectrum k" [ "metal-Al-k" ]
+#    "spectrum eta" [ "metal-Al-eta" ]
+#    "float roughness" [ 0 ]
+#    "string type" [ "conductor" ]
+# - Material 37: Frame
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+# - Material 38: Smock 03
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Frame"
+    "string normalmap" [ "textures/Wood034_2K_Normal_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Wood034_2K_Color_i04042021" ]
+#    "float roughness" [ 0.2 ]
+    "string type" [ "diffuse" ]
+# - Material 39: Smock 01
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Smock 03"
+    "string normalmap" [ "textures/Grembiule_N_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Grembiule_D_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 40: Wood - frame
+#   - Number of Material Properties: 21
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Smock 01"
+    "string normalmap" [ "textures/Leather_black_Normal_1_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Leather_black_Base_Color_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 41: Canva
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - frame"
+    "texture reflectance" [ "rgb:textures/Wood_Table_i04042021" ]
+#    "float roughness" [ 0.2 ]
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "Wood - pyramid"
+    "texture reflectance" [ "rgb:textures/Wood_Table_i04042021-cyl" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+
+
+# - Material 42: Canvas 02
+#   - Number of Material Properties: 25
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Height: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Canva"
+    "texture reflectance" [ "rgb:textures/Drawing_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 43: Wood frame
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Canvas 02"
+    "texture displacement" [ "float:textures/Canvas_i04042021" ]
+    "texture reflectance" [ "rgb:textures/Canvas_i04042021-mixed" ]
+#    "rgb reflectance" [ .85 .85 .85 ] 
+#    "float roughness" [ 0.3 ]
+    "string type" [ "diffuse" ]
+# - Material 44: Wood frame.1
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 45: Wood frame.2
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame.1"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 46: Wood frame.3
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame.2"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 47: Wood frame.4
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame.3"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 48: Wood frame.5
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame.4"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 49: Wood frame.6
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame.5"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 50: Wood frame.7
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame.6"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 51: Canvas 02_dupe
+#   - Number of Material Properties: 25
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Height: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wood frame.7"
+    "texture reflectance" [ "rgb:textures/Wood_plank_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 52: Frame 02
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+
+# - Material 53: Frame 02.1
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Frame 02"
+    "texture reflectance" [ "rgb:textures/Wood_01_2K_Base_Color_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 54: Frame 02.5
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Frame 02.1"
+    "texture reflectance" [ "rgb:textures/Wood_01_2K_Base_Color_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 55: Frame 02.6
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Frame 02.5"
+    "texture reflectance" [ "rgb:textures/Wood_01_2K_Base_Color_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 56: Plastic - Roller
+#   - Number of Material Properties: 14
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Frame 02.6"
+    "texture reflectance" [ "rgb:textures/Wood_01_2K_Base_Color_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 57: Post it 05
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Plastic - Roller"
+    "rgb reflectance" [ 0.85 0.81628335 0.7905 ]
+#    "rgb reflectance" [ 0.04 .04 .04 ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 58: Post it 05_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Post it 05"
+    "texture reflectance" [ "rgb:textures/Postit-1_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 59: Post it 05_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Post it 05_dupe"
+    "texture reflectance" [ "rgb:textures/Postit-2_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 60: Post it 05_dupe_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Post it 05_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Postit-3_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 61: Post it 05_dupe_dupe_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Post it 05_dupe_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Postit-4_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 62: White - shiny _dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Post it 05_dupe_dupe_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Postit-5_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 63: Marker 2
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "White - shiny _dupe"
+#    "texture reflectance" [ "rgb:textures/Dirt_08_i0404201" ]
+    "texture reflectance" "rgb:dirty-white"
+    "float roughness" [ 0.1 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 64: Basket col1
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Marker 2"
+    "texture reflectance" [ "rgb:textures/Marker_2_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+MakeNamedMaterial "Marker 2-bag"
+    "texture reflectance" [ "rgb:textures/Marker_2_i04042021-bag" ]
+    "float roughness" [ 001 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 65: Basket col1.3
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 66: Basket col2
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.3"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 67: Basket col2.1
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 68: Basket col1.4
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.1"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 69: Basket col1.5
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.4"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 70: Basket col2.2
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.5"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 71: Basket col2.3
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.2"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 72: Basket col1.6
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.3"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 73: Basket col1.7
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.6"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 74: Basket col2.4
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.7"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 75: Basket col2.5
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.4"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 76: Basket col1.8
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.5"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 77: Basket col1.9
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.8"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 78: Basket col2.6
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.9"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 79: Basket col2.7
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.6"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 80: Basket col1.10
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.7"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 81: Basket col1.11
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.10"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 82: Basket col2.8
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.11"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 83: Basket col2.9
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.8"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 84: Basket col1.12
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.9"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 85: Basket col1.13
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.12"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 86: Basket col2.10
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.13"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 87: Basket col2.11
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.10"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 88: Basket col1.14
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.11"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 89: Basket col1.15
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.14"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 90: Basket col2.12
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.15"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 91: Basket col1.16
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.12"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 92: Basket col2.13
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.16"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 93: Basket col1.17
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.13"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 94: Basket col2.14
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.17"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 95: Basket col2.15
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.14"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 96: Basket col1.18
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col2.15"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 97: Basket col1.19
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.18"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 98: Basket col1.20
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.19"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 99: Basket col1.21
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.20"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 100: Basket col1.22
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.21"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 101: Basket col1.23
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.22"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 102: Basket col1.24
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.23"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 103: Basket col1.25
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.24"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 104: Basket col1.26
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.25"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 105: Basket col1.27
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.26"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 106: Basket col1.28
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.27"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 107: Scratches
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Opacity: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Basket col1.28"
+    "texture reflectance" [ "rgb:textures/Wood_87_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 108: Case gold
+#   - Number of Material Properties: 16
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Scratches"
+    "texture reflectance" "rgb:textures/Scratches_Overlay_i04042021"
+    "texture displacement" "float:textures/Scratches_Overlay_i04042021"
+    "float roughness" [ 0.075 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 109: Rope_dupe
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Case gold"
+    "spectrum k" [ "metal-Au-k" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "float roughness" [ 0.001 ]
+    "string type" [ "conductor" ]
+# - Material 110: Case side leather
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Rope_dupe"
+    "string normalmap" [ "textures/Rope_normal_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Rope_diffuse_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 111: Case leather
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Case side leather"
+    "texture reflectance" [ "rgb:textures/Dirt_20_i0404201" ]
+    "string type" [ "diffuse" ]
+# - Material 112: Book67_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Case leather"
+    "string normalmap" [ "textures/Leather_N_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Leather_D_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 113: Book67_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Book67_dupe"
+    "texture reflectance" [ "rgb:textures/Book_51_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 114: Wood - elements V01.1
+#   - Number of Material Properties: 37
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Book67_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Book_53_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 115: Statuette - clay
+#   - Number of Material Properties: 25
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Displacement: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - elements V01.1"
+    "texture reflectance" [ "rgb:textures/Wood_Elements_V01_Diffuse_i04042021" ]
+    "texture roughness" [ "float:textures/Wood_Elements_V01_Glossiness_i04042021_Roughness" ]
+    "string type" [ "coateddiffuse" ]
+# - Material 116: Statuette -black
+#   - Number of Material Properties: 20
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Statuette - clay"
+#    "texture displacement" [ "float:textures/Statuette_Clay_Displacement_i04042021" ]
+    "string normalmap" [ "textures/Statuette_Clay_Bump_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Statuette_Clay_Diffuse_i04042021" ]
+    "float roughness" [ 0.025 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 117: Wood - elements V03.4
+#   - Number of Material Properties: 38
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Statuette -black"
+    "texture reflectance" [ "rgb:textures/Dirt_19_i0404201-scaled" ]
+    "float interface.roughness" [ 0.02 ]
+    "string type" [ "coatedconductor" ]
+# - Material 118: Picture - white
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - elements V03.4"
+    "texture reflectance" [ "rgb:textures/Wood_Elements_V03_Diffuse_i04042021-scaled" ]
+#    "texture roughness" [ "float:textures/Wood_Elements_V03_Glossiness_i04042021_Roughness" ]
+"float roughness" .025
+    "string type" [ "coateddiffuse" ]
+# - Material 119: Color  - cup
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Picture - white"
+    "rgb reflectance" [.8 .8 .8]
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "Picture2"
+    "texture reflectance" "rgb:textures/Picture_02_i04042021"
+    "texture displacement" "float:textures/Picture_02_i04042021-scaled"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "Picture3"
+    "texture reflectance" "rgb:textures/Picture_03_i04042021"
+    "string type" [ "diffuse" ]
+MakeNamedMaterial "Picture4"
+    "texture reflectance" "rgb:textures/Picture_04_i04042021"
+    "string type" [ "diffuse" ]
+
+
+# - Material 120: Plastic - Roller_dupe
+#   - Number of Material Properties: 14
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Color  - cup"
+    "rgb reflectance" [ 0.06 0.06 0.06 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 121: Lamp - Cable
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Plastic - Roller_dupe"
+    "rgb reflectance" [ 0.23 0.22087666 0.2139 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 122: Carpet 02
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Displacement: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Lamp - Cable"
+    "rgb reflectance" [ .1 .1 .1 ]
+    "float roughness" [ 0.001 ]
+    "string type" [ "coateddiffuse" ]
+MakeNamedMaterial "Lamp - lampshade"
+    "rgb reflectance" [ .7 .7 .7 ]
+    "float roughness" [ 0.001 ]
+    "string type" [ "coateddiffuse" ]
+MakeNamedMaterial "Lamp - lampshade - metal"
+#    "spectrum k" [ "metal-Ag-k" ]
+#    "spectrum eta" [ "metal-Ag-eta" ]
+    "rgb reflectance" [ .2 .2 .25 ]
+    "float uroughness" [ 0.001 ] "float vroughness" [ .1]
+    "string type" [ "conductor" ]
+# - Material 123: Tip
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Carpet 02"
+    "texture reflectance" [ "rgb:textures/Carpet_4_BaseColor_i04042021" ]
+#    "texture reflectance" [ "rgb:textures/Carpet_4_i04042021-aoscaled" ]
+#    "string normalmap" [ "textures/Carpet_4_Normal_i04042021.png" ]
+    "string type" [ "diffuse" ]
+# - Material 124: Watercolors
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Tip"
+    "rgb reflectance" [ 0.4 0.15 0.05 ]
+    "string type" [ "coateddiffuse" ]
+    "float roughness" .01
+# - Material 125: Watercolor plate
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Watercolors"
+    "texture reflectance" [ "rgb:textures/Watercolor_plate_spot_i04042021" ]
+    "float roughness" [ 0.1 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 126: Clips
+#   - Number of Material Properties: 16
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Watercolor plate"
+    "rgb reflectance" [ .2 .2 .2 ]
+    "float roughness" [ 0.1 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 127: Watercolor tree
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Clips"
+    "rgb reflectance" [ 0.7 .1 .1 ]
+    "float roughness" [ 0.01 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 128: Bookmark
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Watercolor tree"
+    "texture reflectance" [ "rgb:textures/Watercolor_tree_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 129: Book51
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Bookmark"
+    "rgb reflectance" [ 0.76 0.4788 0.74594 ]
+    "string type" [ "diffuse" ]
+# - Material 130: Side pages 2
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Book51"
+    "texture reflectance" [ "rgb:textures/Book_39_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 131: Book - pages 02
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Side pages 2"
+    "texture reflectance" [ "rgb:textures/SidePages_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 132: Book - cover 01 
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Book - pages 02"
+    "texture reflectance" [ "rgb:textures/Book_pages_02_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 133: Bookmark_dupe
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Book - cover 01 "
+    "rgb reflectance" [ 0.3 0.3 0.3 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 134: Book8
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Bookmark_dupe"
+    "rgb reflectance" [ 0.76 0.6897 0.4788 ]
+    "string type" [ "diffuse" ]
+# - Material 135: Side pages 1_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Book8"
+    "texture reflectance" [ "rgb:textures/Book_35_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 136: Book9
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Side pages 1_dupe"
+    "texture reflectance" [ "rgb:textures/SidePages_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 137: Vase
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Book9"
+    "texture reflectance" [ "rgb:textures/Book_36_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 138: Color  - cup_dupe
+#   - Number of Material Properties: 26
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Shininess: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Vase"
+    "rgb reflectance" [ .65 .65 .65 ]
+    "float roughness" [ 0.003 ]
+    "string type" [ "coateddiffuse" ]
+MakeNamedMaterial "Pallette"
+    "rgb reflectance" [ .55 .55 .55 ]
+    "float roughness" [ 0.003 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 139: Color - black
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Color  - cup_dupe"
+    "texture reflectance" [ "rgb:textures/Dirt_19_i0404201-scaled" ]
+    "texture roughness" [ "float:textures/Dirt_19_i0404201_Roughness" ]
+    "string type" [ "coateddiffuse" ]
+# - Material 140: Color - red
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Color - black"
+    "texture reflectance" [ "rgb:textures/Color_4_Base_Color_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 141: Pencil 01
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Color - red"
+    "string normalmap" [ "textures/Rosso_Normal_i04042021.png" ]
+    "texture reflectance" [ "rgb:textures/Rosso_Base_Color_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 142: Pencil 01.2
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Pencil 01"
+    "texture reflectance" [ "rgb:textures/Wood_46_D_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 143: Pencil 01_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Pencil 01.2"
+#    "texture reflectance" [ "rgb:textures/Wood_46_D_i04042021" ]
+"rgb reflectance" [ .05 .25 .1 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 144: Pencil
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Pencil 01_dupe"
+#    "texture reflectance" [ "rgb:textures/Wood_46_D_i04042021" ]
+"rgb reflectance" [ .05 .1 .25 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 145: Pencil 01.56
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Pencil"
+    "rgb reflectance" [ 0.76 0.54112 0.2736 ]
+    "string type" [ "diffuse" ]
+# - Material 146: Pencil_dupe
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Pencil 01.56"
+#    "texture reflectance" [ "rgb:textures/Wood_46_D_i04042021" ]
+"rgb reflectance" [ .3 .15 .1 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 147: Pencil Holder 02
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Pencil_dupe"
+    "rgb reflectance" [ 0.76 0.66386 0.2356 ]
+    "string type" [ "diffuse" ]
+# - Material 148: Glass Simple
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 1 opacity 0 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Pencil Holder 02"
+    "texture reflectance" [ "rgb:textures/Wood_BaseColor_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 149: Golden
+#   - Number of Material Properties: 16
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Glass Simple"
+    "string type" [ "dielectric" ]
+# - Material 150: Golden_dupe
+#   - Number of Material Properties: 16
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Golden"
+    "float interface.roughness" [ 0.2 ]
+    "float conductor.roughness" [ 0.01 ]
+    "spectrum conductor.k" [ "metal-Au-k" ]
+    "spectrum conductor.eta" [ "metal-Au-eta" ]
+    "float thickness" .4
+    "rgb albedo" [ .4 .4 .4 ]
+    "string type" [ "coatedconductor" ]
+# - Material 151: Color  - cup_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Golden_dupe"
+    "rgb reflectance" [ 0.05 0.049275 0.0485 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 152: Metal - tins _dupe
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Color  - cup_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Dirt_19_i0404201-scaled" ]
+#    "texture roughness" [ "float:textures/Dirt_19_i0404201_Roughness" ]
+"float roughness" .01
+    "string type" [ "coateddiffuse" ]
+# - Material 153: Color - black_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Metal - tins _dupe"
+    "texture reflectance" [ "rgb:textures/Dirt_19_i0404201-scaled" ]
+#    "rgb reflectance" [ 0.05 0.05 0.05 ]
+    "float roughness" [ 0.005 ]
+    "string type" [ "conductor" ]
+# - Material 154: Metal - tins _dupe_dupe
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Color - black_dupe"
+    "texture reflectance" [ "rgb:textures/Color_3_Base_Color_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 155: Color - black_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Metal - tins _dupe_dupe"
+    "rgb reflectance" [ 0.5 0.5 0.5 ]
+    "float roughness" [ 0.005 ]
+    "string type" [ "conductor" ]
+# - Material 156: Metal 02
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Color - black_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Colore_Rosso_Base_Color_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 157: Color - black_dupe_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Metal 02"
+    "rgb reflectance" [ 0.05 0.05 0.05 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 158: Color - black_dupe_dupe_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Color - black_dupe_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Paint_6_Base_Color_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 159: Color - black_dupe_dupe_dupe_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Color - black_dupe_dupe_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Rosso_Base_Color_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 160: Color - black_dupe_dupe_dupe_dupe_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Color - black_dupe_dupe_dupe_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Paint_5_Base_Color_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 161: Leaves
+#   - Number of Material Properties: 24
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Opacity: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Color - black_dupe_dupe_dupe_dupe_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Color_2_Base_Color_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 162: Branches
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Leaves"
+    "texture reflectance" [ "rgb:textures/Leaves_Albedo_i04042021" ]
+    "texture transmittance" [ "rgb:textures/Leaves_Albedo_i04042021" ]
+    "string type" [ "diffusetransmission" ]
+    "float scale" 3
+# - Material 163: Metal - tins _dupe_dupe_dupe
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Branches"
+    "texture reflectance" [ "rgb:textures/Branches_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 164: Pen 00
+#   - Number of Material Properties: 21
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Metal - tins _dupe_dupe_dupe"
+    "rgb reflectance" [ 0.15 0.15 0.15 ]
+    "float roughness" [ 0.01 ]
+    "string type" [ "conductor" ]
+# - Material 165: Tip_dupe
+#   - Number of Material Properties: 14
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Pen 00"
+    "texture reflectance" [ "rgb:textures/Pen_diffuse_i04042021" ]
+    "float roughness" [ 0 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 166: Pen 03
+#   - Number of Material Properties: 21
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Tip_dupe"
+    "rgb reflectance" [ 0.01 .01 .01 ]
+    "float roughness" .01
+    "string type" [ "coateddiffuse" ]
+# - Material 167: Pen 02
+#   - Number of Material Properties: 21
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Pen 03"
+    "texture reflectance" [ "rgb:textures/Pen_02_i04042021" ]
+    "float roughness" [ 0 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 168: Pen 01
+#   - Number of Material Properties: 21
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Pen 02"
+    "texture reflectance" [ "rgb:textures/Pen_05_i04042021" ]
+    "float roughness" [ 0 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 169: Tip.2
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Pen 01"
+    "texture reflectance" [ "rgb:textures/Pen_03_i04042021" ]
+    "float roughness" [ 0 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 170: Case gold.16
+#   - Number of Material Properties: 16
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Tip.2"
+    "rgb reflectance" [ 0.5 .4 .25 ]
+    "float roughness" [ 0 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 171: Watercolor
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+
+# gold brush on table
+MakeNamedMaterial "Case gold.16-gold"
+    "float roughness" [ 0.0005 ]
+    "spectrum k" [ "metal-Au-k" ]
+    "spectrum eta" [ "metal-Au-eta" ]
+    "string type" "conductor"
+
+MakeNamedMaterial "Case gold.16-tarnish"
+    "rgb reflectance" [ .12 .08 .045 ]
+    "string type" "diffuse"
+
+MakeNamedMaterial "Case gold.16"
+    "string materials" [ "Case gold.16-gold" "Case gold.16-tarnish" ]
+    "texture amount" "case gold tarnish"
+    "string type" "mix"
+
+# - Material 172: Watercolor_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Watercolor"
+    "texture reflectance" [ "rgb:textures/Piper_D_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 173: Watercolor 03
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Watercolor_dupe"
+    "texture reflectance" [ "rgb:textures/Paper_2_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 174: Fabric - rag 02
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Watercolor 03"
+    "texture reflectance" [ "rgb:textures/Paper_1_1_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 175: Cup
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Fabric - rag 02"
+#    "rgb reflectance" [ .03 .036 .030 ]
+    "rgb reflectance" [ .045 .054 .045 ]
+    "string type" [ "diffuse" ]
+# - Material 176: Liquid - glass
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 1 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Cup"
+    "texture reflectance" [ "rgb:textures/Cup_Diffuse_i04042021" ]
+    "float roughness" [ 0.002 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 177: Liquid - glass_dupe
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 1 opacity 1 shininess 1 shininess strength 0 eta 0
+
+MakeNamedMaterial "Liquid - glass"
+    "string type" [ "dielectric" ]
+
+# - Material 178: Glass_dupe
+#   - Number of Material Properties: 15
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 1 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Liquid - glass_dupe"
+    "string type" [ "dielectric" ]
+# - Material 179: Paper 01 .5
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Glass_dupe"
+    "string type" [ "dielectric" ]
+# - Material 180: Book - cover 01 _dupe
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Paper 01 .5"
+    "texture reflectance" [ "rgb:textures/Paper_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 181: Notebook
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Book - cover 01 _dupe"
+    "rgb reflectance" [ 0.3 0.3 0.3 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 182: Scissor
+#   - Number of Material Properties: 16
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Notebook"
+    "texture reflectance" [ "rgb:textures/Notebook_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 183: Case Fabric
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Scissor"
+    "rgb reflectance" [ .1 .1 .1 ]
+    "float roughness" [ 0.02 ]
+    "string type" [ "conductor" ]
+# - Material 184: Case top
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Case Fabric"
+    "texture reflectance" [ "rgb:textures/Fabric_D_i04042021-desat" ]
+#    "texture displacement" [ "float:textures/Fabric_D_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 185: Wood - chair
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Case top"
+    "rgb reflectance" [ .05 .05 .05 ]
+    "string type" [ "diffuse" ]
+# - Material 186: Wood - chair.2
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - chair"
+    "texture reflectance" [ "rgb:textures/Wood_Chair_Diffuse_i04042021" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 187: Table wood
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - chair.2"
+    "texture reflectance" [ "rgb:textures/Wood_Chair_Diffuse_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 188: Table wood.3
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Table wood"
+    "texture displacement" "float:textures/Noce_Canaletto_R_i04042021"
+    "texture reflectance" [ "rgb:textures/Noce_Canaletto_i04042021-light" ]
+    "float roughness" [ 0.05 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 189: White glossy
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Table wood.3"
+    "texture reflectance" [ "rgb:textures/Noce_Canaletto_i04042021-light" ]
+    "texture displacement" "float:textures/Noce_Canaletto_R_i04042021"
+#    "texture roughness" [ "float:textures/Noce_Canaletto_R_i04042021-remapped" ]
+    "float roughness" [ 0.15 ]
+    "string type" [ "coateddiffuse" ]
+#    "string type" [ "diffuse" ]
+
+# - Material 190: Markers
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "White glossy"
+    "rgb reflectance" [ .7 .7 .7 ]
+    "float roughness" [ 0.02 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 191: Tin 03
+#   - Number of Material Properties: 32
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Markers"
+    "rgb reflectance" [ 0.8 0.496 0.496 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 192: Tin 01
+#   - Number of Material Properties: 31
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Reflection: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Tin 03"
+#    "texture reflectance" [ "rgb:textures/Metal_3_BaseColor_2_i04042021" ]
+"rgb reflectance" [.12 .12 .15 ]
+    "texture roughness" [ "float:textures/Metal_3_Roughness_2_i04042021" ]
+    "string type" [ "conductor" ]
+# - Material 193: Tip_dupe_dupe
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Tin 01"
+    "texture reflectance" [ "rgb:textures/Metal_1_Base_Color_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 194: Layered
+#   - Number of Material Properties: 27
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Opacity: 1 
+#    - Constants: diffuse 1 specular 0 transprency 1 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Tip_dupe_dupe"
+    "rgb reflectance" [ .1 .2 .6 ]
+    "float roughness" .01
+    "string type" [ "coateddiffuse" ]
+# - Material 195: Glass 01
+#   - Number of Material Properties: 16
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 1 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Layered"
+    "texture reflectance" [ "rgb:textures/Dirt_Glass_Base_Color_1_i04042021" ]
+    "float roughness" [ 0 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 196: Glass 02
+#   - Number of Material Properties: 20
+#   - Non-Zero Texture Type Counts: Opacity: 1 
+#    - Constants: diffuse 0 specular 0 transprency 1 opacity 0 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Glass 01"
+    "string type" [ "dielectric" ]
+# - Material 197: Fabric 02
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Glass 02"
+    "string type" [ "dielectric" ]
+# - Material 198: Fabric 01
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Fabric 02"
+    "texture reflectance" [ "rgb:textures/Panno_Base Color_1_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 199: Tin 05
+#   - Number of Material Properties: 26
+#   - Non-Zero Texture Type Counts: Specular: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Fabric 01"
+    "texture reflectance" [ "rgb:textures/Fabric_29_D_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 200: Brush 01
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "tin05-dirty"
+    "string type" "diffuse"
+    "rgb reflectance" [ .1 .1 .1 ]
+MakeNamedMaterial "tin05-metal"
+    "string type" "conductor"
+    "float roughness" 0.01
+MakeNamedMaterial "Tin 05"
+   "string materials" [ "tin05-dirty" "tin05-metal" ] 
+   "texture amount" [ "float:textures/Dirt_03_i04042021.png" ]
+   "string type" [ "mix" ]
+# - Material 201: Brush 01_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Brush 01"
+    "texture reflectance" [ "rgb:textures/Brush_wood_02_i04042021" ]
+    "string type" [ "diffuse" ]
+
+MakeNamedMaterial "Brush 01-drippytin"
+    "texture reflectance" [ "rgb:textures/Brush_wood_02_i04042021-cyl" ]
+    "string type" [ "coateddiffuse" ]
+    "float roughness" .02
+
+MakeNamedMaterial "Brush 01-topshelf-group"
+    "texture reflectance" [ "rgb:textures/Brush_wood_02_i04042021-cyl-topshelf" ]
+    "string type" [ "coateddiffuse" ]
+    "float roughness" .02
+MakeNamedMaterial "Brush 01-topshelf-group-b"
+    "texture reflectance" [ "rgb:textures/Brush_wood_01_i04042021-cyl-topshelf" ]
+    "string type" [ "coateddiffuse" ]
+    "float roughness" .02
+
+# - Material 202: Metal - tins _dupe_dupe_dupe_dupe
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Brush 01_dupe"
+    "texture reflectance" [ "rgb:textures/Brush_wood_01_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 203: Black - shiny
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Metal - tins _dupe_dupe_dupe_dupe"
+#    "rgb reflectance" [ 0.5 0.5 0.5 ]
+    "spectrum k" [ "metal-TiO2-k" ]
+    "spectrum eta" [ "metal-TiO2-eta" ]
+    "float roughness" [ 0.005 ]
+    "string type" [ "conductor" ]
+# - Material 204: White - shiny _dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Black - shiny"
+    "rgb reflectance" [ 0.08 0.08 0.08 ]
+    "float roughness" [ 0.1 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 205: Wood - rough
+#   - Number of Material Properties: 38
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "White - shiny _dupe_dupe"
+    "texture reflectance" [ "rgb:dirty-white" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 206: Door
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - rough"
+    "texture reflectance" [ "rgb:textures/Wood_Rough_Diffuse_i04042021" ]
+    "texture roughness" [ "float:textures/Wood_Rough_Glossiness_i04042021_Roughness" ]
+#    "float roughness" [.1]
+    "string type" [ "coateddiffuse" ]
+# - Material 207: Wood - elements V02
+#   - Number of Material Properties: 38
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Specular: 1 Shininess: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Door"
+    "rgb reflectance" [ .65 .65 .65 ]
+#    "float roughness" [ 0.1 ]
+#    "string type" [ "coateddiffuse" ]
+    "string type" [ "diffuse" ]
+
+# - Material 208: Cabinet wood
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Wood - elements V02"
+    "texture reflectance" [ "rgb:textures/Wood_Elements_V01_Diffuse_i04042021" ]
+    "texture roughness" [ "float:textures/Wood_Elements_V01_Glossiness_i04042021_Roughness" ]
+    "string type" [ "coateddiffuse" ]
+# - Material 209: Cabinet wood.1
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Cabinet wood"
+    "texture reflectance" [ "rgb:textures/Rovere_Miele_i04042021" ]
+    "float roughness" [ 0.1 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 210: Dirt_plastic
+#   - Number of Material Properties: 20
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Cabinet wood.1"
+    "texture reflectance" [ "rgb:textures/Rovere_Miele_i04042021" ]
+    "float roughness" [ 0.1 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 211: Color_branch
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Dirt_plastic"
+    "texture reflectance" [ "rgb:textures/Dirt_09_i04042021-mix" ]
+    "float roughness" [ 0.03 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 212: Cork
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Color_branch"
+    "texture reflectance" [ "rgb:textures/Branches_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 213: Glossy plastic
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Cork"
+    "texture reflectance" [ "rgb:textures/Cork_D_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 214: White_plastic
+#   - Number of Material Properties: 12
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Glossy plastic"
+    "rgb reflectance" [ 0.28 0.17808 0.1624 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 215: Black plastic
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "White_plastic"
+    "rgb reflectance" [ 0.60 0.60 0.60 ]
+    "float roughness" .02
+    "string type" [ "coateddiffuse" ]
+# - Material 216: Bronze_1
+#   - Number of Material Properties: 22
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Black plastic"
+    "texture reflectance" [ "rgb:textures/Dirt_05_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+MakeNamedMaterial "Black plastic-dark"
+    "texture reflectance" [ "rgb:textures/Dirt_05_i04042021-dark" ]
+    "float roughness" [ .05 ]
+    "string type" [ "coateddiffuse" ]
+
+MakeNamedMaterial "Black Lamp"
+    "texture reflectance" [ "rgb:textures/Dirt_05_i04042021-lampcyl" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "conductor" ]
+
+# - Material 217: Material.1
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Bronze_1"
+    "rgb reflectance" [.6 .4 .2 ]
+    "float roughness" .01
+    "string type" [ "conductor" ]
+# - Material 218: Plastic - Roller.13
+#   - Number of Material Properties: 14
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Material.1"
+    "texture reflectance" [ "rgb:textures/Soil_i0404201" ]
+    "string type" [ "diffuse" ]
+# - Material 219: Leaves_dupe
+#   - Number of Material Properties: 32
+#   - Non-Zero Texture Type Counts: Diffuse: 1 Normals: 1 Opacity: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Plastic - Roller.13"
+    "rgb reflectance" [ 0.85 0.81628335 0.7905 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 220: Plant branches
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Leaves_dupe"
+    "string normalmap" [ "textures/Leaves_N_i0404201.png" ]
+    "texture reflectance" [ "rgb:textures/Waterplant_i04042021" ]
+    "float roughness" [ 0.025 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 221: White glossy_dupe
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Plant branches"
+    "rgb reflectance" [ 0.33133757 0.34 0.19057325 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 222: Cardboard
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "White glossy_dupe"
+    "rgb reflectance" [ .6 .6 .6 ]
+    "float roughness" [ 0.02 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 223: Wood ruler
+#   - Number of Material Properties: 19
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Cardboard"
+    "texture reflectance" [ "rgb:textures/Cardboard_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 224: Layered Metal box
+#   - Number of Material Properties: 28
+#   - Non-Zero Texture Type Counts: Specular: 1 Reflection: 1 
+#    - Constants: diffuse 1 specular 1 transprency 0 opacity 1 shininess 1 shininess strength 1 eta 0
+MakeNamedMaterial "Wood ruler"
+    "texture reflectance" [ "rgb:textures/Wood_25_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 225: Book - pages 02_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 0 shininess strength 0 eta 0
+MakeNamedMaterial "Layered Metal box"
+    "rgb reflectance" [ 0.03 0.03 0.03 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# - Material 226: Book - cover 01 _dupe_dupe
+#   - Number of Material Properties: 13
+#   - Non-Zero Texture Type Counts: 
+#    - Constants: diffuse 1 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Book - pages 02_dupe"
+    "texture reflectance" [ "rgb:textures/Book_pages_03_i04042021" ]
+    "string type" [ "diffuse" ]
+# - Material 227: Book - cover 01 _dupe_dupe_dupe
+#   - Number of Material Properties: 18
+#   - Non-Zero Texture Type Counts: Diffuse: 1 
+#    - Constants: diffuse 0 specular 0 transprency 0 opacity 1 shininess 1 shininess strength 0 eta 0
+MakeNamedMaterial "Book - cover 01 _dupe_dupe"
+    "rgb reflectance" [ 0.88 0.88 0.88 ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+# Object instance definitions
+MakeNamedMaterial "Book - cover 01 _dupe_dupe_dupe"
+    "texture reflectance" [ "rgb:textures/Book_Cover_01_i04042021" ]
+    "float roughness" [ 0.2 ]
+    "string type" [ "coateddiffuse" ]
+
+MakeNamedMedium "liquid"
+        "rgb sigma_s" [ 0.0030 0.0055 0.0025 ]
+        "rgb sigma_a" [ 0.0030 0.0055 0.0025 ]
+        "float scale" 80
+        "string type" [ "homogeneous" ]
+
+Texture "float:textures/Spot_Floor_01_i04042021" "float" "imagemap"
+    "string filename" "textures/Spot_Floor_01_i04042021.png"
+    "bool invert" true
+Texture "float:textures/Spot_Floor_10_i04042021" "float" "imagemap" "float scale" 1.04
+    "string filename" "textures/Spot_Floor_10_i04042021.png"
+    "bool invert" true
+Texture "float:textures/Spot_Floor_11_i04042021" "float" "imagemap"
+    "string filename" "textures/Spot_Floor_11_i04042021.png"
+    "bool invert" true
+
+Texture "rgb:textures/Wood_Elements_V03_Diffuse_i04042021-scaled" "spectrum" "scale"
+    "texture tex" "rgb:textures/Wood_Elements_V03_Diffuse_i04042021"
+    "float scale" 3
+
+MakeNamedMaterial "Picture08"
+    "texture reflectance" "rgb:textures/Picture_08_i04042021"
+    "string type" "diffuse"
+
+MakeNamedMaterial "Picture01"
+    "texture reflectance" "rgb:textures/Picture_01_i04042021"
+    "string type" "diffuse"
+
+MakeNamedMaterial "Frame - black"
+    "rgb reflectance" [ .1 .1 .1 ]
+    "string type" "coateddiffuse"
+    "float roughness" .03
+
+MakeNamedMaterial "Black Leather Case"
+    "texture reflectance" "rgb:textures/Leather_black_Base_Color_i04042021"
+    "texture displacement" "float:textures/Leather_black_Base_Color_i04042021"
+    "string type" "coateddiffuse"
+    "float roughness" .03
+
+Texture "float:textures/splatter-easel" "float" "imagemap"
+    "string filename" "textures/Spot_Floor_02x11.exr"
+    "float udelta" -.1
+    "float vdelta" .1
+
+Texture "rgb:textures/Spot_colors_i0404201" "spectrum" "imagemap"
+    "string filename" "textures/Spot_colors_i0404201.png"
+Texture "rgb:textures/Spot_colors_i0404201-scaled" "spectrum" "imagemap" "float scale" .5
+    "string filename" "textures/Spot_colors_i0404201.png"
+
+MakeNamedMaterial "Spot catcher-base"
+    "string type" "coateddiffuse"
+    "float roughness" .04
+    "rgb reflectance" [ 0.47 0.40482667 0.3196 ]
+
+MakeNamedMaterial "Spot catcher-paint"
+   "texture reflectance" "rgb:textures/Spot_colors_i0404201"
+    "float roughness" [ 0.01 ]
+    "string type" [ "coateddiffuse" ]
+
+MakeNamedMaterial "Spot catcher"
+   "string type" "mix"
+   "string materials" [ "Spot catcher-paint" "Spot catcher-base" ]
+   "texture amount" "float:textures/splatter-easel"
+
+#Texture "rgb:textures/Paper_01_Diffuse-script" "spectrum" "imagemap"
+#    "string filename" "../../grid.exr"
+
+Texture "float:textures/Handwrite-bigger" "float" "imagemap"
+    "string filename" "textures/Handwrite-bigger.png"
+    "float vscale" .45
+    "float uscale" 1.7
+    "float udelta" -.7
+    "float vdelta" .025
+
+MakeNamedMaterial "Paper-script-mtl"
+    "string type" "diffuse"
+    "rgb reflectance" [.04 .04 .04]
+
+MakeNamedMaterial "Paper 01-script"
+    "string type" "mix"
+    "string materials" [ "Paper 01 " "Paper-script-mtl" ]
+    "texture amount" "float:textures/Handwrite-bigger"
+
+Texture "desk splatter alpha" "float" "imagemap" "float scale" 1.04
+   "string filename" "textures/Spot_Floor_10_i04042021.png"
+   "bool invert" true
+
+MakeNamedMaterial "Desk splatter"
+   "texture reflectance" "rgb:textures/Spot_colors_i0404201-scaled"
+   "texture displacement" "desk splatter alpha"
+   "float roughness" [ 0.01 ]
+   "string type" [ "coateddiffuse" ]
+
+MakeNamedMaterial "WaterCupBrush"
+   "float roughness" [ 0.03 ]
+   "string type" [ "coateddiffuse" ]
+   "texture reflectance" "rgb:watercupbrush"
+

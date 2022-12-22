@@ -1,0 +1,27 @@
+#################
+# Lights
+
+AttributeBegin
+AreaLightSource "diffuse" "blackbody L" 3000 "float scale" 1000
+Translate 193.75 150  7 
+#Shape "sphere" "float radius" 3
+AttributeEnd
+
+AttributeBegin
+AreaLightSource "diffuse" "blackbody L" 3000 "float scale" 1000
+Translate 113 155  7 
+#Shape "sphere" "float radius" 3
+AttributeEnd
+
+AttributeBegin
+Rotate 10 0 0 1
+    Rotate 230 0 1 0
+    Rotate -90 1 0 0
+    LightSource "infinite"
+    "string filename" "textures/abandoned_tank_farm_03_4k-clamp5.exr"  "float scale" 16
+         "point3 portal" [ -150 309 -100  -150 176.1 -245     281.5  176.1 -245      281.5 309 -100 ]
+    LightSource "infinite"
+    "string filename" "textures/abandoned_tank_farm_03_4k-clamp5.exr"  "float scale" 16
+         "point3 portal" [ 520 312.5 320   520 169 476   380 169 476  380 312.5 320 ]
+AttributeEnd
+

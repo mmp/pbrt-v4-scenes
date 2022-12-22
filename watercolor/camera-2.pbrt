@@ -1,0 +1,22 @@
+
+Sampler "halton"
+Integrator "volpath" "integer maxdepth" 15
+
+Film "gbuffer" "string filename" "camera-2.exr"
+    "integer xresolution" [1875]
+    "integer yresolution" [2500]
+
+Identity
+Scale -1 1 1
+LookAt 221.141205 122.646004 2.43404675
+       220.141205 122.646004 2.43404675
+       0 1 0
+Camera "perspective" "float fov" [43.6028175]
+    "float focaldistance" 391 "float lensradius" 1  # far wall
+    "float focaldistance" 114.5 "float lensradius" 2  # pencil cup on desk
+
+WorldBegin
+
+Include "lights-no-windowglass.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"
