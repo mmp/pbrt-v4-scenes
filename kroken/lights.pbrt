@@ -1,0 +1,31 @@
+#################
+# Lights
+
+AttributeBegin
+    Rotate 340 0 1 0
+    Rotate -90 1 0 0
+    LightSource "infinite"
+#      "string filename" "textures/spruit_sunrise_4k-clamp10.exr" "float scale" 10
+      "point3 portal" [96 280 -523  96 280 -269   96 9 -269   96 9 -523 ]
+      "blackbody L" 6500 "float scale" 7.5
+AttributeEnd
+
+AttributeBegin
+Translate -562 492 -143  # -683
+Material "diffuse" "rgb reflectance" [ 0 0 0 ]
+AreaLightSource "diffuse" "blackbody L" 6500 "float scale" 50
+Shape "sphere" "float radius" 90 "float alpha" 0
+AttributeEnd
+
+AttributeBegin
+    Transform [ 1 0 0 0 0 1 0 0 0 0 1 0 303.22 161.314 -411.308 1  ]
+    # light# - Mesh: light
+
+    AttributeBegin
+        Material "diffuse" "rgb reflectance" [ 0 0 0 ]
+        AreaLightSource "diffuse" "blackbody L" 5500 "float scale" 80
+        Shape "plymesh" "string filename" "geometry/mesh_00153.ply"
+    AttributeEnd
+AttributeEnd
+
+

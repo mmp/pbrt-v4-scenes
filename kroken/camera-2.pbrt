@@ -1,0 +1,20 @@
+Integrator "volpath" "integer maxdepth" 15 
+
+# - Camera 2: Camera_02___Chaise_Longue
+#   - Aspect ratio : 1
+Film "gbuffer" "string filename" "camera-2.exr"
+    "integer xresolution" [1536]
+    "integer yresolution" [2048]
+    Identity
+Scale -1 1 1
+LookAt 227.7574 292.38632 -95.856049
+       227.91086 291.89169 -96.711502
+       0.087331988 0.86910665 -0.48685396
+Camera "perspective" "float fov" [17.061531]
+    "float focaldistance" 418 "float lensradius" 2
+
+WorldBegin
+
+Include "lights.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"

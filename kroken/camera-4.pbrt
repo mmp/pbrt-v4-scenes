@@ -1,0 +1,19 @@
+Integrator "volpath" "integer maxdepth" 15 
+
+# - Camera 4: Camera_04___Shelf_detail
+#   - Aspect ratio : 1
+Film "gbuffer" "string filename" "camera-4.exr"
+    "integer xresolution" [1536]
+    "integer yresolution" [2048]
+Scale -1 1 1
+LookAt 634.28137 196.44154 -298.75433
+       633.5423 196.37354 -299.42798
+       0 1 0
+Camera "perspective" "float fov" [17.061531]
+    "float focaldistance" 370 "float lensradius" 1.6
+
+WorldBegin
+
+Include "lights.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"

@@ -1,0 +1,18 @@
+Integrator "volpath" "integer maxdepth" 15 
+
+# - Camera 3: Camera_03___Shelf_
+#   - Aspect ratio : 1
+Film "gbuffer" "string filename" "camera-3.exr"
+    "integer xresolution" [1536]
+    "integer yresolution" [2048]
+Scale -1 1 1
+LookAt 794.9704 95.242203 -254.15735
+       794.20435 95.282203 -254.80014
+       0 1 0
+Camera "perspective" "float fov" [25.360767]
+
+WorldBegin
+
+Include "lights.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"

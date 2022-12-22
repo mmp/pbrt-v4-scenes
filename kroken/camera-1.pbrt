@@ -1,0 +1,20 @@
+Integrator "volpath" "integer maxdepth" 15 
+
+# - Camera 1: Camera_01___Main_
+#   - Aspect ratio : 0.75
+Film "gbuffer"
+    "integer yresolution" [ 1500 ]
+    "integer xresolution" [ 1500 ]
+    "string filename" [ "camera-1.exr" ]
+Scale -1 1 1
+LookAt 359.17828 157 469.45972
+    359.17828 156.947 468.45972
+    0 1 0
+Camera "perspective"
+    "float fov" [ 17 ]
+
+WorldBegin
+
+Include "lights.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"

@@ -1,0 +1,20 @@
+Integrator "volpath" "integer maxdepth" 15 
+
+# - Camera 6: Camera_06___Blanket_detail_front
+#   - Aspect ratio : 1
+Film "gbuffer" "string filename" "camera-6.exr"
+     "integer xresolution" [1536]
+     "integer yresolution" [2048]
+     "float iso" 150
+Scale -1 1 1
+LookAt 611.172 207.37537 -400.60895
+        610.42645 206.75336 -400.68579
+        -0.65852106 0.7494961 -0.067864731
+Camera "perspective" "float fov" [15.189287]
+    "float focaldistance" 243 "float lensradius" 1.25
+
+WorldBegin
+
+Include "lights.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"

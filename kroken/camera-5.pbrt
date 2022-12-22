@@ -1,0 +1,18 @@
+Integrator "volpath" "integer maxdepth" 15 
+
+# - Camera 5: Camera_05___Blanket_detail_top
+#   - Aspect ratio : 1
+Film "gbuffer" "string filename" "camera-5.exr"
+    "integer xresolution" [1536]
+    "integer yresolution" [2048]
+Scale -1 1 1
+LookAt 397.45917 273.62616 -435.32156
+       397.45917 272.62616 -435.36556
+       0 -4.3711388e-08 -1
+Camera "perspective" "float fov" [25.360767]
+
+WorldBegin
+
+Include "lights.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"

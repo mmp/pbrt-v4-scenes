@@ -1,0 +1,20 @@
+Integrator "volpath" "integer maxdepth" 15 
+
+
+# - Camera 7: Camera_07___Moka_detail
+#   - Aspect ratio : 1
+Film "gbuffer" "string filename" "camera-7.exr"
+    "integer xresolution" [1536]
+    "integer yresolution" [2048]
+Scale -1 1 1
+LookAt 273.61893 114.80715 -415.32629
+       274.23721 114.5639 -416.07367
+       0.1550515 0.96996403 -0.18742731
+Camera "perspective" "float fov" [20.407948]
+    "float focaldistance" 118 "float lensradius" 1
+
+WorldBegin
+
+Include "lights.pbrt"
+Include "materials.pbrt"
+Include "geometry.pbrt"
