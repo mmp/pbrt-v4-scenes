@@ -184,6 +184,18 @@ of settings.
 
 Thanks to [headus](http://headus.com.au) for the model.
 
+## Kroken
+
+<img alt="Kroken Interior" src="images/kroken/camera-1.png" height="400"/>
+
+[kroken/](https://github.com/mmp/pbrt-v4-scenes/tree/master/kroken/)
+
+A complex modern interior scene, new for `pbrt-v4`.
+
+This scene was licensed from [Angelo Ferretti](https://www.lucydreams.it)
+and is available in pbrt's scene description format under a
+[CC-BY-ND](https://creativecommons.org/licenses/by-nd/2.0/) license.
+
 ## Landscape
 
 <img alt="Landscape" src="images/landscape/view-0.png" height="400"/>
@@ -299,6 +311,18 @@ video](https://vimeo.com/78716671).
 Modern indoor environment.
 
 Many thanks to Florent Boyer for this scene.
+
+## Watercolor
+
+<img alt="Watercolor Interior" src="images/watercolor/camera-1.png" height="400"/>
+
+[watercolor/](https://github.com/mmp/pbrt-v4-scenes/tree/master/watercolor/)
+
+A complex modern interior scene, new for `pbrt-v4`.
+
+This scene was licensed from [Angelo Ferretti](https://www.lucydreams.it)
+and is available in pbrt's scene description format under a
+[CC-BY-ND](https://creativecommons.org/licenses/by-nd/2.0/) license.
 
 ## Zero Day
 
