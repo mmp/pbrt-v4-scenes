@@ -104,7 +104,7 @@ simulator](http://www.yiningkarlli.com/projects/arielflip.html).
 
 [disney-cloud/](https://github.com/mmp/pbrt-v4-scenes/tree/master/disney-cloud/)
 
-The cloud from the dataset provided by Disney ([see here](https://disney-animation.s3.amazonaws.com/uploads/production/data_set_asset/1/asset/Cloud_Readme.pdf)).
+The cloud from the dataset provided by Disney ([see here](https://media.disneyanimation.com/uploads/production/data_set_asset/1/asset/Cloud_Readme.pdf)).
 
 The original dataset includes the HD render computed with Disney's
 Hyperion, and the cloud density field voxelized at different resolutions
