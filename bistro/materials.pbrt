@@ -912,7 +912,6 @@ MakeNamedMaterial "MASTER_Grain_Metal" "string type" "coatedconductor"
     "string normalmap" "textures/MASTER_Grain_Metal_Normal.png"
     "float interface.roughness" [ 0.3 ]
     "float conductor.roughness" [ 0.01 ]
-    "string type" [ "coatedconductor" ]
     "spectrum conductor.eta" "metal-CuZn-eta"
     "spectrum conductor.k" "metal-CuZn-k"
     "float thickness" .5 "rgb albedo" [.5 .5 .5]
