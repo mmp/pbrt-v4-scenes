@@ -16,7 +16,7 @@ AttributeEnd
 Texture "float:textures/Brick_Displacement" "float" "imagemap"
     "string filename" [ "textures/Brick_Displacement.png" ]
 Texture "float:textures/Brick_Dirt" "float" "imagemap"
-    "string filename" [ "textures/Brick_Displacement.png" ]
+    "string filename" [ "textures/Brick_Dirt.png" ]
 Texture "rgb:textures/Brick_Color" "spectrum" "imagemap"
     "string filename" [ "textures/Brick_Color.png" ]
 Texture "rgb:textures/Stone_Statuette_Diffuse" "spectrum" "imagemap"
