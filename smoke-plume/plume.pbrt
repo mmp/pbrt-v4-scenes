@@ -37,13 +37,11 @@ AttributeBegin
 	Translate -0.75 0 -0.75
 	Scale 2 2 2
 
-Include "geometry/density_big_0084.pbrt"
-	"spectrum sigma_a" [300 20 830 20] 
-	"spectrum sigma_s" [300 160 830 160]
+	Include "geometry/density_big_0084.pbrt"
 
-        MediumInterface "smoke" ""
-        Material "interface"
-        Shape "sphere" "float radius" 3
+	MediumInterface "smoke" ""
+	Material "interface"
+	Shape "sphere" "float radius" 3
 AttributeEnd
 
 # ground
