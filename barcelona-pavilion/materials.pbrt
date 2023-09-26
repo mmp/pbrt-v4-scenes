@@ -72,6 +72,7 @@ MakeNamedMaterial "metal"
     "string type" [ "conductor" ]
     "spectrum eta" [ "metal-Al-eta" ]
     "spectrum k" [ "metal-Al-k" ]
+    "float roughness" [ 0.01 ]
 Texture "pavet-bump" "float" "imagemap"
     "string filename" [ "textures/Mies-BCN_M081bump.png" ]
 Texture "pavet-kd-img" "spectrum" "imagemap"
